@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: b225ee901a88b884a87bab3882554fd5
+timeCreated: 1454376668
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Frostbite
+    21300002: FreezeAnimationSpriteSheet (581x 527)_1
+    21300004: FreezeAnimationSpriteSheet (581x 527)_2
+    21300006: FreezeAnimationSpriteSheet (581x 527)_3
+    21300008: FreezeAnimationSpriteSheet (581x 527)_4
+    21300010: FreezeAnimationSpriteSheet (581x 527)_5
+    21300012: FreezeAnimationSpriteSheet (581x 527)_6
+    21300014: FreezeAnimationSpriteSheet (581x 527)_7
+    21300016: FreezeAnimationSpriteSheet (581x 527)_8
+    21300018: FreezeAnimationSpriteSheet (581x 527)_9
+    21300020: FreezeAnimationSpriteSheet (581x 527)_10
+    21300022: FreezeAnimationSpriteSheet (581x 527)_11
+    21300024: FreezeAnimationSpriteSheet (581x 527)_12
+    21300026: FreezeAnimationSpriteSheet (581x 527)_13
+    21300028: FreezeAnimationSpriteSheet (581x 527)_14
+    21300030: FreezeAnimationSpriteSheet (581x 527)_15
+    21300032: FreezeAnimationSpriteSheet (581x 527)_16
+    21300034: FreezeAnimationSpriteSheet (581x 527)_17
+    21300036: FreezeAnimationSpriteSheet (581x 527)_18
+    21300038: FreezeAnimationSpriteSheet (581x 527)_19
+    21300040: FreezeAnimationSpriteSheet (581x 527)_20
+    21300042: FreezeAnimationSpriteSheet (581x 527)_21
+    21300044: FreezeAnimationSpriteSheet (581x 527)_22
+    21300046: Frostbite_0
+    21300048: Frostbite_1
+    21300050: Frostbite_2
+    21300052: Frostbite_3
+    21300054: Frostbite_4
+    21300056: Frostbite_5
+    21300058: Frostbite_6
+    21300060: Frostbite_7
+    21300062: Frostbite_8
+    21300064: Frostbite_9
+    21300066: Frostbite_10
+    21300068: Frostbite_11
+    21300070: Frostbite_12
+    21300072: Frostbite_13
+    21300074: Frostbite_14
+    21300076: Frostbite_15
+    21300078: Frostbite_16
+    21300080: Frostbite_17
+    21300082: Frostbite_18
+    21300084: Frostbite_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Frostbite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_1
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_2
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_3
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_4
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_5
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_6
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_7
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_8
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_9
+      rect:
+        serializedVersion: 2
+        x: 5229
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_10
+      rect:
+        serializedVersion: 2
+        x: 5810
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_11
+      rect:
+        serializedVersion: 2
+        x: 6391
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_12
+      rect:
+        serializedVersion: 2
+        x: 6972
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_13
+      rect:
+        serializedVersion: 2
+        x: 7553
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_14
+      rect:
+        serializedVersion: 2
+        x: 8134
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_15
+      rect:
+        serializedVersion: 2
+        x: 8715
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_16
+      rect:
+        serializedVersion: 2
+        x: 9296
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_17
+      rect:
+        serializedVersion: 2
+        x: 9877
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_18
+      rect:
+        serializedVersion: 2
+        x: 10458
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Frostbite_19
+      rect:
+        serializedVersion: 2
+        x: 11039
+        y: 0
+        width: 581
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,115 @@
+fileFormatVersion: 2
+guid: 33e610c2e22fde64da9a60f0257c0768
+timeCreated: 1461221418
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lasers_animation_0
+    21300002: lasers_animation_1
+    21300004: lasers_animation_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: lasers_animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70.666664
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 105}
+        - {x: -23.5, y: -34}
+        - {x: -23.5, y: -105}
+        - {x: 26.5, y: -105}
+        - {x: 26.5, y: 105}
+    - name: lasers_animation_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70.666664
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 105}
+        - {x: -13.5, y: 105}
+        - {x: -23.5, y: -77}
+        - {x: -23.5, y: -105}
+        - {x: 23.5, y: -105}
+        - {x: 26.5, y: -103}
+        - {x: 26.5, y: -99}
+        - {x: 25.5, y: -96}
+    - name: lasers_animation_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 70.666664
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -53}
+        - {x: 19.5, y: -56}
+        - {x: 16.5, y: 105}
+        - {x: -13.5, y: 105}
+        - {x: -23.5, y: -77}
+        - {x: -23.5, y: -102}
+        - {x: -20.5, y: -105}
+        - {x: 26.5, y: -105}
+        - {x: 26.5, y: -54}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &182204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441942}
+  - 114: {fileID: 11413276}
+  m_Layer: 0
+  m_Name: level1-1
+  m_TagString: Level
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &441942
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11413276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSystem: {fileID: 146214, guid: da4d7cf1d248b074ba4877314a0bd5d9, type: 2}
+  levelID: 1
+  description: Your journey begins here...
+  patternLists:
+  - enemyPattern: {fileID: 102608, guid: 548f6a9ca880e5a4bbabc4ae9a2735cc, type: 2}
+    waitTime: 2
+  - enemyPattern: {fileID: 102608, guid: 548f6a9ca880e5a4bbabc4ae9a2735cc, type: 2}
+    waitTime: 2
+  - enemyPattern: {fileID: 170754, guid: 5d7b3f9b3e427cc4399f0ad15fbc3790, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 166136, guid: 5c37c4ef6fd17e840b940b3fbc8580c4, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 110462, guid: caa7788e933fe744d9c902fd85dfb1b7, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 170754, guid: 5d7b3f9b3e427cc4399f0ad15fbc3790, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 174608, guid: 333346400dedd7e4987682b33573ca43, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 102608, guid: 548f6a9ca880e5a4bbabc4ae9a2735cc, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 102608, guid: 548f6a9ca880e5a4bbabc4ae9a2735cc, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 110462, guid: caa7788e933fe744d9c902fd85dfb1b7, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 110462, guid: caa7788e933fe744d9c902fd85dfb1b7, type: 2}
+    waitTime: 2
+  patternAmount: 11
+  totalEnemies: 0
+  spawnWave: 0
+  endDial: 0
+  scoreBonusAmt: 600
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 182204}
+  m_IsPrefabParent: 1

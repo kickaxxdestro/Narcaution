@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="IceBossBehaviour">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="IceBossBehaviour.AIState">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\Boss\IceBoss\IceBossBehaviour.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAQABQAAECQAAIQAIAAAAAAAAACCAEAAAAAAAAQAAGg=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Boss\IceBoss\IceBossBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceChunkBehaviour">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQQAAAAAAAQAAAAAEAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Boss\IceBoss\IceChunkBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeafPadBehaviour">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAEEACAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Boss\CannabisBoss\LeafPadBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CannabisBossBehaviour">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CannabisBossBehaviour.AIState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\Boss\CannabisBoss\CannabisBossBehaviour.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAQAAABCACAAAIAAIAAAAMBAQACAAAAAIAUAAAAAAGA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Boss\CannabisBoss\CannabisBossBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MinionTracker">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiQAAAAAAAAAAIAABAABAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Boss\INH\MinionTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INHBossBehaviour">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="INHBossBehaviour.state" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\Boss\INH\INHBossBehaviour.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACRgAAAABCCAAIAAAIAAAAAABQAIAQAAAIEAAABACAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\Boss\INH\INHBossBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &107022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 471108}
+  - 114: {fileID: 11424798}
+  m_Layer: 0
+  m_Name: level3-3
+  m_TagString: Level
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &471108
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11424798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSystem: {fileID: 142420, guid: a9468fae85c92a846b5137fe0f06cbd6, type: 2}
+  levelID: 11
+  description: Enemy forces grow stronger as you near your next objective.
+  patternLists:
+  - enemyPattern: {fileID: 180734, guid: 470867d002b9f9744a51a6f1187a675b, type: 2}
+    waitTime: 2
+  - enemyPattern: {fileID: 125438, guid: 2dee1a05b54afc546a6b9a741a66f7a1, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 132252, guid: b72ff0952b9adb34cbc9169b3799dcc3, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 160914, guid: 41ccce59cd602d943ad178cd679ed98b, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 150812, guid: ebe084ddea3540648aabdb72c06f0be8, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 177400, guid: 02437d07eede69145a8f0b60e0427437, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 127658, guid: c4d127c66861f24469d88e98376e2789, type: 2}
+    waitTime: 0
+  - enemyPattern: {fileID: 174608, guid: 333346400dedd7e4987682b33573ca43, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 102608, guid: 548f6a9ca880e5a4bbabc4ae9a2735cc, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 118978, guid: 277591ede94e7db448fa7bf7d4027098, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 195342, guid: e48555caedef64741aa3044fbd0b3c53, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 126676, guid: 74243c025fcc03d4db5ac249e91069c7, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 118978, guid: 277591ede94e7db448fa7bf7d4027098, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 195342, guid: e48555caedef64741aa3044fbd0b3c53, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 126676, guid: 74243c025fcc03d4db5ac249e91069c7, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 176932, guid: d78daf31b2ba20b419f6136f44fa6b33, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 182104, guid: e6409824b7ee8904385c9a985a822c5c, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 194640, guid: c472654d39261e14db72897a43130d4c, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 154850, guid: 59a22167dc0743843ad6510024e9856a, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 188900, guid: 3b9ec4b0134a0b34fa99f9b3665b5c56, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 198992, guid: 4c5bd7985486fe244993078dddbe9aec, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 160914, guid: 41ccce59cd602d943ad178cd679ed98b, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 150812, guid: ebe084ddea3540648aabdb72c06f0be8, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 182104, guid: e6409824b7ee8904385c9a985a822c5c, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 194640, guid: c472654d39261e14db72897a43130d4c, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 154850, guid: 59a22167dc0743843ad6510024e9856a, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 118978, guid: 277591ede94e7db448fa7bf7d4027098, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 195342, guid: e48555caedef64741aa3044fbd0b3c53, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 126676, guid: 74243c025fcc03d4db5ac249e91069c7, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 154348, guid: 334f35b785e59cd458d518ace77fc0f8, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 168748, guid: afdedddbd606e9247a83fab03cea4dd6, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 118978, guid: 277591ede94e7db448fa7bf7d4027098, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 195342, guid: e48555caedef64741aa3044fbd0b3c53, type: 2}
+    waitTime: 1
+  - enemyPattern: {fileID: 126676, guid: 74243c025fcc03d4db5ac249e91069c7, type: 2}
+    waitTime: 1
+  patternAmount: 34
+  totalEnemies: 0
+  spawnWave: 0
+  endDial: 0
+  scoreBonusAmt: 1700
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 107022}
+  m_IsPrefabParent: 1

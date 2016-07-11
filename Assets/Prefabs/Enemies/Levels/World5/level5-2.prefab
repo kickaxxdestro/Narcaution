@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &150178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422184}
+  - 114: {fileID: 11469290}
+  m_Layer: 0
+  m_Name: level5-2
+  m_TagString: Level
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &422184
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11469290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueSystem: {fileID: 123514, guid: 824b7c634ad6f3345bb75d5121f5ad60, type: 2}
+  levelID: 18
+  description: Swarms of enemies start to surround you
+  patternLists:
+  - enemyPattern: {fileID: 122808, guid: 74a5822e8d9b87c44a669b1f9eddc29b, type: 2}
+    waitTime: 2
+  - enemyPattern: {fileID: 127350, guid: b95a43841db4fc5439925d0f6c3ae065, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 116040, guid: 89afa7cc5a116d647a52b84137bfb65c, type: 2}
+    waitTime: 5
+  - enemyPattern: {fileID: 152092, guid: 24e18ee3330c7f647ac535e16cd59068, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 122808, guid: 74a5822e8d9b87c44a669b1f9eddc29b, type: 2}
+    waitTime: 5
+  - enemyPattern: {fileID: 107544, guid: c973c1e4345a2634086ad17fceaa898a, type: 2}
+    waitTime: 0
+  - enemyPattern: {fileID: 127350, guid: b95a43841db4fc5439925d0f6c3ae065, type: 2}
+    waitTime: 5
+  - enemyPattern: {fileID: 116040, guid: 89afa7cc5a116d647a52b84137bfb65c, type: 2}
+    waitTime: 0
+  - enemyPattern: {fileID: 152092, guid: 24e18ee3330c7f647ac535e16cd59068, type: 2}
+    waitTime: 5
+  - enemyPattern: {fileID: 152092, guid: 24e18ee3330c7f647ac535e16cd59068, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 107544, guid: c973c1e4345a2634086ad17fceaa898a, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 108426, guid: 5bd08ca5ceb929340977b221a94b3cae, type: 2}
+    waitTime: 0
+  - enemyPattern: {fileID: 122808, guid: 74a5822e8d9b87c44a669b1f9eddc29b, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 116040, guid: 89afa7cc5a116d647a52b84137bfb65c, type: 2}
+    waitTime: 0
+  - enemyPattern: {fileID: 152092, guid: 24e18ee3330c7f647ac535e16cd59068, type: 2}
+    waitTime: 5
+  - enemyPattern: {fileID: 127350, guid: b95a43841db4fc5439925d0f6c3ae065, type: 2}
+    waitTime: 0
+  - enemyPattern: {fileID: 188222, guid: c82cdceaf67bcfc4393fa83ed677d796, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 107544, guid: c973c1e4345a2634086ad17fceaa898a, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 107544, guid: c973c1e4345a2634086ad17fceaa898a, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 108426, guid: 5bd08ca5ceb929340977b221a94b3cae, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 116040, guid: 89afa7cc5a116d647a52b84137bfb65c, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 122808, guid: 74a5822e8d9b87c44a669b1f9eddc29b, type: 2}
+    waitTime: 4
+  - enemyPattern: {fileID: 152092, guid: 24e18ee3330c7f647ac535e16cd59068, type: 2}
+    waitTime: 0
+  patternAmount: 23
+  totalEnemies: 0
+  spawnWave: 0
+  endDial: 0
+  scoreBonusAmt: 1500
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 150178}
+  m_IsPrefabParent: 1

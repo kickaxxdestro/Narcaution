@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &153002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470886}
+  - 114: {fileID: 11425834}
+  m_Layer: 0
+  m_Name: LevelLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &470886
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11425834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6867be5b1b11de4429c30175caf894ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelEndMenu: {fileID: 0}
+  grade: {fileID: 0}
+  worldTwoHighScore: 0
+  iceBG:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  weedBG:
+  - {fileID: 0}
+  - {fileID: 0}
+  level1_1: {fileID: 182204, guid: 738e7beba1bb4754ca20402e3befcd2a, type: 2}
+  level1_2: {fileID: 195854, guid: 08336ee52526f8047a2d732ce0c77e9c, type: 2}
+  level1_3: {fileID: 145268, guid: e5e2a882bd1c0c04fa02855272be51b7, type: 2}
+  level1_4: {fileID: 186034, guid: 762f1a390fb60204d856c13d38246c5d, type: 2}
+  level2_1: {fileID: 166798, guid: 40d770b478d989842bf0bfe03d8a7473, type: 2}
+  level2_2: {fileID: 176264, guid: 43c13c0d90f7f684db578083294bbe4a, type: 2}
+  level2_3: {fileID: 168470, guid: 6323874be958e0a40be634cb59ec09b6, type: 2}
+  level2_4: {fileID: 169316, guid: ed8431ee4aedff141aac094544f8e001, type: 2}
+  gradeS: {fileID: 21300000, guid: ddd096f607e30684fbda400ff6744741, type: 3}
+  gradeA: {fileID: 21300000, guid: 35a93c1622cf65e42b0eb6da1e7e3ee3, type: 3}
+  gradeB: {fileID: 21300000, guid: 17a46903606e0a0448b2e696a97c80ee, type: 3}
+  gradeC: {fileID: 21300000, guid: f332f7afa71f1bd4981fd2d20d78db1b, type: 3}
+  gradeD: {fileID: 21300000, guid: abaa90c44d762c14793eead6addf51fd, type: 3}
+  gradeE: {fileID: 21300000, guid: 7bc101fd35245e24ab160ddb2437939c, type: 3}
+  gradeF: {fileID: 21300000, guid: 6104f1b39b42b6244944f8b81ee63136, type: 3}
+  dash: {fileID: 21300000, guid: e76bc146cec9bde4e980c7628201b98b, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 153002}
+  m_IsPrefabParent: 1

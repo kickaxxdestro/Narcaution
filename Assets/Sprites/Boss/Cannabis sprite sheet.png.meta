@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: bdf29c7ca287e3b479183a996460fe13
+timeCreated: 1447048304
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cannabis sprite sheet_0
+    21300002: Cannabis sprite sheet_1
+    21300004: Cannabis sprite sheet_2
+    21300006: Cannabis sprite sheet_3
+    21300008: Cannabis sprite sheet_4
+    21300010: Cannabis sprite sheet_5
+    21300012: Cannabis sprite sheet_6
+    21300014: Cannabis sprite sheet_7
+    21300016: Cannabis sprite sheet_8
+    21300018: Cannabis sprite sheet_9
+    21300020: Cannabis sprite sheet_10
+    21300022: Cannabis sprite sheet_11
+    21300024: Cannabis sprite sheet_12
+    21300026: Cannabis sprite sheet_13
+    21300028: Cannabis sprite sheet_14
+    21300030: Cannabis sprite sheet_15
+    21300032: Cannabis sprite sheet_16
+    21300034: Cannabis sprite sheet_17
+    21300036: Cannabis sprite sheet_18
+    21300038: Cannabis sprite sheet_19
+    21300040: Cannabis sprite sheet_20
+    21300042: Cannabis sprite sheet_21
+    21300044: Cannabis sprite sheet_22
+    21300046: Cannabis sprite sheet_23
+    21300048: Cannabis sprite sheet_24
+    21300050: Cannabis sprite sheet_25
+    21300052: Cannabis sprite sheet_26
+    21300054: Cannabis sprite sheet_27
+    21300056: Cannabis sprite sheet_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cannabis sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1028
+        width: 164
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1028
+        width: 164
+        height: 211
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1028
+        width: 167
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1028
+        width: 173
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 516
+        width: 164
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 516
+        width: 164
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 516
+        width: 164
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 516
+        width: 164
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 516
+        width: 164
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 516
+        width: 164
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 516
+        width: 164
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 516
+        width: 164
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 164
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 260
+        width: 164
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 260
+        width: 164
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 265
+        width: 152
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 274
+        width: 127
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 270
+        width: 120
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 263
+        width: 108
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 260
+        width: 108
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannabis sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

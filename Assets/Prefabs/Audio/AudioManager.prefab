@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &149358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 439402}
+  - 114: {fileID: 11460414}
+  - 82: {fileID: 8237414}
+  - 114: {fileID: 11400602}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439402
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05148863, y: 0.75013316, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8237414
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149358}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 90b5cd2ba526a184c9c1659366ed7a38, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 503.7945
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11400602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffcf534a480bea4e9b66a7efee1a597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObject: {fileID: 174576, guid: c89157ece0cbb054f8627762b486ed4a, type: 2}
+  pooledAmount: 5
+  willGrow: 1
+  pooledObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &11460414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1da919af81e8949895b7f158fc13c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMenuBGM: {fileID: 8300000, guid: 90b5cd2ba526a184c9c1659366ed7a38, type: 3}
+  GalleryBGM: {fileID: 8300000, guid: ee1bb75231b3bd94591c02fa1fc27942, type: 3}
+  TutorialBGM: {fileID: 8300000, guid: 3d12bce092fc002408060b6ace775114, type: 3}
+  CutsceneBGM: {fileID: 8300000, guid: e084a0a22f67c364eac8dd38def9978e, type: 3}
+  LevelSelectBGM: {fileID: 0}
+  ShopBGM: {fileID: 0}
+  StartEndBGM: {fileID: 0}
+  World1BGM: {fileID: 8300000, guid: d36461d5c44eaed4a843307660914011, type: 3}
+  World2BGM: {fileID: 8300000, guid: 80f79daeeb7a3c24299f0e51a528d026, type: 3}
+  World3BGM: {fileID: 8300000, guid: dce1968871665cb40b9c6544b94fcf50, type: 3}
+  World4BGM: {fileID: 8300000, guid: 43de6bb47601ad24b935e1256ded9e7d, type: 3}
+  World5BGM: {fileID: 8300000, guid: 02252c3459687e84eb6f82fa4e6741c2, type: 3}
+  IceBossBGM: {fileID: 8300000, guid: 89f9091ada49f0840a64b9bc5ff1b7f4, type: 3}
+  WeedBossBGM: {fileID: 8300000, guid: f6d1842562074444fbe71ab43a08816e, type: 3}
+  InhalantBossBGM: {fileID: 8300000, guid: d7e39c6a5229c394c955982deb3beb32, type: 3}
+  EcstacyBossBGM: {fileID: 8300000, guid: ee5909bdeee54ea46b0620b4ee0b84bd, type: 3}
+  LSDBossBGM: {fileID: 8300000, guid: 3262db7f463f6db43aadaed5ac2fc151, type: 3}
+  NPSBossBGM: {fileID: 8300000, guid: f24c08949554628489624be58a7ebcf0, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 149358}
+  m_IsPrefabParent: 1

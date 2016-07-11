@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: e1dd5a5bb4731664cb917a276e9181f6
+timeCreated: 1454417204
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EMP Sprite Sheet v1_0
+    21300002: EMP Sprite Sheet v1_1
+    21300004: EMP Sprite Sheet v1_2
+    21300006: EMP Sprite Sheet v1_3
+    21300008: EMP Sprite Sheet v1_4
+    21300010: EMP Sprite Sheet v1_5
+    21300012: BombSheet_0
+    21300014: BombSheet_1
+    21300016: BombSheet_2
+    21300018: BombSheet_3
+    21300020: BombSheet_4
+    21300022: BombSheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BombSheet_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 237
+        width: 235
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BombSheet_1
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 188
+        width: 322
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BombSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 136
+        width: 368
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BombSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 96
+        width: 479
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BombSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 66
+        width: 542
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BombSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 17
+        width: 662
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

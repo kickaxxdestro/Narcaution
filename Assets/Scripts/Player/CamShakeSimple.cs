@@ -1,0 +1,58 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class CamShakeSimple : MonoBehaviour 
+{
+	Vector3 originalCameraPosition;
+	
+	float shakeAmt = 0;
+	
+	public Camera mainCamera;
+	
+	bool active = false;
+	
+	void Start()
+	{
+		originalCameraPosition = mainCamera.transform.position;
+	}
+	
+	void OnCollisionEnter2D(Collision2D coll) 
+	{
+		
+		shakeAmt = coll.relativeVelocity.magnitude * .0025f;
+		InvokeRepeating("CameraShake", 0, .01f);
+		Invoke("StopShaking", 0.2f);
+		
+	}
+	
+	public void CallCameraShake()
+	{
+		if(active == false)
+		{
+			active = true;
+			shakeAmt = Random.Range(15.0f, 20.0f) * .0025f;
+			InvokeRepeating("CameraShake", 0, .01f);
+			Invoke("StopShaking", 0.3f);
+		}
+	}
+	
+	void CameraShake()
+	{
+		if(shakeAmt > 0) 
+		{
+			float quakeAmt = Random.value * shakeAmt * 2 - shakeAmt;
+			Vector3 pp = mainCamera.transform.position;
+			pp.y+= quakeAmt; // can also add to x and/or z
+			pp.x+= quakeAmt;
+			mainCamera.transform.position = pp;
+		}
+	}
+	
+	void StopShaking()
+	{
+		CancelInvoke("CameraShake");
+		mainCamera.transform.position = originalCameraPosition;
+		active = false;
+	}
+	
+}

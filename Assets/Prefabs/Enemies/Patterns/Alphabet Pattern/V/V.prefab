@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &163482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488854}
+  - 114: {fileID: 11429248}
+  - 114: {fileID: 11401044}
+  - 114: {fileID: 11476768}
+  - 114: {fileID: 11433640}
+  - 114: {fileID: 11412546}
+  - 114: {fileID: 11421146}
+  - 114: {fileID: 11469464}
+  m_Layer: 0
+  m_Name: V
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &488854
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11401044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyObject: {fileID: 118104, guid: 11b4e2bb8db562643af14eed7bceddf0, type: 2}
+  type: 0
+  amountToSpawn: 1
+  timeInterval: 0
+  enemyList: []
+  amountSpawned: 0
+  startOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11412546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyObject: {fileID: 169208, guid: 9859bbc566d21d7478780a6242cec680, type: 2}
+  type: 0
+  amountToSpawn: 1
+  timeInterval: 0
+  enemyList: []
+  amountSpawned: 0
+  startOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11421146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyObject: {fileID: 190712, guid: a84bf4aa8de98dc4f80b75da53e3611f, type: 2}
+  type: 0
+  amountToSpawn: 1
+  timeInterval: 0
+  enemyList: []
+  amountSpawned: 0
+  startOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11429248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyObject: {fileID: 183644, guid: 5d239963614ae1547ac7fa99d667a883, type: 2}
+  type: 0
+  amountToSpawn: 1
+  timeInterval: 0
+  enemyList: []
+  amountSpawned: 0
+  startOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11433640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyObject: {fileID: 167982, guid: 9b97bb01481ff114e99ac27547bd9c73, type: 2}
+  type: 0
+  amountToSpawn: 1
+  timeInterval: 0
+  enemyList: []
+  amountSpawned: 0
+  startOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11469464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyObject: {fileID: 105086, guid: 0cd7c004f615c6249b657576162d88a6, type: 2}
+  type: 0
+  amountToSpawn: 1
+  timeInterval: 0
+  enemyList: []
+  amountSpawned: 0
+  startOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &11476768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyObject: {fileID: 126064, guid: 333a0f02af4c62f43bcc7912349f6ceb, type: 2}
+  type: 0
+  amountToSpawn: 1
+  timeInterval: 0
+  enemyList: []
+  amountSpawned: 0
+  startOffset: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 163482}
+  m_IsPrefabParent: 1

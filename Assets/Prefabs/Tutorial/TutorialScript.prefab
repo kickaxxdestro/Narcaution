@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &169260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436066}
+  - 114: {fileID: 11402382}
+  m_Layer: 0
+  m_Name: TutorialScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &436066
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11402382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd3c095f170ca544b4f7c1f0b598eb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionsDone: 0
+  tutorialDialogue: {fileID: 0}
+  tutorialEnemyWave:
+  - {fileID: 187356, guid: dd0939a1a2a1c0141a90a625afbcccff, type: 2}
+  - {fileID: 107638, guid: a1ab32a812fa5aa449675187c473db84, type: 2}
+  - {fileID: 164792, guid: feddeaaa92415fa43af075811c14af37, type: 2}
+  - {fileID: 126534, guid: 9be20b43a749edd489e7fa4fd7af4be5, type: 2}
+  - {fileID: 118432, guid: 19bb8f33bdd3eff44b05fedf7b25e237, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 169260}
+  m_IsPrefabParent: 1

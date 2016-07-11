@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: cd71da25cf728a747ab1a681f8b4fd41
+timeCreated: 1454399136
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SmokeAnimationSpriteSheetv2_0
+    21300002: SmokeAnimationSpriteSheetv2_1
+    21300004: SmokeAnimationSpriteSheetv2_2
+    21300006: SmokeAnimationSpriteSheetv2_3
+    21300008: SmokeAnimationSpriteSheetv2_4
+    21300010: SmokeAnimationSpriteSheetv2_5
+    21300012: SmokeAnimationSpriteSheetv2_6
+    21300014: SmokeAnimationSpriteSheetv2_7
+    21300016: SmokeAnimationSpriteSheetv2_8
+    21300018: SmokeAnimationSpriteSheetv2_9
+    21300020: SmokeAnimationSpriteSheetv2_10
+    21300022: SmokeAnimationSpriteSheetv2_11
+    21300024: SmokeAnimationSpriteSheetv2_12
+    21300026: SmokeAnimationSpriteSheetv2_13
+    21300028: SmokeAnimationSpriteSheetv2_14
+    21300030: SmokeAnimationSpriteSheetv2_15
+    21300032: SmokeAnimationSpriteSheetv2_16
+    21300034: SmokeAnimationSpriteSheetv2_17
+    21300036: SmokeAnimationSpriteSheetv2_18
+    21300038: SmokeAnimationSpriteSheetv2_19
+    21300040: SmokeAnimationSpriteSheetv2_20
+    21300042: SmokeAnimationSpriteSheetv2_21
+    21300044: SmokeAnimationSpriteSheetv2_22
+    21300046: SmokeAnimationSpriteSheetv2_23
+    21300048: SmokeAnimationSpriteSheetv2_24
+    21300050: SmokeAnimationSpriteSheetv2_25
+    21300052: SmokeAnimationSpriteSheetv2_26
+    21300054: SmokeAnimationSpriteSheetv2_27
+    21300056: SmokeAnimationSpriteSheetv2_28
+    21300058: SmokeAnimationSpriteSheetv2_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SmokeAnimationSpriteSheetv2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_10
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_11
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_12
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_13
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_14
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_15
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_16
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_17
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_18
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_19
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_20
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_21
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_22
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_23
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_24
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_25
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_26
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_27
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_28
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmokeAnimationSpriteSheetv2_29
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 0
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

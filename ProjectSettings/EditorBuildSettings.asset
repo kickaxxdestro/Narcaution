@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/splahScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/mainMenuSliding.unity
+  - enabled: 0
+    path: Assets/Scenes/mainMenu.unity
+  - enabled: 1
+    path: Assets/Scenes/gameScene.unity
+  - enabled: 0
+    path: Assets/Scenes/worldOne.unity
+  - enabled: 0
+    path: Assets/Scenes/worldSelect.unity
+  - enabled: 0
+    path: Assets/Scenes/worldTwo.unity
+  - enabled: 1
+    path: Assets/Scenes/tutorialScene.unity
+  - enabled: 0
+    path: Assets/Scenes/worldThree.unity
+  - enabled: 0
+    path: Assets/Scenes/gallery.unity
+  - enabled: 0
+    path: Assets/Scenes/worldFour.unity
+  - enabled: 0
+    path: Assets/Scenes/worldFive.unity
+  - enabled: 1
+    path: Assets/Scenes/cutsceneScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/shopScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/preproomScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/galleryNew.unity
+  - enabled: 1
+    path: Assets/Scenes/levelSelect.unity
+  - enabled: 1
+    path: Assets/Scenes/gameEnd.unity
+  - enabled: 1
+    path: Assets/Scenes/debugScene.unity
+  - enabled: 0
+    path: Assets/Scenes/gamemodeSelect.unity
+  - enabled: 1
+    path: Assets/Scenes/minigameScreen.unity

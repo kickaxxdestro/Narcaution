@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: c3422397732178a41b10b434ab225fbf
+timeCreated: 1446102937
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ice sprite sheet_0
+    21300002: ice sprite sheet_1
+    21300004: ice sprite sheet_2
+    21300006: ice sprite sheet_3
+    21300008: ice sprite sheet_4
+    21300010: ice sprite sheet_5
+    21300012: ice sprite sheet_6
+    21300014: ice sprite sheet_7
+    21300016: ice sprite sheet_8
+    21300018: ice sprite sheet_9
+    21300020: ice sprite sheet_10
+    21300022: ice sprite sheet_11
+    21300024: ice sprite sheet_12
+    21300026: ice sprite sheet_13
+    21300028: ice sprite sheet_14
+    21300030: ice sprite sheet_15
+    21300032: ice sprite sheet_16
+    21300034: ice sprite sheet_17
+    21300036: ice sprite sheet_18
+    21300038: ice sprite sheet_19
+    21300040: ice sprite sheet_20
+    21300042: ice sprite sheet_21
+    21300044: ice sprite sheet_22
+    21300046: ice sprite sheet_23
+    21300048: ice sprite sheet_24
+    21300050: ice sprite sheet_25
+    21300052: ice sprite sheet_26
+    21300054: ice sprite sheet_27
+    21300056: ice sprite sheet_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 32
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ice sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1039
+        width: 142
+        height: 233
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1039
+        width: 142
+        height: 233
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1039
+        width: 142
+        height: 233
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1039
+        width: 142
+        height: 233
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 527
+        width: 142
+        height: 233
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 536
+        width: 142
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 541
+        width: 140
+        height: 213
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 541
+        width: 134
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 541
+        width: 137
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 532
+        width: 136
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 533
+        width: 123
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 533
+        width: 97
+        height: 225
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 295
+        width: 107
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 298
+        width: 100
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 303
+        width: 101
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 300
+        width: 98
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 294
+        width: 111
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 289
+        width: 144
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 286
+        width: 180
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 93
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ice sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 95
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
