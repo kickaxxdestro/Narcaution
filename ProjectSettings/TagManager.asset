@@ -31,6 +31,9 @@ TagManager:
   - DefenseShopItem
   - OffenseShopItem
   - BeamBullet
+  - Shop_Item_PowerUp
+  - Shop_Item_Weapon
+  - Shop_Item_Skin
   layers:
   - Default
   - TransparentFX
