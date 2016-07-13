@@ -274,7 +274,7 @@ public class SliderItem : MonoBehaviour
         DeactivatePageSelector();
     }
 
-    public void DoLerpToDown_Options()
+    public void DoLerpToDown_Options(GameObject button)
     {
         DeactivateSliding();
         this.transform.position = new Vector3(centerPosition.x, this.transform.position.y, this.transform.position.z);
@@ -289,9 +289,10 @@ public class SliderItem : MonoBehaviour
             PolygonCollider2D PC2DScriptEnabled = GameObject.Find(WorldList).GetComponent<PolygonCollider2D>();
             PC2DScriptEnabled.enabled = true;
         }
+        button.GetComponent<Button>().enabled = true;
     }
 
-    public void DoLerpToCenter_FromDown_Options()
+    public void DoLerpToCenter_FromDown_Options(GameObject button)
     {
         DeactivateSliding();
         this.transform.position = new Vector3(centerPosition.x, downPositionY, this.transform.position.z);
@@ -306,6 +307,7 @@ public class SliderItem : MonoBehaviour
             PolygonCollider2D PC2DScriptEnabled = GameObject.Find(WorldList).GetComponent<PolygonCollider2D>();
             PC2DScriptEnabled.enabled = false;
         }
+        button.GetComponent<Button>().enabled = false;
     }
 
     public void DoLerpToCenter_FromDown()

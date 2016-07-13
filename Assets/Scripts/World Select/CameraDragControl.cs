@@ -8,6 +8,8 @@ public class CameraDragControl : MonoBehaviour {
 	public float friction = 5;
 	public float elasticity = 5;
 
+    public float perspectiveZoomSpeed = 0.5f;        // The rate of change of the field of view in perspective mode.
+    public float orthoZoomSpeed = 0.5f;        // The rate of change of the orthographic size in orthographic mode.
 
 	Vector3 camPosOnClick;
 

@@ -15,9 +15,12 @@ public class WorldListManager : MonoBehaviour {
 
     public GameObject header;
 	public GameObject map;
+    public float transitionZoomSpeed = 0.005f;
+
+    public GameObject backButton;
+
     float transitionZoomAmountOrigin;
     float transitionZoomAmountOriginY;
-    public float transitionZoomSpeed = 0.005f;
     GameObject selectedWorld;
     bool transitioning = false;
     bool zoomDir;//true = zoom in, false = zoom out
