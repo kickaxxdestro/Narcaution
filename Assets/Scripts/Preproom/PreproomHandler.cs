@@ -14,7 +14,7 @@ public class PreproomHandler : MonoBehaviour {
     bool boostInUse = false;
     bool bombInUse = false;
     bool missleInUse = false;
-    int currentSkin;
+    int currentSkin = 1;
     Color disableColor;
 
     private AudioSource equipAudioSource;
@@ -87,8 +87,7 @@ public class PreproomHandler : MonoBehaviour {
 
     public void SelectRightSkin()
     {
-        currentSkin = currentSkin >= 3 ? 1 : currentSkin + 1;
-       
+        currentSkin = (currentSkin >= 3) ? 1 : currentSkin + 1;
         print(currentSkin);
 
         if (PlayerPrefs.GetInt("ppSkin" + currentSkin + "Unlocked", 0) == 1)
@@ -107,8 +106,7 @@ public class PreproomHandler : MonoBehaviour {
 
     public void SelectLeftSkin()
     {
-        currentSkin = currentSkin <= 1 ? 3 : currentSkin - 1;
-
+        currentSkin = (currentSkin <= 1) ? 3 : currentSkin - 1;
         if (PlayerPrefs.GetInt("ppSkin" + currentSkin + "Unlocked", 0) == 1)
         {
             PlayerPrefs.SetInt("ppCurrentSkin", currentSkin);

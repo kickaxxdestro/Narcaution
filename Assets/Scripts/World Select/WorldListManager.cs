@@ -15,9 +15,12 @@ public class WorldListManager : MonoBehaviour {
 
     public GameObject header;
 	public GameObject map;
+    public float transitionZoomSpeed = 0.005f;
+
+    public GameObject backButton;
+
     float transitionZoomAmountOrigin;
     float transitionZoomAmountOriginY;
-    public float transitionZoomSpeed = 0.005f;
     GameObject selectedWorld;
     bool transitioning = false;
     bool zoomDir;//true = zoom in, false = zoom out
@@ -126,6 +129,7 @@ public class WorldListManager : MonoBehaviour {
         header.GetComponent<AlphaFader>().DoFadeOut();
 
 		this.gameObject.GetComponent<CameraDragControl> ().SetBoundModeOn (false);
+        backButton.SetActive(true);
     }
 
     public void DoDeselectedTransitions()
@@ -155,9 +159,8 @@ public class WorldListManager : MonoBehaviour {
         {
             DoDeselectedTransitions();
             GameObject.Find("Main Camera").GetComponent<CameraControl2D>().InterpolatePositionToZero();
+            backButton.SetActive(false);
         }
-        else
-            GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("mainMenuSliding");
     }
 }
 

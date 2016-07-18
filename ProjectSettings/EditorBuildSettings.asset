@@ -47,3 +47,5 @@ EditorBuildSettings:
     path: Assets/Scenes/gamemodeSelect.unity
   - enabled: 1
     path: Assets/Scenes/minigameScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/testShop.unity

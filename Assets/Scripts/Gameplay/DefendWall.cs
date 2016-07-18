@@ -13,12 +13,10 @@ public class DefendWall : MonoBehaviour {
         if (PlayerPrefs.GetInt("ppPlayerGamemode") == 0)
         {
             this.gameObject.SetActive(false);
-            Debug.Log("DONALD TRUMP SUCKS");
         }
         else if (PlayerPrefs.GetInt("ppPlayerGamemode") == 1)
         {
             this.gameObject.SetActive(true);
-            Debug.Log("DONALD TRUMP WINS");
         }
     }
 
