@@ -7,6 +7,7 @@ public class ChangeShopTab : MonoBehaviour {
     public GameObject Upgrade;
     public GameObject Purchase;
     public GameObject Equip;
+    public GameObject OriginalEquip;
 
     void activateChildObjects()
     {
@@ -45,6 +46,7 @@ public class ChangeShopTab : MonoBehaviour {
         Purchase.SetActive(false);
         Equip.SetActive(true);
 
+        RevertEquipPosition();
         activateChildObjects();
 
         GameObject[] objectList;
@@ -65,9 +67,10 @@ public class ChangeShopTab : MonoBehaviour {
     public void ChangeTabSkins()
     {
         Upgrade.SetActive(false);
-        Purchase.SetActive(true);
+        Purchase.SetActive(false);
         Equip.SetActive(true);
 
+        ChangeEquipPosition();
         activateChildObjects();
 
         GameObject[] objectList;
@@ -83,5 +86,15 @@ public class ChangeShopTab : MonoBehaviour {
         {
             go.SetActive(false);
         }
+    }
+
+    public void ChangeEquipPosition()
+    {
+        Equip.transform.position = Purchase.transform.position;
+    }
+
+    public void RevertEquipPosition()
+    {
+        Equip.transform.position = OriginalEquip.transform.position;
     }
 }

@@ -13418,7 +13418,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1225428923}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.30018473
+  m_Size: 0.30018476
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17558,6 +17558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0046be4a5083751409c3de122995d7ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Add_ExtraDesciption: 0
   Extra_Description: {fileID: 0}
 --- !u!114 &1893388524
 MonoBehaviour:

@@ -8344,7 +8344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.384}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8892,8 +8892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 2035693076}
   changeSpeed: 0.2
-  minAlpha: 0.4
-  maxAlpha: 0.85
+  minAlpha: 0.5
+  maxAlpha: 0.9
 --- !u!1 &2068641638
 GameObject:
   m_ObjectHideFlags: 0
