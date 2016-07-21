@@ -60,8 +60,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObject: {fileID: 172678, guid: 2096ea102abde094ba50b1928962579d, type: 2}
-  type: 0
-  amountToSpawn: 1
+  type: 1
+  amountToSpawn: 2
   timeInterval: 0
   enemyList: []
   amountSpawned: 0
