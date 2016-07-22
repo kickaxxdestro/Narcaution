@@ -163,6 +163,12 @@ public class TransitionListHandler : MonoBehaviour
     //Check for touch input
     void CheckTouch()
     {
+#if UNITY_EDITOR
+         if (Input.GetMouseButtonDown(0))
+        {
+            DoTouchInteraction();
+        }
+#endif
 #if UNITY_STANDALONE_WIN
         if (Input.GetMouseButtonDown(0))
         {
@@ -178,7 +184,8 @@ public class TransitionListHandler : MonoBehaviour
                 return;
             }
         }
-#elif UNITY_IOS
+#endif
+#if UNITY_IOS
         foreach (Touch mytouch in Input.touches)
         {
             if (mytouch.phase == TouchPhase.Began)

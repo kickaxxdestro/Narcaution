@@ -114,7 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tapToContinueIcon: {fileID: 1003464289}
   cutsceneList:
-  - {fileID: 116922, guid: 97a6ef9af9f72864b827e990f866c056, type: 2}
+  - {fileID: 106802, guid: 30af73bee39e802448297614081551d4, type: 2}
   - {fileID: 133492, guid: 1f26c30cd90828241bf31bd3255120b6, type: 2}
   - {fileID: 197398, guid: e9e5ad222f9e9864eaea4fab1046aa73, type: 2}
   - {fileID: 151398, guid: 7e575e19af48d4b46902fe8826bc6006, type: 2}

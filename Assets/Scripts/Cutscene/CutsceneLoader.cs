@@ -18,7 +18,7 @@ public class CutsceneLoader : MonoBehaviour {
                 cutscene.transform.SetParent(GameObject.Find("UICanvas").transform, false);
                 cutscene.transform.FindChild("TransitionListHandler").GetComponent<TransitionListHandler>().GetComponent<TransitionListHandler>().tapToContinueIcon = this.tapToContinueIcon;
                 break;
-            }
+            }   
         }
 
         if (cutscene == null)
