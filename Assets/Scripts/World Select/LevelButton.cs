@@ -42,7 +42,6 @@ public class LevelButton : MonoBehaviour {
 
                     GameObject.Find("ConfirmPanel").GetComponent<SliderItem>().DoLerpToCenter_FromRight();
                     GameObject.Find("ConfirmPanel").GetComponent<enterLevel>().SetLevel(level.GetComponent<LevelGeneratorScript>());
-                    GameObject.Find("ReturnButton").GetComponent<Button>().interactable = false;
                     GameObject.Find("ColourMaskHandler").GetComponent<ColourMaskController>().ActivateColourMask(ColourMaskController.COLOURMODE.COLOURMODE_TO_ALPHA_GREY, 1f);
                     transform.parent.GetComponent<WorldButton>().DisableChildButtons();
 

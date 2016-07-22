@@ -4,39 +4,48 @@ using UnityEngine.UI;
 
 public class SideMenuExpansion : MonoBehaviour {
 
+	/*
     public GameObject[] Button;
     public float moveSpeed;
 
     bool Clicked = false;
-    bool Expand = false;
     bool Contract = false;
 
     float ExpandLimit;
     float OriginalLimit;
 
     int buttonLimit;
+	*/
+
+	bool Expand = false;
 
     void Start() 
     {
+		/*
         buttonLimit = Button.Length; //Set max buttons in array
         OriginalLimit = Button[0].transform.position.y; //Set the original position of the buttons
         ExpandLimit = (Button[0].transform.position.y + (Button[0].GetComponent<Image>().rectTransform.rect.height) / 456 * Screen.height); //Set the max limit the position of the buttons can translate to.
-    }
+    	*/
+	}
 
     public void ExpandOrContractSideMenu()  //Check if the side menu has popped out or not
     {
-        if(Clicked == false)
-        {
-            Expand = true;
+		if(!GetComponent<Animator> ().GetBool ("Enter"))
+		{
+			GetComponent<Animator> ().SetBool ("Enter", true);
         }
         else
-        {
-            Contract = true;
-        }
+		{
+			GetComponent<Animator> ().SetBool ("Enter", false);
+		}
+
+		float a = GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0).normalizedTime;
+		 a = GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0).normalizedTime;
 	}
 
     void Update() 
-    {
+	{
+		/*
         if (Expand == true) //Expand the side menu
         {
             if (Button[buttonLimit-1].transform.position.y <= ExpandLimit)
@@ -68,5 +77,6 @@ public class SideMenuExpansion : MonoBehaviour {
                 Clicked = false;
             }           
         }
+        */
     }
 }
