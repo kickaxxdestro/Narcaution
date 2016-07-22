@@ -23,10 +23,12 @@ public class DefendWall : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
         
-        if (other.tag == "Enemy" || other.tag == "Enemy_Bullet" || other.tag == "LeafPad" || other.tag == "Minion")
+        if (other.tag == "Enemy_Bullet")
         {
             wallDurability -= 1;
             other.gameObject.SetActive(false);
+            GetComponent<AudioSource>().Play();
+            
         }
 
         //if(other.tag == "Player")

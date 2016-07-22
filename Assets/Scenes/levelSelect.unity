@@ -9467,8 +9467,8 @@ MonoBehaviour:
   level: {fileID: 195854, guid: 08336ee52526f8047a2d732ce0c77e9c, type: 2}
   doTouchCheck: 0
   disabled: 0
-  offense: 1
-  defense: 0
+  offense: 0
+  defense: 1
 --- !u!114 &1336691455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13104,7 +13104,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1711068291}
   m_HandleRect: {fileID: 1711068290}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.99999994
   m_Size: 0.4374761
   m_NumberOfSteps: 0
   m_OnValueChanged:
