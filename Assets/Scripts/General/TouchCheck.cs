@@ -1,9 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class TouchCheck : MonoBehaviour {
 
     float doubleTapTimer;
+
+	bool pointerDowned = false;
+
+	Vector2 initialPointerPos;
+
+	int touchedfingerId;
 
 	// Use this for initialization
 	void Start () {
@@ -32,36 +39,74 @@ public class TouchCheck : MonoBehaviour {
     }
 
     public bool GetMouseInputOnCollider()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 wp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 touchPos = new Vector2(wp.x, wp.y);
-            Collider2D hit = Physics2D.OverlapPoint(touchPos);
+	{
+		if (!pointerDowned) 
+		{
+			if (Input.GetMouseButtonDown (0) && !EventSystem.current.IsPointerOverGameObject ()) 
+			{
+				Vector3 wp = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+				Vector2 touchPos = new Vector2 (wp.x, wp.y);
+				Collider2D hit = Physics2D.OverlapPoint (touchPos);
 
-            if (hit && hit == gameObject.GetComponent<Collider2D>())
-            {
-                return true;
-            }
-        }
-        return false;
+				if (hit && hit == gameObject.GetComponent<Collider2D> ()) 
+				{
+					pointerDowned = true;
+					initialPointerPos = Input.mousePosition;
+				}
+			}
+			return false;
+		} 
+		else 
+		{
+			if (Input.GetMouseButtonUp(0)) 
+			{
+				Vector3 wp = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+				Vector2 touchPos = new Vector2 (wp.x, wp.y);
+
+				pointerDowned = false;
+				if ((new Vector2(Input.mousePosition.x, Input.mousePosition.y) - initialPointerPos).magnitude <= 2) 
+				{
+					return true;
+				}
+			}
+			return false;
+		}
     }
 
     public bool GetTouchInputOnCollider()
     {
         foreach (Touch mytouch in Input.touches)
         {
-            if (mytouch.phase == TouchPhase.Began)
-            {
-                Vector3 wp = Camera.main.ScreenToWorldPoint(mytouch.position);
-                Vector2 touchPos = new Vector2(wp.x, wp.y);
-                Collider2D hit = Physics2D.OverlapPoint(touchPos);
+			if (!pointerDowned) 
+			{
+				if (mytouch.phase == TouchPhase.Began && !EventSystem.current.IsPointerOverGameObject (mytouch.fingerId)) 
+				{
+					Vector3 wp = Camera.main.ScreenToWorldPoint (mytouch.position);
+					Vector2 touchPos = new Vector2 (wp.x, wp.y);
+					Collider2D hit = Physics2D.OverlapPoint (touchPos);
 
-                if (hit && hit == gameObject.GetComponent<Collider2D>())
-                {
-                    return true;
-                }
-            }
+					if (hit && hit == gameObject.GetComponent<Collider2D> ()) 
+					{
+						touchedfingerId = mytouch.fingerId;
+						initialPointerPos = mytouch.position;
+						pointerDowned = true;
+					}
+				}
+			}
+			else
+			{
+				if(mytouch.fingerId == touchedfingerId && mytouch.phase == TouchPhase.Ended)
+				{
+					Vector3 wp = Camera.main.ScreenToWorldPoint (mytouch.position);
+					Vector2 touchPos = new Vector2 (wp.x, wp.y);
+				
+					pointerDowned = false;
+					if ((mytouch.position - initialPointerPos).magnitude <= 2) 
+					{
+						return true;
+					}
+				}
+			}
         }
         return false;
     }
@@ -70,7 +115,7 @@ public class TouchCheck : MonoBehaviour {
     {
         foreach (Touch mytouch in Input.touches)
         {
-            if (mytouch.phase == TouchPhase.Began)
+			if (mytouch.phase == TouchPhase.Began && !EventSystem.current.IsPointerOverGameObject())
             {
                 if (Time.time < doubleTapTimer + .3f)
                 {
@@ -85,7 +130,7 @@ public class TouchCheck : MonoBehaviour {
 
     public bool CheckDoubleClick()
     {
-        if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             print("CHECK");
             if (Time.time < doubleTapTimer + .3f)

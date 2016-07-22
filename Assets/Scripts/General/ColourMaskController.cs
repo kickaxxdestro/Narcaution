@@ -69,7 +69,8 @@ public class ColourMaskController : MonoBehaviour {
 
                 if (maskColor.a <= 0f && maskColor.r <= 0f && maskColor.r <= 0f && maskColor.r <= 0f)
                 {
-                    maskActive = false;
+					maskActive = false;
+					GetComponent<Image> ().enabled = false;
                 }
                 if (GetComponent<SpriteRenderer>())
                     GetComponent<SpriteRenderer>().color = maskColor;
@@ -102,11 +103,19 @@ public class ColourMaskController : MonoBehaviour {
         ActivateColourMask(COLOURMODE.COLOURMODE_TO_TRANSPARENT, 10f);
     }
 
+	public void DoToGrey(float duration)
+	{
+		ActivateColourMask(COLOURMODE.COLOURMODE_TO_ALPHA_GREY, duration);
+	}
+
     public void ActivateColourMask(COLOURMODE mode, float duration)
     {
         this.mode = mode;
         this.maskDuration = duration;
         maskActive = true;
+
+		GetComponent<Image> ().enabled = true;
+
         switch (mode)
         {
             case COLOURMODE.COLOURMODE_RAINBOW:

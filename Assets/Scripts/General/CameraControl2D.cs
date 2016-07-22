@@ -17,7 +17,7 @@ public class CameraControl2D : MonoBehaviour {
         MOVEMENT_TYPE_NONE
     }
 
-    MOVEMENT_TYPE currentMovement = MOVEMENT_TYPE.MOVEMENT_TYPE_NONE;
+    public MOVEMENT_TYPE currentMovement = MOVEMENT_TYPE.MOVEMENT_TYPE_NONE;
 
 
 	// Use this for initialization

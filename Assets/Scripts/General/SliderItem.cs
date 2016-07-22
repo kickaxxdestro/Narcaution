@@ -15,7 +15,6 @@ public class SliderItem : MonoBehaviour
         LERP_TO_CENTER_FROM_RIGHT,
         LERP_TO_CENTER_FROM_DOWN,
         LERP_TO_CENTER_FROM_UP,
-        LERP_TO_CENTER_FROM_DOWN_OPTIONS,
         LERP_NULL,
     }
 
@@ -272,42 +271,6 @@ public class SliderItem : MonoBehaviour
         lerpDirection = LerpDirection.LERP_TO_DOWN;
         conditionDone = 0;
         DeactivatePageSelector();
-    }
-
-    public void DoLerpToDown_Options(GameObject button)
-    {
-        DeactivateSliding();
-        this.transform.position = new Vector3(centerPosition.x, this.transform.position.y, this.transform.position.z);
-        lerpDirection = LerpDirection.LERP_TO_DOWN;
-        conditionDone = 0;
-        DeactivatePageSelector();
-        CameraDragControl CDCScript = GameObject.Find("WorldList").GetComponent<CameraDragControl>();
-        CDCScript.enabled = true;
-        for (int i = 1; i < 6; i++)
-        {
-            WorldList = "World" + i.ToString();
-            PolygonCollider2D PC2DScriptEnabled = GameObject.Find(WorldList).GetComponent<PolygonCollider2D>();
-            PC2DScriptEnabled.enabled = true;
-        }
-        button.GetComponent<Button>().enabled = true;
-    }
-
-    public void DoLerpToCenter_FromDown_Options(GameObject button)
-    {
-        DeactivateSliding();
-        this.transform.position = new Vector3(centerPosition.x, downPositionY, this.transform.position.z);
-        lerpDirection = LerpDirection.LERP_TO_CENTER_FROM_DOWN;
-        conditionDone = 0;
-        ActivatePageSelector();
-        CameraDragControl CDCScript = GameObject.Find("WorldList").GetComponent<CameraDragControl>();
-        CDCScript.enabled = false;
-        for (int i = 1; i < 6; i++)
-        {
-            WorldList = "World" + i.ToString();
-            PolygonCollider2D PC2DScriptEnabled = GameObject.Find(WorldList).GetComponent<PolygonCollider2D>();
-            PC2DScriptEnabled.enabled = false;
-        }
-        button.GetComponent<Button>().enabled = false;
     }
 
     public void DoLerpToCenter_FromDown()
