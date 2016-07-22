@@ -25,6 +25,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -42,7 +43,7 @@ MonoBehaviour:
   enemyObject: {fileID: 100568, guid: e895a5ebdf1b7a9498614423a41688bc, type: 2}
   type: 1
   amountToSpawn: 3
-  timeInterval: .5
+  timeInterval: 0.5
   enemyList: []
   amountSpawned: 0
   startOffset: {x: -1, y: 1, z: 0}

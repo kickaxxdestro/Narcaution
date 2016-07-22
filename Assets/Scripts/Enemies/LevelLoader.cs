@@ -108,9 +108,11 @@ public class LevelLoader : MonoBehaviour {
 			lastSpawned = Instantiate(level1_1) as GameObject;
 			break;
 		case 2:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 1);
 			lastSpawned = Instantiate(level1_2) as GameObject;
 			break;
 		case 3:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 0);
 			lastSpawned = Instantiate(level1_3) as GameObject;
 			break;
 		case 4:
@@ -120,9 +122,11 @@ public class LevelLoader : MonoBehaviour {
 			lastSpawned = Instantiate(level2_1) as GameObject;
 			break;
 		case 6:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 1);
 			lastSpawned = Instantiate(level2_2) as GameObject;
 			break;
 		case 7:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 0);
 			lastSpawned = Instantiate(level2_3) as GameObject;
 			break;			
 		case 8:
@@ -132,9 +136,11 @@ public class LevelLoader : MonoBehaviour {
 			lastSpawned = Instantiate(level3_1) as GameObject;
 			break;			
 		case 10:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 1);
 			lastSpawned = Instantiate(level3_2) as GameObject;
 			break;			
 		case 11:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 0);
 			lastSpawned = Instantiate(level3_3) as GameObject;
 			break;			
 		case 12:
@@ -144,9 +150,11 @@ public class LevelLoader : MonoBehaviour {
 			lastSpawned = Instantiate(level4_1) as GameObject;
 			break;			
 		case 14:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 1);
 			lastSpawned = Instantiate(level4_2) as GameObject;
 			break;			
 		case 15:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 0);
 			lastSpawned = Instantiate(level4_3) as GameObject;
 			break;			
 		case 16:
@@ -159,6 +167,7 @@ public class LevelLoader : MonoBehaviour {
 			lastSpawned = Instantiate(level5_2) as GameObject;
 			break;			
 		case 19:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 0);
 			lastSpawned = Instantiate(level5_3) as GameObject;
 			break;			
 		case 20:

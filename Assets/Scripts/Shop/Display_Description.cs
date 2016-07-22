@@ -24,14 +24,14 @@ public class Display_Description : MonoBehaviour
                 {
                     transform.parent.GetChild(i).gameObject.GetComponent<Display_Description>().disappear = true;
                 }
-                if (GetComponent<LayoutElement>().preferredHeight < 90) //Expand the current tab clicked
+                if (GetComponent<LayoutElement>().preferredHeight < 300) //Expand the current tab clicked
                 {
                     appear = true;
                 }
             }
             else if (Displayed == true) //If the tab clicked has displayed it's description
             {
-                if (GetComponent<LayoutElement>().preferredHeight > 57.5) //Close the current tab clicked
+                if (GetComponent<LayoutElement>().preferredHeight > 200) //Close the current tab clicked
                 {
                     disappear = true;
                 }
@@ -46,13 +46,13 @@ public class Display_Description : MonoBehaviour
             if (appear == true) //Expands the tab by shifting the position of the tab's description
             {
                 GetComponent<LayoutElement>().preferredHeight += 300f * Time.deltaTime;
-                Extra_Description.transform.position = new Vector3(Extra_Description.transform.position.x, Extra_Description.transform.position.y - 290f * Time.deltaTime, Extra_Description.transform.position.z);
+                Extra_Description.transform.position = new Vector3(Extra_Description.transform.position.x, Extra_Description.transform.position.y - 100f * Time.deltaTime, Extra_Description.transform.position.z);
 
-                if (GetComponent<LayoutElement>().preferredHeight >= 90)
+                if (GetComponent<LayoutElement>().preferredHeight >= 300)
                 {
-                    GetComponent<LayoutElement>().preferredHeight = 90;
-                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(17.6f, -67.5f, 0);
-                    appear = false;
+                    GetComponent<LayoutElement>().preferredHeight = 300;
+                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(32.5f, -145.5f, 0);
+                    appear = false; 
                     Displayed = true;
                 }
             }
@@ -61,11 +61,11 @@ public class Display_Description : MonoBehaviour
             if (disappear == true) //Closes the tab by shifting the position of the tab's description
             {
                 GetComponent<LayoutElement>().preferredHeight -= 300f * Time.deltaTime;
-                Extra_Description.transform.position = new Vector3(Extra_Description.transform.position.x, Extra_Description.transform.position.y + 290f * Time.deltaTime, Extra_Description.transform.position.z);
-                if (GetComponent<LayoutElement>().preferredHeight <= 57.5f)
+                Extra_Description.transform.position = new Vector3(Extra_Description.transform.position.x, Extra_Description.transform.position.y + 100f * Time.deltaTime, Extra_Description.transform.position.z);
+                if (GetComponent<LayoutElement>().preferredHeight <= 200f)
                 {
-                    GetComponent<LayoutElement>().preferredHeight = 57.5f;
-                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(17.6f, -30.5f, 0);
+                    GetComponent<LayoutElement>().preferredHeight = 200f;
+                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(32.5f, -60f, 0);
                     disappear = false;
                     Displayed = false;
                     lastUsed = "";

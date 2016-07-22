@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &470886
 Transform:
   m_ObjectHideFlags: 1
@@ -24,7 +24,8 @@ Transform:
   m_GameObject: {fileID: 153002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 115.2, y: 115.2, z: 115.2}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -40,31 +41,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelEndMenu: {fileID: 0}
+  pauseButton: {fileID: 0}
   grade: {fileID: 0}
+  rankIndicator:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rankIconCompleteActive: {fileID: 21300000, guid: a1dc6cd09ad1216479d507b97254bbe3,
+    type: 3}
+  rankIconHealthActive: {fileID: 21300000, guid: 7c4d52b747d3575449d82e1fc9db57cd,
+    type: 3}
+  rankIconScoreActive: {fileID: 21300000, guid: debebad5e1d64d04bb4b5c2345708837,
+    type: 3}
   worldTwoHighScore: 0
-  iceBG:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  weedBG:
-  - {fileID: 0}
-  - {fileID: 0}
+  worldThreeHighScore: 0
+  worldFourHighScore: 0
+  worldFiveHighScore: 0
   level1_1: {fileID: 182204, guid: 738e7beba1bb4754ca20402e3befcd2a, type: 2}
-  level1_2: {fileID: 195854, guid: 08336ee52526f8047a2d732ce0c77e9c, type: 2}
+  level1_2: {fileID: 163796, guid: 8564302b70a12af41b32ca1be899e206, type: 2}
   level1_3: {fileID: 145268, guid: e5e2a882bd1c0c04fa02855272be51b7, type: 2}
   level1_4: {fileID: 186034, guid: 762f1a390fb60204d856c13d38246c5d, type: 2}
   level2_1: {fileID: 166798, guid: 40d770b478d989842bf0bfe03d8a7473, type: 2}
-  level2_2: {fileID: 176264, guid: 43c13c0d90f7f684db578083294bbe4a, type: 2}
+  level2_2: {fileID: 133608, guid: 559a6312152502043907dc42ba205388, type: 2}
   level2_3: {fileID: 168470, guid: 6323874be958e0a40be634cb59ec09b6, type: 2}
   level2_4: {fileID: 169316, guid: ed8431ee4aedff141aac094544f8e001, type: 2}
-  gradeS: {fileID: 21300000, guid: ddd096f607e30684fbda400ff6744741, type: 3}
-  gradeA: {fileID: 21300000, guid: 35a93c1622cf65e42b0eb6da1e7e3ee3, type: 3}
-  gradeB: {fileID: 21300000, guid: 17a46903606e0a0448b2e696a97c80ee, type: 3}
-  gradeC: {fileID: 21300000, guid: f332f7afa71f1bd4981fd2d20d78db1b, type: 3}
-  gradeD: {fileID: 21300000, guid: abaa90c44d762c14793eead6addf51fd, type: 3}
-  gradeE: {fileID: 21300000, guid: 7bc101fd35245e24ab160ddb2437939c, type: 3}
-  gradeF: {fileID: 21300000, guid: 6104f1b39b42b6244944f8b81ee63136, type: 3}
-  dash: {fileID: 21300000, guid: e76bc146cec9bde4e980c7628201b98b, type: 3}
+  level3_1: {fileID: 189356, guid: b0efafa0f744e1e408dd5c0468561a23, type: 2}
+  level3_2: {fileID: 192328, guid: 1cbcbebad07c7fe4aa730c8cbb5b8750, type: 2}
+  level3_3: {fileID: 107022, guid: 4aa381d0341c2714dad62d377cb57658, type: 2}
+  level3_4: {fileID: 100812, guid: a543f38d3bb9e7e44b5c8e23dcc47a6b, type: 2}
+  level4_1: {fileID: 136464, guid: 5c42e6b5e3fb56b438fa6bcba1cfbf20, type: 2}
+  level4_2: {fileID: 178742, guid: 4ec17c97579152245bc81886f0b9f20f, type: 2}
+  level4_3: {fileID: 158728, guid: 046eefe9d69179d48899b74231a2a5f5, type: 2}
+  level4_4: {fileID: 191670, guid: a646efb32398c7245b09188b29cb24af, type: 2}
+  level5_1: {fileID: 153160, guid: 182b28d334fb8ee409640f081188cf2b, type: 2}
+  level5_2: {fileID: 161344, guid: 7f888488acd173841b1a20200e25e0cd, type: 2}
+  level5_3: {fileID: 139780, guid: 48281a6f930e35b4e86e5750e45d859e, type: 2}
+  level5_4: {fileID: 117084, guid: 741322fc2f4d47345b81a8bb18909c83, type: 2}
+  level5_5: {fileID: 102148, guid: 74ff5baa6fe98c242abc1b4743db53b0, type: 2}
+  level5_6: {fileID: 117084, guid: 741322fc2f4d47345b81a8bb18909c83, type: 2}
+  gradeS: {fileID: 21300000, guid: adab6172f44762e41a21229806fcbaa8, type: 3}
+  gradeA: {fileID: 21300000, guid: cef8583394e5fe045bd1ed5d066c305f, type: 3}
+  gradeB: {fileID: 21300000, guid: e7746b895fb0cf041ad5b804a4830d9d, type: 3}
+  gradeC: {fileID: 21300000, guid: 138da1114dae40c4b94ca163bfb37421, type: 3}
+  gradeD: {fileID: 21300000, guid: d4d3329c6461e174bb0e856e7867ce48, type: 3}
+  gradeE: {fileID: 21300000, guid: f88ee230683df1f4b951fde458ffa1de, type: 3}
+  gradeF: {fileID: 21300000, guid: d0fff9f11b6ee644b8215f9651fc295d, type: 3}
+  dash: {fileID: 21300000, guid: 9c16f5e9ad0fadb49902c501de570267, type: 3}
+  levelDisplay: {fileID: 0}
+  loadedLevel: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -58,9 +58,11 @@ public class ShopHandlerDeluxe : MonoBehaviour
         }
 
         Display();
-
+   
         GameObject.Find("ValueDisplay").GetComponent<MoneyTextDisplay>().UpdateText();
+
         changeButton = gameObject.transform.GetChild(0).GetComponent<ChangeShopTab>();
+
         if (PlayerPrefs.GetInt("pp" + weaponList[0].GetComponent<Weapon>().name + "Level", 0) == 0)
         {
             PlayerPrefs.SetInt("pp" + weaponList[0].GetComponent<Weapon>().name + "Level", 1);
