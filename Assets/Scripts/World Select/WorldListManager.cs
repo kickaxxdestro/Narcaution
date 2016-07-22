@@ -13,7 +13,6 @@ public class WorldListManager : MonoBehaviour {
     public Sprite disabledLevelButtonSpriteWorld4;
     public Sprite disabledLevelButtonSpriteWorld5;
 
-    public GameObject header;
 	public GameObject map;
     public float transitionZoomSpeed = 0.005f;
 
@@ -27,8 +26,14 @@ public class WorldListManager : MonoBehaviour {
     int currentLevel;
     bool currentSelectionType = false;
 
+	public bool getCurrentSelectionType ()
+	{
+		return currentSelectionType;
+	}
+
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
         transitionZoomAmountOrigin = transform.localScale.x;
         transitionZoomAmountOriginY = transform.localScale.y;
         currentLevel = PlayerPrefs.GetInt("ppCurrentLevel", 1);
@@ -42,7 +47,7 @@ public class WorldListManager : MonoBehaviour {
         if (currentLevel <= 16)
             worldList[4].GetComponent<WorldButton>().Disable();
 
-		this.gameObject.GetComponent<CameraDragControl> ().SetBounds (this.gameObject.GetComponent<BoxCollider2D> ().bounds);
+		this.gameObject.GetComponent<DragAndZoomControl> ().SetBounds (this.gameObject.GetComponent<BoxCollider2D> ().bounds);
 		this.gameObject.GetComponent<BoxCollider2D> ().enabled = false;
 	}
 	
@@ -79,8 +84,8 @@ public class WorldListManager : MonoBehaviour {
                 transitioning = false;
                 this.transform.localScale = new Vector3(transitionZoomAmount, transitionZoomAmount);
 
-				this.gameObject.GetComponent<CameraDragControl> ().SetBounds (selectedWorld.GetComponent<SpriteRenderer>().bounds);
-				this.gameObject.GetComponent<CameraDragControl> ().SetBoundModeOn (true);
+				this.gameObject.GetComponent<DragAndZoomControl> ().SetBounds (selectedWorld.GetComponent<SpriteRenderer>().bounds);
+				this.gameObject.GetComponent<DragAndZoomControl> ().SetBoundModeOn (true);
             }
             //scrollRectScript.GetComponent<ScrollRect>().enabled = false;
         }
@@ -99,10 +104,10 @@ public class WorldListManager : MonoBehaviour {
                 this.transform.localScale = new Vector3(transitionZoomAmountOrigin, transitionZoomAmountOrigin);
 
 				this.gameObject.GetComponent<BoxCollider2D> ().enabled = true;
-				this.gameObject.GetComponent<CameraDragControl> ().SetBounds (this.gameObject.GetComponent<BoxCollider2D> ().bounds);
+				this.gameObject.GetComponent<DragAndZoomControl> ().SetBounds (this.gameObject.GetComponent<BoxCollider2D> ().bounds);
 				this.gameObject.GetComponent<BoxCollider2D> ().enabled = false;
 
-				this.gameObject.GetComponent<CameraDragControl> ().SetBoundModeOn (true);
+				this.gameObject.GetComponent<DragAndZoomControl> ().SetBoundModeOn (true);
             }
             //scrollRectScript.GetComponent<ScrollRect>().enabled = true;
         }
@@ -126,10 +131,10 @@ public class WorldListManager : MonoBehaviour {
         zoomDir = true;
         transitioning = true;
         currentSelectionType = true;
-        header.GetComponent<AlphaFader>().DoFadeOut();
 
-		this.gameObject.GetComponent<CameraDragControl> ().SetBoundModeOn (false);
-        backButton.SetActive(true);
+		this.gameObject.GetComponent<DragAndZoomControl> ().SetBoundModeOn (false);
+		backButton.GetComponent<Button>().interactable = true;
+		backButton.GetComponentInChildren<Text> ().color = new Color(1, 1, 1, 1);
     }
 
     public void DoDeselectedTransitions()
@@ -142,9 +147,8 @@ public class WorldListManager : MonoBehaviour {
         zoomDir = false;
         transitioning = true;
         currentSelectionType = false;
-        header.GetComponent<AlphaFader>().DoFadeIn();
 
-		this.gameObject.GetComponent<CameraDragControl> ().SetBoundModeOn (false);
+		this.gameObject.GetComponent<DragAndZoomControl> ().SetBoundModeOn (false);
     }
 
     public void EnableCurrentWorldChildButtons()
@@ -159,7 +163,8 @@ public class WorldListManager : MonoBehaviour {
         {
             DoDeselectedTransitions();
             GameObject.Find("Main Camera").GetComponent<CameraControl2D>().InterpolatePositionToZero();
-            backButton.SetActive(false);
+			backButton.GetComponent<Button>().interactable = false;
+			backButton.GetComponentInChildren<Text> ().color = new Color(1, 1, 1, 0.2156f);
         }
     }
 }
