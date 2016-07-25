@@ -8,6 +8,16 @@ public class ChangeShopTab : MonoBehaviour {
     public GameObject Purchase;
     public GameObject Equip;
     public GameObject OriginalEquip;
+    public GameObject PowerUpMainTarget;
+    public GameObject WeaponMainTarget;
+    public GameObject SkinMainTarget;
+
+    ShopHandlerDeluxe SHDX;
+
+    void Start()
+    {
+        SHDX = gameObject.transform.parent.GetComponent<ShopHandlerDeluxe>();
+    }
 
     void activateChildObjects()
     {
@@ -38,6 +48,8 @@ public class ChangeShopTab : MonoBehaviour {
         {
             go.SetActive(false);
         }
+
+        SHDX.setTarget(PowerUpMainTarget);
 	}
 
     public void ChangeTabWeapons()
@@ -62,6 +74,8 @@ public class ChangeShopTab : MonoBehaviour {
         {
             go.SetActive(false);
         }
+
+        SHDX.setTarget(WeaponMainTarget);
     }
 
     public void ChangeTabSkins()
@@ -86,6 +100,8 @@ public class ChangeShopTab : MonoBehaviour {
         {
             go.SetActive(false);
         }
+
+        SHDX.setTarget(SkinMainTarget);
     }
 
     public void ChangeEquipPosition()
