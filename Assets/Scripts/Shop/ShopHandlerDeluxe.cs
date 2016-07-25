@@ -31,7 +31,9 @@ public class ShopHandlerDeluxe : MonoBehaviour
     GameObject targetItem;
     GameObject targetPrefab;
     GameObject selectedSkin;
+    GameObject checkSkin;
     Weapon selectedWeapon;
+    public GameObject firstButton;
 
     ChangeShopTab changeButton;
 
@@ -39,6 +41,8 @@ public class ShopHandlerDeluxe : MonoBehaviour
     public AudioClip insufficientAudio;
     public AudioClip equipAudio;
     private AudioSource audioSource;
+
+    bool firstTarget;
 
     void Awake()
     {
@@ -56,9 +60,10 @@ public class ShopHandlerDeluxe : MonoBehaviour
         {
             Debug.Log("Got: " + err);
         }
-
+        firstTarget = false;
+        setTarget(firstButton);
         Display();
-   
+
         GameObject.Find("ValueDisplay").GetComponent<MoneyTextDisplay>().UpdateText();
 
         changeButton = gameObject.transform.GetChild(0).GetComponent<ChangeShopTab>();
@@ -66,19 +71,42 @@ public class ShopHandlerDeluxe : MonoBehaviour
         if (PlayerPrefs.GetInt("pp" + weaponList[0].GetComponent<Weapon>().name + "Level", 0) == 0)
         {
             PlayerPrefs.SetInt("pp" + weaponList[0].GetComponent<Weapon>().name + "Level", 1);
-            Debug.Log("Upgraded!");
+        }
+
+        
+       
+    }
+    public void clearTarget() //Select the tab you want to interact with
+    {
+        for (int i = 0; i < this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").childCount; i++)
+        {
+            
+            this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").FindChild("Icon").GetComponent<Image>().color = Color.white;
+
+            if (this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Title" || this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Description" ||
+                this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Price" ||
+                this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Price Value")
+            {
+                this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).GetComponent<Text>().color = Color.white;
+            }
         }
     }
-
     public void setTarget(GameObject button) //Select the tab you want to interact with
     {
+        if (firstTarget == true)
+        {
+            clearTarget();
+        }
+        if (firstTarget == false)
+        {
+            firstTarget = true;
+        }
+
         targetName = button.transform.parent.gameObject;
-        Debug.Log(targetName.name);
         if (targetName.tag == "Shop_Item_Weapon" && targetName.name != "Header_Weapons")
         {
             selectedWeapon = setWeaponComponent(targetName);
             levelCheck = PlayerPrefs.GetInt("pp" + selectedWeapon.name + "Level", 0);
-            Debug.Log(levelCheck);  
             changeButtonsForWeapon(levelCheck);
         }
         else if (targetName.tag == "Shop_Item_Skin" && targetName.name != "Header_Skins")
@@ -86,6 +114,18 @@ public class ShopHandlerDeluxe : MonoBehaviour
             selectedSkin = setSkinComponent(targetName);
             skinCheck = PlayerPrefs.GetInt("ppSkin" + selectedSkin.GetComponent<GeneralItem>().itemID + "Unlocked");
             changeButtonsForSkins(skinCheck);
+        }
+
+        for (int i = 0; i < this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").childCount; i++)
+        {
+            this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").FindChild("Icon").GetComponent<Image>().color = Color.cyan;
+
+            if (this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Title" || this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Description" ||
+                this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Price" ||
+                this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).name == "Price Value")
+            {
+                this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").GetChild(i).GetComponent<Text>().color = Color.cyan;
+            }
         }
     }
 
@@ -97,11 +137,19 @@ public class ShopHandlerDeluxe : MonoBehaviour
             changeButton.Purchase.SetActive(true);
             changeButton.Equip.SetActive(false);
         }
-        else if (currentLevelCheck > 0)
+        else if (currentLevelCheck > 0 && currentLevelCheck < 5)
         {
             changeButton.Upgrade.SetActive(true);
             changeButton.Purchase.SetActive(false);
             changeButton.Equip.SetActive(true);
+            changeButton.RevertEquipPosition();
+        }
+        else if (currentLevelCheck == 5)
+        {
+            changeButton.Upgrade.SetActive(false);
+            changeButton.Purchase.SetActive(false);
+            changeButton.Equip.SetActive(true);
+            changeButton.ChangeEquipPosition();
         }
     }
 
@@ -132,10 +180,13 @@ public class ShopHandlerDeluxe : MonoBehaviour
                 selectedWeapon = setWeaponComponent(this.transform.FindChild("Grid").GetChild(i));
                 levelCheck = PlayerPrefs.GetInt("pp" + selectedWeapon.name + "Level", 0);
 
+                if (PlayerPrefs.GetInt("ppCurrentWeapon") == selectedWeapon.GetComponent<Weapon>().ID)
+                {
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Equipped").gameObject.SetActive(true);
+                }
+
                 if (levelCheck > 0)
                 {
-
-
                     this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Damage").GetComponent<Text>().text = "Damage: " + selectedWeapon.LevelXBulletDamage[levelCheck - 1].ToString();
 
                     this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("AtkSpeed").GetComponent<Text>().text = "AtkSpeed: " + selectedWeapon.LevelXFiringSpeed[levelCheck - 1].ToString();
@@ -147,13 +198,36 @@ public class ShopHandlerDeluxe : MonoBehaviour
                 }
                 else if (levelCheck == 0)
                 {
-                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("AtkSpeed").GetComponent<Text>().text = "AtkSpeed: " + selectedWeapon.LevelXFiringSpeed[levelCheck].ToString();
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Damage").GetComponent<Text>().text = "Damage: " + selectedWeapon.LevelXBulletDamage[levelCheck].ToString();
 
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("AtkSpeed").GetComponent<Text>().text = "AtkSpeed: " + selectedWeapon.LevelXFiringSpeed[levelCheck].ToString();
+                }
+                if (levelCheck < 5)
+                {
                     this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Price Value").GetComponent<Text>().text = selectedWeapon.LevelXCost[levelCheck].ToString();
                 }
-                this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Price Value").GetComponent<Text>().text = selectedWeapon.LevelXCost[levelCheck].ToString();
+                else if (levelCheck == 5)
+                {
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Price").gameObject.SetActive(false);
 
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Price Value").gameObject.SetActive(false);
+                }
                 this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Type").GetComponent<Text>().text = "Type: " + Weapon.GetFiringPattenString(selectedWeapon.firingPattern);
+            }
+
+            if (this.transform.FindChild("Grid").GetChild(i).tag == "Shop_Item_Skin" && this.transform.FindChild("Grid").GetChild(i).name != "Header_Skins") //Skins
+            {
+                selectedSkin = setSkinComponent(this.transform.FindChild("Grid").GetChild(i).gameObject);
+                if (PlayerPrefs.GetInt("ppCurrentSkin") == selectedSkin.GetComponent<GeneralItem>().itemID)
+                {
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Equipped").gameObject.SetActive(true);
+                }
+                if (PlayerPrefs.GetInt("ppSkin" + selectedSkin.GetComponent<GeneralItem>().itemID + "Unlocked") == 1)
+                {
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Price").gameObject.SetActive(false);
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Price Value").gameObject.SetActive(false);
+
+                }
             }
         }
     }
@@ -295,7 +369,7 @@ public class ShopHandlerDeluxe : MonoBehaviour
             {
                 HandleWeaponPurchase(weaponList[2].GetComponent<Weapon>());
             }
-            else if (targetName.name == "Item_Weapons_Repulser")
+            else if (targetName.name == "Item_Weapons_Repulsor")
             {
                 HandleWeaponPurchase(weaponList[3].GetComponent<Weapon>());
             }
@@ -345,7 +419,7 @@ public class ShopHandlerDeluxe : MonoBehaviour
 
     void HandleSkinPurchase(GameObject skin)
     {
-        if (DeductMoney(skin.GetComponent<GeneralItem>().cost))
+        if (DeductMoney(skin.GetComponent<GeneralItem>().cost) && PlayerPrefs.GetInt("ppSkin" + skin.GetComponent<GeneralItem>().itemID + "Unlocked") == 0)
         {
             PlayerPrefs.SetInt("ppSkin" + skin.GetComponent<GeneralItem>().itemID + "Unlocked", 1);
             PlayerPrefs.Save();
@@ -359,17 +433,27 @@ public class ShopHandlerDeluxe : MonoBehaviour
     {
         if (targetName.tag == "Shop_Item_Weapon") //Weapons
         {
-            if (PlayerPrefs.GetInt("pp" + targetName.GetComponent<Weapon>().name + "Level", 0) >= 1)
+            for (int i = 0; i < this.transform.FindChild("Grid").childCount; i++)
             {
-                PlayerPrefs.SetInt("ppCurrentWeapon", targetName.GetComponent<Weapon>().ID);
-                PlayerPrefs.SetInt("ppCurrentWeaponLevel", PlayerPrefs.GetInt("pp" + targetName.GetComponent<Weapon>().name + "Level", 0));
-                PlayerPrefs.Save();
-                Display();
+                if (this.transform.FindChild("Grid").GetChild(i).tag == "Shop_Item_Weapon" && this.transform.FindChild("Grid").GetChild(i).name != "Header_Weapons")
+                {
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Equipped").gameObject.SetActive(false);
+                }
             }
+            PlayerPrefs.SetInt("ppCurrentWeapon", selectedWeapon.GetComponent<Weapon>().ID);
+            PlayerPrefs.SetInt("ppCurrentWeaponLevel", PlayerPrefs.GetInt("pp" + selectedWeapon.GetComponent<Weapon>().name + "Level", 0));
+            PlayerPrefs.Save();
+            Display();
         }
         else if (targetName.tag == "Shop_Item_Skin") //Skins
         {
-            selectedSkin = setSkinComponent(targetName);
+            for (int i = 0; i < this.transform.FindChild("Grid").childCount; i++)
+            {
+                if (this.transform.FindChild("Grid").GetChild(i).tag == "Shop_Item_Skin" && this.transform.FindChild("Grid").GetChild(i).name != "Header_Skins")
+                {
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Equipped").gameObject.SetActive(false);
+                }
+            }
             PlayerPrefs.SetInt("ppCurrentSkin", selectedSkin.GetComponent<GeneralItem>().itemID);
             PlayerPrefs.Save();
             Display();
