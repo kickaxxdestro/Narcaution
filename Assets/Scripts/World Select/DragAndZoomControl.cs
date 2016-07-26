@@ -35,19 +35,16 @@ public class DragAndZoomControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Camera.main.gameObject.GetComponent<CameraControl2D>().currentMovement == CameraControl2D.MOVEMENT_TYPE.MOVEMENT_TYPE_NONE) 
+		/*if (Camera.main.gameObject.GetComponent<CameraControl2D>().currentMovement == CameraControl2D.MOVEMENT_TYPE.MOVEMENT_TYPE_NONE)*/
 		{
 			#if UNITY_EDITOR
 			UseMouse ();
-			#endif
-			#if UNITY_STANDALONE_WIN
-		UseMouse();
-			#endif
-
-			#if UNITY_ANDROID
+			#elif UNITY_STANDALONE_WIN
+			UseMouse();
+			#elif UNITY_ANDROID
 			UseTouch ();
 			#elif UNITY_IOS
-		UseTouch();
+			UseTouch();
 			#endif
 		}
 
@@ -118,6 +115,7 @@ public class DragAndZoomControl : MonoBehaviour {
 			if (Input.touches [1].phase == TouchPhase.Began)
 			{
 				lastFrameFingerDistance = (Camera.main.ScreenToWorldPoint (Input.touches [0].position) - Camera.main.ScreenToWorldPoint (Input.touches [1].position)).magnitude;
+				GetComponent<WorldListManager> ().setTransitioning (false);
 			}
 			else
 			{
@@ -154,4 +152,7 @@ public class DragAndZoomControl : MonoBehaviour {
 	{
 		isBounded = b;
 	}
+			void OnGUI() {
+			GUI.TextField(new Rect(10, 10, 200, 20), Input.touches.Length.ToString(), 25);
+			}
 }

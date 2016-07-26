@@ -31,6 +31,11 @@ public class WorldListManager : MonoBehaviour {
 		return currentSelectionType;
 	}
 
+	public void setTransitioning(bool b)
+	{
+		transitioning = b;
+	}
+
 	// Use this for initialization
 	void Start () 
 	{
