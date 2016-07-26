@@ -36,9 +36,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/preproomScreen.unity
   - enabled: 1
-    path: Assets/Scenes/galleryNew.unity
-  - enabled: 1
     path: Assets/Scenes/levelSelect.unity
+  - enabled: 1
+    path: Assets/Scenes/galleryNew.unity
   - enabled: 1
     path: Assets/Scenes/gameEnd.unity
   - enabled: 1
