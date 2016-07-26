@@ -7,7 +7,6 @@ public class splashScreenScript : MonoBehaviour {
 
 	public float timeToFadeOut = 2.0f;
 	public float timeToNextScene = 2.0f;
-	public Image GameLogo;
 	public Image SIDMLogo;
 	public Image NYPLogo;
     public Image CNBLogo;
@@ -19,6 +18,7 @@ public class splashScreenScript : MonoBehaviour {
 	Color NYPLogoColor;
 
     bool nextScene = false;
+	bool trigered = false;
 
 	// Use this for initialization
 	void Start () {
@@ -36,17 +36,17 @@ public class splashScreenScript : MonoBehaviour {
         return;
 #endif
 
-		Input.multiTouchEnabled = false;
+		//Input.multiTouchEnabled = false;
 		Screen.SetResolution(720, (int)(720 * (1 / Camera.main.aspect)), true, 60);
 
 
-        GameLogoColor = GameLogo.color;
+		GameLogoColor = CNBLogo.color;
 		SIDMLogoColor = SIDMLogo.color;
 		NYPLogoColor = NYPLogo.color;
         print("Splash");
 
-        GameObject go = Instantiate(loadingScreen) as GameObject;
-        go.name = "LoadingScreen";
+        //GameObject go = Instantiate(loadingScreen) as GameObject;
+        //go.name = "LoadingScreen";
 	}
 	
 	// Update is called once per frame
@@ -58,18 +58,30 @@ public class splashScreenScript : MonoBehaviour {
 		}
 		else if (timeToFadeOut <= 0) {
 			GameLogoColor.a -= 0.5f * Time.deltaTime;
-			GameLogo.color = GameLogoColor;
+			CNBLogo.color = GameLogoColor;
 		}
 
 		if (GameLogoColor.a <= 0f) {
-			SIDMLogoColor.a += 1f * Time.deltaTime;
-			SIDMLogo.color = SIDMLogoColor;
-            CNBLogo.color = SIDMLogoColor;
+			if (!trigered) {
+				SIDMLogoColor.a += 0.5f * Time.deltaTime;
+				SIDMLogo.color = SIDMLogoColor;
 
-			NYPLogoColor.a += 1f * Time.deltaTime;
-			NYPLogo.color = NYPLogoColor;
-			if (SIDMLogoColor.a >= 1f) {
-				timeToNextScene -= 1f * Time.deltaTime;
+				NYPLogoColor.a += 0.5f * Time.deltaTime;
+				NYPLogo.color = NYPLogoColor;
+
+				if (SIDMLogoColor.a >= 1f) {
+					trigered = true;
+				}
+			} else {
+				SIDMLogoColor.a -= 0.5f * Time.deltaTime;
+				SIDMLogo.color = SIDMLogoColor;
+
+				NYPLogoColor.a -= 0.5f * Time.deltaTime;
+				NYPLogo.color = NYPLogoColor;
+
+				if (SIDMLogoColor.a <= 0f) {
+					timeToNextScene -= 1f * Time.deltaTime;
+				}
 			}
 			
 			if(timeToNextScene <= 0)
