@@ -187,9 +187,9 @@ public class ShopHandlerDeluxe : MonoBehaviour
 
                 if (levelCheck > 0)
                 {
-                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Damage").GetComponent<Text>().text = "Damage: " + selectedWeapon.LevelXBulletDamage[levelCheck - 1].ToString();
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Damage").GetComponent<Text>().text = "Damage    :   " + selectedWeapon.LevelXBulletDamage[levelCheck - 1].ToString();
 
-                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("AtkSpeed").GetComponent<Text>().text = "AtkSpeed: " + selectedWeapon.LevelXFiringSpeed[levelCheck - 1].ToString();
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("AtkSpeed").GetComponent<Text>().text = "AtkSpeed  : " + selectedWeapon.LevelXFiringSpeed[levelCheck - 1].ToString();
 
                     for (int j = 0; j < levelCheck; j++)
                     {
@@ -198,9 +198,9 @@ public class ShopHandlerDeluxe : MonoBehaviour
                 }
                 else if (levelCheck == 0)
                 {
-                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Damage").GetComponent<Text>().text = "Damage: " + selectedWeapon.LevelXBulletDamage[levelCheck].ToString();
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Damage").GetComponent<Text>().text = "Damage    :  " + selectedWeapon.LevelXBulletDamage[levelCheck].ToString();
 
-                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("AtkSpeed").GetComponent<Text>().text = "AtkSpeed: " + selectedWeapon.LevelXFiringSpeed[levelCheck].ToString();
+                    this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("AtkSpeed").GetComponent<Text>().text = "AtkSpeed  : " + selectedWeapon.LevelXFiringSpeed[levelCheck].ToString();
                 }
                 if (levelCheck < 5)
                 {
@@ -212,7 +212,7 @@ public class ShopHandlerDeluxe : MonoBehaviour
 
                     this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Price Value").gameObject.SetActive(false);
                 }
-                this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Type").GetComponent<Text>().text = "Type: " + Weapon.GetFiringPattenString(selectedWeapon.firingPattern);
+                this.transform.FindChild("Grid").GetChild(i).FindChild("Extra_Description").FindChild("Type").GetComponent<Text>().text = "Type    :  " + Weapon.GetFiringPattenString(selectedWeapon.firingPattern);
             }
 
             if (this.transform.FindChild("Grid").GetChild(i).tag == "Shop_Item_Skin" && this.transform.FindChild("Grid").GetChild(i).name != "Header_Skins") //Skins
@@ -346,13 +346,13 @@ public class ShopHandlerDeluxe : MonoBehaviour
             }
             else if (targetName.name == "Item_PowerUps_Bomb")
             {
-                getItemName += "Bomb";
-                HandleItemPurchase(missilesPrefab, getItemName);
+                getItemName += "Bombs";
+                HandleItemPurchase(bombsPrefab, getItemName);
             }
             else if (targetName.name == "Item_PowerUps_HomingMissiles")
             {
                 getItemName += "Missles";
-                HandleItemPurchase(bombsPrefab, getItemName);
+                HandleItemPurchase(missilesPrefab, getItemName);
             }
         }
         else if (targetName.tag == "Shop_Item_Weapon") //Weapons
