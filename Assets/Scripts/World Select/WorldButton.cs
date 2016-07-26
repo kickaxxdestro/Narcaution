@@ -11,6 +11,8 @@ public class WorldButton : MonoBehaviour {
     GameObject worldListManager;
     GameObject displaySprite;
 
+	GameObject ButtonToZoomInto;
+
     void Awake()
     {
         displaySprite = transform.FindChild("DisplaySprite").gameObject;
@@ -20,12 +22,19 @@ public class WorldButton : MonoBehaviour {
 	void Start () {
         worldListManager = GameObject.Find("WorldList");
         int currentLevel = PlayerPrefs.GetInt("ppCurrentLevel", 1);
+
+		int highestNum = 0;
+
         foreach (GameObject levelItem in levelList)
         {
-            if (!levelItem.GetComponent<LevelButton>().CheckUnlocked(currentLevel))
-            {
-                levelItem.GetComponent<LevelButton>().Disable();
-            }  
+			if (!levelItem.GetComponent<LevelButton> ().CheckUnlocked (currentLevel)) 
+			{
+				levelItem.GetComponent<LevelButton> ().Disable ();
+			} 
+			else if (levelItem.GetComponent<LevelButton> ().level.GetComponent<LevelGeneratorScript>().levelID > highestNum)
+			{
+				ButtonToZoomInto = levelItem;
+			}
         }
 	}
 	
@@ -46,8 +55,8 @@ public class WorldButton : MonoBehaviour {
                 if (touchcheck.CheckTouchOnCollider())
                 {
                     //print("Hit");
-                    worldListManager.GetComponent<WorldListManager>().DoSelectedTransitions(gameObject);
-                    GameObject.Find("Main Camera").GetComponent<CameraControl2D>().MoveToObject(gameObject);
+					worldListManager.GetComponent<WorldListManager>().DoSelectedTransitions(gameObject);
+					GameObject.Find("Main Camera").GetComponent<CameraControl2D>().MoveToObject(ButtonToZoomInto);
                     foreach (GameObject connector in connectorList)
                     {
                         connector.GetComponent<ControlWorldConnector>().DoInTransition();

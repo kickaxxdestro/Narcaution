@@ -10,12 +10,8 @@ public class enterLevel : MonoBehaviour {
     public GameObject highscoreIndicator;
     public Text targetScore;
 
-    public Sprite rankIconCompleteInactive;
-    public Sprite rankIconHealthInactive;
-    public Sprite rankIconScoreInactive;
-    public Sprite rankIconCompleteActive;
-    public Sprite rankIconHealthActive;
-    public Sprite rankIconScoreActive;
+	public Color medalLockedColor;
+	public Color medalUnlockedColor;
 
 	void Start ()
 	{
@@ -39,38 +35,38 @@ public class enterLevel : MonoBehaviour {
         switch (tempRank)
         {
             case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_TRUE:
-                rankIndicator[0].GetComponent<Image>().sprite = rankIconCompleteActive;
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthActive;
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreActive;
+			rankIndicator[0].GetComponent<Image>().color = medalUnlockedColor;
+			rankIndicator[1].GetComponent<Image>().color = medalUnlockedColor;
+			rankIndicator[2].GetComponent<Image>().color = medalUnlockedColor;
                 //print("case 1 ");
                 break;
             case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_FALSE:
-                rankIndicator[0].GetComponent<Image>().sprite = rankIconCompleteActive;
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthActive;
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreInactive;
+			rankIndicator[0].GetComponent<Image>().color = medalUnlockedColor;
+			rankIndicator[1].GetComponent<Image>().color = medalUnlockedColor;
+			rankIndicator[2].GetComponent<Image>().color = medalLockedColor;
                 //print("case 2");
                 break;
             case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_TRUE:
-                rankIndicator[0].GetComponent<Image>().sprite = rankIconCompleteActive;
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthInactive;
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreActive;
+			rankIndicator[0].GetComponent<Image>().color = medalUnlockedColor;
+			rankIndicator[1].GetComponent<Image>().color = medalLockedColor;
+			rankIndicator[2].GetComponent<Image>().color = medalUnlockedColor;
                 //print("case 3");
                 break;
             case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_FALSE:
-                rankIndicator[0].GetComponent<Image>().sprite = rankIconCompleteActive;
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthInactive;
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreInactive;
+			rankIndicator[0].GetComponent<Image>().color = medalUnlockedColor;
+			rankIndicator[1].GetComponent<Image>().color = medalLockedColor;
+			rankIndicator[2].GetComponent<Image>().color = medalLockedColor;
                 //print("case 4");
                 break;
             case ScoringSystemStar.SCORING_TYPES.END_FALSE_LIFE_FALSE_SCORE_FALSE:
-                rankIndicator[0].GetComponent<Image>().sprite = rankIconCompleteInactive;
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthInactive;
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreInactive;
+			rankIndicator[0].GetComponent<Image>().color = medalLockedColor;
+			rankIndicator[1].GetComponent<Image>().color = medalLockedColor;
+			rankIndicator[2].GetComponent<Image>().color = medalLockedColor;
                 break;
             default:
-                rankIndicator[0].GetComponent<Image>().sprite = rankIconCompleteInactive;
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthInactive;
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreInactive;
+			rankIndicator[0].GetComponent<Image>().color = medalLockedColor;
+			rankIndicator[1].GetComponent<Image>().color = medalLockedColor;
+			rankIndicator[2].GetComponent<Image>().color = medalLockedColor;
                 //print("default");
                 break;
         }

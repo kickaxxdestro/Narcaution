@@ -46,6 +46,8 @@ public class AudioManager : MonoBehaviour {
 
         audioSource = GetComponent<AudioSource>();
         positiveButtonPooler = GetComponent<ObjectPooler>();
+
+		UpdateVolume ();
     }
 
 	// Use this for initialization
