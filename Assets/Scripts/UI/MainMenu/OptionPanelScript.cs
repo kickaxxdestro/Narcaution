@@ -22,12 +22,11 @@ public class OptionPanelScript : MonoBehaviour {
 	{
 		PlayerPrefs.SetFloat("ppSFXVolume", sfxSlider.value);
 		PlayerPrefs.Save();
-        AudioManager.audioManager.UpdateVolume();
 	}
 	public void onBGMChange()
 	{
 		PlayerPrefs.SetFloat("ppBGMVolume", bgmSlider.value);
 		PlayerPrefs.Save();
-        AudioManager.audioManager.UpdateBGM();
+		AudioManager.audioManager.UpdateVolume();
 	}
 }
