@@ -4,6 +4,10 @@ using UnityEngine.UI;
 
 public class ChangeShopTab : MonoBehaviour {
 
+    public Image Tab;
+    public Sprite Tab_PowerUps;
+    public Sprite Tab_Weapons;
+    public Sprite Tab_Skins;
     public GameObject Upgrade;
     public GameObject Purchase;
     public GameObject Equip;
@@ -32,8 +36,8 @@ public class ChangeShopTab : MonoBehaviour {
         Upgrade.SetActive(false);
         Purchase.SetActive(true);
         Equip.SetActive(false);
-
         activateChildObjects();
+        Tab.sprite = Tab_PowerUps;
 
         GameObject[] objectList2;
         objectList2 = GameObject.FindGameObjectsWithTag("Shop_Item_Weapon");
@@ -60,6 +64,7 @@ public class ChangeShopTab : MonoBehaviour {
 
         RevertEquipPosition();
         activateChildObjects();
+        Tab.sprite = Tab_Weapons;
 
         GameObject[] objectList;
         objectList = GameObject.FindGameObjectsWithTag("Shop_Item_PowerUp");
@@ -86,6 +91,7 @@ public class ChangeShopTab : MonoBehaviour {
 
         ChangeEquipPosition();
         activateChildObjects();
+        Tab.sprite = Tab_Skins;
 
         GameObject[] objectList;
         objectList = GameObject.FindGameObjectsWithTag("Shop_Item_PowerUp");
