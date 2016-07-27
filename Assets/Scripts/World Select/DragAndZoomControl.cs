@@ -63,7 +63,7 @@ public class DragAndZoomControl : MonoBehaviour {
 
 	void UseMouse()
 	{
-		if(!EventSystem.current.IsPointerOverGameObject ())
+		if(!EventSystem.current.IsPointerOverGameObject () || isDrag)
 		{
 			if (Input.GetMouseButtonDown (0) && !isDrag) 
 			{
@@ -87,7 +87,7 @@ public class DragAndZoomControl : MonoBehaviour {
 
 	void UseTouch()
 	{
-		if(Input.touches.Length == 1 && !EventSystem.current.IsPointerOverGameObject (Input.touches [0].fingerId))
+		if(Input.touches.Length == 1 && !EventSystem.current.IsPointerOverGameObject (Input.touches [0].fingerId) || isDrag)
 		{
 			if (Input.touches [0].phase == TouchPhase.Began && !isDrag) 
 			{
