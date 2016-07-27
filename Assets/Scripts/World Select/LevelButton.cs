@@ -37,6 +37,7 @@ public class LevelButton : MonoBehaviour {
                     {
                         PlayerPrefs.SetInt("ppPlayerGamemode", 1);
                     }
+                    Debug.Log(PlayerPrefs.GetInt("ppPlayerGamemode"));
                     //PlayerPrefs.SetString("ppSelectedLevel", "Level" + level.GetComponent<LevelGeneratorScript>().levelID);
                     PlayerPrefs.Save();
 

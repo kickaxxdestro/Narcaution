@@ -11391,7 +11391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1804c45cb657ac4985b8c5f62011058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: {fileID: 195854, guid: 08336ee52526f8047a2d732ce0c77e9c, type: 2}
+  level: {fileID: 163796, guid: 8564302b70a12af41b32ca1be899e206, type: 2}
   doTouchCheck: 0
   disabled: 0
   offense: 0
@@ -15434,7 +15434,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1711068291}
   m_HandleRect: {fileID: 1711068290}
   m_Direction: 2
-  m_Value: 0.9999999
+  m_Value: 1
   m_Size: 0.31892926
   m_NumberOfSteps: 0
   m_OnValueChanged:
