@@ -2,7 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class DefendWall : MonoBehaviour {
+public class DefendWall : MonoBehaviour
+{
 
     int wallDurability = 10;
     public GameObject playerController;
@@ -22,26 +23,20 @@ public class DefendWall : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        
         if (other.tag == "Enemy_Bullet")
         {
             wallDurability -= 1;
             other.gameObject.SetActive(false);
             GetComponent<AudioSource>().Play();
-            
         }
-
-        //if(other.tag == "Player")
-        //{
-           
-        //}
     }
 
-	// Update is called once per frame
-	void Update () {
-        if(wallDurability <= 0)
+    // Update is called once per frame
+    void Update()
+    {
+        if (wallDurability <= 0)
         {
-            this.gameObject.SetActive(false); 
+            this.gameObject.SetActive(false);
             playerController.SetActive(false);
             playerController.GetComponent<PlayerController>().gameOverPanel.SetActive(true);
             playerController.GetComponent<PlayerController>().playerDied += 1;
@@ -50,5 +45,5 @@ public class DefendWall : MonoBehaviour {
             PlayerPrefs.Save();
             Time.timeScale = 0;
         }
-	}
+    }
 }
