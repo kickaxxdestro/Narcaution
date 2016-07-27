@@ -9585,10 +9585,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1650691074}
   m_RootOrder: 14
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.88885, y: -399}
-  m_SizeDelta: {x: 705.06, y: 499}
+  m_AnchorMin: {x: 0, y: -0.2446667}
+  m_AnchorMax: {x: 1, y: 0.28229168}
+  m_AnchoredPosition: {x: 0.888855, y: -1}
+  m_SizeDelta: {x: -14.940002, y: -7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1575595814
 BoxCollider2D:
