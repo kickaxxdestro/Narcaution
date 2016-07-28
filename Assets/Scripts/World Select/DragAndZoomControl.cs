@@ -87,7 +87,7 @@ public class DragAndZoomControl : MonoBehaviour {
 
 	void UseTouch()
 	{
-		if(Input.touches.Length == 1 && !EventSystem.current.IsPointerOverGameObject (Input.touches [0].fingerId) || isDrag)
+		if(Input.touches.Length == 1 && !EventSystem.current.IsPointerOverGameObject (Input.touches [0].fingerId) || Input.touches.Length == 1 && isDrag)
 		{
 			if (Input.touches [0].phase == TouchPhase.Began && !isDrag) 
 			{
