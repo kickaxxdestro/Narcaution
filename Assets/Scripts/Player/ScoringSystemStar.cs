@@ -57,9 +57,27 @@ public class ScoringSystemStar : MonoBehaviour {
         int scoreBonusAmt = GameObject.FindGameObjectWithTag("Level").GetComponent<LevelGeneratorScript>().scoreBonusAmt;
         
         if (GetComponent<PlayerController>().emotionPoint >= 7 && currentScore >= scoreBonusAmt)
+		{
+			if (PlayerPrefs.GetInt ("ppPlayerGamemode") == 1) 
+			{
+				if (GameObject.Find ("Wall").gameObject.GetComponent<DefendWall>().wallDurability < GameObject.Find ("Wall").gameObject.GetComponent<DefendWall>().maxDurability) 
+				{
+					return SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_TRUE;
+				}
+			}
             return SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_TRUE;
+		}
         else if (GetComponent<PlayerController>().emotionPoint >= 7 && currentScore < scoreBonusAmt)
-            return SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_FALSE;
+		{
+			if (PlayerPrefs.GetInt ("ppPlayerGamemode") == 1) 
+			{
+				if (GameObject.Find ("Wall").gameObject.GetComponent<DefendWall>().wallDurability < GameObject.Find ("Wall").gameObject.GetComponent<DefendWall>().maxDurability) 
+				{
+					return SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_FALSE;
+				}
+			}
+			return SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_FALSE;
+		}
         else if (GetComponent<PlayerController>().emotionPoint < 7 && currentScore >= scoreBonusAmt)
             return SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_TRUE;
 

@@ -40,9 +40,9 @@ public class EquipmentLoader : MonoBehaviour {
                     currentBarrier = Instantiate(go) as GameObject;
                     player.GetComponent<PlayerController>().barrier = currentBarrier.GetComponent<Barrier>();
                     currentBarrier.transform.SetParent(player.transform, false);
-                    currentBarrier.GetComponent<Barrier>().barrierDisplay = GameObject.Find("BarrierDisplay").GetComponent<Image>();
-                    currentBarrier.GetComponent<Barrier>().barrierMinDisplay = GameObject.Find("BarrierMinDisplay").GetComponent<Image>();
-                    currentBarrier.GetComponent<Barrier>().barrierButton = GameObject.Find("BarrierButton");
+                    //currentBarrier.GetComponent<Barrier>().barrierDisplay = GameObject.Find("BarrierDisplay").GetComponent<Image>();
+                    //currentBarrier.GetComponent<Barrier>().barrierMinDisplay = GameObject.Find("BarrierMinDisplay").GetComponent<Image>();
+                    //currentBarrier.GetComponent<Barrier>().barrierButton = GameObject.Find("BarrierButton");
                     break;
                 }
             }
