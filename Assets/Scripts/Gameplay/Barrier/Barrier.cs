@@ -39,9 +39,9 @@ public class Barrier : MonoBehaviour {
     public float currentHealth;
     public bool barrierActive = false;
 
-    public Image barrierDisplay;
-    public Image barrierMinDisplay;
-    public GameObject barrierButton;
+    //public Image barrierDisplay;
+    //public Image barrierMinDisplay;
+    //public GameObject barrierButton;
 
     private AudioSource audioSource;
     public AudioClip onAudio;
@@ -58,23 +58,23 @@ public class Barrier : MonoBehaviour {
 
         this.transform.localScale = new Vector3(size, size, 1f);
 
-        barrierMinDisplay.fillAmount = minimumActivationHealth / durability;
+        //barrierMinDisplay.fillAmount = minimumActivationHealth / durability;
 
         audioSource = GetComponent<AudioSource>();
         if (!audioSource)
             print("Barrier missing audio source");
 
-        barrierActive = false;
-        GetComponent<Collider2D>().enabled = false;
-        GetComponent<SpriteRenderer>().enabled = false;
-        barrierButton.GetComponent<ImageSwap>().SetToDisabledImage();
+        //barrierActive = false;
+        //GetComponent<Collider2D>().enabled = false;
+        //GetComponent<SpriteRenderer>().enabled = false;
+        //barrierButton.GetComponent<ImageSwap>().SetToDisabledImage();
 	}
 	
 	// Update is called once per frame
 	protected void Update () {
-        if (Time.timeScale == 0)
+		/*if (Time.timeScale == 0)
             return;
-
+		
 	    if(barrierActive)
         {
             currentHealth -= Time.fixedDeltaTime;
@@ -96,15 +96,17 @@ public class Barrier : MonoBehaviour {
             barrierMinDisplay.fillAmount = currentHealth / durability;
             if( barrierMinDisplay.fillAmount > minimumActivationHealth / durability)
                 barrierMinDisplay.fillAmount = minimumActivationHealth / durability;
-        }
+        }*/
 	}
 
     public void ToggleBarrier()
     {
+		/*
         if (barrierActive)
             DisableBarrier();
         else
             EnableBarrier();
+            */
     }
 
     virtual public bool EnableBarrier()
@@ -114,7 +116,7 @@ public class Barrier : MonoBehaviour {
             barrierActive = true;
             GetComponent<Collider2D>().enabled = true;
             GetComponent<SpriteRenderer>().enabled = true;
-            barrierButton.GetComponent<ImageSwap>().SetToEnabledImage();
+            //barrierButton.GetComponent<ImageSwap>().SetToEnabledImage();
             audioSource.clip = onAudio;
             audioSource.Play();
             return true;
@@ -127,7 +129,7 @@ public class Barrier : MonoBehaviour {
         barrierActive = false;
         GetComponent<Collider2D>().enabled = false;
         GetComponent<SpriteRenderer>().enabled = false;
-        barrierButton.GetComponent<ImageSwap>().SetToDisabledImage();
+        //barrierButton.GetComponent<ImageSwap>().SetToDisabledImage();
         audioSource.clip = offAudio;
         audioSource.Play();
         return true;

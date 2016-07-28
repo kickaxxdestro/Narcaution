@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ScreenSizeScaler : MonoBehaviour {
 
+	public bool OnlyWidth = false;
+
 	// Use this for initialization
 	void Start () {
 
@@ -25,6 +27,9 @@ public class ScreenSizeScaler : MonoBehaviour {
         var worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
         transform.localScale = new Vector3((float)worldScreenWidth / width, (float)worldScreenHeight / height, 0.1f);
+
+		if(OnlyWidth)
+			transform.localScale = new Vector3((float)worldScreenWidth / width, (float)worldScreenWidth / width, 0.1f);
 
         //var width = Camera.main.orthographicSize * 2.0 * Screen.width / Screen.height;
         //transform.localScale = new Vector3((float)width, transform.localScale.y, 1f);
