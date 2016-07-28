@@ -28,12 +28,13 @@ TagManager:
   - IceBoulder
   - Weapon
   - NoDamageBullet
-  - DefenseShopItem
-  - OffenseShopItem
   - BeamBullet
   - Shop_Item_PowerUp
   - Shop_Item_Weapon
   - Shop_Item_Skin
+  - Library_Minion
+  - Library_Boss
+  - Library_Entry
   layers:
   - Default
   - TransparentFX

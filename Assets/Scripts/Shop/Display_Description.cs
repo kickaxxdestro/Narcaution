@@ -51,7 +51,7 @@ public class Display_Description : MonoBehaviour
                 if (GetComponent<LayoutElement>().preferredHeight >= 300)
                 {
                     GetComponent<LayoutElement>().preferredHeight = 300;
-                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(32.5f, -145.5f, 0);
+                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(102f, -145.5f, 0);
                     appear = false; 
                     Displayed = true;
                 }
@@ -65,7 +65,7 @@ public class Display_Description : MonoBehaviour
                 if (GetComponent<LayoutElement>().preferredHeight <= 200f)
                 {
                     GetComponent<LayoutElement>().preferredHeight = 200f;
-                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(32.5f, -60f, 0);
+                    Extra_Description.GetComponent<RectTransform>().anchoredPosition = new Vector3(102f, -70f, 0);
                     disappear = false;
                     Displayed = false;
                     lastUsed = "";

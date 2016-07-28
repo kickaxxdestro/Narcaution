@@ -90,7 +90,6 @@ public class SliderItem : MonoBehaviour
             {
                 case StartPos.STARTPOS_RIGHT:
                     this.transform.position = new Vector3(rightPositionX, this.transform.position.y, this.transform.position.z);
-                    
                     break;
                 case StartPos.STARTPOS_DOWN:
                     this.transform.position = new Vector3(this.transform.position.x, downPositionY, this.transform.position.z);
