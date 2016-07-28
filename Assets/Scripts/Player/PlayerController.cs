@@ -672,13 +672,13 @@ public class PlayerController : MonoBehaviour
             && invuln == false)
         {
             DoDamaged();
-            //if (other.tag == "Ice_Chunk")
-            //{
-            //    isFrozen = true;
-            //    freezeBreakCount = 20;
-            //    frostbite.gameObject.GetComponent<SpriteRenderer>().sprite = frostbiteSprites[freezeBreakCount - 1];
-            //    frostbite.gameObject.SetActive(true);
-            //}
+            if (other.tag == "Ice_Chunk")
+            {
+                  isFrozen = true;
+                  freezeBreakCount = 20;
+                  frostbite.gameObject.GetComponent<SpriteRenderer>().sprite = frostbiteSprites[freezeBreakCount - 1];
+                  frostbite.gameObject.SetActive(true);
+            }
         }
     }
 
