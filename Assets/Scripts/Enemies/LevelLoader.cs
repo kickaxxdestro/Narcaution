@@ -13,10 +13,9 @@ public class LevelLoader : MonoBehaviour {
 	Text menuScore;
 	public Transform grade;
 
-    public GameObject[] rankIndicator;
-    public Sprite rankIconCompleteActive;
-    public Sprite rankIconHealthActive;
-    public Sprite rankIconScoreActive;
+	public GameObject[] rankIndicator;
+	public Color medalLockedColor;
+	public Color medalUnlockedColor;
 	
 	//leaderboard
 	[System.NonSerialized]
@@ -611,33 +610,43 @@ public class LevelLoader : MonoBehaviour {
         {
             levelEndMenu.transform.FindChild("MultiplierIcon").gameObject.SetActive(false);
         }
+
+		levelEndMenu.GetComponentInChildren<MedalInfoDisplayHandler> ().SetTargetScore (lastSpawned.GetComponent<LevelGeneratorScript> ());
+
         int finalScore = GameObject.FindGameObjectWithTag("Player").GetComponent<ScoringSystemStar>().currentScore;
 
         ScoringSystemStar.SCORING_TYPES tempRank = GameObject.FindGameObjectWithTag("Player").GetComponent<ScoringSystemStar>().CalculateRank();
 
-        rankIndicator[0].GetComponent<Image>().sprite = rankIconCompleteActive;
-        switch (tempRank)
-        {
-            case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_TRUE:
-                print("case 1 ");
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthActive;
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreActive;
-                break;
-            case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_FALSE:
-                print("case 2");
-                rankIndicator[1].GetComponent<Image>().sprite = rankIconHealthActive;
-                break;
-            case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_TRUE:
-                print("case 3");
-                rankIndicator[2].GetComponent<Image>().sprite = rankIconScoreActive;
-                break;
-            case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_FALSE:
-                print("case 4");
-                break;
-            default:
-                print("default");
-                break;
-        }
+		switch (tempRank) 
+		{
+		case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_TRUE:
+			rankIndicator [0].GetComponent<Image> ().color = medalUnlockedColor;
+			rankIndicator [1].GetComponent<Image> ().color = medalUnlockedColor;
+			rankIndicator [2].GetComponent<Image> ().color = medalUnlockedColor;
+			//print("case 1 ");
+			break;
+		case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_FALSE:
+			rankIndicator [0].GetComponent<Image> ().color = medalUnlockedColor;
+			rankIndicator [1].GetComponent<Image> ().color = medalUnlockedColor;
+			rankIndicator [2].GetComponent<Image> ().color = medalLockedColor;
+			//print("case 2");
+			break;
+		case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_TRUE:
+			rankIndicator [0].GetComponent<Image> ().color = medalUnlockedColor;
+			rankIndicator [1].GetComponent<Image> ().color = medalLockedColor;
+			rankIndicator [2].GetComponent<Image> ().color = medalUnlockedColor;
+			//print("case 3");
+			break;
+		case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_FALSE:
+			rankIndicator [0].GetComponent<Image> ().color = medalUnlockedColor;
+			rankIndicator [1].GetComponent<Image> ().color = medalLockedColor;
+			rankIndicator [2].GetComponent<Image> ().color = medalLockedColor;
+			//print("case 4");
+			break;
+		default:
+			print ("default");
+			break;
+		}
         menuScore.text = finalScore.ToString();
         print("Done score");
 
