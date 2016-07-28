@@ -33,6 +33,12 @@ public class DebugScript : MonoBehaviour {
         PlayerPrefs.Save();
     }
 
+    public void UnlockAllLevel()
+    {
+        PlayerPrefs.SetInt("ppCurrentLevel", 21);
+        PlayerPrefs.Save();
+    }
+
     public void SetLevelFromInputField()
     {
         int tempInt;
