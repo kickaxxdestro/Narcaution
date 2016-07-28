@@ -22,6 +22,8 @@ public class OptionPanelScript : MonoBehaviour {
 	{
 		PlayerPrefs.SetFloat("ppSFXVolume", sfxSlider.value);
 		PlayerPrefs.Save();
+		GetComponent<AudioSource> ().volume = sfxSlider.value;
+		GetComponent<AudioSource> ().Play ();
 	}
 	public void onBGMChange()
 	{
