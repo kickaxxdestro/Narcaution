@@ -26,16 +26,16 @@ public class splashScreenScript : MonoBehaviour {
         Screen.fullScreen = false;
         Screen.SetResolution(540, 960, false);
 
-        GameLogoColor = GameLogo.color;
-        SIDMLogoColor = SIDMLogo.color;
-        NYPLogoColor = NYPLogo.color;
-        print("Splash");
+        //GameLogoColor = CNBLogo.color;
+        //SIDMLogoColor = SIDMLogo.color;
+        //NYPLogoColor = NYPLogo.color;
+        //print("Splash");
 
         //GameObject go1 = Instantiate(loadingScreen) as GameObject;
         //go1.name = "LoadingScreen";
         return;
 #endif
-
+        Screen.fullScreen = false;
 		//Input.multiTouchEnabled = false;
 		Screen.SetResolution(720, (int)(720 * (1 / Camera.main.aspect)), true, 60);
 

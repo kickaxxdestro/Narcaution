@@ -34,6 +34,6 @@ public class ProfileInfoLoader : MonoBehaviour {
 		else
 			levelDisplay.text = ("W 5-5");
 
-		creditsDisplay.text = "RM " + PlayerPrefs.GetInt("ppPlayerMoney", 0).ToString();
+		creditsDisplay.text = PlayerPrefs.GetInt("ppPlayerMoney", 0).ToString();
 	}
 }

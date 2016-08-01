@@ -545,6 +545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92476c1afde8ece4692f65ca558168e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnlyWidth: 0
 --- !u!212 &45657203
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1242,6 +1243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92476c1afde8ece4692f65ca558168e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnlyWidth: 0
 --- !u!1 &215947217
 GameObject:
   m_ObjectHideFlags: 0
@@ -7127,7 +7129,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 937452395}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7666597
+  m_Size: 0.64272
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
