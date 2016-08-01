@@ -40,17 +40,17 @@ public class CutsceneChecker : MonoBehaviour {
             case 5:
                 PlayerPrefs.SetInt("ppSelectedCutscene", 5);
                 break;
+            case 6:
+                PlayerPrefs.SetInt("ppSelectedCutscene", 6);
+                break;
             case 9:
                 PlayerPrefs.SetInt("ppSelectedCutscene", 9);
                 break;
-            case 13:
-                PlayerPrefs.SetInt("ppSelectedCutscene", 13);
+            case 14:
+                PlayerPrefs.SetInt("ppSelectedCutscene", 14);
                 break;
             case 17:
                 PlayerPrefs.SetInt("ppSelectedCutscene", 17);
-                break;
-            case 21:
-                PlayerPrefs.SetInt("ppSelectedCutscene", 21);
                 break;
             default:
                 return false;

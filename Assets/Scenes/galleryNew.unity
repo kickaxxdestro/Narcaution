@@ -6629,7 +6629,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 13
+          m_IntArgument: 14
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9690,6 +9690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92476c1afde8ece4692f65ca558168e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnlyWidth: 0
 --- !u!114 &499099798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17597,7 +17598,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1329590412}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.46117052
+  m_Size: 0.34047243
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -28987,6 +28988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92476c1afde8ece4692f65ca558168e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnlyWidth: 0
 --- !u!212 &1604068807
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29956,6 +29958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92476c1afde8ece4692f65ca558168e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnlyWidth: 0
 --- !u!212 &1657220719
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36279,7 +36282,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 17
+          m_IntArgument: 21
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -38310,7 +38313,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 21
+          m_IntArgument: 22
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
