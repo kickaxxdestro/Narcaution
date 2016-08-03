@@ -38,7 +38,7 @@ public class CutsceneLocker : MonoBehaviour {
             cutsceneDayDButton.GetComponent<Image>().color = lockedColor;
             cutsceneDayD2Button.GetComponent<Image>().color = lockedColor;
         }
-        else if(currentLvl < 9)
+        else if(currentLvl < 6)
         {
             cutsceneDay3Button.interactable = false;
             cutsceneDay4Button.interactable = false;
@@ -52,7 +52,7 @@ public class CutsceneLocker : MonoBehaviour {
             cutsceneDayDButton.GetComponent<Image>().color = lockedColor;
             cutsceneDayD2Button.GetComponent<Image>().color = lockedColor;
         }
-        else if(currentLvl < 13)
+        else if(currentLvl < 9)
         {
             cutsceneDay4Button.interactable = false;
             cutsceneDay5Button.interactable = false;
@@ -64,7 +64,7 @@ public class CutsceneLocker : MonoBehaviour {
             cutsceneDayDButton.GetComponent<Image>().color = lockedColor;
             cutsceneDayD2Button.GetComponent<Image>().color = lockedColor;
         }
-        else if(currentLvl < 17)
+        else if(currentLvl < 14)
         {
             cutsceneDay5Button.interactable = false;
             cutsceneDayDButton.interactable = false;

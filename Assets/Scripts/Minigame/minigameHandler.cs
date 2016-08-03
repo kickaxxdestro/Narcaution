@@ -4,8 +4,27 @@ using System.Collections;
 
 public class minigameHandler : MonoBehaviour {
 
-    public int baseMinRibbons = 1;
-    public int baseMaxRibbons = 5;
+	public Color NormalGlow;
+	public Color RareGlow;
+	public Color EpicGlow;
+	public Color LedgendaryGlow;
+
+	public GameObject BoostPrefab;
+	public GameObject SentryPrefab;
+	public GameObject BombPrefab;
+	public GameObject MissiletPrefab;
+	public GameObject CreditsPrefab;
+
+	enum LootGrade
+	{
+		L_NORMAL,
+		L_RARE,
+		L_EPIC,
+		L_LEGENDARY
+	};
+
+	LootGrade ChestGrade;
+
     public GameObject[] chestList;
     public GameObject openChest;
     Vector3 centerPosition;  //position to lerp selected chest to
@@ -17,6 +36,7 @@ public class minigameHandler : MonoBehaviour {
 
     GameObject selectedChest;
     bool lerpChestToCenter = false;
+	bool lerpOpenChestToCenter = false;
     bool checkFading = true;
 
     private AudioSource audioSource;
@@ -24,6 +44,7 @@ public class minigameHandler : MonoBehaviour {
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+		audioSource.volume = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
     }
 
 	// Use this for initialization
@@ -31,17 +52,17 @@ public class minigameHandler : MonoBehaviour {
         Color transparent = Color.white;
         transparent.a = 0f;
 
-        openChest.GetComponent<Image>().color = transparent;
-        header.GetComponent<Image>().color = transparent;
+		openChest.GetComponent<CanvasGroup>().alpha = 0;
+		header.GetComponent<Text>().color = transparent;
         header.GetComponent<AlphaFader>().DoFadeIn(1f);
 
         foreach (GameObject chest in chestList)
         {
-            chest.GetComponent<Image>().color = transparent;
+            chest.GetComponent<CanvasGroup>().alpha = 0;
             chest.GetComponent<Button>().interactable = false;
         }
 
-        centerPosition.y = Screen.height * 0.7f;
+        centerPosition.y = Screen.height * 0.5f;
 
         openChest.transform.position = new Vector3(openChest.transform.position.x, centerPosition.y + openChestOffsetY, openChest.transform.position.z);
 
@@ -73,10 +94,13 @@ public class minigameHandler : MonoBehaviour {
             else
             {
                 selectedChest.transform.position = new Vector3(selectedChest.transform.position.x, centerPosition.y, selectedChest.transform.position.z);
-                openChest.transform.position = new Vector3(selectedChest.transform.position.x, centerPosition.y + openChestOffsetY, selectedChest.transform.position.z);
+				if (selectedChest != openChest) 
+				{
+					openChest.transform.position = new Vector3 (selectedChest.transform.position.x, centerPosition.y + openChestOffsetY, selectedChest.transform.position.z);
+					StartCoroutine("OpenChest");
+				}
 
                 lerpChestToCenter = false;
-                StartCoroutine("OpenChest");
             }
         }
 	}
@@ -85,10 +109,41 @@ public class minigameHandler : MonoBehaviour {
     {
         yield return new WaitForSeconds(1f);
 
-        selectedChest.GetComponent<AlphaFader>().DoFadeOut(0.5f);
-        openChest.GetComponent<AlphaFader>().DoFadeIn(0.5f);
+        selectedChest.GetComponent<AlphaFader>().DoFadeOut(0.3f);
+		openChest.GetComponent<AlphaFader>().DoFadeIn(0.3f);
 
-        AssignRibbons();
+		if(ChestGrade == LootGrade.L_NORMAL)
+			header.GetComponent<Text> ().text = "GRADE C";
+		else if(ChestGrade == LootGrade.L_RARE)
+			header.GetComponent<Text> ().text = "GRADE B";
+		else if(ChestGrade == LootGrade.L_EPIC)
+			header.GetComponent<Text> ().text = "GRADE A";
+		else if(ChestGrade == LootGrade.L_LEGENDARY)
+			header.GetComponent<Text> ().text = "GRADE S";
+		
+		header.GetComponent<AlphaFader>().DoFadeIn(0.3f);
+
+		openChest.GetComponent<Animator> ().Play ("OpenChest");
+
+		AssignReward();
+
+		audioSource.Play();
+
+		yield return new WaitForSeconds(0.8f);
+		foreach(Transform t in openChest.transform.FindChild ("ObtainedItems"))
+		{
+			t.gameObject.SetActive(true);
+			yield return new WaitForSeconds(1f);
+		}
+		yield return new WaitForSeconds(0.5f);
+
+		//header.GetComponent<AlphaFader>().DoFadeOut(0.3f);
+
+		centerPosition.y = Screen.height * 0.7f;
+		selectedChest = openChest;
+		lerpChestToCenter = true;
+							
+
 
         ribbonDisplay.GetComponent<SliderItem>().DoLerpToCenter_FromRight();
 
@@ -100,10 +155,9 @@ public class minigameHandler : MonoBehaviour {
 
         buttonPanel.GetComponent<SliderItem>().DoLerpToCenter_FromLeft();
 
-        openChest.transform.FindChild("ChestItem").GetComponent<Image>().color = Color.white;
-        openChest.transform.FindChild("ChestItem").GetComponent<Animator>().enabled = true;
+        //openChest.transform.FindChild("ChestItem").GetComponent<Image>().color = Color.white;
+        //openChest.transform.FindChild("ChestItem").GetComponent<Animator>().enabled = true;
 
-        audioSource.Play();
 
         StopCoroutine("OpenChest");
     }
@@ -126,22 +180,103 @@ public class minigameHandler : MonoBehaviour {
     {
         this.selectedChest = selectedChest;
         foreach (GameObject chest in chestList)
-        {
-            if (chest == selectedChest)
-                continue;
+		{
+			chest.GetComponent<Button>().interactable = false;
 
-            chest.GetComponent<AlphaFader>().DoFadeOut(0.5f);
-            chest.GetComponent<Button>().interactable = false;
+            if (chest == selectedChest)
+			{
+				selectedChest.GetComponent<Animator> ().Play ("ChestShake");
+				continue;
+			}
+            chest.GetComponent<AlphaFader>().DoFadeOut(0.3f);
         }
         lerpChestToCenter = true;
-        header.GetComponent<AlphaFader>().DoFadeOut(0.5f);
+        header.GetComponent<AlphaFader>().DoFadeOut(0.3f);
+
+		AssignGrade ();
     }
+
+	void AssignGrade()
+	{
+		int RNG = Random.Range (1, 101);
+
+		if (RNG < 15) 
+		{
+			ChestGrade = LootGrade.L_LEGENDARY;
+			selectedChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = LedgendaryGlow;
+			openChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = LedgendaryGlow;
+		}
+		else if (RNG < 30) 
+		{
+			ChestGrade = LootGrade.L_EPIC;
+			selectedChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = EpicGlow;
+			openChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = EpicGlow;
+		}
+		else if (RNG < 65) 
+		{
+			ChestGrade = LootGrade.L_RARE;
+			selectedChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = RareGlow;
+			openChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = RareGlow;
+		}
+		else
+		{
+			ChestGrade = LootGrade.L_NORMAL;
+			selectedChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = NormalGlow;
+			openChest.transform.FindChild ("RarityGlow").gameObject.GetComponent<Image>().color = NormalGlow;
+		}
+	}
+
+	void AssignReward()
+	{
+		int ribbonsFound = 0;
+
+		GameObject a = Instantiate (CreditsPrefab);
+		a.transform.SetParent (openChest.transform.FindChild ("ObtainedItems"));
+		a.GetComponent<RectTransform>().anchoredPosition = Vector3.zero;
+		a.transform.localScale = Vector3.one;
+		a.SetActive (false);
+
+		GameObject b = Instantiate (CreditsPrefab);
+		b.GetComponent<Animator> ().enabled = false;
+		b.transform.SetParent (ribbonDisplay.transform.FindChild ("CreditsFound"));
+		b.transform.localScale = Vector3.one;
+
+		switch (ChestGrade) 
+		{
+		case LootGrade.L_NORMAL:
+			ribbonsFound = Random.Range(1 * PlayerPrefs.GetInt("ppSelectedLevel", 0), 2 * PlayerPrefs.GetInt("ppSelectedLevel", 0));
+			break;
+
+		case LootGrade.L_RARE:
+			ribbonsFound = Random.Range (2 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 3 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
+			GeneratePowerUp (1);
+			break;
+
+		case LootGrade.L_EPIC:
+			ribbonsFound = Random.Range (3 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 4 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
+			GeneratePowerUp (2);
+			break;
+
+		case LootGrade.L_LEGENDARY:
+			ribbonsFound = Random.Range (4 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 5 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
+			GeneratePowerUp (3);
+			break;
+		}
+
+		a.GetComponent<Text>().text = "+" + ribbonsFound.ToString() + "  \nCredits";
+		b.GetComponent<Text>().text = "+" + ribbonsFound.ToString() + "  \nCredits";
+		//GameObject.Find("RibbonsFound").GetComponent<Text>().text = ribbonsFound.ToString();
+		//GameObject.Find("RibbonsCurrent").GetComponent<Text>().text = (PlayerPrefs.GetInt("ppPlayerMoney", 0) + ribbonsFound).ToString();
+
+		PlayerPrefs.SetInt("ppPlayerMoney", PlayerPrefs.GetInt("ppPlayerMoney", 0) + ribbonsFound);
+		PlayerPrefs.Save();
+	}
 
     void AssignRibbons()
     {
         int ribbonsFound;
         print("Levelnum" + PlayerPrefs.GetInt("ppSelectedLevel", 0));
-        ribbonsFound = Random.Range(baseMinRibbons * PlayerPrefs.GetInt("ppSelectedLevel", 0), baseMaxRibbons * PlayerPrefs.GetInt("ppSelectedLevel", 0));
+        ribbonsFound = Random.Range(1 * PlayerPrefs.GetInt("ppSelectedLevel", 0), 5 * PlayerPrefs.GetInt("ppSelectedLevel", 0));
         GameObject.Find("RibbonsFound").GetComponent<Text>().text = ribbonsFound.ToString();
         GameObject.Find("RibbonsCurrent").GetComponent<Text>().text = (PlayerPrefs.GetInt("ppPlayerMoney", 0) + ribbonsFound).ToString();
 
@@ -149,31 +284,52 @@ public class minigameHandler : MonoBehaviour {
         PlayerPrefs.Save();
     }
 
-    void AssignRandomPowerUp()
+	void GeneratePowerUp( int numOfTime )
     {
-        int randomPowerUpFound;
-        randomPowerUpFound = Random.Range(1, 4);
-        if(randomPowerUpFound == 1)
-        {
-        
-            PlayerPrefs.SetInt("ppNumBoost", PlayerPrefs.GetInt("ppNumBoost", 0) + 1);
-            PlayerPrefs.Save();
-        }
-        else if(randomPowerUpFound == 2)
-        {
-            PlayerPrefs.SetInt("ppNumSentry", PlayerPrefs.GetInt("ppNumSentry", 0) + 1);
-            PlayerPrefs.Save();
-        }
-        else if (randomPowerUpFound == 3)
-        {
-            PlayerPrefs.SetInt("ppNumBombs", PlayerPrefs.GetInt("ppNumBombs", 0) + 1);
-            PlayerPrefs.Save();
-        }
-        else if (randomPowerUpFound == 4)
-        {
-            PlayerPrefs.SetInt("ppNumMissles", PlayerPrefs.GetInt("ppNumMissles", 0) + 1);
-            PlayerPrefs.Save();
-        }
+		for(int i = 0; i < numOfTime; ++i)
+		{
+	        int randomPowerUpFound;
+	        randomPowerUpFound = Random.Range(1, 5);
+
+			GameObject a = new GameObject();
+			Destroy (a);
+
+	        if(randomPowerUpFound == 1)
+	        {
+	            PlayerPrefs.SetInt("ppNumBoost", PlayerPrefs.GetInt("ppNumBoost", 0) + 1);
+				a = Instantiate (BoostPrefab);
+	            PlayerPrefs.Save();
+	        }
+	        else if(randomPowerUpFound == 2)
+	        {
+				PlayerPrefs.SetInt("ppNumSentry", PlayerPrefs.GetInt("ppNumSentry", 0) + 1);
+				a = Instantiate (SentryPrefab);
+	            PlayerPrefs.Save();
+	        }
+	        else if (randomPowerUpFound == 3)
+	        {
+				PlayerPrefs.SetInt("ppNumBombs", PlayerPrefs.GetInt("ppNumBombs", 0) + 1);
+				a = Instantiate (BombPrefab);
+	            PlayerPrefs.Save();
+	        }
+	        else if (randomPowerUpFound == 4)
+	        {
+				PlayerPrefs.SetInt("ppNumMissles", PlayerPrefs.GetInt("ppNumMissles", 0) + 1);
+				a = Instantiate (MissiletPrefab);
+	            PlayerPrefs.Save();
+	        }
+
+			a.transform.SetParent (openChest.transform.FindChild ("ObtainedItems"));
+			a.GetComponent<RectTransform>().anchoredPosition = Vector3.zero;
+			a.transform.localScale = Vector3.one;
+
+			GameObject b = Instantiate (a);
+			b.GetComponent<Animator> ().enabled = false;
+			b.transform.SetParent (ribbonDisplay.transform.FindChild ("PupFound"));
+			b.transform.localScale = Vector3.one;
+
+			a.SetActive (false);
+		}
     }
 
     public void DoLastLevelTransition()

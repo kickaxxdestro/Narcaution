@@ -9,11 +9,6 @@ public class ChangeLibraryTab : MonoBehaviour {
     public Sprite Tab_Boss;
     public Sprite Tab_Entry;
 
-    void Start()
-    {
-        
-    }
-
     void activateChildObjects()
     {
         for (int i = 0; i < this.transform.childCount; i++)

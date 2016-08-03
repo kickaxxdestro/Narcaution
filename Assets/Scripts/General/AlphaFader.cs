@@ -12,18 +12,28 @@ public class AlphaFader : MonoBehaviour {
     public float fadeTime = 1f;
 
     bool isSprite = true;   //is the target object using sprite renderer or image
+	bool isCanvasGroup = true;
+	bool isText = true;
 
 	// Use this for initialization
 	void Start () {
-        if (GetComponent<SpriteRenderer>() == null)
-            isSprite = false;
+		if (GetComponent<SpriteRenderer> () == null)
+			isSprite = false;
+		if (GetComponent<CanvasGroup> () == null)
+			isCanvasGroup = false;
+		if (GetComponent<Text> () == null)
+			isText = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (isSprite)
-            UpdateSpriteFade();
-        else
+		if (isSprite)
+			UpdateSpriteFade ();
+		else if (isCanvasGroup)
+			UpdateCGFade ();
+		else if (isText)
+			UpdateTextFade ();
+		else
             UpdateImageFade();
 	}
 
@@ -88,6 +98,68 @@ public class AlphaFader : MonoBehaviour {
             }
         }
     }
+
+	void UpdateCGFade()
+	{
+		if (isFading)
+		{
+			if (fadeDir)
+			{
+				fadeColor.a -= (1 / fadeTime) * Time.deltaTime;
+				GetComponent<CanvasGroup>().alpha = fadeColor.a;
+				if (fadeColor.a <= 0f)
+				{
+					isFading = false;
+					fadingDone = true;
+					fadeColor.a = 0f;
+					GetComponent<CanvasGroup>().alpha = fadeColor.a;
+				}
+			}
+			else
+			{
+				fadeColor.a += (1 / fadeTime) * Time.deltaTime;
+				GetComponent<CanvasGroup>().alpha = fadeColor.a;
+				if (fadeColor.a >= 1f)
+				{
+					isFading = false;
+					fadingDone = true;
+					fadeColor.a = 1f;
+					GetComponent<CanvasGroup>().alpha = fadeColor.a;
+				}
+			}
+		}
+	}
+
+	void UpdateTextFade()
+	{
+		if (isFading)
+		{
+			if (fadeDir)
+			{
+				fadeColor.a -= (1 / fadeTime) * Time.deltaTime;
+				GetComponent<Text>().color = fadeColor;
+				if (fadeColor.a <= 0f)
+				{
+					isFading = false;
+					fadingDone = true;
+					fadeColor.a = 0f;
+					GetComponent<Text>().color = fadeColor;
+				}
+			}
+			else
+			{
+				fadeColor.a += (1 / fadeTime) * Time.deltaTime;
+				GetComponent<Text>().color = fadeColor;
+				if (fadeColor.a >= 1f)
+				{
+					isFading = false;
+					fadingDone = true;
+					fadeColor.a = 1f;
+					GetComponent<Text>().color = fadeColor;
+				}
+			}
+		}
+	}
 
     public void DoFadeOut()
     {
