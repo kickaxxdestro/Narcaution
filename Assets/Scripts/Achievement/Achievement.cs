@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AchievementSystem : MonoBehaviour {
+public class Achievement : MonoBehaviour {
+
+
 
 	// Use this for initialization
 	void Start () {
