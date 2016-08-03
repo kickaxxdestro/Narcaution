@@ -6,7 +6,9 @@ public class OptionPanelScript : MonoBehaviour {
 	
 	public Slider sfxSlider;
 	public Slider bgmSlider;
-	
+
+	private bool stopFirstSoundPlay = true;
+
 	void Start()
 	{
 		sfxSlider.value = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
@@ -23,7 +25,10 @@ public class OptionPanelScript : MonoBehaviour {
 		PlayerPrefs.SetFloat("ppSFXVolume", sfxSlider.value);
 		PlayerPrefs.Save();
 		GetComponent<AudioSource> ().volume = sfxSlider.value;
-		GetComponent<AudioSource> ().Play ();
+		if(!stopFirstSoundPlay)
+			GetComponent<AudioSource> ().Play ();
+		else
+			stopFirstSoundPlay = false;
 	}
 	public void onBGMChange()
 	{
