@@ -2,12 +2,12 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class ChangeLibraryTab : MonoBehaviour {
+public class ChangeAchievementTab : MonoBehaviour {
 
     public Image Tab;
-    public Sprite Tab_Minion;
-    public Sprite Tab_Boss;
-    public Sprite Tab_Entry;
+    public Sprite Tab_General;
+    public Sprite Tab_Battle;
+    public Sprite Tab_Special;
 
     void activateChildObjects()
     {
@@ -17,40 +17,40 @@ public class ChangeLibraryTab : MonoBehaviour {
         }
     }
 
-    public void ChangeTabMinion()
+    public void ChangeTabGeneral()
     {
         activateChildObjects();
-        Tab.sprite = Tab_Minion;
+        Tab.sprite = Tab_General;
 
         GameObject[] objectList2;
-        objectList2 = GameObject.FindGameObjectsWithTag("Library_Boss");
+        objectList2 = GameObject.FindGameObjectsWithTag("Achievement_Battle");
         foreach (GameObject go in objectList2)
         {
             go.SetActive(false);
         }
 
         GameObject[] objectList3;
-        objectList3 = GameObject.FindGameObjectsWithTag("Library_Entry");
+        objectList3 = GameObject.FindGameObjectsWithTag("Achievement_Special");
         foreach (GameObject go in objectList3)
         {
             go.SetActive(false);
         }
     }
 
-    public void ChangeTabBoss()
+    public void ChangeTabBattle()
     {
         activateChildObjects();
-        Tab.sprite = Tab_Boss;
+        Tab.sprite = Tab_Battle;
 
         GameObject[] objectList;
-        objectList = GameObject.FindGameObjectsWithTag("Library_Minion");
+        objectList = GameObject.FindGameObjectsWithTag("Achievement_General");
         foreach (GameObject go in objectList)
         {
             go.SetActive(false);
         }
 
         GameObject[] objectList3;
-        objectList3 = GameObject.FindGameObjectsWithTag("Library_Entry");
+        objectList3 = GameObject.FindGameObjectsWithTag("Achievement_Special");
         foreach (GameObject go in objectList3)
         {
             go.SetActive(false);
@@ -58,20 +58,20 @@ public class ChangeLibraryTab : MonoBehaviour {
 
     }
 
-    public void ChangeTabEntry()
+    public void ChangeTabSpecial()
     {
         activateChildObjects();
-        Tab.sprite = Tab_Entry;
+        Tab.sprite = Tab_Special;
 
         GameObject[] objectList;
-        objectList = GameObject.FindGameObjectsWithTag("Library_Minion");
+        objectList = GameObject.FindGameObjectsWithTag("Achievement_General");
         foreach (GameObject go in objectList)
         {
             go.SetActive(false);
         }
 
         GameObject[] objectList2;
-        objectList2 = GameObject.FindGameObjectsWithTag("Library_Boss");
+        objectList2 = GameObject.FindGameObjectsWithTag("Achievement_Battle");
         foreach (GameObject go in objectList2)
         {
             go.SetActive(false);
