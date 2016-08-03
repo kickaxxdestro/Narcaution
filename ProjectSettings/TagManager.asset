@@ -35,6 +35,11 @@ TagManager:
   - Library_Minion
   - Library_Boss
   - Library_Entry
+  - OffenseShopItem
+  - DefenseShopItem
+  - Achievement_General
+  - Achievement_Battle
+  - Achievement_Special
   layers:
   - Default
   - TransparentFX

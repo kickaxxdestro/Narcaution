@@ -14,6 +14,7 @@ public class SetPlayerInfo : MonoBehaviour {
             PlayerPrefs.SetInt("ppSelectedCutscene", 0);
             PlayerPrefs.SetInt("ppCurrentWeapon", 1);
             PlayerPrefs.SetInt("ppCurrentSkin", 1);
+            PlayerPrefs.SetInt("ppFirstReward", 0);
             PlayerPrefs.Save();
             GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("cutsceneScreen");
         }

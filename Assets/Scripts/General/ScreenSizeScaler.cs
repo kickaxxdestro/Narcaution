@@ -21,7 +21,7 @@ public class ScreenSizeScaler : MonoBehaviour {
         transform.localScale = new Vector3(1, 1, 1);
 
         var width = sr.sprite.bounds.size.x;
-        var height = sr.sprite.bounds.size.y;
+        var height = sr.sprite.bounds.size.y;   
 
         var worldScreenHeight = Camera.main.orthographicSize * 2.0;
         var worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
