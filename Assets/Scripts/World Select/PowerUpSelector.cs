@@ -4,10 +4,16 @@ using System.Collections;
 
 public class PowerUpSelector : MonoBehaviour {
 
-	public GameObject sentryInUseIcon;
+	public GameObject boostIcon;
+	public GameObject sentryIcon;
+	public GameObject bombIcon;
+	public GameObject missleIcon;
+
 	public GameObject boostInUseIcon;
+	public GameObject sentryInUseIcon;
 	public GameObject bombInUseIcon;
 	public GameObject missleInUseIcon;
+
 
 	bool sentryInUse = false;
 	bool boostInUse = false;
@@ -40,6 +46,26 @@ public class PowerUpSelector : MonoBehaviour {
 		bombInUseIcon.SetActive(bombInUse);
 		missleInUseIcon.SetActive(missleInUse);
 
+		if (sentryInUse)
+			sentryIcon.GetComponent<Image> ().color = Color.green;
+		else
+			sentryIcon.GetComponent<Image> ().color = Color.white;
+
+		if (boostInUse)
+			boostIcon.GetComponent<Image> ().color = Color.green;
+		else
+			boostIcon.GetComponent<Image> ().color = Color.white;
+
+		if (bombInUse)
+			bombIcon.GetComponent<Image> ().color = Color.green;
+		else
+			bombIcon.GetComponent<Image> ().color = Color.white;
+
+		if (missleInUse)
+			missleIcon.GetComponent<Image> ().color = Color.green;
+		else
+			missleIcon.GetComponent<Image> ().color = Color.white;
+		
 		equipAudioSource = GetComponent<AudioSource>();
 	}
 
@@ -50,13 +76,17 @@ public class PowerUpSelector : MonoBehaviour {
 
 		sentryInUse = !sentryInUse;
 		sentryInUseIcon.SetActive(sentryInUse);
-		if(sentryInUse)
-			PlayerPrefs.SetInt("ppSentryEquipped", 1);
-		else
-			PlayerPrefs.SetInt("ppSentryEquipped", 0);
+		if (sentryInUse) {
+			PlayerPrefs.SetInt ("ppSentryEquipped", 1);
+			sentryIcon.GetComponent<Image> ().color = Color.green;
+		} else {
+			sentryIcon.GetComponent<Image> ().color = Color.white;
+			PlayerPrefs.SetInt ("ppSentryEquipped", 0);
+		}
 
 		PlayerPrefs.Save();
 
+		equipAudioSource.volume = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
 		equipAudioSource.Play();
 	}
 
@@ -67,12 +97,17 @@ public class PowerUpSelector : MonoBehaviour {
 
 		bombInUse = !bombInUse;
 		bombInUseIcon.SetActive(bombInUse);
-		if (bombInUse)
-			PlayerPrefs.SetInt("ppBombEquipped", 1);
-		else
-			PlayerPrefs.SetInt("ppBombEquipped", 0);
+		if (bombInUse) {
+			PlayerPrefs.SetInt ("ppBombEquipped", 1);
+			bombIcon.GetComponent<Image> ().color = Color.green;
+		} else {
+			bombIcon.GetComponent<Image> ().color = Color.white;
+			PlayerPrefs.SetInt ("ppBombEquipped", 0);
+		}
 
 		PlayerPrefs.Save();
+
+		equipAudioSource.volume = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
 		equipAudioSource.Play();
 
 	}
@@ -84,12 +119,17 @@ public class PowerUpSelector : MonoBehaviour {
 
 		missleInUse = !missleInUse;
 		missleInUseIcon.SetActive(missleInUse);
-		if (missleInUse)
-			PlayerPrefs.SetInt("ppMissleEquipped", 1);
-		else
-			PlayerPrefs.SetInt("ppMissleEquipped", 0);
+		if (missleInUse) {
+			PlayerPrefs.SetInt ("ppMissleEquipped", 1);
+			missleIcon.GetComponent<Image> ().color = Color.green;
+		} else {
+			missleIcon.GetComponent<Image> ().color = Color.white;
+			PlayerPrefs.SetInt ("ppMissleEquipped", 0);
+		}
 
 		PlayerPrefs.Save();
+
+		equipAudioSource.volume = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
 		equipAudioSource.Play();
 
 	}
@@ -101,12 +141,17 @@ public class PowerUpSelector : MonoBehaviour {
 
 		boostInUse = !boostInUse;
 		boostInUseIcon.SetActive(boostInUse);
-		if (boostInUse)
-			PlayerPrefs.SetInt("ppBoostEquipped", 1);
-		else
-			PlayerPrefs.SetInt("ppBoostEquipped", 0);
+		if (boostInUse) {
+			PlayerPrefs.SetInt ("ppBoostEquipped", 1);
+			boostIcon.GetComponent<Image> ().color = Color.green;
+		} else {
+			boostIcon.GetComponent<Image> ().color = Color.white;
+			PlayerPrefs.SetInt ("ppBoostEquipped", 0);
+		}
 
 		PlayerPrefs.Save();
+
+		equipAudioSource.volume = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
 		equipAudioSource.Play();
 
 	}
