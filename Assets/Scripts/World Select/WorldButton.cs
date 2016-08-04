@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class WorldButton : MonoBehaviour {
+
+	public Sprite disabledButton;
 
     public GameObject[] levelList;
     public GameObject[] connectorList;
@@ -9,13 +12,13 @@ public class WorldButton : MonoBehaviour {
     bool disabled = false;
 
     GameObject worldListManager;
-    GameObject displaySprite;
+    GameObject displayText;
 
 	GameObject ButtonToZoomInto;
 
     void Awake()
     {
-        displaySprite = transform.FindChild("DisplaySprite").gameObject;
+		displayText = transform.FindChild("DisplayText").gameObject;
     }
 
 	// Use this for initialization
@@ -73,18 +76,19 @@ public class WorldButton : MonoBehaviour {
 
     public void Disable()
     {
-        GetComponent<SpriteRenderer>().color = Color.gray;
-        displaySprite.GetComponent<SpriteRenderer>().color = Color.gray;
+		GetComponent<SpriteRenderer>().sprite = disabledButton;
+		displayText.GetComponent<Text>().color = Color.clear;
         disabled = true;
-        GetComponent<AlphaFader>().fadeColor = Color.gray;
-        displaySprite.GetComponent<AlphaFader>().fadeColor = Color.gray;
+        //GetComponent<AlphaFader>().fadeColor = Color.gray;
+        //displaySprite.GetComponent<AlphaFader>().fadeColor = Color.gray;
         GetComponent<Collider2D>().enabled = false;
     }
 
     public void DoFadeOutDisplay()
     {
-		gameObject.GetComponent<AlphaFader>().DoFadeIn();
-        displaySprite.GetComponent<AlphaFader>().DoFadeOut();
+		//gameObject.GetComponent<AlphaFader>().DoFadeIn();
+		if(!disabled)
+        	displayText.GetComponent<AlphaFader>().DoFadeOut();
         GetComponent<Collider2D>().enabled = false;
         doTouchCheck = false;
     }
@@ -94,17 +98,19 @@ public class WorldButton : MonoBehaviour {
         doTouchCheck = false;
         GetComponent<Collider2D>().enabled = false;
         GetComponent<AlphaFader>().DoFadeOut();
-        displaySprite.GetComponent<AlphaFader>().DoFadeOut();
+		if(!disabled)
+			displayText.GetComponent<AlphaFader>().DoFadeOut();
     }
 
     public void DoInTransition()
     {
         doTouchCheck = true;
         if(!disabled)
+		{
             GetComponent<Collider2D>().enabled = true;
+			displayText.GetComponent<AlphaFader>().DoFadeIn();
+		}
 		GetComponent<AlphaFader>().DoFadeIn();
-		gameObject.GetComponent<AlphaFader>().DoFadeOut();
-        displaySprite.GetComponent<AlphaFader>().DoFadeIn();
         foreach (GameObject connector in connectorList)
         {
             connector.GetComponent<ControlWorldConnector>().DoOutTransition();

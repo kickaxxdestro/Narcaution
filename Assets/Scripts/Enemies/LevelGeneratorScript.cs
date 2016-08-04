@@ -80,7 +80,7 @@ public class LevelGeneratorScript : MonoBehaviour {
 		}
 
 		//debug for timer
-		//Debug.Log(Time.time);
+		Debug.Log(totalEnemies);
 
 		if(totalEnemies <= 0)
 		{

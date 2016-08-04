@@ -111,6 +111,27 @@ public class TouchCheck : MonoBehaviour {
         return false;
     }
 
+	public bool CheckClickHold()
+	{
+		if (Input.GetMouseButton(0))
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public bool CheckTapHold()
+	{
+		foreach (Touch mytouch in Input.touches)
+		{
+			if (mytouch.phase == TouchPhase.Stationary || mytouch.phase == TouchPhase.Moved)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
     public bool CheckDoubleTap()
     {
         foreach (Touch mytouch in Input.touches)

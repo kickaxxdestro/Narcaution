@@ -663,7 +663,7 @@ public class PlayerController : MonoBehaviour
 
     public void ToggleBarrier()
     {
-        barrier.ToggleBarrier();
+        //barrier.ToggleBarrier();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -786,9 +786,11 @@ public class PlayerController : MonoBehaviour
                         if (usingBomb)
                             FireBombBullet();
                     }
-                    else if (touchCheck.CheckDoubleClick() && canShoot)
-                        barrier.ToggleBarrier();
+					else if (touchCheck.CheckClickHold() && canShoot)
+                        barrier.ToggleBarrier(true);
                 }
+				else
+					barrier.ToggleBarrier(false);
             }
             else if (isFrozen == true)
             {
@@ -1263,6 +1265,10 @@ public class PlayerController : MonoBehaviour
 
                     lastMousePos = currentMousePos;
                 }
+				else if(touch.phase == TouchPhase.Ended)
+				{
+					barrier.ToggleBarrier(false);
+				}
                 if (canShoot && gamemode)
                 {
                     weapon.FireWeapon();
@@ -1271,8 +1277,8 @@ public class PlayerController : MonoBehaviour
                     if (usingBomb)
                         FireBombBullet();
                 }
-                else if (touchCheck.CheckDoubleTap() && canShoot)
-                    barrier.ToggleBarrier();
+				else if (touchCheck.CheckTapHold() && canShoot)
+					barrier.ToggleBarrier(true);
             }
             else if (isFrozen == true)
             {

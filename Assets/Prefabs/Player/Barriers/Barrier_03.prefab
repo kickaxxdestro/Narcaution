@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -108,7 +109,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -161,9 +162,6 @@ MonoBehaviour:
     it to reflect projectiles that deal huge bursts of damage. Spicy!
   currentHealth: 0
   barrierActive: 0
-  barrierDisplay: {fileID: 0}
-  barrierMinDisplay: {fileID: 0}
-  barrierButton: {fileID: 0}
   onAudio: {fileID: 8300000, guid: f2f78cdc211343b4aad59af42e2849b0, type: 3}
   offAudio: {fileID: 8300000, guid: be1df7f7eeb6ac94790ae10b60b46a9b, type: 3}
 --- !u!114 &11450906
