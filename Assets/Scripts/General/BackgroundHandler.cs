@@ -23,6 +23,9 @@ public class BackgroundHandler : MonoBehaviour {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
                     background = child.gameObject;
+
+				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
+					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
             }
             print("first set");
         }
@@ -33,6 +36,9 @@ public class BackgroundHandler : MonoBehaviour {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
                     background = child.gameObject;
+
+				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
+					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
             }
             print("second set");
         }
@@ -43,6 +49,9 @@ public class BackgroundHandler : MonoBehaviour {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
                     background = child.gameObject;
+
+				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
+					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
             }
         }
         else if (selectedLevel <= 16)
@@ -52,6 +61,9 @@ public class BackgroundHandler : MonoBehaviour {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
                     background = child.gameObject;
+
+				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
+					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
             }
         }
         else
@@ -61,6 +73,9 @@ public class BackgroundHandler : MonoBehaviour {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
                     background = child.gameObject;
+
+				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
+					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
             }
         }
 

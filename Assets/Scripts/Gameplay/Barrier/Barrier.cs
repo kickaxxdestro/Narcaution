@@ -64,9 +64,9 @@ public class Barrier : MonoBehaviour {
         if (!audioSource)
             print("Barrier missing audio source");
 
-        //barrierActive = false;
-        //GetComponent<Collider2D>().enabled = false;
-        //GetComponent<SpriteRenderer>().enabled = false;
+        barrierActive = false;
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<SpriteRenderer>().enabled = false;
         //barrierButton.GetComponent<ImageSwap>().SetToDisabledImage();
 	}
 	
@@ -99,19 +99,17 @@ public class Barrier : MonoBehaviour {
         }*/
 	}
 
-    public void ToggleBarrier()
+	public void ToggleBarrier(bool b)
     {
-		/*
-        if (barrierActive)
+		if (!b)
             DisableBarrier();
         else
             EnableBarrier();
-            */
     }
 
     virtual public bool EnableBarrier()
     {
-        if(currentHealth > minimumActivationHealth)
+        //if(currentHealth > minimumActivationHealth)
         {
             barrierActive = true;
             GetComponent<Collider2D>().enabled = true;

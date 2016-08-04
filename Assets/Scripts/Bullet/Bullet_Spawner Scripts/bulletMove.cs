@@ -49,7 +49,7 @@ public class bulletMove : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Sentry")
         {
-            GetComponent<SpriteRenderer>().color = Color.white;
+			GetComponent<SpriteRenderer>().color = Color.cyan;
             reflected = true;
             float rotationZ = Mathf.Atan2(GetComponent<Rigidbody2D>().velocity.y, GetComponent<Rigidbody2D>().velocity.x) * Mathf.Rad2Deg;
             transform.eulerAngles = new Vector3(0, 0, rotationZ - 90f);	

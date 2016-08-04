@@ -5,6 +5,7 @@ using System.Collections;
 public class ProgressBar : MonoBehaviour {
 
     public GameObject tracker;
+	public GameObject trackerFronting;
     public bool doProgression = false;
     GameObject currentLevel;
     float levelDuration;
@@ -33,6 +34,7 @@ public class ProgressBar : MonoBehaviour {
         if (doProgression)
             trackerTimer += Time.deltaTime;
         tracker.transform.localPosition = new Vector3(trackerStartPos.x + ((trackerTimer / levelDuration) * (trackerEndPos - trackerStartPos).magnitude), tracker.transform.localPosition.y);
-        //    //tracker.transform.position = new Vector3(tracker.transform.position.x + (movementAmount * Time.deltaTime), tracker.transform.position.y);
+		trackerFronting.GetComponent<Image> ().fillAmount = trackerTimer / levelDuration;
+		//    //tracker.transform.position = new Vector3(tracker.transform.position.x + (movementAmount * Time.deltaTime), tracker.transform.position.y);
 	}
 }
