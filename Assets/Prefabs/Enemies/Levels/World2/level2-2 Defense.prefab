@@ -56,7 +56,7 @@ MonoBehaviour:
     waitTime: 5
   - enemyPattern: {fileID: 195094, guid: 821ce56f7691c4a4bae3752c5d64e115, type: 2}
     waitTime: 0
-  - enemyPattern: {fileID: 173554, guid: 6ef467110fd45ec479f445f83f71822a, type: 2}
+  - enemyPattern: {fileID: 157360, guid: 5474b65cae8457447abce3455073c45a, type: 2}
     waitTime: 10
   - enemyPattern: {fileID: 115190, guid: 09af5eeceb11ba9478eb2c6d8804e396, type: 2}
     waitTime: 5

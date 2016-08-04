@@ -12,6 +12,7 @@ public class ChangeShopTab : MonoBehaviour {
     public GameObject Purchase;
     public GameObject Equip;
     public GameObject OriginalEquip;
+    public GameObject OriginalUpgrade;
     public GameObject PowerUpMainTarget;
     public GameObject WeaponMainTarget;
     public GameObject SkinMainTarget;
@@ -118,5 +119,15 @@ public class ChangeShopTab : MonoBehaviour {
     public void RevertEquipPosition()
     {
         Equip.transform.position = OriginalEquip.transform.position;
+    }
+
+    public void ChangeUpgradePosition()
+    {
+        Upgrade.transform.position = Purchase.transform.position;
+    }
+
+    public void RevertUpgradePosition()
+    {
+        Upgrade.transform.position = OriginalUpgrade.transform.position;
     }
 }
