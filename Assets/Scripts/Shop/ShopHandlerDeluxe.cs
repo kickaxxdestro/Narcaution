@@ -189,7 +189,6 @@ public class ShopHandlerDeluxe : MonoBehaviour
     }
 
     //Anything to do with displaying the layout and the descriptions
-
     void Display()
     {
         for (int i = 0; i < this.transform.FindChild("Grid").childCount; i++)
@@ -215,7 +214,7 @@ public class ShopHandlerDeluxe : MonoBehaviour
             {
                 selectedWeapon = setWeaponComponent(this.transform.FindChild("Grid").GetChild(i));
                 levelCheck = PlayerPrefs.GetInt("pp" + selectedWeapon.name + "Level", 0);
-
+                
                 if (PlayerPrefs.GetInt("ppCurrentWeapon") == selectedWeapon.GetComponent<Weapon>().ID)
                 {
                     this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Equipped").gameObject.SetActive(true);
@@ -478,6 +477,7 @@ public class ShopHandlerDeluxe : MonoBehaviour
                     this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Equipped").gameObject.SetActive(false);
                 }
             }
+            selectedWeapon = setWeaponComponent(targetName);
             PlayerPrefs.SetInt("ppCurrentWeapon", selectedWeapon.GetComponent<Weapon>().ID);
             PlayerPrefs.SetInt("ppCurrentWeaponLevel", PlayerPrefs.GetInt("pp" + selectedWeapon.GetComponent<Weapon>().name + "Level", 0));
             PlayerPrefs.Save();
@@ -493,6 +493,7 @@ public class ShopHandlerDeluxe : MonoBehaviour
                     this.transform.FindChild("Grid").GetChild(i).FindChild("Description_Button").FindChild("Equipped").gameObject.SetActive(false);
                 }
             }
+            selectedSkin = setSkinComponent(targetName);
             PlayerPrefs.SetInt("ppCurrentSkin", selectedSkin.GetComponent<GeneralItem>().itemID);
             PlayerPrefs.Save();
             Display();
