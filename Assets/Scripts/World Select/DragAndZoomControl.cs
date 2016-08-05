@@ -152,7 +152,4 @@ public class DragAndZoomControl : MonoBehaviour {
 	{
 		isBounded = b;
 	}
-			void OnGUI() {
-			GUI.TextField(new Rect(10, 10, 200, 20), Input.touches.Length.ToString(), 25);
-			}
 }
