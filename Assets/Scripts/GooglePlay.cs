@@ -1,11 +1,11 @@
 using UnityEngine;
 using System.Collections;
-using GooglePlayGames;
-using GooglePlayGames.BasicApi;
+//using GooglePlayGames;
+//using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 
 public class GooglePlay : MonoBehaviour {
-	
+	/*
 	void Start(){
 		
 		PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder()
@@ -43,5 +43,5 @@ public class GooglePlay : MonoBehaviour {
 			}
 		});
 		
-	}
+	}*/
 }

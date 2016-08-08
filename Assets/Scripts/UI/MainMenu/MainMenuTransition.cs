@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using GooglePlayGames;
-using GooglePlayGames.BasicApi;
+//using GooglePlayGames;
+//using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 
 public class MainMenuTransition : MonoBehaviour 
@@ -273,9 +273,9 @@ public class MainMenuTransition : MonoBehaviour
 		if(PlayerPrefs.GetInt("ppKnowledgeIsPower") == 1)
 		{
 			// increment achievement
-			PlayGamesPlatform.Instance.IncrementAchievement(
-				"CgkI__bt5ooSEAIQEg", 5, (bool success) => {
-			});
+			//PlayGamesPlatform.Instance.IncrementAchievement(
+			//	"CgkI__bt5ooSEAIQEg", 5, (bool success) => {
+			//});
 			PlayerPrefs.SetInt("ppKnowledgeIsPower" , 2);
 		}
 		Application.LoadLevel("gallery");
