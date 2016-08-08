@@ -114,7 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tapToContinueIcon: {fileID: 1003464289}
   cutsceneList:
-  - {fileID: 106802, guid: 30af73bee39e802448297614081551d4, type: 2}
+  - {fileID: 116922, guid: 97a6ef9af9f72864b827e990f866c056, type: 2}
   - {fileID: 133492, guid: ad121c1dd1420a24c8d4a79189c66d92, type: 2}
   - {fileID: 168498, guid: 0a6d639f691eaa843a3b3adf8d5393e4, type: 2}
   - {fileID: 153492, guid: f49f688ea7b1f384e96fb595a5c70a5c, type: 2}
@@ -533,7 +533,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &1663375712
 MonoBehaviour:
