@@ -79,9 +79,6 @@ public class LevelGeneratorScript : MonoBehaviour {
 			//print ("shit");
 		}
 
-		//debug for timer
-		Debug.Log(totalEnemies);
-
 		if(totalEnemies <= 0)
 		{
 			GameObject player = GameObject.FindGameObjectWithTag("Player");

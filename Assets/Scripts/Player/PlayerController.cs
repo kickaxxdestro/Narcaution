@@ -790,7 +790,8 @@ public class PlayerController : MonoBehaviour
                         barrier.ToggleBarrier(true);
                 }
 				else
-					barrier.ToggleBarrier(false);
+					if(canShoot)
+						barrier.ToggleBarrier(false);
             }
             else if (isFrozen == true)
             {
@@ -1267,7 +1268,8 @@ public class PlayerController : MonoBehaviour
                 }
 				else if(touch.phase == TouchPhase.Ended)
 				{
-					barrier.ToggleBarrier(false);
+					if(canShoot)
+						barrier.ToggleBarrier(false);
 				}
                 if (canShoot && gamemode)
                 {

@@ -22,7 +22,10 @@ public class BackgroundHandler : MonoBehaviour {
             {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
+				{
                     background = child.gameObject;
+					child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
+				}
 
 				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
 					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
