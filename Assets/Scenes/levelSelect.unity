@@ -1499,7 +1499,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 132896390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.023, y: -0.011, z: 0}
   m_LocalScale: {x: 0.170487, y: 0.170487, z: 0.170487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -5093,7 +5093,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 621889690}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.9, y: -6.8, z: 0}
+  m_LocalPosition: {x: -11.6, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -7251,7 +7251,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 861281100}
   - 114: {fileID: 861281097}
-  - 114: {fileID: 861281096}
   - 114: {fileID: 861281095}
   - 82: {fileID: 861281098}
   m_Layer: 5
@@ -7280,17 +7279,6 @@ MonoBehaviour:
   startPosition: 1
   xSlideOffset: 0
   originalSliderPos: {x: 0, y: 0, z: 0}
---- !u!114 &861281096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 861281094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 003cdc570fb65534db649506dc78c6a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &861281097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9633,7 +9621,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1107307642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.1, y: 9.3, z: 0}
+  m_LocalPosition: {x: 5.8, y: 10.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -14213,7 +14201,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1529184646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.8, y: 4.8, z: 0}
+  m_LocalPosition: {x: -7.6, y: 8.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -16316,7 +16304,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1641269652}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7, y: -13.1, z: 0}
+  m_LocalPosition: {x: -1, y: -13.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -17859,8 +17847,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1722926014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.02871861, y: 0.02871864, z: 0.02871864}
+  m_LocalPosition: {x: 0.013585, y: -0.021967, z: -0.00057808}
+  m_LocalScale: {x: 0.017157078, y: 0.017157096, z: 0.017157096}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1529184647}
@@ -17887,7 +17875,7 @@ MonoBehaviour:
   - {fileID: 1641269652}
   - {fileID: 1981202736}
   - {fileID: 1107307642}
-  transitionZoomAmount: 0.15
+  transitionZoomAmount: 0.07
   disabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   disabledLevelButtonSpriteWorld1: {fileID: 21300000, guid: f22cf2bdedf6f8a4492731bfe4523328,
     type: 3}
@@ -20193,7 +20181,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1981202736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.8, y: -4.4, z: 0}
+  m_LocalPosition: {x: 8.1, y: -3.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:

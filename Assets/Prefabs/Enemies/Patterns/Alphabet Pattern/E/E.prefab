@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -42,7 +43,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyObject: {fileID: 135128, guid: 5592b076944d9514a8107ae156233761, type: 2}
   type: 2
-  amountToSpawn: 3
+  amountToSpawn: 1
   timeInterval: 1
   enemyList: []
   amountSpawned: 0
@@ -60,7 +61,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyObject: {fileID: 145262, guid: f62d26e46e611c944bab09ee42f32f32, type: 2}
   type: 2
-  amountToSpawn: 3
+  amountToSpawn: 1
   timeInterval: 1
   enemyList: []
   amountSpawned: 0

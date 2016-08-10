@@ -53,7 +53,7 @@ public class BackgroundColorChanger : MonoBehaviour {
 				return;
 			}
 
-			Debug.Log (1.0f - ((colorList [nextColorPosInArray].normalizedPercentage - nTime) / (colorList [nextColorPosInArray].normalizedPercentage - colorList [nextColorPosInArray - 1].normalizedPercentage)));
+			//Debug.Log (1.0f - ((colorList [nextColorPosInArray].normalizedPercentage - nTime) / (colorList [nextColorPosInArray].normalizedPercentage - colorList [nextColorPosInArray - 1].normalizedPercentage)));
 			GetComponent<SpriteRenderer> ().color = Color.Lerp (StartColor, EndColor, 1.0f - ((colorList [nextColorPosInArray].normalizedPercentage - nTime) / (colorList [nextColorPosInArray].normalizedPercentage - colorList [nextColorPosInArray-1].normalizedPercentage)));
 
 			if (nTime >= colorList [nextColorPosInArray].normalizedPercentage) 
