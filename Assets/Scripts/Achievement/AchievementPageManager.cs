@@ -16,7 +16,7 @@ public class AchievementPageManager : MonoBehaviour {
 			GameObject temp = Instantiate (AchievementButton).gameObject;
 			temp.transform.Find ("Name").gameObject.GetComponent<Text> ().text = achievement.name;
 			temp.transform.Find ("Description").gameObject.GetComponent<Text> ().text = achievement.description;
-			temp.transform.Find ("Progress").gameObject.GetComponent<Text> ().text = achievement.currentProgress + " / " + achievement.progressNeeded;
+			temp.transform.Find ("Progress").gameObject.GetComponent<Text> ().text = achievement.currentProgress + "/" + achievement.progressNeeded;
 			temp.transform.Find ("Filled").gameObject.GetComponent<Image> ().fillAmount = (float)achievement.currentProgress / (float)achievement.progressNeeded;
 			//if(achievement.unlocked)
 			//	temp.transform.Find ("Unlocked").gameObject.SetActive(true);

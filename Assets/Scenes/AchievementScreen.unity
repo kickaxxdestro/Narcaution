@@ -117,10 +117,10 @@ RectTransform:
   - {fileID: 972085019}
   m_Father: {fileID: 256763486}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 323.5, y: 0}
-  m_SizeDelta: {x: 432, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &124955649
 MonoBehaviour:
@@ -971,7 +971,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: 432
-  m_PreferredHeight: 169
+  m_PreferredHeight: 123
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
 --- !u!114 &972085021
@@ -1138,7 +1138,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: 432
-  m_PreferredHeight: 169
+  m_PreferredHeight: 123
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
 --- !u!114 &1015915122
@@ -1382,7 +1382,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: 432
-  m_PreferredHeight: 169
+  m_PreferredHeight: 123
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
 --- !u!114 &1161668311
