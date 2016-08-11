@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 171310, guid: 568ad1024a5f9f84abb450dd9d943b91, type: 2}
+  dialogueSystem: {fileID: 188838, guid: 9026144baebde4942bd8090d8dd49a20, type: 2}
   levelID: 10
   description: More minions show up to block your way. The only way to pass is to
     fight your way through.

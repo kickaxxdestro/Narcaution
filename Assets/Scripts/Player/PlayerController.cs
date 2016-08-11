@@ -786,11 +786,11 @@ public class PlayerController : MonoBehaviour
                         if (usingBomb)
                             FireBombBullet();
                     }
-					else if (touchCheck.CheckClickHold() && canShoot)
+					else if (touchCheck.CheckClickHold() && canShoot && !gamemode)
                         barrier.ToggleBarrier(true);
                 }
 				else
-					if(canShoot)
+					if(!gamemode && canShoot)
 						barrier.ToggleBarrier(false);
             }
             else if (isFrozen == true)
@@ -1268,7 +1268,7 @@ public class PlayerController : MonoBehaviour
                 }
 				else if(touch.phase == TouchPhase.Ended)
 				{
-					if(canShoot)
+					if(!gamemode && canShoot)
 						barrier.ToggleBarrier(false);
 				}
                 if (canShoot && gamemode)
@@ -1279,7 +1279,7 @@ public class PlayerController : MonoBehaviour
                     if (usingBomb)
                         FireBombBullet();
                 }
-				else if (touchCheck.CheckTapHold() && canShoot)
+				else if (touchCheck.CheckTapHold() && canShoot && !gamemode)
 					barrier.ToggleBarrier(true);
             }
             else if (isFrozen == true)

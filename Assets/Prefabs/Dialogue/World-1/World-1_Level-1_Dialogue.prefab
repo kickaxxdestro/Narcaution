@@ -236,15 +236,11 @@ MonoBehaviour:
     message: That's good! But the robots are attacking civillians nearby!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Relax, I'm on my way!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: "\u2026"
+    message: I'm on my way!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: There seems to be a divergent route in the mind of Cryo. It seems to
-      be a firewall that prevents you from reaching your friend.
-  dialogueAmount: 13
+    message: "\u2026"
+  dialogueAmount: 12
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654

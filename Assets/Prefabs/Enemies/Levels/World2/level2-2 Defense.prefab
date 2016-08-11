@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 196128, guid: b57e0e4929ff2d048822db22921491ac, type: 2}
+  dialogueSystem: {fileID: 188838, guid: 9e5af632b4615a54f86eece6d0072826, type: 2}
   levelID: 6
   description: You delve deaper into the jugle to seek out more enemies.
   patternLists:
