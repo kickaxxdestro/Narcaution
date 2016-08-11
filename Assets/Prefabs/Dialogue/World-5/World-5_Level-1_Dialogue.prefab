@@ -80,7 +80,7 @@ GameObject:
   - 114: {fileID: 11472564}
   - 82: {fileID: 8213166}
   m_Layer: 5
-  m_Name: World-1_Level-4_Dialogue
+  m_Name: World-5_Level-1_Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,65 +201,50 @@ MonoBehaviour:
   allUsers:
   - {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
   - {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-  - {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
   - {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
   dialogueList:
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Chloe! What's happening?
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: You're inside the castle now
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: Oooooooooo it's so nice to have guests when you're feeling lonely
+    message: Morpheus! We're being attacked by this space robots all around the globe!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: We have no idea what they can do, but anyone they attacked are knocked-out
+      cold!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Who is that? Show yourself!
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: My my, isn't someone a bit impatient
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: 'My name is Ice and welcome to my castle! '
+    message: Then I better pick up the pace!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Watch out! Enemies have detected you Morpheus!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Why are you attacking humanity!?
+    message: Don't worry, I'll be ready for them!
   - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: Oh you see, my master is rather unhappy with how you guys have shaped
-      the planet.
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: But enough talk, I've to entertain my GUESTS
-  - userChoice: 3
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
+    message: Thanks a lot.
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Are you okay Morpheus?
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
     message: I'm okay! They were not too hard though.
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: That's good! But the robots are attacking civillians nearby!
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Relax, I'm on my way!
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: "\u2026"
   - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: NOOOOO! I've failed you masterrrrrrrrrrr.......
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: That gave me the 'chills'.
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: "\u2026....."
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: 'Anyway, after you defeated Ice, all the robots attacking this world
-      deactivated! '
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: It would seem that Ice was like a control centre for the robots. Like
-      a "LeaderBot".
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Then there must be other LeaderBots just like him! You must stop them
-      to save humanity!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: On my way!
-  - userChoice: 3
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: 
-  dialogueAmount: 17
+    message: There seems to be a divergent route in the mind of Cryo. It seems to
+      be a firewall that prevents you from reaching your friend.
+  dialogueAmount: 13
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654

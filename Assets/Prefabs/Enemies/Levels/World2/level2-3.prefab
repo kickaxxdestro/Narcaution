@@ -25,6 +25,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -39,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 105794, guid: 4add839990d30ab4bbbbf4eecdf6cad5, type: 2}
+  dialogueSystem: {fileID: 188838, guid: a2a4f6a7fede1b644b5e535ea1827c11, type: 2}
   levelID: 7
   description: The waves of enemies keep on coming your way...
   patternLists:

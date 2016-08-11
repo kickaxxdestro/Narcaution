@@ -25,6 +25,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -39,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 186758, guid: 9500daab37ffd8247b3fa2609dc680ad, type: 2}
+  dialogueSystem: {fileID: 188838, guid: 0c5303abbd653eb4d92f99e7e444f309, type: 2}
   levelID: 5
   description: You find yourself in new lands. Perhaps there are enemies here that
     you have not encountered before...

@@ -80,7 +80,7 @@ GameObject:
   - 114: {fileID: 11472564}
   - 82: {fileID: 8213166}
   m_Layer: 5
-  m_Name: World-1_Level-4_Dialogue
+  m_Name: World-4_Level-2_Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,65 +201,38 @@ MonoBehaviour:
   allUsers:
   - {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
   - {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-  - {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
   - {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
   dialogueList:
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: You're inside the castle now
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: Oooooooooo it's so nice to have guests when you're feeling lonely
+    message: Oh no! The civillians.....
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Who is that? Show yourself!
+    message: We have to save them immediately! Deploy the recovery barrier i mmediately!
+      I'll fend off the attackers while you get those people out of there!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Okay, on it!
   - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: My my, isn't someone a bit impatient
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: 'My name is Ice and welcome to my castle! '
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Why are you attacking humanity!?
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: Oh you see, my master is rather unhappy with how you guys have shaped
-      the planet.
-  - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: But enough talk, I've to entertain my GUESTS
-  - userChoice: 3
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: I'm okay! They were not too hard though.
+    message: Then I better pick up the pace!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: 'The civillians have managed to escape Morpheus! '
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: But our signals have detected a huge disturbance, located south from
+      here.
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: All right, heading there now!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Be careful!
   - userChoice: 2
-    user: {fileID: 11469500, guid: 3cba501039df94b48aeb6fa96871121d, type: 2}
-    message: NOOOOO! I've failed you masterrrrrrrrrrr.......
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: That gave me the 'chills'.
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: "\u2026....."
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: 'Anyway, after you defeated Ice, all the robots attacking this world
-      deactivated! '
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: It would seem that Ice was like a control centre for the robots. Like
-      a "LeaderBot".
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Then there must be other LeaderBots just like him! You must stop them
-      to save humanity!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: On my way!
-  - userChoice: 3
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
     message: 
-  dialogueAmount: 17
+  dialogueAmount: 9
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654
