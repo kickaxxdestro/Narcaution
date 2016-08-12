@@ -205,7 +205,7 @@ MonoBehaviour:
   dialogueList:
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Oh no! The civillians.....
+    message: Civillians are being attacked by the dome Morpheus!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
     message: We have to save them immediately! Deploy the recovery barrier i mmediately!

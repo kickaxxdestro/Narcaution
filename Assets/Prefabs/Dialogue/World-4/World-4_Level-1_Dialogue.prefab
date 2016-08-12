@@ -203,48 +203,30 @@ MonoBehaviour:
   - {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
   - {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
   dialogueList:
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Chloe! What's happening?
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Morpheus! We're being attacked by this space robots all around the globe!
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: We have no idea what they can do, but anyone they attacked are knocked-out
-      cold!
+    message: Morpheus! Reports have shows that a giant massive dome of flesh and chaos
+      has embedded itself in the city!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Then I better pick up the pace!
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Watch out! Enemies have detected you Morpheus!
+    message: On it!
+  - userChoice: 2
+    user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
+    message: 
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Don't worry, I'll be ready for them!
+    message: I see it! My word, it's HUGE!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Hurry! The dome seems to be expanding over time! Civillians are being
+      dragged into the dome!
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Heading there as fast as I can!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
     message: Thanks a lot.
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Are you okay Morpheus?
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: I'm okay! They were not too hard though.
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: That's good! But the robots are attacking civillians nearby!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Relax, I'm on my way!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: "\u2026"
-  - userChoice: 2
-    user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: There seems to be a divergent route in the mind of Cryo. It seems to
-      be a firewall that prevents you from reaching your friend.
-  dialogueAmount: 13
+  dialogueAmount: 7
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654

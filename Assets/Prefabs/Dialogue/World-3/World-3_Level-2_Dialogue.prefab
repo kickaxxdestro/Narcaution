@@ -208,10 +208,10 @@ MonoBehaviour:
     message: I have located the civillians, they sure are in a "sticky" situation.
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Morpheus, there are civillians trapped down there and you're making puns?!
+    message: '...... We''ve deployed the shield, so please go do your part Morpheus.'
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: I'm just going to defend now.
+    message: All right, all right. (I'm not sorry)
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
     message: Then I better pick up the pace!

@@ -205,39 +205,34 @@ MonoBehaviour:
   dialogueList:
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Morpheus, the strong signal we got seems to be from a castle built from
-      ice.
+    message: Oh no! The civillians.....
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Ice? Was the building ever there before?
+    message: We have to save them immediately! Deploy the recovery barrier i mmediately!
+      I'll fend off the attackers while you get those people out of there!
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: It would seem this strong signals are able to generate structures as
-      they so please.
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: That's actually quite.....
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Watch out! Incoming enemies up ahead!
+    message: Okay, on it!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
+    message: Then I better pick up the pace!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: 'The civillians have managed to escape Morpheus! '
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
     message: But our signals have detected a huge disturbance, located south from
       here.
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Phew, that was surprising.
+    message: All right, heading there now!
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Break's not over! You're about to approach the signal very soon, be prepared
-      for anything!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Roger that!
+    message: Be careful!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
     message: 
-  dialogueAmount: 10
+  dialogueAmount: 9
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654
