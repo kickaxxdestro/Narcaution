@@ -3,8 +3,8 @@ using UnityEngine.UI;
 using UnityEngine.Serialization;
 using System.Collections;
 using System.Collections.Generic;
-using GooglePlayGames;
-using GooglePlayGames.BasicApi;
+//using GooglePlayGames;
+//using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 
 public class PlayerController : MonoBehaviour
@@ -621,10 +621,10 @@ public class PlayerController : MonoBehaviour
             if (PlayerPrefs.GetInt("ppDrugBuster") == 1)
             {
                 // increment achievement
-                PlayGamesPlatform.Instance.IncrementAchievement(
-                    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                    {
-                    });
+                //PlayGamesPlatform.Instance.IncrementAchievement(
+                //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+                //    {
+                //    });
                 PlayerPrefs.SetInt("ppDrugBuster", 2);
             }
         }
@@ -647,10 +647,10 @@ public class PlayerController : MonoBehaviour
             if (PlayerPrefs.GetInt("ppRampage") == 1)
             {
                 // increment achievement
-                PlayGamesPlatform.Instance.IncrementAchievement(
-                    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                    {
-                    });
+            //    PlayGamesPlatform.Instance.IncrementAchievement(
+            //        "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+            //        {
+            //        });
                 PlayerPrefs.SetInt("ppRampage", 2);
             }
 
@@ -786,11 +786,12 @@ public class PlayerController : MonoBehaviour
                         if (usingBomb)
                             FireBombBullet();
                     }
-					else if (touchCheck.CheckClickHold() && canShoot)
+					else if (touchCheck.CheckClickHold() && canShoot && !gamemode)
                         barrier.ToggleBarrier(true);
                 }
 				else
-					barrier.ToggleBarrier(false);
+					if(!gamemode && canShoot)
+						barrier.ToggleBarrier(false);
             }
             else if (isFrozen == true)
             {
@@ -892,10 +893,10 @@ public class PlayerController : MonoBehaviour
                 if (PlayerPrefs.GetInt("ppDrugFree") == 1)
                 {
                     // increment achievement
-                    PlayGamesPlatform.Instance.IncrementAchievement(
-                        "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                        {
-                        });
+                    //PlayGamesPlatform.Instance.IncrementAchievement(
+                    //   "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+                    //    {
+                    //    });
                     PlayerPrefs.SetInt("ppDrugFree", 2);
                 }
             }
@@ -918,10 +919,10 @@ public class PlayerController : MonoBehaviour
                 if (PlayerPrefs.GetInt("ppItsPersonal") == 1)
                 {
                     // increment achievement
-                    PlayGamesPlatform.Instance.IncrementAchievement(
-                        "CgkI__bt5ooSEAIQEw", 5, (bool success) =>
-                        {
-                        });
+                    //PlayGamesPlatform.Instance.IncrementAchievement(
+                    //   "CgkI__bt5ooSEAIQEw", 5, (bool success) =>
+                    //    {
+                    //    });
                     PlayerPrefs.SetInt("ppItsPersonal", 2);
                 }
             }
@@ -945,10 +946,10 @@ public class PlayerController : MonoBehaviour
                 if (PlayerPrefs.GetInt("ppNoBloodShallSpill") == 1)
                 {
                     // increment achievement
-                    PlayGamesPlatform.Instance.IncrementAchievement(
-                        "CgkI__bt5ooSEAIQFA", 5, (bool success) =>
-                        {
-                        });
+                    //PlayGamesPlatform.Instance.IncrementAchievement(
+                    //    "CgkI__bt5ooSEAIQFA", 5, (bool success) =>
+                    //    {
+                    //    });
                     PlayerPrefs.SetInt("ppNoBloodShallSpill", 2);
                 }
 
@@ -976,10 +977,10 @@ public class PlayerController : MonoBehaviour
                 if (PlayerPrefs.GetInt("ppPrejudiced") == 1)
                 {
                     // increment achievement
-                    PlayGamesPlatform.Instance.IncrementAchievement(
-                        "CgkI__bt5ooSEAIQFQ", 5, (bool success) =>
-                        {
-                        });
+                    //PlayGamesPlatform.Instance.IncrementAchievement(
+                    //    "CgkI__bt5ooSEAIQFQ", 5, (bool success) =>
+                    //    {
+                    //    });
                     PlayerPrefs.SetInt("ppPrejudiced", 2);
                 }
 
@@ -1006,10 +1007,10 @@ public class PlayerController : MonoBehaviour
                 if (PlayerPrefs.GetInt("ppShootSaveScore") == 1)
                 {
                     // increment achievement
-                    PlayGamesPlatform.Instance.IncrementAchievement(
-                        "CgkI__bt5ooSEAIQFw", 5, (bool success) =>
-                        {
-                        });
+                    //PlayGamesPlatform.Instance.IncrementAchievement(
+                    //    "CgkI__bt5ooSEAIQFw", 5, (bool success) =>
+                    //    {
+                    //    });
                     PlayerPrefs.SetInt("ppShootSaveScore", 2);
                 }
 
@@ -1039,10 +1040,10 @@ public class PlayerController : MonoBehaviour
             if (PlayerPrefs.GetInt("ppFirstNo") == 1)
             {
                 // increment achievement
-                PlayGamesPlatform.Instance.IncrementAchievement(
-                    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                    {
-                    });
+                //PlayGamesPlatform.Instance.IncrementAchievement(
+                //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+                //    {
+                //    });
                 PlayerPrefs.SetInt("ppFirstNo", 2);
             }
 
@@ -1066,10 +1067,10 @@ public class PlayerController : MonoBehaviour
             if (PlayerPrefs.GetInt("ppOverdose") == 1)
             {
                 // increment achievement
-                PlayGamesPlatform.Instance.IncrementAchievement(
-                    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                    {
-                    });
+                //PlayGamesPlatform.Instance.IncrementAchievement(
+                //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+                //    {
+                //    });
                 PlayerPrefs.SetInt("ppOverdose", 2);
             }
         }
@@ -1267,7 +1268,8 @@ public class PlayerController : MonoBehaviour
                 }
 				else if(touch.phase == TouchPhase.Ended)
 				{
-					barrier.ToggleBarrier(false);
+					if(!gamemode && canShoot)
+						barrier.ToggleBarrier(false);
 				}
                 if (canShoot && gamemode)
                 {
@@ -1277,7 +1279,7 @@ public class PlayerController : MonoBehaviour
                     if (usingBomb)
                         FireBombBullet();
                 }
-				else if (touchCheck.CheckTapHold() && canShoot)
+				else if (touchCheck.CheckTapHold() && canShoot && !gamemode)
 					barrier.ToggleBarrier(true);
             }
             else if (isFrozen == true)

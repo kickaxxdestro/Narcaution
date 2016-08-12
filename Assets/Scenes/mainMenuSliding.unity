@@ -1537,7 +1537,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1 &308481127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,7 +2959,7 @@ RectTransform:
   - {fileID: 1533859066}
   - {fileID: 1819085308}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3058,108 +3058,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 708531388}
---- !u!1001 &723157599
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 437744, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: mainMenuBGM
-      value: 
-      objectReference: {fileID: 8300000, guid: cc6bb6a034b01ff438420b0abd2c99de, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: worldThreeBGM
-      value: 
-      objectReference: {fileID: 8300000, guid: dce1968871665cb40b9c6544b94fcf50, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: InhalantBGM
-      value: 
-      objectReference: {fileID: 8300000, guid: 22bf900b3fdf6e042813fec16e42f1bd, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: InhalantBoss
-      value: 
-      objectReference: {fileID: 8300000, guid: 1854647bc34b4b24c951edd1e18b8e5d, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: EcstasyBGM
-      value: 
-      objectReference: {fileID: 8300000, guid: ed0904f28cfccd1409e75e07492880ad, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: EcstasyBoss
-      value: 
-      objectReference: {fileID: 8300000, guid: 81ef4c24f6ad1c348b3bbe63e36916de, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: LsdBGM
-      value: 
-      objectReference: {fileID: 8300000, guid: 4f7caab03b9550a4bad76ed02b4a3591, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: LsdBoss
-      value: 
-      objectReference: {fileID: 8300000, guid: 2a3a9cfa63006cc46884a25a77d66dfc, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: SecretBoss
-      value: 
-      objectReference: {fileID: 8300000, guid: 4b0d50380887ba84696e92a82c1ed0fe, type: 3}
-    - target: {fileID: 8211228, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: panLevelCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8211228, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: cannabisBoss
-      value: 
-      objectReference: {fileID: 8300000, guid: 26993a374edd06b4aa3d570a787da82d, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: iceWorldBoss
-      value: 
-      objectReference: {fileID: 8300000, guid: 86b8168a1c8220448840ac04b2a5672b, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: iceWorldBGM
-      value: 
-      objectReference: {fileID: 8300000, guid: ad2c1e35b86da69429720972e5353352, type: 3}
-    - target: {fileID: 11489054, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-      propertyPath: cannabisBGM
-      value: 
-      objectReference: {fileID: 8300000, guid: fef7bba59b601744ab039a95a645209a, type: 3}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 831a9b9ba38a1c149bc2a416df50f555, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &763414814
 GameObject:
   m_ObjectHideFlags: 0
@@ -7270,7 +7168,7 @@ RectTransform:
   - {fileID: 2035693075}
   - {fileID: 1937911624}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7643,7 +7541,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!114 &1810943887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8289,7 +8187,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -153.5}
+  m_AnchoredPosition: {x: 0, y: -197}
   m_SizeDelta: {x: 284, y: 103}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1937911625

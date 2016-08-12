@@ -118,6 +118,11 @@ public class EnemyGeneralBehaviour : MonoBehaviour {
 				playerObj.GetComponent<PlayerController>().enemiesKilled += 1;
 
 				spawned = true;
+
+				AchievementManager.instance ().IncreaseAchievementProgress ("Drug Stoper");
+				AchievementManager.instance ().IncreaseAchievementProgress ("Drug Hunter");
+				AchievementManager.instance ().IncreaseAchievementProgress ("Drug Buster");
+				AchievementManager.instance ().IncreaseAchievementProgress ("Drug Destroyer");
 			}
 
 			//playerObj.GetComponent<PlayerController>().enemiesKilled += 1;

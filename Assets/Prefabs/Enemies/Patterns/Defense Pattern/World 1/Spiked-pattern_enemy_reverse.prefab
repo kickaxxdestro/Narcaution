@@ -222,7 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLooping: 0
   loopInfinite: 0
-  moveAndShoot: 0
+  moveAndShoot: 1
   loopAmt: 2
   movePoints:
   - translateValue: {x: 3, y: -2, z: 0}

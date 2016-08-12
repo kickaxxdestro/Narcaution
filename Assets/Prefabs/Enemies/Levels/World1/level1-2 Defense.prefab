@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 124372, guid: dff15f962254efe44bc4cc6736d82133, type: 2}
+  dialogueSystem: {fileID: 188838, guid: 92b501b337a754b47afe5badf2dfdbe9, type: 2}
   levelID: 2
   description: More minions show up to block your way. The only way to pass is to
     fight your way through.
@@ -55,11 +55,11 @@ MonoBehaviour:
     waitTime: 5
   - enemyPattern: {fileID: 143738, guid: 459c48fb4b6f3e24aa9bb30c8cf7203d, type: 2}
     waitTime: 5
-  - enemyPattern: {fileID: 182408, guid: 5527adfddc1ff7f4daf0ea47bc557061, type: 2}
+  - enemyPattern: {fileID: 148536, guid: eba2d62876913f546ac38947593d8a1c, type: 2}
     waitTime: 5
   - enemyPattern: {fileID: 175470, guid: a89077883ef7d054d98ce81cf33e8c72, type: 2}
     waitTime: 5
-  - enemyPattern: {fileID: 147662, guid: 19b6b8353577ac34abce53eb9de94fe8, type: 2}
+  - enemyPattern: {fileID: 160446, guid: 49c24554a6abfab4d82333d6c17ce777, type: 2}
     waitTime: 5
   patternAmount: 8
   totalEnemies: 0

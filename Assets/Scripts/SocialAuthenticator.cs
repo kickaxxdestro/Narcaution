@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
-using GooglePlayGames;
-using GooglePlayGames.BasicApi;
+//using GooglePlayGames;
+//using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 
 public class SocialAuthenticator : MonoBehaviour {
-	
+
+	/*
 	void Start(){
 
 #if UNITY_ANDROID
@@ -50,5 +51,5 @@ public class SocialAuthenticator : MonoBehaviour {
 		
 
 		
-	}
+	}*/
 }
