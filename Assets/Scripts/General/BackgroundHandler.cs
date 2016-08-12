@@ -23,8 +23,10 @@ public class BackgroundHandler : MonoBehaviour {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
 				{
-                    background = child.gameObject;
-					//child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
+					background = child.gameObject;
+
+					if (child.FindChild (selectedLevel.ToString () + " ColorTint"))
+						child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
 				}
 
 				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
