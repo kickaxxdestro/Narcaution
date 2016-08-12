@@ -25,6 +25,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -39,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 104824, guid: 5523a71696f6a2c49b375988d94b1525, type: 2}
+  dialogueSystem: {fileID: 188838, guid: 5802ed72f26026344b3f71a45ca6e1ac, type: 2}
   levelID: 12
   description: Reaching your target, Inhalant, it is up to you to take it out.
   patternLists:
