@@ -201,50 +201,63 @@ MonoBehaviour:
   allUsers:
   - {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
   - {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+  - {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
   - {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
+  - {fileID: 11497748, guid: 697a214c285d7ee4a8072e71658c824a, type: 2}
   dialogueList:
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Chloe! What's happening?
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Morpheus! We're being attacked by this space robots all around the globe!
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: We have no idea what they can do, but anyone they attacked are knocked-out
-      cold!
+    message: Morpheus! Be careful!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Then I better pick up the pace!
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Watch out! Enemies have detected you Morpheus!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Don't worry, I'll be ready for them!
+    message: I'm fine! Don't worry about me!
   - userChoice: 2
-    user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: Thanks a lot.
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: Don't have little chit-chats in front of me! Be gone!
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Are you okay Morpheus?
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: I'm okay! They were not too hard though.
+    message: Mor....pheus he's..... jam.....ming t..h.e si....g...na.l
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: That's good! But the robots are attacking civillians nearby!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Relax, I'm on my way!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: "\u2026"
+    message: '...................................'
   - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: Finally gone, what an annoyance!
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: How dare you! You'll pay for this!
+  - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: Let's see you pitifully try! Come at me!
+  - userChoice: 3
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: There seems to be a divergent route in the mind of Cryo. It seems to
-      be a firewall that prevents you from reaching your friend.
-  dialogueAmount: 13
+    message: Morpheus! Are you okay?
+  - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: Urgh how could you have bested me, I am supposed to be superior compared
+      to you!
+  - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: 'Be quiet. '
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Who is that?
+  - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: Master? Is that you?
+  - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: Tsk, everyone single one of you are useless.
+  - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: I'm sorry Master! Please forgive me!
+  - userChoice: 2
+    user: {fileID: 11427170, guid: 6853ed21c78c4784e9e35191a6feb4e1, type: 2}
+    message: Good, then you can help me do this for your final duty!
+  - userChoice: 3
+    user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
+    message: 
+  dialogueAmount: 17
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654

@@ -201,50 +201,54 @@ MonoBehaviour:
   allUsers:
   - {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
   - {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+  - {fileID: 11470080, guid: 0afcb856bacb9f348a199715a618a4cd, type: 2}
   - {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
   dialogueList:
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Chloe! What's happening?
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Morpheus! We're being attacked by this space robots all around the globe!
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: We have no idea what they can do, but anyone they attacked are knocked-out
-      cold!
+    message: You should be infront of the LeaderBot.
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Then I better pick up the pace!
+    message: I don't see the Leaderbot though.....
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Watch out! Enemies have detected you Morpheus!
+    message: That can't be! It should be right....... Oh no...... The Leaderbot is
+      really right there.
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Don't worry, I'll be ready for them!
+    message: What do you mean he's right there!
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: The LeaderBot is the entire....!
   - userChoice: 2
-    user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: Thanks a lot.
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Are you okay Morpheus?
+    user: {fileID: 11470080, guid: 0afcb856bacb9f348a199715a618a4cd, type: 2}
+    message: Groahhhhhhhhhhhh!!!!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: I'm okay! They were not too hard though.
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: That's good! But the robots are attacking civillians nearby!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: Relax, I'm on my way!
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: "\u2026"
+    message: Dome........
   - userChoice: 2
+    user: {fileID: 11470080, guid: 0afcb856bacb9f348a199715a618a4cd, type: 2}
+    message: Rawrrrrrrr!!!!!!!!
+  - userChoice: 3
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: There seems to be a divergent route in the mind of Cryo. It seems to
-      be a firewall that prevents you from reaching your friend.
-  dialogueAmount: 13
+    message: 
+  - userChoice: 2
+    user: {fileID: 11470080, guid: 0afcb856bacb9f348a199715a618a4cd, type: 2}
+    message: Graoohhh......
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Finally! I think I'm not going to sleep well tonight.
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Not right now Morpheus! The whole dome is collapsing! You have to leave
+      now!
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Oh no, I better rush it now!!!!!
+  - userChoice: 3
+    user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
+    message: 
+  dialogueAmount: 14
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654

@@ -205,34 +205,27 @@ MonoBehaviour:
   dialogueList:
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Civillians are being attacked by the dome Morpheus!
+    message: Morpheus! There are still Civillians near the dome! We have to evacuate
+      them!
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: We have to save them immediately! Deploy the recovery barrier i mmediately!
-      I'll fend off the attackers while you get those people out of there!
+    message: Deploy the shield! I'll do my best to protect them!
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Okay, on it!
+    message: Roger that!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
     message: Then I better pick up the pace!
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: 'The civillians have managed to escape Morpheus! '
+    message: We successfully escorted the civillians out! Now hurry inside the dome!
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: But our signals have detected a huge disturbance, located south from
-      here.
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: All right, heading there now!
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Be careful!
+    message: On it!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: 
-  dialogueAmount: 9
+    message: All right, heading there now!
+  dialogueAmount: 7
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654

@@ -203,36 +203,39 @@ MonoBehaviour:
   - {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
   - {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
   dialogueList:
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Oh no! The civillians.....
   - userChoice: 1
     user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
-    message: We have to save them immediately! Deploy the recovery barrier i mmediately!
-      I'll fend off the attackers while you get those people out of there!
+    message: Why are they attacking the Labortories anyway?
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Okay, on it!
+    message: They apparently found a way to disable all the robots with an EMP device,
+      but the robots caught wind of it.
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Now they are trying to destroy it with everything they have.
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Yikes, they really are desperate.
+  - userChoice: 0
+    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
+    message: Morpheus look! The scientists in the labortories are trapped, we have
+      to save them!
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: On it! Deploy the barrier!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
-    message: Then I better pick up the pace!
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: 'The civillians have managed to escape Morpheus! '
-  - userChoice: 0
-    user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: But our signals have detected a huge disturbance, located south from
-      here.
-  - userChoice: 1
-    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
     message: All right, heading there now!
   - userChoice: 0
     user: {fileID: 11439648, guid: fe3dfccf8e12a88438fef288a0ef5dfe, type: 2}
-    message: Be careful!
+    message: And that's the last of them!
+  - userChoice: 1
+    user: {fileID: 11433604, guid: 3c5dba2f6358fd9458ff2a970febc149, type: 2}
+    message: Great, time to head to the Leaderbot!
   - userChoice: 2
     user: {fileID: 11443846, guid: 3d55f3ed47a46eb4a8062891c2136627, type: 2}
     message: 
-  dialogueAmount: 9
+  dialogueAmount: 10
   firstStop: 0
   dialogueActive: 0
 --- !u!114 &11455654

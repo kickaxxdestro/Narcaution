@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 123514, guid: 824b7c634ad6f3345bb75d5121f5ad60, type: 2}
+  dialogueSystem: {fileID: 188838, guid: 97426ba7400b15146b597eb4e19ddb0d, type: 2}
   levelID: 18
   description: Swarms of enemies start to surround you
   patternLists:

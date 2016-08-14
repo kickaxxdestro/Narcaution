@@ -25,6 +25,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -39,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 196108, guid: 2e6a9205471a1294cac40b1323467a34, type: 2}
+  dialogueSystem: {fileID: 188838, guid: dc17de4e580c3d545a096a662c7315a0, type: 2}
   levelID: 17
   description: Your journey is almost at an end. You are only a few more routes away
     from your goal.
