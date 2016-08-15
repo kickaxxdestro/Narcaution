@@ -922,7 +922,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75b8cbda61174d14a9ec23a8bb1eca71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2264,7 +2264,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40e1400d9f794074f9b035a4cc8f473d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3230,7 +3230,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 014e649a1a96fdc4e970ab57abc0b4ef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4389,7 +4389,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 562039261}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.26379773
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5418,7 +5418,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce77d27e9eb7c684dace81951beb031d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5600,8 +5600,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -339.6}
+  m_SizeDelta: {x: 387, y: 1330.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &483271317
 MonoBehaviour:
@@ -5635,16 +5635,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Impaired short-term memory\n- Impaired motor
+    co-ordination\n- Paranoia and psychosis.\r\n\nDescription:\nCannabis comes from
+    the hemp plant. It can come in various forms \u2013 \u2018loose\u2019 cannabis
+    leaves, compressed blocks, corn cob-shaped, oil, etc\n\nIt contains THC (tetrahydrocannabinol)
+    which affect one\u2019s mood \u2013 causing euphoria, and also anxiety, disorientation
+    or paranoia\n\nCannabis can affect concentration and memory which weakens the
+    abuser\u2019s ability to learn\r."
 --- !u!222 &483271318
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6019,8 +6016,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -886.75}
+  m_SizeDelta: {x: 387, y: 2424.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508238513
 MonoBehaviour:
@@ -6054,16 +6051,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Inability to move\r\n- Distorted judgement,
+    perception, hearing, sight, touch, smell and taste\r\n- Confusion and hallucinations\r\n-
+    Problems associated with the nose (nose bleeding, inability to smell properly)\r\n-
+    Gastric pains\r\n- Urinary and bladder problems (difficulty in urinating, urinary
+    tract infection)\n\r\nDescription:\nKetamine is an anaesthetic for veterinary
+    and human use.\n\nThe drug takes the form of a white crystalline powder, liquid
+    or tablet.\n\nAs a drug of abuse in Hong Kong, the United States and Australia,
+    Ketamine has become common at dance parties or raves.\n\nKetamine produces a progression
+    of effects on the abuser, from a state of dreamy intoxication to delirium accompanied
+    by the inability to move, feel pain or remember what has occurred under the drug\u2019s
+    influence.\n\nThe effects of Ketamine last an hour or less but can affect the
+    abuser's senses, judgement and co-ordination for 18 to 24 hours\r."
 --- !u!222 &508238514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6146,7 +6145,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 475395153}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.5161342
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7677,7 +7676,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 604559605}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.32952014
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7771,7 +7770,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58fa2e3a26f64f443b3e24e9553e84e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7817,8 +7816,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -908.4}
+  m_SizeDelta: {x: 387, y: 2467.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654650958
 MonoBehaviour:
@@ -7852,16 +7851,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Disorientation, apathy, confused exhaustion\r\n-
+    Strong psychological dependence\r\n- Psychosis\r\n- Depression\r\n- Damage to
+    the brain similar to Alzheimer's disease, stroke and epilepsy\r\n- Aggression
+    and violent behaviour\r\n- Anxiety\r\n- Confusion\r\n- Insomnia\r\n- Auditory
+    hallucinations\n\r\nDescription:\nMethamphetamine in its crystallised form is
+    known as methamphetamine hydrochloride\n\nIt usually comes in the form of a colourless
+    and odourless crystal that resembles glass fragments or shiny blue-white \"rocks\"
+    of various sizes. This explains why it is more commonly known as 'Ice' in Singapore.\n\nMethamphetamine
+    also comes in tablet form. In this form, it is also known as 'Crazy Horse Pill'
+    or 'Ya ba'. Most of the 'Ya ba' tablets found in Singapore are embossed with the
+    'WY' logo and are green or orange in colour\n\nMethamphetamine is highly addictive
+    and is a strong stimulant. It has a very strong effect on the central nervous
+    system\r."
 --- !u!222 &654650959
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7900,8 +7902,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -440.4}
+  m_SizeDelta: {x: 387, y: 1531.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660314572
 MonoBehaviour:
@@ -7935,16 +7937,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Severe intoxications\n- Severe toxic reaction
+    leading to death\n- Paranoia\n- Hallucinations\n- Adverse cardiovascular problems\n-
+    Renal failure\n- Seizures\n\r\nDescription:\nNPS are substances of abuse, either
+    in a pure form or a preparation, that are not controlled by international drug
+    conventions, but which may pose a public health threat\r\n\nAn umbrella term for
+    unregulated (new) psychoactive substances or products intended to mimic the effects
+    of controlled drugs\n\nIncludes Mephedrone and BZP and TFMPP\r\nNo known medical
+    or industrial use."
 --- !u!222 &660314573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8199,8 +8199,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -305.15002}
+  m_SizeDelta: {x: 387, y: 1261.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675640673
 MonoBehaviour:
@@ -8234,16 +8234,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Seizures\r\n- Vomiting\r\n- Heavy Sweating\r\n-
+    Hyperthermia (increased body temerature)\r\n- Tachycardia (increased heart rate)\r\n-
+    Agitation\r\n\r\nDescription:\nBZP, also known as \"party pills\", belongs to
+    a group of drugs known as piperazines.\n\nIt is a stimulant of the central nervous
+    system and is known to produce stimulant and hallucinatory effects similar to
+    MDMA, commonly known as 'Ecstasy'.\n\nBZP is known to be distributed as tablets
+    resembling 'Ecstasy'\r."
 --- !u!222 &675640674
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9417,7 +9414,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1789812518}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.32227722
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9680,7 +9677,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e8eb82b1544ca043a69308f1ed672fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10581,7 +10578,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 176eed536ccd6094aa6e1d0e77c71e8e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10958,7 +10955,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1329590412}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.46180263
+  m_Size: 0.46045542
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11192,8 +11189,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -59.047}
+  m_SizeDelta: {x: 387, y: 769.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000962918
 MonoBehaviour:
@@ -11227,16 +11224,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Dizziness\n- Nausea\n- Chilis\n- Bruxium\r\n\nDescription:\nMephedrone
+    is a stimulant drug derived from cathinone and is a substitute to 'Ecstasy'.\n\nMephedrone
+    abuse is known to cause cravings and dependence\r."
 --- !u!222 &1000962919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12995,8 +12985,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 924998055}
   m_HandleRect: {fileID: 924998054}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.6283784
+  m_Value: 0.9999262
+  m_Size: 0.48936328
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14134,7 +14124,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 899388534}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.40061542
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14206,8 +14196,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50009}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -370.5}
+  m_SizeDelta: {x: 387, y: 1392}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1217031367
 MonoBehaviour:
@@ -14241,16 +14231,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n-Increased heart rate                                                                                                                                                       -Aggressive
+    behavior                                                                                                                                                      -Irritability,
+    Nausea, shaking\r\n-Blurred vision   \n-Hallucination\r\n\r\nDescription:\nCocaine
+    is derived from the leaves of the Erthroxylum Coca plant.\nIn its pure form, Cocaine
+    is a white crystalline powder which is either sniffed in a powdered form or injected
+    directly into the body in a liquid form.\n\nCocaine is both a central nervous
+    system stimulant and an anaesthetic.\n\nThe chronic Cocaine abuser is socially
+    dangerous because of the mental abnormalities caused by the drug.\r\r"
 --- !u!222 &1217031368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15021,8 +15009,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -284.25}
+  m_SizeDelta: {x: 387, y: 1219.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280544762
 MonoBehaviour:
@@ -15056,16 +15044,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Sedation\r\n- Light-headedness\r\n- Dizziness\r\n-
+    Nausea\r\n- Constipation\r\n- Vomiting\n\r\nDescription:\nSubutex comes in 2 mg
+    and 8 mg pills.\n\nIts active ingredient is Buprenorphine Hydrochloride, which
+    is a semi-synthetic opioid derivative closely related to Morphine.\n\nSubutex
+    is taken sublingually i.e. place under the tongue until it dissolves. However,
+    abusers mix it with other prescription drugs and inject it for a greater high\r."
 --- !u!222 &1280544763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15495,7 +15479,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1914671073}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.42499024
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -16281,7 +16265,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bc3649b7be495ab47830053eadaa7047, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16741,7 +16725,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e66287843ac2e84a917d7456f9c8a2f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17594,8 +17578,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -684.5}
+  m_SizeDelta: {x: 387, y: 2020}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1479496105
 MonoBehaviour:
@@ -17629,16 +17613,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Increased heart rate, breathing and body temperature\r\n-
+    Numbness\r\n- Distorted sight, hearing, smell, touch and taste\r\n- Loss of control
+    of thoughts\r\n- Severe panic, paranoia, confusion and hallucinations\n\r\nDescription:\nLysergide
+    (LSD) is a hallucinogen. It is often sold on blotting paper, which is usually
+    imprinted with a colourful cartoon or design\n\nAlthough abusers generally take
+    it orally, the tabs of blotting paper are also placed on skin areas that readily
+    absorb the drug into the bloodstream, for example, under the eyelid\n\nWhen ingested,
+    LSD takes effect within 30 minutes.\r\nIts effects are strongest after 3 to 5
+    hours and can last up to 12 hours. Bad 'trips' can trigger severe panics, paranoia
+    and confusion\n\nAfter a 'trip', the abuser may feel depressed."
 --- !u!222 &1479496106
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18726,7 +18710,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e56c66b0338b140429081d66f6b67750, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20675,8 +20659,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -682.2}
+  m_SizeDelta: {x: 387, y: 2015.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735934927
 MonoBehaviour:
@@ -20710,16 +20694,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Increased heart rate and blood pressure\r\n-
+    Jaw clenching, teeth grinding and uncontrollable shaking\r\n- Kidney, liver and
+    brain damage\r\n- Long term memory loss\r\n- Chills, sweating and vomiting\r\n-
+    Inability to think, see and co-ordinate properly\r\n- Hallucinations\n\r\nDescription:\nEcstasy
+    refers to tablets containing MDMA, MDEA and MDA. These tablets come in different
+    colours with different logos stamped on them\n\nThey are often sold in discos
+    as well as night joints. People take them to enable them to dance all night and
+    sometimes they die from exhaustion and dehydration\n\nOther controlled drugs such
+    as Ketamine and Methamphetamine, and chemicals such as paracetamol and calcium
+    carbonate are often mixed with \u2018Ecstasy\u2019. This may cause bad reactions
+    to the body\r."
 --- !u!222 &1735934928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20938,8 +20923,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -487}
+  m_SizeDelta: {x: 387, y: 1625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1755934431
 MonoBehaviour:
@@ -20973,16 +20958,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n\r- Lowered heart rate and respiration\n- Damage
+    to lungs, kidneys and liver\n- Dull feeling\n- Tiredness\n- Difficulty in concentrating\n-
+    Constipation\r\n\r\nDescription:\nHeroin is a powerful and very addictive drug
+    that comes in granular, powder or solution form. Heroin No. 4 is white in colour
+    while Heroin No. 3 is more yellowish.\n\nHeroin abusers feel dull and tired very
+    easily. They are unable to work properly as their concentration is affected.\n\n\"Chasing
+    the Dragon\", a common method of abuse used by Heroin abusers here, involves heating
+    the Heroin powder and sniffing the fumes through a rolled note\r."
 --- !u!222 &1755934432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21376,7 +21359,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 343802193}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.26850897
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -21905,7 +21888,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1258557128}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.84645486
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -22716,8 +22699,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -662.3}
+  m_SizeDelta: {x: 387, y: 1975.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852636009
 MonoBehaviour:
@@ -22751,16 +22734,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Permanent damage to brain, liver and kidneys\r\n-
+    Prone to bleeding and bruises\r\n- Memory loss\r\n- Difficulty in learning and
+    seeing things clearly\r\n- Loss of control of body\r\n- Cramps, pains and bad
+    cough\n\r\nDescription:\nSome substances, such as glue and paint thinner, give
+    off vapours and fumes. The sniffing of such vapours or fumes is known as inhalant
+    abuse\n\nInhalant abuse affects the growth and development of muscles, nerves
+    and organs\n\nIf you are an inhalant abuser, normal activities like running and
+    shouting can cause death by heart failure\n\nAn inhalant abuser may die from suffocation
+    anytime. This is known as Sudden Sniffing Death. It can happen on the very first
+    time or any other time the abuser sniffs glue\r."
 --- !u!222 &1852636010
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22975,7 +22958,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1147680016}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.46767247
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -23112,8 +23095,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -192.50003}
-  m_SizeDelta: {x: 387, y: 1036}
+  m_AnchoredPosition: {x: -18, y: -260.09998}
+  m_SizeDelta: {x: 387, y: 1171.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908271017
 MonoBehaviour:
@@ -23147,16 +23130,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'Cocaine is derived from the leaves of the Erthroxylum Coca plant. In its
-    pure form, Cocaine is a white crystalline powder which is either sniffed in a
-    powdered form or injected directly into the body in a liquid form.
-
-
-    Cocaine is both a central nervous system stimulant and an anaesthetic.
-
-
-    The chronic Cocaine abuser is socially dangerous because of the mental abnormalities
-    caused by the drug.'
+  m_Text: "Signs of usage include:\r\n- Loss of consciousness\r\n- Distorted judgement,
+    sight and thinking\r\n- Difficulty in speaking, moving and co-ordinating bodily
+    functions\r\n- Poor memory and concentration\n\r\nDescription:\nNimetazepam, also
+    known as 'Erimin-5', is a type of depressant taken orally by the user in tablet
+    form\n\nDepressants are drugs which help a person to calm down and sleep. However,
+    excessive use will lead to harmful effects.\r"
 --- !u!222 &1908271018
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25004,7 +24983,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 517587997}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.55584025
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -25120,7 +25099,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1146951442}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.53382534
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -25789,7 +25768,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1641131003}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6283784
+  m_Size: 0.32301283
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -25883,7 +25862,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd4a1e95120df574a98410279c7c0550, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26152,7 +26131,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c7ab7011e405dbc41adaab2040467bd4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5579e684a9b3459438a045392f80c7f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
