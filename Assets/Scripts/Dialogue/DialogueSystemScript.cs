@@ -5,7 +5,7 @@ using System.Collections;
 [System.Serializable]
 public class UserDialogue : System.Object{
 	public int userChoice = 0;
-	public DialogueUserScript user = null;
+    public DialogueUserScript user = null;
 	public string message = "";
 }
 
@@ -18,9 +18,8 @@ public class DialogueSystemScript : MonoBehaviour {
 	
 	public int dialogueAmount = 0;
 	
-	Transform portrait;
 	Transform dialoguebox;
-//	Transform nameTitle;
+	Transform nameTitle;
 	Transform messageTitle;
 	
 	bool popIn = false;
@@ -80,16 +79,11 @@ public class DialogueSystemScript : MonoBehaviour {
 			{
 				level.GetComponent<LevelGeneratorScript>().endDial = true;
 			}
-
-
-
-
 		}
 		else
 		{
-//			nameTitle.GetComponent<Text>().text = dialogueList[messageCounter].user.userName;
+			nameTitle.GetComponent<Text>().text = dialogueList[messageCounter].user.userName;
 			messageTitle.GetComponent<Text>().text = "";
-			portrait.GetComponent<Image>().sprite = dialogueList[messageCounter].user.portrait;
 			dialoguebox.GetComponent<Image>().sprite = dialogueList[messageCounter].user.DialogueBox;
 
             int charCount = 0;
@@ -121,11 +115,10 @@ public class DialogueSystemScript : MonoBehaviour {
 		level = GameObject.FindGameObjectWithTag ("Level");
 		pauseBtn = GameObject.Find("PauseBtn");
 		dialogueAmount = dialogueList.Length;
-//		nameTitle = transform.FindChild("chatBox").FindChild("nameTitle");
+		nameTitle = transform.FindChild("chatBox").FindChild("nameTitle");
 		messageTitle = transform.FindChild("chatBox").FindChild("messageTitle");
-//		portrait = transform.FindChild("chatBox").FindChild("portraitLabel").FindChild("portrait");
-		portrait = transform.FindChild ("chatBox").FindChild ("portraitLabel");
-		dialoguebox = transform.FindChild ("chatBox");
+		dialoguebox = transform.FindChild("chatBox");
+
 		myplayer = GameObject.Find ("player");
 		dialogueTimer = 2.0f;
 	}

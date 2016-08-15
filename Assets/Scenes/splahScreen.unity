@@ -166,7 +166,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 162648, guid: 15f1e3539d75d5940acc0b3b52ad87ba, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15f1e3539d75d5940acc0b3b52ad87ba, type: 2}
@@ -692,6 +692,7 @@ MonoBehaviour:
   SIDMLogo: {fileID: 485058565}
   NYPLogo: {fileID: 2146088152}
   CNBLogo: {fileID: 449162847}
+  CNBRibbon: {fileID: 685669114}
   loadingText: {fileID: 1872367003}
   loadingScreen: {fileID: 162648, guid: 15f1e3539d75d5940acc0b3b52ad87ba, type: 2}
 --- !u!114 &1449635261

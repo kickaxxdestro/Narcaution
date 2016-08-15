@@ -10,7 +10,7 @@ public class CutsceneLocker : MonoBehaviour {
     public Button cutsceneDay5Button;
     public Button cutsceneDayDButton;
     public Button cutsceneDayD2Button;
-
+    public Button cutsceneDayEndingButton;
 
 
     // Use this for initialization
@@ -30,6 +30,7 @@ public class CutsceneLocker : MonoBehaviour {
             cutsceneDay5Button.interactable = false;
             cutsceneDayDButton.interactable = false;
             cutsceneDayD2Button.interactable = false;
+            
 
             cutsceneDay2Button.GetComponent<Image>().color = lockedColor;
             cutsceneDay3Button.GetComponent<Image>().color = lockedColor;
