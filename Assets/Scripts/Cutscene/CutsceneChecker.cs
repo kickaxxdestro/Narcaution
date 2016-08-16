@@ -71,4 +71,13 @@ public class CutsceneChecker : MonoBehaviour {
 
         GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("cutsceneScreen");
     }
+
+    public void EndGameCutscene()
+    {
+        PlayerPrefs.SetInt("ppCutsceneNext", 4);
+        PlayerPrefs.SetInt("ppSelectedCutscene", 22);
+        PlayerPrefs.Save();
+
+        GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("cutsceneScreen");
+    }
 }

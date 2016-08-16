@@ -368,7 +368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Day 2
+  m_Text: Melted Ice
 --- !u!222 &19568144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1391,7 +1391,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 93379582}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1976,7 +1976,7 @@ GameObject:
   - 222: {fileID: 153404432}
   - 114: {fileID: 153404431}
   m_Layer: 5
-  m_Name: Entry_Day7
+  m_Name: Entry_Betrayal
   m_TagString: Library_Entry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3093,7 +3093,7 @@ GameObject:
   - 222: {fileID: 268268135}
   - 114: {fileID: 268268134}
   m_Layer: 5
-  m_Name: Entry_Day2
+  m_Name: Entry_MeltedIce
   m_TagString: Library_Entry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5794,7 +5794,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 490303337}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -6144,8 +6144,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 475395154}
   m_HandleRect: {fileID: 475395153}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.51613414
+  m_Value: 0.9999999
+  m_Size: 0.5161341
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6459,7 +6459,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 530805667}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -6906,7 +6906,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Day 3
+  m_Text: Smokey Fog
 --- !u!222 &569236460
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8721,7 +8721,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 699854495}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -10361,7 +10361,7 @@ GameObject:
   - 222: {fileID: 941484862}
   - 114: {fileID: 941484861}
   m_Layer: 5
-  m_Name: Entry_Day1
+  m_Name: Entry_FirstContact
   m_TagString: Library_Entry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10954,8 +10954,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1329590414}
   m_HandleRect: {fileID: 1329590412}
   m_Direction: 2
-  m_Value: 0.99999994
-  m_Size: 0.46029875
+  m_Value: 1
+  m_Size: 0.4606504
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -12075,7 +12075,7 @@ GameObject:
   - 222: {fileID: 1043498837}
   - 114: {fileID: 1043498836}
   m_Layer: 5
-  m_Name: Entry_Day6
+  m_Name: Entry_FreedMind
   m_TagString: Library_Entry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12758,7 +12758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Day 5
+  m_Text: Nightmare
 --- !u!222 &1093663737
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14440,7 +14440,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Day 4
+  m_Text: Clear Days
 --- !u!222 &1228367810
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14514,7 +14514,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Day 6
+  m_Text: Freed Mind
 --- !u!222 &1243247776
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14751,7 +14751,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Day 1
+  m_Text: First Contact
 --- !u!222 &1257073206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15854,7 +15854,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 1351634863}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -16880,7 +16880,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Day 7
+  m_Text: Betrayal
 --- !u!222 &1419840877
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18080,7 +18080,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 1517906688}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -18090,7 +18090,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 22
+          m_IntArgument: 21
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -20579,7 +20579,7 @@ GameObject:
   - 222: {fileID: 1719066168}
   - 114: {fileID: 1719066167}
   m_Layer: 5
-  m_Name: Entry_Day4
+  m_Name: Entry_ClearDays
   m_TagString: Library_Entry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20797,7 +20797,7 @@ GameObject:
   - 222: {fileID: 1741098190}
   - 114: {fileID: 1741098189}
   m_Layer: 5
-  m_Name: Entry_Day5
+  m_Name: Entry_Nightmare
   m_TagString: Library_Entry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20857,7 +20857,7 @@ GameObject:
   - 222: {fileID: 1742645982}
   - 114: {fileID: 1742645981}
   m_Layer: 5
-  m_Name: Entry_Day3
+  m_Name: Entry_SmokyFog
   m_TagString: Library_Entry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21963,7 +21963,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1258557128}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.8464548
+  m_Size: 0.84645486
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -23119,13 +23119,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a59c973ecd9f41c448ab786776845e4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutsceneDay2Button: {fileID: 0}
-  cutsceneDay3Button: {fileID: 0}
-  cutsceneDay4Button: {fileID: 0}
-  cutsceneDay5Button: {fileID: 0}
-  cutsceneDayDButton: {fileID: 0}
-  cutsceneDayD2Button: {fileID: 0}
-  cutsceneDayEndingButton: {fileID: 0}
+  cutsceneDay1EndButton: {fileID: 93379581}
+  cutsceneDay2Button: {fileID: 1943149913}
+  cutsceneDay3Button: {fileID: 530805666}
+  cutsceneDay4Button: {fileID: 1351634862}
+  cutsceneDay5Button: {fileID: 490303336}
+  cutsceneDay6Button: {fileID: 1517906687}
+  cutsceneDayEndingButton: {fileID: 1944839934}
 --- !u!4 &1904464976
 Transform:
   m_ObjectHideFlags: 0
@@ -23718,7 +23718,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 1943149914}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -23840,7 +23840,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2134232113}
+  m_TargetGraphic: {fileID: 1944839935}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -23850,7 +23850,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 21
+          m_IntArgument: 22
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -26025,8 +26025,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1641131004}
   m_HandleRect: {fileID: 1641131003}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.3230128
+  m_Value: 0.9999999
+  m_Size: 0.32301277
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -26462,7 +26462,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.503}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

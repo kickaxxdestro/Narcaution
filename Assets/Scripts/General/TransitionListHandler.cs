@@ -196,7 +196,7 @@ public class TransitionListHandler : MonoBehaviour
         }
 #endif
     }
-
+        
     void DoTouchInteraction()
     {
         if (finished)
