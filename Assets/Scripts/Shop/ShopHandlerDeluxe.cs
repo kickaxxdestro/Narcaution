@@ -281,6 +281,10 @@ public class ShopHandlerDeluxe : MonoBehaviour
         {
             return skinList[2];
         }
+        else if(skin.name == "Item_Skins_CDB")
+        {
+            return skinList[3];
+        }
         else
         {
             return null;
@@ -417,11 +421,15 @@ public class ShopHandlerDeluxe : MonoBehaviour
         {
             if (targetName.name == "Item_Skins_Tenrho")
             {
-                HandleSkinPurchase(skinList[1], this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").FindChild("Equipped").gameObject.activeInHierarchy);
+                HandleSkinPurchase(skinList[1]);
             }
             else if (targetName.name == "Item_Skins_Buster")
             {
-                HandleSkinPurchase(skinList[2], this.transform.FindChild("Grid").FindChild(targetName.name).FindChild("Description_Button").FindChild("Equipped").gameObject.activeInHierarchy);
+                HandleSkinPurchase(skinList[2]);
+            }
+            else if (targetName.name == "Item_Skins_CDB")
+            {
+                HandleSkinPurchase(skinList[3]);
             }
         }
     }
@@ -453,13 +461,13 @@ public class ShopHandlerDeluxe : MonoBehaviour
         }
     }
 
-    void HandleSkinPurchase(GameObject skin, bool isEquipped)
+    void HandleSkinPurchase(GameObject skin)
     {
         if (DeductMoney(skin.GetComponent<GeneralItem>().cost) && PlayerPrefs.GetInt("ppSkin" + skin.GetComponent<GeneralItem>().itemID + "Unlocked") == 0)
         {
             PlayerPrefs.SetInt("ppSkin" + skin.GetComponent<GeneralItem>().itemID + "Unlocked", 1);
             PlayerPrefs.Save();
-            changeButtonsForSkins(PlayerPrefs.GetInt(skin.GetComponent<GeneralItem>().itemID + "Unlocked"), isEquipped);
+            changeButtonsForSkins(PlayerPrefs.GetInt("ppSkin" + skin.GetComponent<GeneralItem>().itemID + "Unlocked"), false);
             Display();
         }
     }
@@ -496,8 +504,8 @@ public class ShopHandlerDeluxe : MonoBehaviour
             selectedSkin = setSkinComponent(targetName);
             PlayerPrefs.SetInt("ppCurrentSkin", selectedSkin.GetComponent<GeneralItem>().itemID);
             PlayerPrefs.Save();
+            changeButtonsForSkins(PlayerPrefs.GetInt("ppSkin" + selectedSkin.GetComponent<GeneralItem>().itemID + "Unlocked"), true);
             Display();
-            changeButtonsForSkins(PlayerPrefs.GetInt("ppSkin" + selectedSkin.GetComponent<GeneralItem>().itemID + "Unlocked", 0), true);
         }
 
         audioSource.clip = equipAudio;

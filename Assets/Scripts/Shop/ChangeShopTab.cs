@@ -89,7 +89,6 @@ public class ChangeShopTab : MonoBehaviour {
         Upgrade.SetActive(false);
         Purchase.SetActive(false);
         Equip.SetActive(true);
-
         ChangeEquipPosition();
         activateChildObjects();
         Tab.sprite = Tab_Skins;

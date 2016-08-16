@@ -60,10 +60,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Grailion
   itemID: 1
-  icon: {fileID: 21300000, guid: 8e3fa2fdb230f3d41abeb5575f73e6a7, type: 3}
+  icon: {fileID: 21300000, guid: 7e98721897f0c5e42b905ddb6ca5ebf6, type: 3}
   description: This magnificent piece of armour protects the user from all sorts of
     harm. It even has green fire! What more could you ask for?
-  cost: 10
+  cost: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
