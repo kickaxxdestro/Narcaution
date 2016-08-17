@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ad7da25b32769a54489c9497d56e0f3e
-timeCreated: 1453795929
+timeCreated: 1471400085
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,121 +16,125 @@ TextureImporter:
     21300018: LSD_SpriteSheet_9
     21300020: LSD_SpriteSheet_10
     21300022: LSD_SpriteSheet_11
-    21300024: LSD_SpriteSheet_12
-    21300026: LSD_SpriteSheet_13
-    21300028: LSD_SpriteSheet_14
-    21300030: LSD_SpriteSheet_15
-    21300032: LSD_SpriteSheet_16
-    21300034: LSD_SpriteSheet_17
-    21300036: LSD_SpriteSheet_18
-    21300038: LSD_SpriteSheet_19
-    21300040: LSD_SpriteSheet_20
-    21300042: LSD_SpriteSheet_21
-    21300044: LSD_SpriteSheet_22
-    21300046: LSD_SpriteSheet_23
-    21300048: LSD_SpriteSheet_24
+    21300024: LSD_SpriteSheet_15
+    21300026: LSD_SpriteSheet_16
+    21300028: LSD_SpriteSheet_17
+    21300030: LSD_SpriteSheet_18
+    21300032: LSD_SpriteSheet_19
+    21300034: LSD_SpriteSheet_20
+    21300036: LSD_SpriteSheet_21
+    21300038: LSD_SpriteSheet_22
+    21300040: LSD_SpriteSheet_23
+    21300042: LSD_SpriteSheet_24
+    21300044: LSD_SpriteSheet_25
+    21300046: LSD_SpriteSheet_26
+    21300048: LSD_SpriteSheet_14
     21300050: LSD_SpriteSheet_25
-    21300052: LSD_SpriteSheet_26
-    21300054: LSD_SpriteSheet_27
-    21300056: LSD_SpriteSheet_28
-    21300058: LSD_SpriteSheet_29
-    21300060: LSD_SpriteSheet_30
-    21300062: LSD_SpriteSheet_31
-    21300064: LSD_SpriteSheet_32
-    21300066: LSD_SpriteSheet_33
-    21300068: LSD_SpriteSheet_34
-    21300070: LSD_SpriteSheet_35
-    21300072: LSD_SpriteSheet_36
-    21300074: LSD_SpriteSheet_37
-    21300076: LSD_SpriteSheet_38
-    21300078: LSD_SpriteSheet_39
-    21300080: LSD_SpriteSheet_40
-    21300082: LSD_SpriteSheet_41
-    21300084: LSD_SpriteSheet_42
-    21300086: LSD_SpriteSheet_43
-    21300088: LSD_SpriteSheet_44
-    21300090: LSD_SpriteSheet_45
-    21300092: LSD_SpriteSheet_46
-    21300094: LSD_SpriteSheet_47
-    21300096: LSD_SpriteSheet_48
-    21300098: LSD_SpriteSheet_49
-    21300100: LSD_SpriteSheet_50
-    21300102: LSD_SpriteSheet_51
-    21300104: LSD_SpriteSheet_52
-    21300106: LSD_SpriteSheet_53
-    21300108: LSD_SpriteSheet_54
-    21300110: LSD_SpriteSheet_55
-    21300112: LSD_SpriteSheet_56
-    21300114: LSD_SpriteSheet_57
-    21300116: LSD_SpriteSheet_58
-    21300118: LSD_SpriteSheet_59
-    21300120: LSD_SpriteSheet_60
-    21300122: LSD_SpriteSheet_61
-    21300124: LSD_SpriteSheet_62
-    21300126: LSD_SpriteSheet_63
-    21300128: LSD_SpriteSheet_64
-    21300130: LSD_SpriteSheet_65
-    21300132: LSD_SpriteSheet_66
-    21300134: LSD_SpriteSheet_67
-    21300136: LSD_SpriteSheet_68
-    21300138: LSD_SpriteSheet_69
-    21300140: LSD_SpriteSheet_70
-    21300142: LSD_SpriteSheet_71
-    21300144: LSD_SpriteSheet_72
-    21300146: LSD_SpriteSheet_73
-    21300148: LSD_SpriteSheet_74
-    21300150: LSD_SpriteSheet_75
-    21300152: LSD_SpriteSheet_76
-    21300154: LSD_SpriteSheet_77
-    21300156: LSD_SpriteSheet_78
-    21300158: LSD_SpriteSheet_79
-    21300160: LSD_SpriteSheet_80
-    21300162: LSD_SpriteSheet_81
-    21300164: LSD_SpriteSheet_82
-    21300166: LSD_SpriteSheet_83
-    21300168: LSD_SpriteSheet_84
-    21300170: LSD_SpriteSheet_85
-    21300172: LSD_SpriteSheet_86
-    21300174: LSD_SpriteSheet_87
-    21300176: LSD_SpriteSheet_88
-    21300178: LSD_SpriteSheet_89
-    21300180: LSD_SpriteSheet_90
-    21300182: LSD_SpriteSheet_91
-    21300184: LSD_SpriteSheet_92
-    21300186: LSD_SpriteSheet_93
-    21300188: LSD_SpriteSheet_94
-    21300190: LSD_SpriteSheet_95
-    21300192: LSD_SpriteSheet_96
-    21300194: LSD_SpriteSheet_97
-    21300196: LSD_SpriteSheet_98
-    21300198: LSD_SpriteSheet_99
-    21300200: LSD_SpriteSheet_100
-    21300202: LSD_SpriteSheet_101
-    21300204: LSD_SpriteSheet_102
-    21300206: LSD_SpriteSheet_103
-    21300208: LSD_SpriteSheet_104
-    21300210: LSD_SpriteSheet_105
-    21300212: LSD_SpriteSheet_106
-    21300214: LSD_SpriteSheet_107
-    21300216: LSD_SpriteSheet_108
-    21300218: LSD_SpriteSheet_109
-    21300220: LSD_SpriteSheet_110
-    21300222: LSD_SpriteSheet_111
-    21300224: LSD_SpriteSheet_112
-    21300226: LSD_SpriteSheet_113
-    21300228: LSD_SpriteSheet_114
-    21300230: LSD_SpriteSheet_115
-    21300232: LSD_SpriteSheet_116
-    21300234: LSD_SpriteSheet_117
-    21300236: LSD_SpriteSheet_118
-    21300238: LSD_SpriteSheet_119
-    21300240: LSD_SpriteSheet_120
-    21300242: LSD_SpriteSheet_121
-    21300244: LSD_SpriteSheet_122
-    21300246: LSD_SpriteSheet_123
-    21300248: LSD_SpriteSheet_124
-    21300250: LSD_SpriteSheet_125
-    21300252: LSD_SpriteSheet_126
+    21300052: LSD_SpriteSheet_12
+    21300054: LSD_SpriteSheet_13
+    21300056: LSD_SpriteSheet_27
+    21300058: LSD_SpriteSheet_28
+    21300060: LSD_SpriteSheet_29
+    21300062: LSD_SpriteSheet_30
+    21300064: LSD_SpriteSheet_31
+    21300066: LSD_SpriteSheet_32
+    21300068: LSD_SpriteSheet_33
+    21300070: LSD_SpriteSheet_34
+    21300072: LSD_SpriteSheet_35
+    21300074: LSD_SpriteSheet_36
+    21300076: LSD_SpriteSheet_37
+    21300078: LSD_SpriteSheet_38
+    21300080: LSD_SpriteSheet_39
+    21300082: LSD_SpriteSheet_40
+    21300084: LSD_SpriteSheet_41
+    21300086: LSD_SpriteSheet_42
+    21300088: LSD_SpriteSheet_43
+    21300090: LSD_SpriteSheet_44
+    21300092: LSD_SpriteSheet_45
+    21300094: LSD_SpriteSheet_46
+    21300096: LSD_SpriteSheet_47
+    21300098: LSD_SpriteSheet_48
+    21300100: LSD_SpriteSheet_49
+    21300102: LSD_SpriteSheet_50
+    21300104: LSD_SpriteSheet_51
+    21300106: LSD_SpriteSheet_52
+    21300108: LSD_SpriteSheet_53
+    21300110: LSD_SpriteSheet_54
+    21300112: LSD_SpriteSheet_55
+    21300114: LSD_SpriteSheet_56
+    21300116: LSD_SpriteSheet_57
+    21300118: LSD_SpriteSheet_58
+    21300120: LSD_SpriteSheet_59
+    21300122: LSD_SpriteSheet_60
+    21300124: LSD_SpriteSheet_61
+    21300126: LSD_SpriteSheet_62
+    21300128: LSD_SpriteSheet_63
+    21300130: LSD_SpriteSheet_64
+    21300132: LSD_SpriteSheet_65
+    21300134: LSD_SpriteSheet_66
+    21300136: LSD_SpriteSheet_67
+    21300138: LSD_SpriteSheet_68
+    21300140: LSD_SpriteSheet_69
+    21300142: LSD_SpriteSheet_70
+    21300144: LSD_SpriteSheet_71
+    21300146: LSD_SpriteSheet_72
+    21300148: LSD_SpriteSheet_73
+    21300150: LSD_SpriteSheet_74
+    21300152: LSD_SpriteSheet_75
+    21300154: LSD_SpriteSheet_76
+    21300156: LSD_SpriteSheet_77
+    21300158: LSD_SpriteSheet_78
+    21300160: LSD_SpriteSheet_79
+    21300162: LSD_SpriteSheet_80
+    21300164: LSD_SpriteSheet_81
+    21300166: LSD_SpriteSheet_82
+    21300168: LSD_SpriteSheet_83
+    21300170: LSD_SpriteSheet_84
+    21300172: LSD_SpriteSheet_85
+    21300174: LSD_SpriteSheet_86
+    21300176: LSD_SpriteSheet_87
+    21300178: LSD_SpriteSheet_88
+    21300180: LSD_SpriteSheet_89
+    21300182: LSD_SpriteSheet_90
+    21300184: LSD_SpriteSheet_91
+    21300186: LSD_SpriteSheet_92
+    21300188: LSD_SpriteSheet_93
+    21300190: LSD_SpriteSheet_94
+    21300192: LSD_SpriteSheet_95
+    21300194: LSD_SpriteSheet_96
+    21300196: LSD_SpriteSheet_97
+    21300198: LSD_SpriteSheet_98
+    21300200: LSD_SpriteSheet_99
+    21300202: LSD_SpriteSheet_100
+    21300204: LSD_SpriteSheet_101
+    21300206: LSD_SpriteSheet_102
+    21300208: LSD_SpriteSheet_103
+    21300210: LSD_SpriteSheet_104
+    21300212: LSD_SpriteSheet_105
+    21300214: LSD_SpriteSheet_106
+    21300216: LSD_SpriteSheet_107
+    21300218: LSD_SpriteSheet_108
+    21300220: LSD_SpriteSheet_109
+    21300222: LSD_SpriteSheet_110
+    21300224: LSD_SpriteSheet_111
+    21300226: LSD_SpriteSheet_112
+    21300228: LSD_SpriteSheet_113
+    21300230: LSD_SpriteSheet_114
+    21300232: LSD_SpriteSheet_115
+    21300234: LSD_SpriteSheet_116
+    21300236: LSD_SpriteSheet_117
+    21300238: LSD_SpriteSheet_118
+    21300240: LSD_SpriteSheet_119
+    21300242: LSD_SpriteSheet_120
+    21300244: LSD_SpriteSheet_121
+    21300246: LSD_SpriteSheet_122
+    21300248: LSD_SpriteSheet_123
+    21300250: LSD_SpriteSheet_124
+    21300252: LSD_SpriteSheet_125
+    21300254: LSD_SpriteSheet_126
+    21300256: LSD_SpriteSheet_127
+    21300258: LSD_SpriteSheet_128
+    21300260: LSD_SpriteSheet_129
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -144,7 +148,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -164,11 +168,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -180,1252 +185,2402 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 1077
+        y: 1216
         width: 199
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.821503, y: 65.20465}
+        - {x: -68.8215, y: 51.20465}
+        - {x: -68.8215, y: -5.795349}
+        - {x: -14.821503, y: -54.79535}
+        - {x: -3.8215027, y: -64.79535}
+        - {x: 43.178497, y: -64.79535}
+        - {x: 69.1785, y: -20.79535}
+        - {x: 69.1785, y: 64.20465}
+        - {x: 66.1785, y: 65.20465}
     - name: LSD_SpriteSheet_1
       rect:
         serializedVersion: 2
         x: 275
-        y: 1077
-        width: 199
-        height: 188
+        y: 1216
+        width: 200
+        height: 189
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.834946, y: -7.295349}
+        - {x: 24.834946, y: -16.29535}
+        - {x: 53.834946, y: -22.29535}
+        - {x: 69.834946, y: -3.2953491}
+        - {x: 69.834946, y: 65.70465}
+        - {x: -53.165054, y: 65.70465}
+        - {x: -69.165054, y: 51.70465}
+        - {x: -69.165054, y: -4.295349}
+        - {x: -9.165054, y: -65.29535}
+        - {x: 16.834946, y: -65.29535}
+        - {x: 20.834946, y: -10.295349}
+        - {x: 11.834946, y: -1.2953491}
     - name: LSD_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 497
-        y: 1077
-        width: 198
+        x: 496
+        y: 1216
+        width: 200
         height: 189
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.008606, y: 65.70465}
+        - {x: -69.008606, y: -31.29535}
+        - {x: -26.008606, y: -65.29535}
+        - {x: 31.991394, y: -65.29535}
+        - {x: 69.991394, y: -15.295349}
+        - {x: 69.991394, y: 57.70465}
+        - {x: 54.991394, y: 65.70465}
     - name: LSD_SpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 718
-        y: 1077
-        width: 198
+        x: 717
+        y: 1216
+        width: 200
         height: 189
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.147827, y: -25.29535}
+        - {x: 70.14783, y: 1.7046509}
+        - {x: 70.14783, y: 55.70465}
+        - {x: 66.14783, y: 65.70465}
+        - {x: -60.852173, y: 65.70465}
+        - {x: -68.85217, y: 52.70465}
+        - {x: -68.85217, y: 1.7046509}
+        - {x: -67.85217, y: -0.29534912}
+        - {x: -30.852173, y: -17.29535}
+        - {x: -20.852173, y: -13.295349}
+        - {x: -16.852173, y: -6.295349}
+        - {x: -21.852173, y: -43.29535}
+        - {x: -3.8521729, y: -65.29535}
+        - {x: 15.147827, y: -65.29535}
+        - {x: 20.147827, y: -23.29535}
+        - {x: 17.147827, y: -2.2953491}
+        - {x: 21.147827, y: -10.295349}
     - name: LSD_SpriteSheet_4
       rect:
         serializedVersion: 2
-        x: 939
-        y: 1077
-        width: 199
-        height: 188
+        x: 938
+        y: 1216
+        width: 200
+        height: 189
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.30426, y: 20.70465}
+        - {x: 70.30426, y: 35.70465}
+        - {x: 70.30426, y: 56.70465}
+        - {x: 66.30426, y: 65.70465}
+        - {x: -68.69574, y: 65.70465}
+        - {x: -68.69574, y: -9.295349}
+        - {x: -17.69574, y: -55.29535}
+        - {x: -5.6957397, y: -65.29535}
+        - {x: 54.30426, y: -65.29535}
+        - {x: 70.30426, y: -4.295349}
+        - {x: 70.30426, y: 6.704651}
+        - {x: 63.30426, y: 12.704651}
     - name: LSD_SpriteSheet_5
       rect:
         serializedVersion: 2
         x: 1160
-        y: 1077
+        y: 1216
         width: 198
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.85083, y: 65.20465}
+        - {x: -67.85083, y: 49.20465}
+        - {x: -67.85083, y: -36.79535}
+        - {x: -37.85083, y: -64.79535}
+        - {x: 69.14917, y: -64.79535}
+        - {x: 69.14917, y: 53.20465}
+        - {x: 61.14917, y: 65.20465}
     - name: LSD_SpriteSheet_6
       rect:
         serializedVersion: 2
         x: 1380
-        y: 1077
-        width: 199
-        height: 186
+        y: 1216
+        width: 200
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.88287, y: 65.20465}
+        - {x: -68.88287, y: 61.20465}
+        - {x: -68.88287, y: -29.79535}
+        - {x: -46.882874, y: -64.79535}
+        - {x: 55.117126, y: -64.79535}
+        - {x: 69.11713, y: -30.79535}
+        - {x: 69.11713, y: 65.20465}
     - name: LSD_SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 1602
-        y: 1077
-        width: 198
-        height: 185
+        x: 1601
+        y: 1216
+        width: 200
+        height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.27356, y: -21.29535}
+        - {x: 69.27356, y: 62.70465}
+        - {x: 63.27356, y: 64.70465}
+        - {x: -55.72644, y: 64.70465}
+        - {x: -68.72644, y: 48.70465}
+        - {x: -68.72644, y: 38.70465}
+        - {x: -56.72644, y: 40.70465}
+        - {x: -68.72644, y: 16.70465}
+        - {x: -68.72644, y: 0.7046509}
+        - {x: -66.72644, y: -1.2953491}
+        - {x: -38.72644, y: -1.2953491}
+        - {x: -31.72644, y: -0.29534912}
+        - {x: -34.72644, y: -5.295349}
+        - {x: -35.72644, y: -13.295349}
+        - {x: -32.72644, y: -25.29535}
+        - {x: -15.72644, y: -63.29535}
+        - {x: -11.72644, y: -64.29535}
+        - {x: 13.27356, y: -64.29535}
+        - {x: 14.27356, y: -63.29535}
+        - {x: 20.27356, y: -23.29535}
+        - {x: 18.27356, y: -10.295349}
+        - {x: 24.27356, y: -17.29535}
     - name: LSD_SpriteSheet_8
       rect:
         serializedVersion: 2
-        x: 1823
-        y: 1077
-        width: 198
+        x: 1822
+        y: 1216
+        width: 200
         height: 185
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.930054, y: 22.20465}
+        - {x: 69.93005, y: 40.20465}
+        - {x: 69.93005, y: 48.20465}
+        - {x: 55.930054, y: 64.20465}
+        - {x: -53.069946, y: 64.20465}
+        - {x: -69.06995, y: 46.20465}
+        - {x: -69.06995, y: -10.795349}
+        - {x: -3.0699463, y: -63.79535}
+        - {x: 17.930054, y: -63.79535}
+        - {x: 69.93005, y: -9.795349}
+        - {x: 69.93005, y: 7.204651}
+        - {x: 65.93005, y: 12.204651}
     - name: LSD_SpriteSheet_9
       rect:
         serializedVersion: 2
-        x: 2044
-        y: 1077
-        width: 199
+        x: 2043
+        y: 1216
+        width: 200
         height: 185
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.086426, y: 39.20465}
+        - {x: 70.086426, y: 48.20465}
+        - {x: 56.086426, y: 62.20465}
+        - {x: 53.086426, y: 64.20465}
+        - {x: -68.913574, y: 64.20465}
+        - {x: -68.913574, y: -33.79535}
+        - {x: -25.913574, y: -63.79535}
+        - {x: 22.086426, y: -63.79535}
+        - {x: 70.086426, y: -3.7953491}
+        - {x: 70.086426, y: 7.204651}
+        - {x: 51.086426, y: 23.20465}
     - name: LSD_SpriteSheet_10
       rect:
         serializedVersion: 2
-        x: 2265
-        y: 1077
-        width: 199
-        height: 185
+        x: 2264
+        y: 1216
+        width: 200
+        height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.75708, y: 64.70465}
+        - {x: -68.75708, y: 54.70465}
+        - {x: -68.75708, y: -21.29535}
+        - {x: -27.75708, y: -64.29535}
+        - {x: 36.24292, y: -64.29535}
+        - {x: 70.24292, y: -18.29535}
+        - {x: 70.24292, y: 50.70465}
+        - {x: 57.24292, y: 64.70465}
     - name: LSD_SpriteSheet_11
       rect:
         serializedVersion: 2
         x: 2485
-        y: 1077
-        width: 199
-        height: 186
+        y: 1216
+        width: 201
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_12
-      rect:
-        serializedVersion: 2
-        x: 4251
-        y: 1035
-        width: 92
-        height: 54
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_13
-      rect:
-        serializedVersion: 2
-        x: 4375
-        y: 1035
-        width: 91
-        height: 73
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_14
-      rect:
-        serializedVersion: 2
-        x: 4485
-        y: 1035
-        width: 91
-        height: 96
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.100586, y: 65.20465}
+        - {x: -69.100586, y: -12.795349}
+        - {x: -40.100586, y: -64.79535}
+        - {x: 13.899414, y: -64.79535}
+        - {x: 70.899414, y: -12.795349}
+        - {x: 70.899414, y: 49.20465}
+        - {x: 55.899414, y: 65.20465}
     - name: LSD_SpriteSheet_15
       rect:
         serializedVersion: 2
-        x: 4590
-        y: 1030
-        width: 94
-        height: 113
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 4251
+        y: 1173
+        width: 93
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.726074, y: 20.599548}
+        - {x: -31.726074, y: -6.4004517}
+        - {x: -17.726074, y: -19.400452}
+        - {x: 16.273926, y: -19.400452}
+        - {x: 33.273926, y: 2.5995483}
+        - {x: 33.273926, y: 20.599548}
     - name: LSD_SpriteSheet_16
       rect:
         serializedVersion: 2
-        x: 4702
-        y: 1030
-        width: 95
-        height: 113
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 4374
+        y: 1173
+        width: 93
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.041748, y: 27.099548}
+        - {x: -32.041748, y: 20.099548}
+        - {x: -32.041748, y: -2.9004517}
+        - {x: -15.041748, y: -24.900452}
+        - {x: -11.041748, y: -25.900452}
+        - {x: 12.958252, y: -25.900452}
+        - {x: 32.958252, y: -2.9004517}
+        - {x: 32.958252, y: 27.099548}
     - name: LSD_SpriteSheet_17
       rect:
         serializedVersion: 2
-        x: 4815
-        y: 1029
-        width: 95
-        height: 114
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 4484
+        y: 1173
+        width: 94
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.307861, y: 35.09955}
+        - {x: -30.307861, y: 27.099548}
+        - {x: -32.30786, y: 20.099548}
+        - {x: -32.30786, y: -14.900452}
+        - {x: -17.307861, y: -33.90045}
+        - {x: 14.692139, y: -33.90045}
+        - {x: 32.69214, y: -15.900452}
+        - {x: 32.69214, y: 18.099548}
+        - {x: 26.692139, y: 35.09955}
     - name: LSD_SpriteSheet_18
       rect:
         serializedVersion: 2
-        x: 4928
-        y: 1029
-        width: 96
-        height: 114
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 4590
+        y: 1169
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.327637, y: 40.345642}
+        - {x: -32.327637, y: 32.345642}
+        - {x: -32.327637, y: -13.654358}
+        - {x: -20.327637, y: -38.654358}
+        - {x: 10.672363, y: -38.654358}
+        - {x: 32.672363, y: -14.654358}
+        - {x: 32.672363, y: 25.345642}
+        - {x: 29.672363, y: 40.345642}
     - name: LSD_SpriteSheet_19
       rect:
         serializedVersion: 2
-        x: 5041
-        y: 1029
-        width: 94
-        height: 114
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 4702
+        y: 1169
+        width: 95
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.716797, y: 40.345642}
+        - {x: -32.716797, y: -22.654358}
+        - {x: -21.716797, y: -38.654358}
+        - {x: 13.283203, y: -38.654358}
+        - {x: 16.283203, y: -35.654358}
+        - {x: 33.283203, y: -14.654358}
+        - {x: 33.283203, y: 32.345642}
+        - {x: 32.283203, y: 40.345642}
     - name: LSD_SpriteSheet_20
       rect:
         serializedVersion: 2
-        x: 5148
-        y: 1029
+        x: 4815
+        y: 1169
         width: 95
-        height: 114
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.917236, y: 40.345642}
+        - {x: -32.917236, y: 18.345642}
+        - {x: -32.917236, y: -18.654358}
+        - {x: -17.917236, y: -38.654358}
+        - {x: 8.082764, y: -38.654358}
+        - {x: 16.082764, y: -35.654358}
+        - {x: 33.082764, y: -11.654358}
+        - {x: 33.082764, y: 12.345642}
+        - {x: 29.082764, y: 40.345642}
     - name: LSD_SpriteSheet_21
       rect:
         serializedVersion: 2
-        x: 5260
-        y: 1029
-        width: 96
-        height: 114
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 4927
+        y: 1169
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.306396, y: 40.345642}
+        - {x: -33.306396, y: 19.345642}
+        - {x: -33.306396, y: -21.654358}
+        - {x: -20.306396, y: -38.654358}
+        - {x: 15.6936035, y: -38.654358}
+        - {x: 17.693604, y: -37.654358}
+        - {x: 33.693604, y: -19.654358}
+        - {x: 33.693604, y: 17.345642}
+        - {x: 26.693604, y: 40.345642}
     - name: LSD_SpriteSheet_22
       rect:
         serializedVersion: 2
-        x: 5376
-        y: 1029
-        width: 95
-        height: 114
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 5040
+        y: 1169
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.006836, y: 40.345642}
+        - {x: -33.006836, y: 15.345642}
+        - {x: -33.006836, y: -13.654358}
+        - {x: -29.006836, y: -29.654358}
+        - {x: -10.006836, y: -38.654358}
+        - {x: 19.993164, y: -38.654358}
+        - {x: 34.993164, y: -16.654358}
+        - {x: 34.993164, y: 40.345642}
     - name: LSD_SpriteSheet_23
       rect:
         serializedVersion: 2
-        x: 5483
-        y: 1029
-        width: 95
-        height: 114
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 5147
+        y: 1169
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.83838, y: 40.345642}
+        - {x: -32.83838, y: -11.654358}
+        - {x: -17.838379, y: -38.654358}
+        - {x: 16.161621, y: -38.654358}
+        - {x: 34.16162, y: -25.654358}
+        - {x: 34.16162, y: 23.345642}
+        - {x: 33.16162, y: 27.345642}
+        - {x: 24.161621, y: 40.345642}
+    - name: LSD_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 5260
+        y: 1169
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.039062, y: 40.345642}
+        - {x: -33.039062, y: 11.345642}
+        - {x: -33.039062, y: -13.654358}
+        - {x: -16.039062, y: -36.654358}
+        - {x: -12.0390625, y: -38.654358}
+        - {x: 14.9609375, y: -38.654358}
+        - {x: 33.960938, y: -16.654358}
+        - {x: 33.960938, y: 28.345642}
+        - {x: 31.960938, y: 40.345642}
     - name: LSD_SpriteSheet_25
       rect:
         serializedVersion: 2
-        x: 4144
-        y: 1035
-        width: 71
-        height: 39
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 5375
+        y: 1169
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_27
+      outline:
+      - - {x: -33.36255, y: -20.654358}
+        - {x: -21.362549, y: -38.654358}
+        - {x: 13.637451, y: -38.654358}
+        - {x: 34.63745, y: -19.654358}
+        - {x: 34.63745, y: 29.345642}
+        - {x: 31.637451, y: 40.345642}
+        - {x: -27.362549, y: 40.345642}
+        - {x: -33.36255, y: 21.345642}
+    - name: LSD_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 5483
+        y: 1169
+        width: 95
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.494385, y: 40.345642}
+        - {x: -24.505615, y: 40.345642}
+        - {x: -32.505615, y: 15.345642}
+        - {x: -32.505615, y: -6.654358}
+        - {x: -22.505615, y: -24.654358}
+        - {x: -10.505615, y: -38.654358}
+        - {x: 29.494385, y: -38.654358}
+        - {x: 34.494385, y: -23.654358}
+        - {x: 34.494385, y: 28.345642}
+        - {x: 25.494385, y: 39.345642}
+    - name: LSD_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 4142
+        y: 1173
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: LSD_SpriteSheet_12
       rect:
         serializedVersion: 2
         x: 3967
-        y: 1035
-        width: 29
-        height: 9
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        y: 1172
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_28
+      outline: []
+    - name: LSD_SpriteSheet_13
       rect:
         serializedVersion: 2
-        x: 4059
-        y: 1035
-        width: 29
-        height: 22
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 4058
+        y: 1173
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_29
+      outline: []
+    - name: LSD_SpriteSheet_27
       rect:
         serializedVersion: 2
         x: 137
-        y: 945
+        y: 1084
         width: 34
-        height: 35
+        height: 34
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_30
+      outline: []
+    - name: LSD_SpriteSheet_28
       rect:
         serializedVersion: 2
         x: 349
-        y: 930
-        width: 55
-        height: 54
+        y: 1068
+        width: 54
+        height: 55
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_31
+      outline:
+      - - {x: -16.716751, y: 19.808044}
+        - {x: -18.716751, y: 13.808044}
+        - {x: -18.716751, y: -16.191956}
+        - {x: -16.716751, y: -19.191956}
+        - {x: 12.283249, y: -19.191956}
+        - {x: 19.283249, y: -15.191956}
+        - {x: 19.283249, y: 9.808044}
+        - {x: 11.283249, y: 19.808044}
+    - name: LSD_SpriteSheet_29
       rect:
         serializedVersion: 2
         x: 549
-        y: 896
-        width: 95
-        height: 94
+        y: 1036
+        width: 94
+        height: 93
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_32
+      outline:
+      - - {x: -18.018616, y: 32.776367}
+        - {x: -32.018616, y: 23.776367}
+        - {x: -32.018616, y: -32.223633}
+        - {x: 22.981384, y: -32.223633}
+        - {x: 29.981384, y: -30.223633}
+        - {x: 33.981384, y: -23.223633}
+        - {x: 33.981384, y: 16.776367}
+        - {x: 27.981384, y: 32.776367}
+    - name: LSD_SpriteSheet_30
       rect:
         serializedVersion: 2
         x: 753
-        y: 867
+        y: 1006
         width: 128
         height: 129
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_33
+      outline:
+      - - {x: 17.933472, y: -22.378357}
+        - {x: 19.933472, y: -11.378357}
+        - {x: 15.933472, y: 2.621643}
+        - {x: 19.933472, y: -8.378357}
+        - {x: 32.93347, y: -14.378357}
+        - {x: 44.93347, y: -2.378357}
+        - {x: 44.93347, y: 20.621643}
+        - {x: 34.93347, y: 45.621643}
+        - {x: -42.06653, y: 45.621643}
+        - {x: -44.06653, y: 39.621643}
+        - {x: -44.06653, y: -12.378357}
+        - {x: -10.066528, y: -44.378357}
+        - {x: 11.933472, y: -44.378357}
+        - {x: 14.933472, y: -40.378357}
+        - {x: 15.933472, y: -33.378357}
+        - {x: 15.933472, y: -30.378357}
+    - name: LSD_SpriteSheet_31
       rect:
         serializedVersion: 2
         x: 952
-        y: 843
+        y: 982
         width: 173
         height: 165
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_34
+      outline:
+      - - {x: -59.556885, y: 9.097839}
+        - {x: -55.556885, y: 7.0978394}
+        - {x: -31.556885, y: -9.902161}
+        - {x: -23.556885, y: -6.9021606}
+        - {x: -23.556885, y: -7.9021606}
+        - {x: -13.556885, y: -51.90216}
+        - {x: -9.556885, y: -56.90216}
+        - {x: 27.443115, y: -56.90216}
+        - {x: 60.443115, y: -17.90216}
+        - {x: 60.443115, y: 40.09784}
+        - {x: 56.443115, y: 49.09784}
+        - {x: 48.443115, y: 57.09784}
+        - {x: -33.556885, y: 57.09784}
+        - {x: -59.556885, y: 32.09784}
+    - name: LSD_SpriteSheet_32
       rect:
         serializedVersion: 2
         x: 1161
-        y: 843
-        width: 196
+        y: 982
+        width: 197
         height: 185
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.337708, y: 19.09784}
+        - {x: 62.337708, y: 45.09784}
+        - {x: 54.337708, y: 64.09784}
+        - {x: -40.662292, y: 64.09784}
+        - {x: -63.662292, y: 56.09784}
+        - {x: -67.66229, y: 25.09784}
+        - {x: -67.66229, y: 1.0978394}
+        - {x: -64.66229, y: -0.90216064}
+        - {x: -30.662292, y: -16.90216}
+        - {x: -22.662292, y: -13.902161}
+        - {x: -17.662292, y: -5.9021606}
+        - {x: -19.662292, y: -14.902161}
+        - {x: -17.662292, y: -38.90216}
+        - {x: -4.6622925, y: -62.90216}
+        - {x: -0.6622925, y: -63.90216}
+        - {x: 12.3377075, y: -63.90216}
+        - {x: 15.3377075, y: -62.90216}
+        - {x: 68.33771, y: 0.097839355}
+        - {x: 68.33771, y: 7.0978394}
+        - {x: 49.337708, y: 21.09784}
+    - name: LSD_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 982
+        width: 200
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.12097, y: 65.09784}
+        - {x: -69.12097, y: -9.902161}
+        - {x: -18.120972, y: -64.90216}
+        - {x: 19.879028, y: -64.90216}
+        - {x: 69.87903, y: -5.9021606}
+        - {x: 69.87903, y: 65.09784}
+    - name: LSD_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 982
+        width: 200
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.98584, y: -12.902161}
+        - {x: 32.98584, y: -17.90216}
+        - {x: 36.98584, y: -13.902161}
+        - {x: 67.98584, y: 0.097839355}
+        - {x: 69.98584, y: 1.0978394}
+        - {x: 69.98584, y: 8.097839}
+        - {x: 50.98584, y: 20.09784}
+        - {x: 45.98584, y: 19.09784}
+        - {x: 69.98584, y: 40.09784}
+        - {x: 69.98584, y: 50.09784}
+        - {x: 61.98584, y: 65.09784}
+        - {x: -69.01416, y: 65.09784}
+        - {x: -69.01416, y: -23.90216}
+        - {x: -6.01416, y: -62.90216}
+        - {x: 0.98583984, y: -64.90216}
+        - {x: 13.98584, y: -64.90216}
+        - {x: 18.98584, y: -20.90216}
+        - {x: 15.98584, y: -1.9021606}
     - name: LSD_SpriteSheet_35
       rect:
         serializedVersion: 2
-        x: 1393
-        y: 843
-        width: 198
+        x: 1860
+        y: 982
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.90735, y: 65.09784}
+        - {x: -68.90735, y: 57.09784}
+        - {x: -68.90735, y: -39.90216}
+        - {x: -21.907349, y: -64.90216}
+        - {x: 44.09265, y: -64.90216}
+        - {x: 70.09265, y: -21.90216}
+        - {x: 70.09265, y: 49.09784}
+        - {x: 57.09265, y: 65.09784}
     - name: LSD_SpriteSheet_36
       rect:
         serializedVersion: 2
-        x: 1627
-        y: 843
-        width: 198
+        x: 2094
+        y: 982
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.80054, y: 65.09784}
+        - {x: -68.80054, y: 55.09784}
+        - {x: -68.80054, y: -18.90216}
+        - {x: -9.800537, y: -64.90216}
+        - {x: 35.199463, y: -64.90216}
+        - {x: 70.19946, y: -24.90216}
+        - {x: 70.19946, y: 65.09784}
     - name: LSD_SpriteSheet_37
       rect:
         serializedVersion: 2
-        x: 1861
-        y: 843
-        width: 199
+        x: 2329
+        y: 982
+        width: 198
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.005127, y: 65.09784}
+        - {x: -68.00513, y: 48.09784}
+        - {x: -68.00513, y: -4.9021606}
+        - {x: -8.005127, y: -64.90216}
+        - {x: 23.994873, y: -64.90216}
+        - {x: 68.99487, y: -16.90216}
+        - {x: 68.99487, y: 65.09784}
     - name: LSD_SpriteSheet_38
       rect:
         serializedVersion: 2
-        x: 2095
-        y: 843
-        width: 199
+        x: 2562
+        y: 982
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.586914, y: 65.09784}
+        - {x: -68.586914, y: 55.09784}
+        - {x: -68.586914, y: -33.90216}
+        - {x: -36.586914, y: -64.90216}
+        - {x: 14.413086, y: -64.90216}
+        - {x: 70.413086, y: -36.90216}
+        - {x: 70.413086, y: 65.09784}
     - name: LSD_SpriteSheet_39
       rect:
         serializedVersion: 2
-        x: 2329
-        y: 843
-        width: 198
+        x: 2796
+        y: 982
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.97998, y: -64.90216}
+        - {x: 31.02002, y: -64.90216}
+        - {x: 69.02002, y: -6.9021606}
+        - {x: 69.02002, y: 65.09784}
+        - {x: -68.97998, y: 65.09784}
+        - {x: -68.97998, y: -25.90216}
     - name: LSD_SpriteSheet_40
       rect:
         serializedVersion: 2
-        x: 2562
-        y: 843
-        width: 199
+        x: 3030
+        y: 982
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.12671, y: -23.90216}
+        - {x: 69.12671, y: -1.9021606}
+        - {x: 69.12671, y: 14.097839}
+        - {x: 41.12671, y: 25.09784}
+        - {x: 69.12671, y: 42.09784}
+        - {x: 69.12671, y: 48.09784}
+        - {x: 54.12671, y: 65.09784}
+        - {x: -52.87329, y: 65.09784}
+        - {x: -68.87329, y: 51.09784}
+        - {x: -68.87329, y: 42.09784}
+        - {x: -47.87329, y: 39.09784}
+        - {x: -68.87329, y: 20.09784}
+        - {x: -68.87329, y: -4.9021606}
+        - {x: -11.873291, y: -60.90216}
+        - {x: -2.873291, y: -64.90216}
+        - {x: 12.126709, y: -64.90216}
+        - {x: 14.126709, y: -63.90216}
+        - {x: 21.126709, y: -23.90216}
+        - {x: 16.126709, y: -0.90216064}
+        - {x: 20.126709, y: -12.902161}
     - name: LSD_SpriteSheet_41
       rect:
         serializedVersion: 2
-        x: 2796
-        y: 843
-        width: 199
+        x: 3264
+        y: 982
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.23364, y: 65.09784}
+        - {x: -68.76636, y: 65.09784}
+        - {x: -68.76636, y: -31.90216}
+        - {x: -15.766357, y: -64.90216}
+        - {x: 14.233643, y: -64.90216}
+        - {x: 19.233643, y: -20.90216}
+        - {x: 52.233643, y: -18.90216}
+        - {x: 69.23364, y: -3.9021606}
     - name: LSD_SpriteSheet_42
       rect:
         serializedVersion: 2
-        x: 3031
-        y: 843
-        width: 198
-        height: 188
+        x: 4418
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_43
       rect:
         serializedVersion: 2
-        x: 3265
-        y: 843
-        width: 198
-        height: 188
+        x: 4443
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_44
       rect:
         serializedVersion: 2
-        x: 4420
-        y: 800
-        width: 22
-        height: 46
+        x: 4467
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_45
       rect:
         serializedVersion: 2
-        x: 4444
-        y: 800
-        width: 22
-        height: 46
+        x: 4491
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_46
       rect:
         serializedVersion: 2
-        x: 4468
-        y: 800
-        width: 22
-        height: 46
+        x: 4515
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_47
       rect:
         serializedVersion: 2
-        x: 4492
-        y: 800
-        width: 22
-        height: 46
+        x: 4539
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_48
       rect:
         serializedVersion: 2
-        x: 4516
-        y: 800
-        width: 22
-        height: 46
+        x: 4563
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_49
       rect:
         serializedVersion: 2
-        x: 4540
-        y: 800
-        width: 22
-        height: 46
+        x: 4587
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_50
       rect:
         serializedVersion: 2
-        x: 4564
-        y: 800
-        width: 22
-        height: 46
+        x: 4611
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_51
       rect:
         serializedVersion: 2
-        x: 4588
-        y: 800
-        width: 22
-        height: 46
+        x: 4635
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_52
       rect:
         serializedVersion: 2
-        x: 4612
-        y: 800
-        width: 22
-        height: 46
+        x: 4659
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_53
       rect:
         serializedVersion: 2
-        x: 4636
-        y: 800
-        width: 22
-        height: 46
+        x: 4683
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_54
       rect:
         serializedVersion: 2
-        x: 4660
-        y: 800
-        width: 22
-        height: 46
+        x: 4707
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_55
       rect:
         serializedVersion: 2
-        x: 4684
-        y: 800
-        width: 22
-        height: 46
+        x: 4730
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_56
       rect:
         serializedVersion: 2
-        x: 4708
-        y: 800
-        width: 22
-        height: 46
+        x: 4755
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_57
       rect:
         serializedVersion: 2
-        x: 4732
-        y: 800
-        width: 22
-        height: 46
+        x: 4778
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_58
       rect:
         serializedVersion: 2
-        x: 4757
-        y: 800
-        width: 22
-        height: 46
+        x: 4803
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_59
       rect:
         serializedVersion: 2
-        x: 4780
-        y: 800
-        width: 22
-        height: 46
+        x: 4826
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_60
       rect:
         serializedVersion: 2
-        x: 4805
-        y: 800
-        width: 22
-        height: 46
+        x: 4851
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_61
       rect:
         serializedVersion: 2
-        x: 4828
-        y: 800
-        width: 22
-        height: 46
+        x: 4874
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_62
       rect:
         serializedVersion: 2
-        x: 4853
-        y: 800
-        width: 22
-        height: 46
+        x: 4899
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_63
       rect:
         serializedVersion: 2
-        x: 4876
-        y: 800
-        width: 22
-        height: 46
+        x: 4924
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_64
       rect:
         serializedVersion: 2
-        x: 4900
-        y: 800
-        width: 22
-        height: 46
+        x: 4947
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_65
       rect:
         serializedVersion: 2
-        x: 4924
-        y: 800
-        width: 22
-        height: 46
+        x: 4971
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_66
       rect:
         serializedVersion: 2
-        x: 4948
-        y: 800
-        width: 22
-        height: 46
+        x: 4995
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_67
       rect:
         serializedVersion: 2
-        x: 4972
-        y: 800
-        width: 22
-        height: 46
+        x: 5019
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_68
       rect:
         serializedVersion: 2
-        x: 4996
-        y: 800
-        width: 22
-        height: 46
+        x: 5043
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_69
       rect:
         serializedVersion: 2
-        x: 5020
-        y: 800
-        width: 22
-        height: 46
+        x: 5067
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_70
       rect:
         serializedVersion: 2
-        x: 5044
-        y: 800
-        width: 22
-        height: 46
+        x: 5091
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_71
       rect:
         serializedVersion: 2
-        x: 5068
-        y: 800
-        width: 22
-        height: 46
+        x: 5115
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_72
       rect:
         serializedVersion: 2
-        x: 5092
-        y: 800
-        width: 22
-        height: 46
+        x: 5138
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_73
       rect:
         serializedVersion: 2
-        x: 5116
-        y: 800
-        width: 22
-        height: 46
+        x: 5163
+        y: 938
+        width: 20
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_74
       rect:
         serializedVersion: 2
-        x: 5140
-        y: 800
-        width: 22
-        height: 46
+        x: 5186
+        y: 938
+        width: 21
+        height: 47
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: LSD_SpriteSheet_75
       rect:
         serializedVersion: 2
-        x: 5164
-        y: 800
-        width: 22
-        height: 46
+        x: 54
+        y: 741
+        width: 199
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.178497, y: 65.1716}
+        - {x: -56.821503, y: 65.1716}
+        - {x: -68.8215, y: 49.1716}
+        - {x: -68.8215, y: -1.8283997}
+        - {x: -8.821503, y: -64.8284}
+        - {x: 17.178497, y: -64.8284}
+        - {x: 35.178497, y: -23.8284}
+        - {x: 69.1785, y: -1.8283997}
+        - {x: 69.1785, y: 53.1716}
     - name: LSD_SpriteSheet_76
       rect:
         serializedVersion: 2
-        x: 5188
-        y: 800
-        width: 22
-        height: 46
+        x: 277
+        y: 741
+        width: 200
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.788086, y: 65.1716}
+        - {x: -68.788086, y: -35.8284}
+        - {x: -10.788086, y: -61.8284}
+        - {x: -1.7880859, y: -64.8284}
+        - {x: 11.211914, y: -64.8284}
+        - {x: 22.211914, y: -40.8284}
+        - {x: 70.211914, y: -11.8284}
+        - {x: 70.211914, y: 65.1716}
     - name: LSD_SpriteSheet_77
       rect:
         serializedVersion: 2
-        x: 54
-        y: 602
-        width: 199
+        x: 500
+        y: 741
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.75467, y: 65.1716}
+        - {x: -68.75467, y: 48.1716}
+        - {x: -68.75467, y: -28.8284}
+        - {x: -33.75467, y: -64.8284}
+        - {x: 23.24533, y: -64.8284}
+        - {x: 69.24533, y: -9.8284}
+        - {x: 69.24533, y: 52.1716}
+        - {x: 64.24533, y: 65.1716}
     - name: LSD_SpriteSheet_78
       rect:
         serializedVersion: 2
-        x: 278
-        y: 602
-        width: 198
-        height: 186
+        x: 723
+        y: 742
+        width: 200
+        height: 187
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.27878, y: 65.86008}
+        - {x: -52.721222, y: 65.86008}
+        - {x: -68.72122, y: 49.860077}
+        - {x: -68.72122, y: -0.1399231}
+        - {x: -35.721222, y: -10.139923}
+        - {x: -25.721222, y: -9.139923}
+        - {x: -5.721222, y: -58.139923}
+        - {x: 1.2787781, y: -64.13992}
+        - {x: 10.278778, y: -64.13992}
+        - {x: 15.278778, y: -55.139923}
+        - {x: 70.27878, y: -21.139923}
+        - {x: 70.27878, y: 60.860077}
     - name: LSD_SpriteSheet_79
       rect:
         serializedVersion: 2
-        x: 500
-        y: 602
-        width: 199
+        x: 946
+        y: 743
+        width: 200
         height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.187805, y: 65.048584}
+        - {x: -69.187805, y: 60.048584}
+        - {x: -69.187805, y: -4.951416}
+        - {x: -7.187805, y: -63.951416}
+        - {x: 41.812195, y: -63.951416}
+        - {x: 69.812195, y: -26.951416}
+        - {x: 69.812195, y: 65.048584}
     - name: LSD_SpriteSheet_80
       rect:
         serializedVersion: 2
-        x: 724
-        y: 604
-        width: 199
-        height: 184
+        x: 1169
+        y: 744
+        width: 200
+        height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.654358, y: 64.73706}
+        - {x: -68.65436, y: 56.73706}
+        - {x: -68.65436, y: -2.2629395}
+        - {x: -32.654358, y: -8.262939}
+        - {x: -26.654358, y: -8.262939}
+        - {x: -18.654358, y: -0.26293945}
+        - {x: -9.654358, y: -45.26294}
+        - {x: -3.654358, y: -57.26294}
+        - {x: 0.3456421, y: -64.26294}
+        - {x: 9.345642, y: -64.26294}
+        - {x: 10.345642, y: -63.26294}
+        - {x: 70.34564, y: -5.2629395}
+        - {x: 70.34564, y: 57.73706}
+        - {x: 64.34564, y: 64.73706}
     - name: LSD_SpriteSheet_81
       rect:
         serializedVersion: 2
-        x: 947
-        y: 605
-        width: 198
-        height: 185
+        x: 1392
+        y: 744
+        width: 200
+        height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.87903, y: -13.262939}
+        - {x: 69.87903, y: -1.2629395}
+        - {x: 69.87903, y: 7.7370605}
+        - {x: 51.87903, y: 19.73706}
+        - {x: 43.87903, y: 17.73706}
+        - {x: 69.87903, y: 37.73706}
+        - {x: 69.87903, y: 58.73706}
+        - {x: 67.87903, y: 64.73706}
+        - {x: -68.12097, y: 64.73706}
+        - {x: -69.12097, y: 60.73706}
+        - {x: -69.12097, y: 39.73706}
+        - {x: -57.12097, y: 40.73706}
+        - {x: -69.12097, y: 10.737061}
+        - {x: -69.12097, y: -22.26294}
+        - {x: -26.120972, y: -64.26294}
+        - {x: 9.879028, y: -64.26294}
+        - {x: 10.879028, y: -59.26294}
+        - {x: 13.879028, y: -39.26294}
+        - {x: 16.879028, y: -15.262939}
     - name: LSD_SpriteSheet_82
       rect:
         serializedVersion: 2
-        x: 1170
-        y: 605
-        width: 199
-        height: 185
+        x: 1616
+        y: 744
+        width: 198
+        height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.100952, y: 22.73706}
+        - {x: 69.10095, y: 39.73706}
+        - {x: 69.10095, y: 49.73706}
+        - {x: 53.100952, y: 64.73706}
+        - {x: -67.89905, y: 64.73706}
+        - {x: -67.89905, y: 38.73706}
+        - {x: -55.899048, y: 40.73706}
+        - {x: -67.89905, y: 6.7370605}
+        - {x: -67.89905, y: -0.26293945}
+        - {x: -37.899048, y: -21.26294}
+        - {x: -0.89904785, y: -64.26294}
+        - {x: 15.100952, y: -64.26294}
+        - {x: 69.10095, y: -2.2629395}
+        - {x: 69.10095, y: 11.737061}
     - name: LSD_SpriteSheet_83
       rect:
         serializedVersion: 2
-        x: 1393
-        y: 605
-        width: 198
-        height: 185
+        x: 1838
+        y: 744
+        width: 200
+        height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.05408, y: 64.73706}
+        - {x: -69.05408, y: -34.26294}
+        - {x: -18.054077, y: -64.26294}
+        - {x: 36.945923, y: -64.26294}
+        - {x: 69.94592, y: -27.26294}
+        - {x: 69.94592, y: 64.73706}
     - name: LSD_SpriteSheet_84
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 604
-        width: 198
+        x: 2061
+        y: 744
+        width: 201
         height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.97937, y: 18.73706}
+        - {x: 70.97937, y: 33.73706}
+        - {x: 70.97937, y: 55.73706}
+        - {x: 56.97937, y: 64.73706}
+        - {x: -60.02063, y: 64.73706}
+        - {x: -69.02063, y: 55.73706}
+        - {x: -69.02063, y: -8.262939}
+        - {x: -7.02063, y: -64.26294}
+        - {x: 32.97937, y: -64.26294}
+        - {x: 70.97937, y: -5.2629395}
+        - {x: 70.97937, y: 7.7370605}
     - name: LSD_SpriteSheet_85
       rect:
         serializedVersion: 2
-        x: 1839
-        y: 602
-        width: 198
+        x: 2284
+        y: 743
+        width: 200
         height: 186
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.012695, y: 65.048584}
+        - {x: -68.987305, y: 65.048584}
+        - {x: -68.987305, y: -3.951416}
+        - {x: -28.987305, y: -9.951416}
+        - {x: -20.987305, y: -3.951416}
+        - {x: -15.987305, y: -28.951416}
+        - {x: -1.9873047, y: -63.951416}
+        - {x: 14.012695, y: -63.951416}
+        - {x: 70.012695, y: -5.951416}
+        - {x: 70.012695, y: 55.048584}
     - name: LSD_SpriteSheet_86
       rect:
         serializedVersion: 2
-        x: 2061
-        y: 602
-        width: 199
-        height: 188
+        x: 2507
+        y: 742
+        width: 200
+        height: 187
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.95386, y: 65.86008}
+        - {x: -68.95386, y: 63.860077}
+        - {x: -68.95386, y: -25.139923}
+        - {x: -31.953857, y: -64.13992}
+        - {x: 25.046143, y: -64.13992}
+        - {x: 69.04614, y: -13.139923}
+        - {x: 69.04614, y: 65.86008}
     - name: LSD_SpriteSheet_87
       rect:
         serializedVersion: 2
-        x: 54
-        y: 365
-        width: 199
+        x: 2729
+        y: 741
+        width: 201
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.10889, y: 65.1716}
+        - {x: -69.10889, y: -0.82839966}
+        - {x: -34.108887, y: -11.8284}
+        - {x: -26.108887, y: -11.8284}
+        - {x: -22.108887, y: -28.8284}
+        - {x: -4.1088867, y: -64.8284}
+        - {x: 36.891113, y: -64.8284}
+        - {x: 70.89111, y: -31.8284}
+        - {x: 70.89111, y: 65.1716}
     - name: LSD_SpriteSheet_88
       rect:
         serializedVersion: 2
-        x: 275
-        y: 365
-        width: 199
-        height: 188
+        x: 2953
+        y: 740
+        width: 200
+        height: 187
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.11304, y: 37.483124}
+        - {x: 69.11304, y: 65.48312}
+        - {x: -68.88696, y: 65.48312}
+        - {x: -68.88696, y: -35.516876}
+        - {x: -38.886963, y: -64.51688}
+        - {x: 26.113037, y: -64.51688}
+        - {x: 69.11304, y: -20.516876}
+        - {x: 69.11304, y: 9.483124}
+        - {x: 52.113037, y: 22.483124}
     - name: LSD_SpriteSheet_89
       rect:
         serializedVersion: 2
-        x: 497
-        y: 367
-        width: 198
-        height: 186
+        x: 3176
+        y: 740
+        width: 200
+        height: 189
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.853516, y: 65.98312}
+        - {x: -68.853516, y: -22.016876}
+        - {x: -45.853516, y: -42.016876}
+        - {x: -3.8535156, y: -65.01688}
+        - {x: 22.146484, y: -65.01688}
+        - {x: 70.146484, y: -9.016876}
+        - {x: 70.146484, y: 65.98312}
     - name: LSD_SpriteSheet_90
       rect:
         serializedVersion: 2
-        x: 718
-        y: 367
-        width: 198
-        height: 186
+        x: 54
+        y: 437
+        width: 200
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.178497, y: -18.629578}
+        - {x: 69.1785, y: -0.62957764}
+        - {x: 69.1785, y: 9.370422}
+        - {x: 52.178497, y: 21.370422}
+        - {x: 69.1785, y: 41.370422}
+        - {x: 69.1785, y: 51.370422}
+        - {x: 57.178497, y: 66.37042}
+        - {x: -58.821503, y: 66.37042}
+        - {x: -68.8215, y: 51.370422}
+        - {x: -68.8215, y: -7.6295776}
+        - {x: -50.821503, y: -49.629578}
+        - {x: -29.821503, y: -64.62958}
+        - {x: 22.178497, y: -64.62958}
+        - {x: 19.178497, y: -20.629578}
+        - {x: 18.178497, y: -9.629578}
+        - {x: 25.178497, y: -15.629578}
     - name: LSD_SpriteSheet_91
       rect:
         serializedVersion: 2
-        x: 939
-        y: 368
-        width: 199
-        height: 186
+        x: 275
+        y: 437
+        width: 200
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.834946, y: -20.629578}
+        - {x: 69.834946, y: -0.62957764}
+        - {x: 69.834946, y: 9.370422}
+        - {x: 51.834946, y: 21.370422}
+        - {x: 69.834946, y: 38.370422}
+        - {x: 69.834946, y: 56.370422}
+        - {x: 66.834946, y: 66.37042}
+        - {x: -69.165054, y: 66.37042}
+        - {x: -69.165054, y: -30.629578}
+        - {x: -51.165054, y: -64.62958}
+        - {x: 12.834946, y: -64.62958}
+        - {x: 13.834946, y: -62.629578}
+        - {x: 16.834946, y: -38.629578}
+        - {x: 17.834946, y: -21.629578}
+        - {x: 17.834946, y: -9.629578}
     - name: LSD_SpriteSheet_92
       rect:
         serializedVersion: 2
-        x: 1160
-        y: 368
-        width: 198
-        height: 188
+        x: 496
+        y: 438
+        width: 200
+        height: 187
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.991394, y: 65.55893}
+        - {x: -69.008606, y: 65.55893}
+        - {x: -69.008606, y: -27.44107}
+        - {x: -5.008606, y: -64.44107}
+        - {x: 9.991394, y: -64.44107}
+        - {x: 13.991394, y: -60.44107}
+        - {x: 69.991394, y: -7.4410706}
+        - {x: 69.991394, y: 54.55893}
     - name: LSD_SpriteSheet_93
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 368
-        width: 199
-        height: 188
+        x: 717
+        y: 438
+        width: 200
+        height: 189
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.147827, y: -0.94107056}
+        - {x: 13.147827, y: -1.9410706}
+        - {x: 17.147827, y: -0.94107056}
+        - {x: 19.147827, y: -5.9410706}
+        - {x: 27.147827, y: -10.941071}
+        - {x: 51.147827, y: -10.941071}
+        - {x: 70.14783, y: 0.058929443}
+        - {x: 70.14783, y: 16.05893}
+        - {x: 51.147827, y: 20.05893}
+        - {x: 43.147827, y: 18.05893}
+        - {x: 70.14783, y: 35.05893}
+        - {x: 70.14783, y: 66.05893}
+        - {x: -68.85217, y: 66.05893}
+        - {x: -68.85217, y: -10.941071}
+        - {x: -3.8521729, y: -64.94107}
+        - {x: 14.147827, y: -64.94107}
+        - {x: 16.147827, y: -56.94107}
+        - {x: 20.147827, y: -11.941071}
+        - {x: 15.147827, y: -3.9410706}
     - name: LSD_SpriteSheet_94
       rect:
         serializedVersion: 2
-        x: 1602
-        y: 368
-        width: 198
+        x: 938
+        y: 439
+        width: 200
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.69574, y: 65.247406}
+        - {x: -68.69574, y: -3.752594}
+        - {x: -3.6957397, y: -64.752594}
+        - {x: 10.30426, y: -64.752594}
+        - {x: 18.30426, y: -58.752594}
+        - {x: 70.30426, y: -10.752594}
+        - {x: 70.30426, y: 65.247406}
     - name: LSD_SpriteSheet_95
       rect:
         serializedVersion: 2
-        x: 1823
-        y: 368
-        width: 198
-        height: 188
+        x: 1173
+        y: 437
+        width: 200
+        height: 193
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.90045, y: 67.87042}
+        - {x: -68.90045, y: -36.129578}
+        - {x: -25.900452, y: -66.12958}
+        - {x: 20.099548, y: -66.12958}
+        - {x: 70.09955, y: -12.129578}
+        - {x: 70.09955, y: 57.870422}
+        - {x: 63.09955, y: 67.87042}
     - name: LSD_SpriteSheet_96
       rect:
         serializedVersion: 2
-        x: 2044
-        y: 368
-        width: 199
-        height: 188
+        x: 1415
+        y: 437
+        width: 201
+        height: 193
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.285706, y: 67.87042}
+        - {x: -69.285706, y: -38.129578}
+        - {x: -49.285706, y: -66.12958}
+        - {x: 40.714294, y: -66.12958}
+        - {x: 69.714294, y: -24.129578}
+        - {x: 69.714294, y: 67.87042}
     - name: LSD_SpriteSheet_97
       rect:
         serializedVersion: 2
-        x: 2265
-        y: 368
-        width: 199
-        height: 188
+        x: 1664
+        y: 437
+        width: 206
+        height: 194
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.85144, y: 68.37042}
+        - {x: -70.85144, y: 67.37042}
+        - {x: -70.85144, y: -66.62958}
+        - {x: 35.14856, y: -66.62958}
+        - {x: 72.14856, y: -10.629578}
+        - {x: 72.14856, y: 68.37042}
+      - - {x: 34.14856, y: 28.370422}
+        - {x: 31.14856, y: 25.370422}
+        - {x: 31.14856, y: 24.370422}
+        - {x: 34.14856, y: 21.370422}
+        - {x: 36.14856, y: 21.370422}
+        - {x: 39.14856, y: 22.370422}
+        - {x: 39.14856, y: 26.370422}
+        - {x: 38.14856, y: 28.370422}
     - name: LSD_SpriteSheet_98
       rect:
         serializedVersion: 2
-        x: 2485
-        y: 368
-        width: 199
-        height: 188
+        x: 1912
+        y: 432
+        width: 212
+        height: 203
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.894165, y: 70.92798}
+        - {x: 28.894165, y: 65.92798}
+        - {x: -7.105835, y: 65.92798}
+        - {x: -13.105835, y: 58.92798}
+        - {x: -14.105835, y: 53.92798}
+        - {x: -30.105835, y: 67.92798}
+        - {x: -35.105835, y: 70.92798}
+        - {x: -56.105835, y: 70.92798}
+        - {x: -73.105835, y: 62.92798}
+        - {x: -73.105835, y: -32.07202}
+        - {x: -49.105835, y: -70.07202}
+        - {x: 21.894165, y: -70.07202}
+        - {x: 73.894165, y: -4.0720215}
+        - {x: 73.894165, y: 55.92798}
+        - {x: 57.894165, y: 70.92798}
     - name: LSD_SpriteSheet_99
       rect:
         serializedVersion: 2
-        x: 2707
-        y: 368
-        width: 198
-        height: 188
+        x: 2156
+        y: 432
+        width: 213
+        height: 203
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.614136, y: 70.92798}
+        - {x: -73.614136, y: 60.92798}
+        - {x: -73.614136, y: -22.072021}
+        - {x: -2.6141357, y: -70.07202}
+        - {x: 32.385864, y: -70.07202}
+        - {x: 74.385864, y: -33.07202}
+        - {x: 74.385864, y: 70.92798}
     - name: LSD_SpriteSheet_100
       rect:
         serializedVersion: 2
-        x: 2928
-        y: 368
-        width: 198
-        height: 188
+        x: 2417
+        y: 427
+        width: 222
+        height: 224
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.41797, y: 78.985535}
+        - {x: -76.41797, y: 65.985535}
+        - {x: -76.41797, y: -9.014465}
+        - {x: -8.417969, y: -77.014465}
+        - {x: 28.582031, y: -77.014465}
+        - {x: 76.58203, y: -32.014465}
+        - {x: 76.58203, y: 59.985535}
+        - {x: 70.58203, y: 78.985535}
     - name: LSD_SpriteSheet_101
       rect:
         serializedVersion: 2
-        x: 3149
-        y: 367
-        width: 199
-        height: 187
+        x: 2679
+        y: 432
+        width: 211
+        height: 219
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.533447, y: 76.42798}
+        - {x: -72.53345, y: 58.42798}
+        - {x: -72.53345, y: -23.572021}
+        - {x: -5.5334473, y: -75.57202}
+        - {x: 37.466553, y: -75.57202}
+        - {x: 73.46655, y: -42.57202}
+        - {x: 73.46655, y: 76.42798}
     - name: LSD_SpriteSheet_102
       rect:
         serializedVersion: 2
-        x: 3370
-        y: 365
-        width: 199
-        height: 188
+        x: 2942
+        y: 432
+        width: 211
+        height: 219
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.46045, y: 76.42798}
+        - {x: -57.46045, y: 70.42798}
+        - {x: -72.46045, y: 44.42798}
+        - {x: -72.46045, y: -23.572021}
+        - {x: -7.460449, y: -75.57202}
+        - {x: 20.53955, y: -75.57202}
+        - {x: 73.53955, y: -24.572021}
+        - {x: 73.53955, y: 57.42798}
+        - {x: 37.53955, y: 76.42798}
     - name: LSD_SpriteSheet_103
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 365
-        width: 199
-        height: 188
+        x: 3243
+        y: 437
+        width: 206
+        height: 214
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.27539, y: 75.37042}
+        - {x: -47.72461, y: 75.37042}
+        - {x: -70.72461, y: 67.37042}
+        - {x: -70.72461, y: -23.629578}
+        - {x: -42.72461, y: -73.62958}
+        - {x: 32.27539, y: -73.62958}
+        - {x: 72.27539, y: -8.629578}
+        - {x: 72.27539, y: 60.370422}
+        - {x: 59.27539, y: 69.37042}
+      - - {x: 31.27539, y: 18.370422}
+        - {x: 31.27539, y: 17.370422}
+        - {x: 35.27539, y: 13.370422}
+        - {x: 38.27539, y: 14.370422}
+        - {x: 39.27539, y: 19.370422}
+        - {x: 37.27539, y: 21.370422}
+        - {x: 34.27539, y: 21.370422}
     - name: LSD_SpriteSheet_104
       rect:
         serializedVersion: 2
-        x: 3811
-        y: 365
-        width: 199
-        height: 188
+        x: 3537
+        y: 437
+        width: 202
+        height: 192
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.80835, y: 67.87042}
+        - {x: -69.80835, y: 65.87042}
+        - {x: -69.80835, y: -30.129578}
+        - {x: -39.80835, y: -66.12958}
+        - {x: 47.19165, y: -66.12958}
+        - {x: 70.19165, y: -29.129578}
+        - {x: 70.19165, y: 58.870422}
+        - {x: 59.19165, y: 67.87042}
     - name: LSD_SpriteSheet_105
       rect:
         serializedVersion: 2
-        x: 54
-        y: 95
-        width: 199
-        height: 188
+        x: 3816
+        y: 437
+        width: 198
+        height: 191
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.780518, y: 67.37042}
+        - {x: 36.780518, y: 67.37042}
+        - {x: 29.780518, y: 61.370422}
+        - {x: 10.780518, y: 65.37042}
+        - {x: -6.2194824, y: 59.370422}
+        - {x: -10.219482, y: 55.370422}
+        - {x: -29.219482, y: 67.37042}
+        - {x: -60.219482, y: 67.37042}
+        - {x: -68.21948, y: 59.370422}
+        - {x: -68.21948, y: -21.629578}
+        - {x: -38.219482, y: -65.62958}
+        - {x: 15.780518, y: -65.62958}
+        - {x: 16.780518, y: -60.629578}
+        - {x: 68.78052, y: -9.629578}
+        - {x: 68.78052, y: 61.370422}
     - name: LSD_SpriteSheet_106
       rect:
         serializedVersion: 2
-        x: 292
-        y: 81
-        width: 245
-        height: 246
+        x: 4071
+        y: 437
+        width: 200
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.6543, y: 66.37042}
+        - {x: -68.6543, y: -10.629578}
+        - {x: -34.654297, y: -20.629578}
+        - {x: -23.654297, y: -13.629578}
+        - {x: -18.654297, y: -6.6295776}
+        - {x: -18.654297, y: -9.629578}
+        - {x: -12.654297, y: -54.629578}
+        - {x: 0.34570312, y: -64.62958}
+        - {x: 29.345703, y: -64.62958}
+        - {x: 70.3457, y: -11.629578}
+        - {x: 70.3457, y: 60.370422}
+        - {x: 68.3457, y: 66.37042}
     - name: LSD_SpriteSheet_107
       rect:
         serializedVersion: 2
-        x: 574
-        y: 81
-        width: 248
-        height: 246
+        x: 4292
+        y: 437
+        width: 200
+        height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.99805, y: 66.37042}
+        - {x: -68.99805, y: 65.37042}
+        - {x: -68.99805, y: -5.6295776}
+        - {x: -36.998047, y: -64.62958}
+        - {x: 30.001953, y: -64.62958}
+        - {x: 69.00195, y: -15.629578}
+        - {x: 69.00195, y: 50.370422}
+        - {x: 61.001953, y: 66.37042}
     - name: LSD_SpriteSheet_108
       rect:
         serializedVersion: 2
-        x: 861
-        y: 81
-        width: 250
-        height: 246
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_109
-      rect:
-        serializedVersion: 2
-        x: 1145
-        y: 81
-        width: 249
-        height: 246
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_110
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 81
-        width: 250
-        height: 246
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_111
-      rect:
-        serializedVersion: 2
-        x: 1725
-        y: 88
-        width: 228
-        height: 229
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_112
-      rect:
-        serializedVersion: 2
-        x: 2007
-        y: 102
-        width: 206
-        height: 205
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_113
-      rect:
-        serializedVersion: 2
-        x: 2271
+        x: 54
         y: 112
-        width: 202
-        height: 180
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_114
-      rect:
-        serializedVersion: 2
-        x: 2525
-        y: 125
-        width: 209
-        height: 159
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_115
-      rect:
-        serializedVersion: 2
-        x: 2788
-        y: 134
-        width: 218
-        height: 154
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_116
-      rect:
-        serializedVersion: 2
-        x: 3071
-        y: 115
-        width: 218
-        height: 176
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_117
-      rect:
-        serializedVersion: 2
-        x: 3341
-        y: 90
-        width: 218
-        height: 204
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_118
-      rect:
-        serializedVersion: 2
-        x: 3602
-        y: 87
-        width: 217
-        height: 217
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_119
-      rect:
-        serializedVersion: 2
-        x: 3861
-        y: 81
-        width: 247
-        height: 249
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_120
-      rect:
-        serializedVersion: 2
-        x: 4135
-        y: 81
-        width: 248
-        height: 249
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_121
-      rect:
-        serializedVersion: 2
-        x: 4424
-        y: 81
-        width: 247
-        height: 249
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_122
-      rect:
-        serializedVersion: 2
-        x: 4709
-        y: 81
-        width: 247
-        height: 249
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_123
-      rect:
-        serializedVersion: 2
-        x: 4992
-        y: 98
-        width: 199
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_124
-      rect:
-        serializedVersion: 2
-        x: 5224
-        y: 107
-        width: 198
-        height: 177
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_125
-      rect:
-        serializedVersion: 2
-        x: 5455
-        y: 98
-        width: 198
-        height: 185
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: LSD_SpriteSheet_126
-      rect:
-        serializedVersion: 2
-        x: 5687
-        y: 95
         width: 199
         height: 188
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.821503, y: 65.110954}
+        - {x: -68.8215, y: 49.110954}
+        - {x: -68.8215, y: -26.889046}
+        - {x: -29.821503, y: -64.889046}
+        - {x: 18.178497, y: -64.889046}
+        - {x: 69.1785, y: -1.8890457}
+        - {x: 69.1785, y: 55.110954}
+        - {x: 52.178497, y: 65.110954}
+    - name: LSD_SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 98
+        width: 247
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77.149216, y: 84.972084}
+        - {x: -85.149216, y: 63.972084}
+        - {x: -85.149216, y: -53.027916}
+        - {x: -48.149216, y: -83.027916}
+        - {x: -37.149216, y: -84.027916}
+        - {x: 35.850784, y: -84.027916}
+        - {x: 59.850784, y: -69.027916}
+        - {x: 85.850784, y: -41.027916}
+        - {x: 85.850784, y: 84.972084}
+    - name: LSD_SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 98
+        width: 248
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.306335, y: 85.472084}
+        - {x: -85.306335, y: 70.472084}
+        - {x: -85.306335, y: -47.527916}
+        - {x: -59.306335, y: -78.527916}
+        - {x: -37.306335, y: -84.527916}
+        - {x: 52.693665, y: -84.527916}
+        - {x: 85.693665, y: -46.527916}
+        - {x: 85.693665, y: 49.472084}
+        - {x: 72.693665, y: 85.472084}
+    - name: LSD_SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 98
+        width: 249
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.290466, y: 85.472084}
+        - {x: -46.709534, y: 85.472084}
+        - {x: -85.70953, y: 52.472084}
+        - {x: -85.70953, y: -64.527916}
+        - {x: -55.709534, y: -84.527916}
+        - {x: 48.290466, y: -84.527916}
+        - {x: 57.290466, y: -83.527916}
+        - {x: 87.29047, y: -36.527916}
+        - {x: 87.29047, y: 32.472084}
+        - {x: 72.29047, y: 67.472084}
+      - - {x: 31.290466, y: -34.527916}
+        - {x: 29.290466, y: -36.527916}
+        - {x: 29.290466, y: -38.527916}
+        - {x: 31.290466, y: -40.527916}
+        - {x: 33.290466, y: -40.527916}
+        - {x: 35.290466, y: -38.527916}
+        - {x: 35.290466, y: -37.527916}
+        - {x: 32.290466, y: -34.527916}
+    - name: LSD_SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 98
+        width: 250
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.17816, y: 85.472084}
+        - {x: -78.17816, y: 59.472084}
+        - {x: -86.17816, y: 44.472084}
+        - {x: -86.17816, y: -78.527916}
+        - {x: -62.17816, y: -84.527916}
+        - {x: 54.82184, y: -84.527916}
+        - {x: 86.82184, y: -55.527916}
+        - {x: 86.82184, y: 40.472084}
+        - {x: 47.82184, y: 85.472084}
+    - name: LSD_SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 98
+        width: 249
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.458313, y: 85.972084}
+        - {x: -76.45831, y: 63.972084}
+        - {x: -85.45831, y: 27.972084}
+        - {x: -85.45831, y: -46.027916}
+        - {x: -74.45831, y: -78.027916}
+        - {x: -48.458313, y: -85.027916}
+        - {x: 60.541687, y: -85.027916}
+        - {x: 86.54169, y: -58.027916}
+        - {x: 86.54169, y: 78.972084}
+        - {x: 57.541687, y: 85.972084}
+    - name: LSD_SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 104
+        width: 227
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.146484, y: 80.103035}
+        - {x: -62.853516, y: 80.103035}
+        - {x: -73.853516, y: 77.103035}
+        - {x: -77.853516, y: 56.103035}
+        - {x: -77.853516, y: -47.896965}
+        - {x: -71.853516, y: -60.896965}
+        - {x: -27.853516, y: -78.896965}
+        - {x: 40.146484, y: -78.896965}
+        - {x: 74.146484, y: -61.896965}
+        - {x: 79.146484, y: -46.896965}
+        - {x: 79.146484, y: 46.103035}
+    - name: LSD_SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 119
+        width: 204
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.989258, y: 72.43039}
+        - {x: -38.010742, y: 72.43039}
+        - {x: -70.01074, y: 45.43039}
+        - {x: -70.01074, y: -61.56961}
+        - {x: -40.010742, y: -70.56961}
+        - {x: 52.989258, y: -70.56961}
+        - {x: 70.98926, y: -52.56961}
+        - {x: 70.98926, y: 48.43039}
+        - {x: 52.989258, y: 63.43039}
+    - name: LSD_SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 129
+        width: 201
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.93762, y: 63.3153}
+        - {x: -68.93762, y: -26.6847}
+        - {x: -32.937622, y: -61.6847}
+        - {x: 30.062378, y: -61.6847}
+        - {x: 70.06238, y: -22.6847}
+        - {x: 70.06238, y: 57.3153}
+        - {x: 69.06238, y: 63.3153}
+    - name: LSD_SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 140
+        width: 207
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.37256, y: 56.388695}
+        - {x: -71.37256, y: 51.388695}
+        - {x: -71.37256, y: -34.611305}
+        - {x: -36.37256, y: -55.611305}
+        - {x: 37.62744, y: -55.611305}
+        - {x: 71.62744, y: -30.611305}
+        - {x: 71.62744, y: 46.388695}
+        - {x: 53.62744, y: 56.388695}
+    - name: LSD_SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 150
+        width: 218
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.987915, y: 53.773605}
+        - {x: -74.987915, y: 45.773605}
+        - {x: -74.987915, y: -36.226395}
+        - {x: -39.987915, y: -53.226395}
+        - {x: 39.012085, y: -53.226395}
+        - {x: 76.012085, y: -40.226395}
+        - {x: 76.012085, y: 40.773605}
+        - {x: 60.012085, y: 53.773605}
+    - name: LSD_SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 132
+        width: 216
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69.45654, y: 62.380768}
+        - {x: -74.45654, y: 48.380768}
+        - {x: -74.45654, y: -29.619232}
+        - {x: -27.456543, y: -60.619232}
+        - {x: 25.543457, y: -60.619232}
+        - {x: 74.54346, y: -34.619232}
+        - {x: 74.54346, y: 62.380768}
+    - name: LSD_SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 107
+        width: 217
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.752686, y: 71.6685}
+        - {x: -74.752686, y: 55.668503}
+        - {x: -74.752686, y: -14.331497}
+        - {x: -21.752686, y: -69.3315}
+        - {x: -14.752686, y: -70.3315}
+        - {x: 38.247314, y: -70.3315}
+        - {x: 75.247314, y: -8.331497}
+        - {x: 75.247314, y: 56.668503}
+        - {x: 67.247314, y: 71.6685}
+    - name: LSD_SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 104
+        width: 214
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.67944, y: -37.896965}
+        - {x: -67.67944, y: -63.896965}
+        - {x: -32.679443, y: -74.896965}
+        - {x: 37.320557, y: -74.896965}
+        - {x: 74.32056, y: -42.896965}
+        - {x: 74.32056, y: 76.103035}
+        - {x: -62.679443, y: 76.103035}
+        - {x: -73.67944, y: 70.103035}
+    - name: LSD_SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 98
+        width: 246
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.73755, y: 86.472084}
+        - {x: -76.73755, y: 78.472084}
+        - {x: -84.73755, y: 62.472084}
+        - {x: -84.73755, y: -46.527916}
+        - {x: -77.73755, y: -76.527916}
+        - {x: -58.73755, y: -85.527916}
+        - {x: 31.262451, y: -85.527916}
+        - {x: 74.26245, y: -72.527916}
+        - {x: 85.26245, y: -52.527916}
+        - {x: 85.26245, y: 65.472084}
+        - {x: 56.26245, y: 86.472084}
+    - name: LSD_SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 98
+        width: 248
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.091064, y: 86.972084}
+        - {x: -60.091064, y: 84.972084}
+        - {x: -85.091064, y: 40.972084}
+        - {x: -85.091064, y: -34.027916}
+        - {x: -80.091064, y: -55.027916}
+        - {x: -49.091064, y: -86.027916}
+        - {x: 61.908936, y: -86.027916}
+        - {x: 86.908936, y: -30.027916}
+        - {x: 86.908936, y: 43.972084}
+        - {x: 47.908936, y: 86.972084}
+    - name: LSD_SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 98
+        width: 248
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.882812, y: 86.472084}
+        - {x: -66.11719, y: 86.472084}
+        - {x: -85.11719, y: 43.472084}
+        - {x: -85.11719, y: -61.527916}
+        - {x: -59.117188, y: -85.527916}
+        - {x: 53.882812, y: -85.527916}
+        - {x: 86.88281, y: -46.527916}
+        - {x: 86.88281, y: 44.472084}
+        - {x: 75.88281, y: 66.472084}
+    - name: LSD_SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 99
+        width: 246
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.89746, y: 85.660576}
+        - {x: -84.89746, y: 44.660576}
+        - {x: -84.89746, y: -41.339424}
+        - {x: -47.89746, y: -85.339424}
+        - {x: 48.10254, y: -85.339424}
+        - {x: 85.10254, y: -53.339424}
+        - {x: 85.10254, y: 59.660576}
+        - {x: 38.10254, y: 85.660576}
+    - name: LSD_SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 4991
+        y: 115
+        width: 200
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.25708, y: 20.17643}
+        - {x: 47.25708, y: 19.17643}
+        - {x: 42.25708, y: 17.17643}
+        - {x: 47.25708, y: 21.17643}
+        - {x: 47.25708, y: 30.17643}
+        - {x: 42.25708, y: 35.17643}
+        - {x: 41.25708, y: 35.17643}
+        - {x: 36.25708, y: 30.17643}
+        - {x: 42.25708, y: 37.17643}
+        - {x: 69.25708, y: 42.17643}
+        - {x: 69.25708, y: 49.17643}
+        - {x: 61.25708, y: 65.17643}
+        - {x: -57.74292, y: 65.17643}
+        - {x: -68.74292, y: 50.17643}
+        - {x: -68.74292, y: 40.17643}
+        - {x: -47.74292, y: 41.17643}
+        - {x: -36.74292, y: 33.17643}
+        - {x: -31.74292, y: 31.17643}
+        - {x: -34.74292, y: 32.17643}
+        - {x: -37.74292, y: 34.17643}
+        - {x: -44.74292, y: 37.17643}
+        - {x: -68.74292, y: 5.1764297}
+        - {x: -68.74292, y: -5.8235703}
+        - {x: -42.74292, y: -64.82357}
+        - {x: 30.25708, y: -64.82357}
+        - {x: 30.25708, y: -63.82357}
+        - {x: 20.25708, y: -9.82357}
+        - {x: 69.25708, y: 0.17642975}
+        - {x: 69.25708, y: 8.17643}
+    - name: LSD_SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 5223
+        y: 123
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.486816, y: -9.815643}
+        - {x: 27.486816, y: -15.815643}
+        - {x: 37.486816, y: -17.815643}
+        - {x: 70.48682, y: -3.8156433}
+        - {x: 70.48682, y: 63.184357}
+        - {x: -59.513184, y: 63.184357}
+        - {x: -68.51318, y: 48.184357}
+        - {x: -68.51318, y: -5.8156433}
+        - {x: -67.51318, y: -7.8156433}
+        - {x: -20.513184, y: -15.815643}
+        - {x: -19.513184, y: -12.815643}
+        - {x: -21.513184, y: -21.815643}
+        - {x: -19.513184, y: -35.815643}
+        - {x: -4.5131836, y: -59.815643}
+        - {x: -1.5131836, y: -57.815643}
+        - {x: 3.4868164, y: -55.815643}
+        - {x: 2.4868164, y: -53.815643}
+        - {x: 3.4868164, y: -60.815643}
+        - {x: 4.4868164, y: -61.815643}
+        - {x: 12.486816, y: -61.815643}
+        - {x: 26.486816, y: -40.815643}
+        - {x: 25.486816, y: -20.815643}
+        - {x: 20.486816, y: -11.815643}
+    - name: LSD_SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 5454
+        y: 115
+        width: 200
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.02832, y: 20.67643}
+        - {x: 69.02832, y: 38.67643}
+        - {x: 69.02832, y: 52.67643}
+        - {x: 59.02832, y: 64.67643}
+        - {x: -68.97168, y: 64.67643}
+        - {x: -68.97168, y: -49.32357}
+        - {x: -64.97168, y: -64.32357}
+        - {x: 30.02832, y: -64.32357}
+        - {x: 69.02832, y: -2.3235703}
+        - {x: 69.02832, y: 6.6764297}
+    - name: LSD_SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 112
+        width: 199
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.55347, y: 65.110954}
+        - {x: -68.55347, y: 64.110954}
+        - {x: -68.55347, y: -33.889046}
+        - {x: -41.553467, y: -64.889046}
+        - {x: 17.446533, y: -64.889046}
+        - {x: 69.44653, y: -24.889046}
+        - {x: 69.44653, y: 49.110954}
+        - {x: 54.446533, y: 65.110954}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

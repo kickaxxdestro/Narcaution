@@ -40,7 +40,12 @@ public class BackgroundHandler : MonoBehaviour {
             {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
-                    background = child.gameObject;
+				{
+					background = child.gameObject;
+
+					if (child.FindChild (selectedLevel.ToString () + " ColorTint"))
+						child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
+				}
 
 				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
 					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
@@ -53,7 +58,12 @@ public class BackgroundHandler : MonoBehaviour {
             {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
-                    background = child.gameObject;
+				{
+					background = child.gameObject;
+
+					if (child.FindChild (selectedLevel.ToString () + " ColorTint"))
+						child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
+				}
 
 				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
 					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
@@ -65,24 +75,51 @@ public class BackgroundHandler : MonoBehaviour {
             {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
-                    background = child.gameObject;
+				{
+					background = child.gameObject;
+
+					if (child.FindChild (selectedLevel.ToString () + " ColorTint"))
+						child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
+				}
 
 				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
 					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
             }
         }
-        else
+		else if (selectedLevel <= 20)
         {
             foreach (Transform child in backgroundList[4].transform)
             {
                 child.gameObject.SetActive(true);
                 if (child.gameObject.name == "Background")
-                    background = child.gameObject;
+				{
+					background = child.gameObject;
+
+					if (child.FindChild (selectedLevel.ToString () + " ColorTint"))
+						child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
+				}
 
 				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
 					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
             }
         }
+		else if (selectedLevel >= 21)
+		{
+			foreach (Transform child in backgroundList[5].transform)
+			{
+				child.gameObject.SetActive(true);
+				if (child.gameObject.name == "Background")
+				{
+					background = child.gameObject;
+
+					if (child.FindChild (selectedLevel.ToString () + " ColorTint"))
+						child.FindChild (selectedLevel.ToString () + " ColorTint").gameObject.SetActive (true);
+				}
+
+				if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1)
+					child.GetComponent<ScrollingBackground> ().scrollSpeed = 0;
+			}
+		}
 
         if (background == null)
         {

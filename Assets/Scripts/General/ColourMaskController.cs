@@ -70,7 +70,10 @@ public class ColourMaskController : MonoBehaviour {
                 if (maskColor.a <= 0f && maskColor.r <= 0f && maskColor.r <= 0f && maskColor.r <= 0f)
                 {
 					maskActive = false;
-					GetComponent<Image> ().enabled = false;
+					if(GetComponent<Image> ())
+						GetComponent<Image> ().enabled = false;
+					else if(GetComponent<SpriteRenderer> ())
+						GetComponent<SpriteRenderer> ().enabled = false;
                 }
                 if (GetComponent<SpriteRenderer>())
                     GetComponent<SpriteRenderer>().color = maskColor;
@@ -86,7 +89,10 @@ public class ColourMaskController : MonoBehaviour {
                     maskActive = false;
                 }
 
-                GetComponent<Image>().color = maskColor;
+			if (GetComponent<SpriteRenderer>())
+				GetComponent<SpriteRenderer>().color = maskColor;
+			else if (GetComponent<Image>())
+				GetComponent<Image>().color = maskColor;
                 break;
             default:
                 break;
@@ -114,7 +120,10 @@ public class ColourMaskController : MonoBehaviour {
         this.maskDuration = duration;
         maskActive = true;
 
-		GetComponent<Image> ().enabled = true;
+		if (GetComponent<SpriteRenderer>())
+			GetComponent<SpriteRenderer>().color = maskColor;
+		else if (GetComponent<Image>())
+			GetComponent<Image>().color = maskColor;
 
         switch (mode)
         {
