@@ -130,7 +130,10 @@ public class WorldListManager : MonoBehaviour {
                 world.GetComponent<WorldButton>().DoFadeOutDisplay();
                 continue;
             }
-            world.GetComponent<WorldButton>().DoOutTransition();
+			if (world.GetComponent<WorldButton> ())
+				world.GetComponent<WorldButton> ().DoOutTransition ();
+			else if (world.GetComponent<LevelButton> ())
+				world.GetComponent<LevelButton> ().DoOutTransition ();
         }
 
         zoomDir = true;
@@ -145,8 +148,11 @@ public class WorldListManager : MonoBehaviour {
     public void DoDeselectedTransitions()
     {
         foreach(GameObject world in worldList)
-        {
-            world.GetComponent<WorldButton>().DoInTransition();
+		{
+			if (world.GetComponent<WorldButton> ())
+            	world.GetComponent<WorldButton>().DoInTransition();
+			else if (world.GetComponent<LevelButton> ())
+				world.GetComponent<LevelButton> ().DoInTransition ();
         }
 
         zoomDir = false;
@@ -158,7 +164,8 @@ public class WorldListManager : MonoBehaviour {
 
     public void EnableCurrentWorldChildButtons()
     {
-        selectedWorld.GetComponent<WorldButton>().EnableChildButtons();
+		if(selectedWorld != null)
+        	selectedWorld.GetComponent<WorldButton>().EnableChildButtons();
         print("enabled");
     }
 
