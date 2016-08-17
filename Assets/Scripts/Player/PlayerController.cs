@@ -820,45 +820,48 @@ public class PlayerController : MonoBehaviour
             lastMousePos = currentMousePos;
 
             //move the player when mouse is held down
-            if (isFrozen == false)
-            {
-                if (Input.GetMouseButton(0))
-                {
-                    if (reverseControls)
-                        transform.position += new Vector3(-deltaMousePos.x, -deltaMousePos.y, 0) * moveSpeed;
-                    else
-                        transform.position += new Vector3(deltaMousePos.x, deltaMousePos.y, 0) * moveSpeed;
+			if (isFrozen == false)
+			{
+				if (Input.GetMouseButton(0))
+				{
+					if(reverseControls)
+						transform.position += new Vector3(-deltaMousePos.x, -deltaMousePos.y, 0) * moveSpeed;
+					else
+						transform.position += new Vector3(deltaMousePos.x, deltaMousePos.y, 0) * moveSpeed;
 
-                    if (gamemode && canShoot)
-                    {
-                        weapon.FireWeapon();
-            if(usingMissle)
-                            FireHomingBullet();
-                        if (usingBomb)
-                            FireBombBullet();
-                    }
-                    else if (touchCheck.CheckDoubleClick() && canShoot)
-                        barrier.ToggleBarrier();
-                }
-            }
-            else if (isFrozen == true)
-            {
-                if (Input.GetMouseButtonDown(0))
-                {
-                    if (freezeBreakCount > 0)
-                    {
-                        frostbite.gameObject.GetComponent<SpriteRenderer>().sprite = frostbiteSprites[freezeBreakCount - 1];
-                        --freezeBreakCount;
+					if(gamemode && canShoot)
+					{
+						weapon.FireWeapon();
+						if(usingMissle)
+							FireHomingBullet();
+						if (usingBomb)
+							FireBombBullet();
+					}
+					else if (touchCheck.CheckClickHold() && canShoot && !gamemode)
+						barrier.ToggleBarrier(true);
+				}
+				else
+					if(!gamemode && canShoot)
+						barrier.ToggleBarrier(false);
+			}
+			else if (isFrozen == true)
+			{
+				if (Input.GetMouseButtonDown(0))
+				{
+					if (freezeBreakCount > 0)
+					{
+						frostbite.gameObject.GetComponent<SpriteRenderer>().sprite = frostbiteSprites[freezeBreakCount - 1];
+						--freezeBreakCount;
 
-                    }
-                    else
-                    {
-                        isFrozen = false;
-                        frostbite.gameObject.SetActive(false);
-                                    transform.FindChild("DrugEffectDisplay").GetComponent<DrugEffectDisplay>().DisplayTapUI(false);
-                    }
-                }
-            }
+					}
+					else
+					{
+						isFrozen = false;
+						frostbite.gameObject.SetActive(false);
+						transform.FindChild("DrugEffectDisplay").GetComponent<DrugEffectDisplay>().DisplayTapUI(false);
+					}
+				}
+			}
 #endif
 
 #if UNITY_ANDROID

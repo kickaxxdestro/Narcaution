@@ -117,7 +117,8 @@ public class LoadingScreenHandler : MonoBehaviour {
 
     void LoadNextScene()
     {
-        SceneManager.LoadScene(sceneToLoad);
+		Resources.UnloadUnusedAssets ();
+		SceneManager.LoadScene(sceneToLoad);
         updateBGM = 1;
     }
 

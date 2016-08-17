@@ -147,7 +147,7 @@ public class minigameHandler : MonoBehaviour {
 
         ribbonDisplay.GetComponent<SliderItem>().DoLerpToCenter_FromRight();
 
-        if (PlayerPrefs.GetInt("ppSelectedLevel", 0) <= 21)
+        if (PlayerPrefs.GetInt("ppSelectedLevel", 0) >= 20)
         {
             buttonPanel.transform.FindChild("Default").gameObject.SetActive(false);
             buttonPanel.transform.FindChild("EndButton").gameObject.SetActive(true);
@@ -334,7 +334,7 @@ public class minigameHandler : MonoBehaviour {
 
     public void DoLastLevelTransition()
     {
-		if(PlayerPrefs.GetInt("ppSeenEndScreen", 0) == 0 && PlayerPrefs.GetInt("ppSelectedLevel", 0) >= 22)
+		if(PlayerPrefs.GetInt("ppSeenEndScreen", 0) == 0 && PlayerPrefs.GetInt("ppSelectedLevel", 0) >= 21)
         {
             PlayerPrefs.SetInt("ppSelectedCutscene", 22);
             PlayerPrefs.SetInt("ppCutsceneNext", 4);

@@ -121,9 +121,9 @@ public class ColourMaskController : MonoBehaviour {
         maskActive = true;
 
 		if (GetComponent<SpriteRenderer>())
-			GetComponent<SpriteRenderer>().color = maskColor;
+			GetComponent<SpriteRenderer>().enabled = true;
 		else if (GetComponent<Image>())
-			GetComponent<Image>().color = maskColor;
+			GetComponent<Image>().enabled = true;
 
         switch (mode)
         {
