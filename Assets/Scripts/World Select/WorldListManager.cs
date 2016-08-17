@@ -132,8 +132,11 @@ public class WorldListManager : MonoBehaviour {
             }
 			if (world.GetComponent<WorldButton> ())
 				world.GetComponent<WorldButton> ().DoOutTransition ();
-			else if (world.GetComponent<LevelButton> ())
-				world.GetComponent<LevelButton> ().DoOutTransition ();
+            else if (world.GetComponent<LevelButton>())
+            {
+                if (!world.GetComponent<LevelButton>().disabled)
+                    world.GetComponent<LevelButton>().DoOutTransition();
+            }
         }
 
         zoomDir = true;
@@ -151,8 +154,11 @@ public class WorldListManager : MonoBehaviour {
 		{
 			if (world.GetComponent<WorldButton> ())
             	world.GetComponent<WorldButton>().DoInTransition();
-			else if (world.GetComponent<LevelButton> ())
-				world.GetComponent<LevelButton> ().DoInTransition ();
+            else if (world.GetComponent<LevelButton>())
+            {
+                if (!world.GetComponent<LevelButton>().disabled)
+                    world.GetComponent<LevelButton>().DoInTransition();
+            }
         }
 
         zoomDir = false;
