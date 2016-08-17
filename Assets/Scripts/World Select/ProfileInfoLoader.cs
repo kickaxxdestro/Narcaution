@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class ProfileInfoLoader : MonoBehaviour {
 
+    public Image profilePic;
+    public Text nameDisplay;
 	public Text levelDisplay;
 	public Text creditsDisplay;
 

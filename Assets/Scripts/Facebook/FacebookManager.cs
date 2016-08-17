@@ -119,8 +119,8 @@ public class FacebookManager : MonoBehaviour {
             string.Empty,
             new Uri(AppLinkURL),
             "Narcaution",
-            "This is the caption",
-            "Check out this sick game",
+            "Come play Narcaution",
+            "Narcaution is a 2D-Shooter Bullet Hell that teaches Drug-Busting, come play this game with me!",
             new Uri("https://s-media-cache-ak0.pinimg.com/736x/c2/e2/27/c2e2274509d198cbe4adf44f670ccd2a.jpg"),
             string.Empty,
             ShareCallBack

@@ -52,6 +52,9 @@ public class CutsceneChecker : MonoBehaviour {
             case 17:
                 PlayerPrefs.SetInt("ppSelectedCutscene", 17);
                 break;
+            case 21:
+                PlayerPrefs.SetInt("ppSelectedCutscene", 21);
+                break;
             default:
                 return false;
         }
@@ -64,6 +67,15 @@ public class CutsceneChecker : MonoBehaviour {
     {
         PlayerPrefs.SetInt("ppCutsceneNext", 1);
         PlayerPrefs.SetInt("ppSelectedCutscene", cutsceneID);
+        PlayerPrefs.Save();
+
+        GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("cutsceneScreen");
+    }
+
+    public void EndGameCutscene()
+    {
+        PlayerPrefs.SetInt("ppCutsceneNext", 4);
+        PlayerPrefs.SetInt("ppSelectedCutscene", 22);
         PlayerPrefs.Save();
 
         GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("cutsceneScreen");

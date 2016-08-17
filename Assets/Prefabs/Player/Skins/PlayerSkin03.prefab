@@ -63,7 +63,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 79d7c6063853ff342a09f8d53f07cbcc, type: 3}
   description: Buster here is not only made of biodegradable materials, it also has
     78% less fuel emissions! Eco-friendly and stylish!
-  cost: 20
+  cost: 100
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

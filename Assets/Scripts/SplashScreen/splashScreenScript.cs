@@ -10,12 +10,14 @@ public class splashScreenScript : MonoBehaviour {
 	public Image SIDMLogo;
 	public Image NYPLogo;
     public Image CNBLogo;
+    public Image CNBRibbon;
     public Text loadingText;
     public GameObject loadingScreen;
 
 	Color GameLogoColor;
 	Color SIDMLogoColor;
 	Color NYPLogoColor;
+    Color CNBRibbonColor;
 
     bool nextScene = false;
 	bool trigered = false;
@@ -39,7 +41,7 @@ public class splashScreenScript : MonoBehaviour {
 		//Input.multiTouchEnabled = false;
 		Screen.SetResolution(720, (int)(720 * (1 / Camera.main.aspect)), true, 60);
 
-
+        CNBRibbonColor = CNBRibbon.color;
 		GameLogoColor = CNBLogo.color;
 		SIDMLogoColor = SIDMLogo.color;
 		NYPLogoColor = NYPLogo.color;
@@ -58,7 +60,9 @@ public class splashScreenScript : MonoBehaviour {
 		}
 		else if (timeToFadeOut <= 0) {
 			GameLogoColor.a -= 0.5f * Time.deltaTime;
+            CNBRibbonColor.a -= 0.5f * Time.deltaTime;
 			CNBLogo.color = GameLogoColor;
+            CNBRibbon.color = CNBRibbonColor;
 		}
 
 		if (GameLogoColor.a <= 0f) {
