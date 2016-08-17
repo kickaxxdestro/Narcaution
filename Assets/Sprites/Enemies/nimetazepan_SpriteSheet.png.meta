@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 89b50dbb2f6485c43a14b237d68a2ccd
-timeCreated: 1451900035
+timeCreated: 1471335311
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -59,146 +59,151 @@ TextureImporter:
     - name: nimetazepan_SpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 32
-        width: 92
-        height: 88
+        x: 23
+        y: 27
+        width: 97
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12, y: 44}
-        - {x: -46, y: 26}
-        - {x: -46, y: -9}
-        - {x: -22, y: -44}
-        - {x: 41, y: -44}
-        - {x: 46, y: -39}
-        - {x: 46, y: 27}
-        - {x: 26, y: 44}
+      - - {x: -12.5, y: 47.5}
+        - {x: -48.5, y: 29.5}
+        - {x: -48.5, y: -5.5}
+        - {x: -41.5, y: -20.5}
+        - {x: -15.5, y: -47.5}
+        - {x: -8.5, y: -47.5}
+        - {x: -1.5, y: -42.5}
+        - {x: -7.5, y: -30.5}
+        - {x: -11.5, y: -23.5}
+        - {x: 9.5, y: -47.5}
+        - {x: 41.5, y: -47.5}
+        - {x: 48.5, y: -13.5}
+        - {x: 48.5, y: 23.5}
+        - {x: 23.5, y: 47.5}
     - name: nimetazepan_SpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 27
-        width: 92
-        height: 92
+        x: 133
+        y: 26
+        width: 97
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 9, y: 46}
-        - {x: -11, y: 46}
-        - {x: -46, y: 22}
-        - {x: -46, y: -6}
-        - {x: -23, y: -38}
-        - {x: -8, y: -34}
-        - {x: -4, y: -29}
-        - {x: 0, y: -22}
-        - {x: 0, y: -21}
-        - {x: 0, y: -22}
-        - {x: -1, y: -30}
-        - {x: 20, y: -46}
-        - {x: 38, y: -46}
-        - {x: 46, y: -28}
-        - {x: 46, y: 25}
+      - - {x: 11.5, y: 47.5}
+        - {x: -30.5, y: 47.5}
+        - {x: -48.5, y: 39.5}
+        - {x: -48.5, y: -28.5}
+        - {x: -11.5, y: -46.5}
+        - {x: -0.5, y: -39.5}
+        - {x: -1.5, y: -33.5}
+        - {x: 18.5, y: -47.5}
+        - {x: 38.5, y: -47.5}
+        - {x: 48.5, y: -27.5}
+        - {x: 48.5, y: 27.5}
+        - {x: 45.5, y: 34.5}
     - name: nimetazepan_SpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 245
-        y: 22
-        width: 92
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12, y: 49}
-        - {x: -19, y: 49}
-        - {x: -46, y: 31}
-        - {x: -46, y: -21}
-        - {x: -12, y: -43}
-        - {x: 0, y: -19}
-        - {x: 0, y: -18}
-        - {x: 0, y: -19}
-        - {x: -2, y: -29}
-        - {x: 25, y: -49}
-        - {x: 36, y: -49}
-        - {x: 37, y: -34}
-        - {x: 46, y: -2}
-        - {x: 46, y: 27}
-    - name: nimetazepan_SpriteSheet_3
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 32
-        width: 92
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 46, y: -32.5}
-        - {x: 46, y: 37.5}
-        - {x: 13, y: 43.5}
-        - {x: -14, y: 43.5}
-        - {x: -46, y: 20.5}
-        - {x: -46, y: -3.5}
-        - {x: -38, y: -39.5}
-        - {x: -31, y: -43.5}
-        - {x: -20, y: -43.5}
-        - {x: -22, y: -29.5}
-        - {x: 1, y: -43.5}
-        - {x: 43, y: -43.5}
-    - name: nimetazepan_SpriteSheet_4
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 27
-        width: 92
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: -27.5}
-        - {x: 8, y: -35.5}
-        - {x: 24, y: -39.5}
-        - {x: 46, y: -8.5}
-        - {x: 46, y: 25.5}
-        - {x: 23, y: 46.5}
-        - {x: -13, y: 46.5}
-        - {x: -46, y: 29.5}
-        - {x: -46, y: -20.5}
-        - {x: -34, y: -46.5}
-        - {x: -22, y: -46.5}
-        - {x: 0, y: -21.5}
-        - {x: 0, y: -20.5}
-        - {x: 0, y: -21.5}
-    - name: nimetazepan_SpriteSheet_5
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 22
-        width: 92
+        x: 242
+        y: 25
+        width: 97
         height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: -19.5}
-        - {x: 11, y: -32.5}
-        - {x: 32, y: -34.5}
-        - {x: 46, y: -16.5}
-        - {x: 46, y: 28.5}
-        - {x: 31, y: 48.5}
-        - {x: -23, y: 48.5}
-        - {x: -46, y: 33.5}
-        - {x: -46, y: -44.5}
-        - {x: -34, y: -48.5}
-        - {x: -24, y: -48.5}
-        - {x: -1, y: -26.5}
-        - {x: 0, y: -19.5}
-        - {x: 0, y: -18.5}
+      - - {x: 40.5, y: -8.5}
+        - {x: 48.5, y: -2.5}
+        - {x: 48.5, y: 18.5}
+        - {x: 46.5, y: 25.5}
+        - {x: 21.5, y: 48.5}
+        - {x: -14.5, y: 48.5}
+        - {x: -48.5, y: 36.5}
+        - {x: -48.5, y: -6.5}
+        - {x: -22.5, y: -40.5}
+        - {x: -13.5, y: -44.5}
+        - {x: -2.5, y: -40.5}
+        - {x: -9.5, y: -26.5}
+        - {x: -15.5, y: -20.5}
+        - {x: -8.5, y: -26.5}
+        - {x: 6.5, y: -26.5}
+        - {x: 23.5, y: -48.5}
+        - {x: 33.5, y: -48.5}
+        - {x: 39.5, y: -36.5}
+        - {x: 34.5, y: -15.5}
+        - {x: 32.5, y: -10.5}
+    - name: nimetazepan_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 27
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 47.5}
+        - {x: -48.5, y: 22.5}
+        - {x: -48.5, y: -13.5}
+        - {x: -38.5, y: -42.5}
+        - {x: -30.5, y: -47.5}
+        - {x: 5.5, y: -47.5}
+        - {x: 26.5, y: -44.5}
+        - {x: 48.5, y: -10.5}
+        - {x: 48.5, y: 23.5}
+        - {x: 12.5, y: 47.5}
+    - name: nimetazepan_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 26
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 28.5}
+        - {x: 29.5, y: 47.5}
+        - {x: -15.5, y: 47.5}
+        - {x: -48.5, y: 27.5}
+        - {x: -48.5, y: -14.5}
+        - {x: -35.5, y: -47.5}
+        - {x: -4.5, y: -47.5}
+        - {x: 17.5, y: -44.5}
+        - {x: 39.5, y: -19.5}
+        - {x: 48.5, y: -1.5}
+    - name: nimetazepan_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 24
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: -20.5}
+        - {x: 9.5, y: -26.5}
+        - {x: 3.5, y: -36.5}
+        - {x: 5.5, y: -44.5}
+        - {x: 40.5, y: -46.5}
+        - {x: 48.5, y: -18.5}
+        - {x: 48.5, y: 43.5}
+        - {x: 39.5, y: 48.5}
+        - {x: -27.5, y: 48.5}
+        - {x: -48.5, y: 41.5}
+        - {x: -48.5, y: -28.5}
+        - {x: -44.5, y: -48.5}
+        - {x: -24.5, y: -48.5}
+        - {x: -20.5, y: -39.5}
+        - {x: -19.5, y: -34.5}
+        - {x: 8.5, y: -26.5}
     outline: []
   spritePackingTag: 
   userData: 
