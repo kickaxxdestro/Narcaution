@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ad7da25b32769a54489c9497d56e0f3e
-timeCreated: 1471330346
+timeCreated: 1471400085
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,125 +16,125 @@ TextureImporter:
     21300018: LSD_SpriteSheet_9
     21300020: LSD_SpriteSheet_10
     21300022: LSD_SpriteSheet_11
-    21300024: LSD_SpriteSheet_12
-    21300026: LSD_SpriteSheet_13
-    21300028: LSD_SpriteSheet_14
-    21300030: LSD_SpriteSheet_15
-    21300032: LSD_SpriteSheet_16
-    21300034: LSD_SpriteSheet_17
-    21300036: LSD_SpriteSheet_18
-    21300038: LSD_SpriteSheet_19
-    21300040: LSD_SpriteSheet_20
-    21300042: LSD_SpriteSheet_21
-    21300044: LSD_SpriteSheet_22
-    21300046: LSD_SpriteSheet_23
-    21300048: LSD_SpriteSheet_24
+    21300024: LSD_SpriteSheet_15
+    21300026: LSD_SpriteSheet_16
+    21300028: LSD_SpriteSheet_17
+    21300030: LSD_SpriteSheet_18
+    21300032: LSD_SpriteSheet_19
+    21300034: LSD_SpriteSheet_20
+    21300036: LSD_SpriteSheet_21
+    21300038: LSD_SpriteSheet_22
+    21300040: LSD_SpriteSheet_23
+    21300042: LSD_SpriteSheet_24
+    21300044: LSD_SpriteSheet_25
+    21300046: LSD_SpriteSheet_26
+    21300048: LSD_SpriteSheet_14
     21300050: LSD_SpriteSheet_25
-    21300052: LSD_SpriteSheet_26
-    21300054: LSD_SpriteSheet_27
-    21300056: LSD_SpriteSheet_28
-    21300058: LSD_SpriteSheet_29
-    21300060: LSD_SpriteSheet_30
-    21300062: LSD_SpriteSheet_31
-    21300064: LSD_SpriteSheet_32
-    21300066: LSD_SpriteSheet_33
-    21300068: LSD_SpriteSheet_34
-    21300070: LSD_SpriteSheet_35
-    21300072: LSD_SpriteSheet_36
-    21300074: LSD_SpriteSheet_37
-    21300076: LSD_SpriteSheet_38
-    21300078: LSD_SpriteSheet_39
-    21300080: LSD_SpriteSheet_40
-    21300082: LSD_SpriteSheet_41
-    21300084: LSD_SpriteSheet_42
-    21300086: LSD_SpriteSheet_43
-    21300088: LSD_SpriteSheet_44
-    21300090: LSD_SpriteSheet_45
-    21300092: LSD_SpriteSheet_46
-    21300094: LSD_SpriteSheet_47
-    21300096: LSD_SpriteSheet_48
-    21300098: LSD_SpriteSheet_49
-    21300100: LSD_SpriteSheet_50
-    21300102: LSD_SpriteSheet_51
-    21300104: LSD_SpriteSheet_52
-    21300106: LSD_SpriteSheet_53
-    21300108: LSD_SpriteSheet_54
-    21300110: LSD_SpriteSheet_55
-    21300112: LSD_SpriteSheet_56
-    21300114: LSD_SpriteSheet_57
-    21300116: LSD_SpriteSheet_58
-    21300118: LSD_SpriteSheet_59
-    21300120: LSD_SpriteSheet_60
-    21300122: LSD_SpriteSheet_61
-    21300124: LSD_SpriteSheet_62
-    21300126: LSD_SpriteSheet_63
-    21300128: LSD_SpriteSheet_64
-    21300130: LSD_SpriteSheet_65
-    21300132: LSD_SpriteSheet_66
-    21300134: LSD_SpriteSheet_67
-    21300136: LSD_SpriteSheet_68
-    21300138: LSD_SpriteSheet_69
-    21300140: LSD_SpriteSheet_70
-    21300142: LSD_SpriteSheet_71
-    21300144: LSD_SpriteSheet_72
-    21300146: LSD_SpriteSheet_73
-    21300148: LSD_SpriteSheet_74
-    21300150: LSD_SpriteSheet_75
-    21300152: LSD_SpriteSheet_76
-    21300154: LSD_SpriteSheet_77
-    21300156: LSD_SpriteSheet_78
-    21300158: LSD_SpriteSheet_79
-    21300160: LSD_SpriteSheet_80
-    21300162: LSD_SpriteSheet_81
-    21300164: LSD_SpriteSheet_82
-    21300166: LSD_SpriteSheet_83
-    21300168: LSD_SpriteSheet_84
-    21300170: LSD_SpriteSheet_85
-    21300172: LSD_SpriteSheet_86
-    21300174: LSD_SpriteSheet_87
-    21300176: LSD_SpriteSheet_88
-    21300178: LSD_SpriteSheet_89
-    21300180: LSD_SpriteSheet_90
-    21300182: LSD_SpriteSheet_91
-    21300184: LSD_SpriteSheet_92
-    21300186: LSD_SpriteSheet_93
-    21300188: LSD_SpriteSheet_94
-    21300190: LSD_SpriteSheet_95
-    21300192: LSD_SpriteSheet_96
-    21300194: LSD_SpriteSheet_97
-    21300196: LSD_SpriteSheet_98
-    21300198: LSD_SpriteSheet_99
-    21300200: LSD_SpriteSheet_100
-    21300202: LSD_SpriteSheet_101
-    21300204: LSD_SpriteSheet_102
-    21300206: LSD_SpriteSheet_103
-    21300208: LSD_SpriteSheet_104
-    21300210: LSD_SpriteSheet_105
-    21300212: LSD_SpriteSheet_106
-    21300214: LSD_SpriteSheet_107
-    21300216: LSD_SpriteSheet_108
-    21300218: LSD_SpriteSheet_109
-    21300220: LSD_SpriteSheet_110
-    21300222: LSD_SpriteSheet_111
-    21300224: LSD_SpriteSheet_112
-    21300226: LSD_SpriteSheet_113
-    21300228: LSD_SpriteSheet_114
-    21300230: LSD_SpriteSheet_115
-    21300232: LSD_SpriteSheet_116
-    21300234: LSD_SpriteSheet_117
-    21300236: LSD_SpriteSheet_118
-    21300238: LSD_SpriteSheet_119
-    21300240: LSD_SpriteSheet_120
-    21300242: LSD_SpriteSheet_121
-    21300244: LSD_SpriteSheet_122
-    21300246: LSD_SpriteSheet_123
-    21300248: LSD_SpriteSheet_124
-    21300250: LSD_SpriteSheet_125
-    21300252: LSD_SpriteSheet_126
-    21300254: LSD_SpriteSheet_127
-    21300256: LSD_SpriteSheet_128
-    21300258: LSD_SpriteSheet_129
-    21300260: LSD_SpriteSheet_130
+    21300052: LSD_SpriteSheet_12
+    21300054: LSD_SpriteSheet_13
+    21300056: LSD_SpriteSheet_27
+    21300058: LSD_SpriteSheet_28
+    21300060: LSD_SpriteSheet_29
+    21300062: LSD_SpriteSheet_30
+    21300064: LSD_SpriteSheet_31
+    21300066: LSD_SpriteSheet_32
+    21300068: LSD_SpriteSheet_33
+    21300070: LSD_SpriteSheet_34
+    21300072: LSD_SpriteSheet_35
+    21300074: LSD_SpriteSheet_36
+    21300076: LSD_SpriteSheet_37
+    21300078: LSD_SpriteSheet_38
+    21300080: LSD_SpriteSheet_39
+    21300082: LSD_SpriteSheet_40
+    21300084: LSD_SpriteSheet_41
+    21300086: LSD_SpriteSheet_42
+    21300088: LSD_SpriteSheet_43
+    21300090: LSD_SpriteSheet_44
+    21300092: LSD_SpriteSheet_45
+    21300094: LSD_SpriteSheet_46
+    21300096: LSD_SpriteSheet_47
+    21300098: LSD_SpriteSheet_48
+    21300100: LSD_SpriteSheet_49
+    21300102: LSD_SpriteSheet_50
+    21300104: LSD_SpriteSheet_51
+    21300106: LSD_SpriteSheet_52
+    21300108: LSD_SpriteSheet_53
+    21300110: LSD_SpriteSheet_54
+    21300112: LSD_SpriteSheet_55
+    21300114: LSD_SpriteSheet_56
+    21300116: LSD_SpriteSheet_57
+    21300118: LSD_SpriteSheet_58
+    21300120: LSD_SpriteSheet_59
+    21300122: LSD_SpriteSheet_60
+    21300124: LSD_SpriteSheet_61
+    21300126: LSD_SpriteSheet_62
+    21300128: LSD_SpriteSheet_63
+    21300130: LSD_SpriteSheet_64
+    21300132: LSD_SpriteSheet_65
+    21300134: LSD_SpriteSheet_66
+    21300136: LSD_SpriteSheet_67
+    21300138: LSD_SpriteSheet_68
+    21300140: LSD_SpriteSheet_69
+    21300142: LSD_SpriteSheet_70
+    21300144: LSD_SpriteSheet_71
+    21300146: LSD_SpriteSheet_72
+    21300148: LSD_SpriteSheet_73
+    21300150: LSD_SpriteSheet_74
+    21300152: LSD_SpriteSheet_75
+    21300154: LSD_SpriteSheet_76
+    21300156: LSD_SpriteSheet_77
+    21300158: LSD_SpriteSheet_78
+    21300160: LSD_SpriteSheet_79
+    21300162: LSD_SpriteSheet_80
+    21300164: LSD_SpriteSheet_81
+    21300166: LSD_SpriteSheet_82
+    21300168: LSD_SpriteSheet_83
+    21300170: LSD_SpriteSheet_84
+    21300172: LSD_SpriteSheet_85
+    21300174: LSD_SpriteSheet_86
+    21300176: LSD_SpriteSheet_87
+    21300178: LSD_SpriteSheet_88
+    21300180: LSD_SpriteSheet_89
+    21300182: LSD_SpriteSheet_90
+    21300184: LSD_SpriteSheet_91
+    21300186: LSD_SpriteSheet_92
+    21300188: LSD_SpriteSheet_93
+    21300190: LSD_SpriteSheet_94
+    21300192: LSD_SpriteSheet_95
+    21300194: LSD_SpriteSheet_96
+    21300196: LSD_SpriteSheet_97
+    21300198: LSD_SpriteSheet_98
+    21300200: LSD_SpriteSheet_99
+    21300202: LSD_SpriteSheet_100
+    21300204: LSD_SpriteSheet_101
+    21300206: LSD_SpriteSheet_102
+    21300208: LSD_SpriteSheet_103
+    21300210: LSD_SpriteSheet_104
+    21300212: LSD_SpriteSheet_105
+    21300214: LSD_SpriteSheet_106
+    21300216: LSD_SpriteSheet_107
+    21300218: LSD_SpriteSheet_108
+    21300220: LSD_SpriteSheet_109
+    21300222: LSD_SpriteSheet_110
+    21300224: LSD_SpriteSheet_111
+    21300226: LSD_SpriteSheet_112
+    21300228: LSD_SpriteSheet_113
+    21300230: LSD_SpriteSheet_114
+    21300232: LSD_SpriteSheet_115
+    21300234: LSD_SpriteSheet_116
+    21300236: LSD_SpriteSheet_117
+    21300238: LSD_SpriteSheet_118
+    21300240: LSD_SpriteSheet_119
+    21300242: LSD_SpriteSheet_120
+    21300244: LSD_SpriteSheet_121
+    21300246: LSD_SpriteSheet_122
+    21300248: LSD_SpriteSheet_123
+    21300250: LSD_SpriteSheet_124
+    21300252: LSD_SpriteSheet_125
+    21300254: LSD_SpriteSheet_126
+    21300256: LSD_SpriteSheet_127
+    21300258: LSD_SpriteSheet_128
+    21300260: LSD_SpriteSheet_129
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -189,7 +189,7 @@ TextureImporter:
         width: 199
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -58.821503, y: 65.20465}
@@ -209,7 +209,7 @@ TextureImporter:
         width: 200
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 18.834946, y: -7.295349}
@@ -232,7 +232,7 @@ TextureImporter:
         width: 200
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -69.008606, y: 65.70465}
@@ -250,7 +250,7 @@ TextureImporter:
         width: 200
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 38.147827, y: -25.29535}
@@ -278,7 +278,7 @@ TextureImporter:
         width: 200
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 52.30426, y: 20.70465}
@@ -301,7 +301,7 @@ TextureImporter:
         width: 198
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -54.85083, y: 65.20465}
@@ -319,7 +319,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -66.88287, y: 65.20465}
@@ -337,7 +337,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 69.27356, y: -21.29535}
@@ -370,7 +370,7 @@ TextureImporter:
         width: 200
         height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 50.930054, y: 22.20465}
@@ -393,7 +393,7 @@ TextureImporter:
         width: 200
         height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 70.086426, y: 39.20465}
@@ -415,7 +415,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -60.75708, y: 64.70465}
@@ -434,7 +434,7 @@ TextureImporter:
         width: 201
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -69.100586, y: 65.20465}
@@ -444,7 +444,7 @@ TextureImporter:
         - {x: 70.899414, y: -12.795349}
         - {x: 70.899414, y: 49.20465}
         - {x: 55.899414, y: 65.20465}
-    - name: LSD_SpriteSheet_12
+    - name: LSD_SpriteSheet_15
       rect:
         serializedVersion: 2
         x: 4251
@@ -452,7 +452,7 @@ TextureImporter:
         width: 93
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -31.726074, y: 20.599548}
@@ -461,7 +461,7 @@ TextureImporter:
         - {x: 16.273926, y: -19.400452}
         - {x: 33.273926, y: 2.5995483}
         - {x: 33.273926, y: 20.599548}
-    - name: LSD_SpriteSheet_13
+    - name: LSD_SpriteSheet_16
       rect:
         serializedVersion: 2
         x: 4374
@@ -469,7 +469,7 @@ TextureImporter:
         width: 93
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -30.041748, y: 27.099548}
@@ -480,7 +480,7 @@ TextureImporter:
         - {x: 12.958252, y: -25.900452}
         - {x: 32.958252, y: -2.9004517}
         - {x: 32.958252, y: 27.099548}
-    - name: LSD_SpriteSheet_14
+    - name: LSD_SpriteSheet_17
       rect:
         serializedVersion: 2
         x: 4484
@@ -488,7 +488,7 @@ TextureImporter:
         width: 94
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -23.307861, y: 35.09955}
@@ -500,7 +500,7 @@ TextureImporter:
         - {x: 32.69214, y: -15.900452}
         - {x: 32.69214, y: 18.099548}
         - {x: 26.692139, y: 35.09955}
-    - name: LSD_SpriteSheet_15
+    - name: LSD_SpriteSheet_18
       rect:
         serializedVersion: 2
         x: 4590
@@ -508,7 +508,7 @@ TextureImporter:
         width: 94
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -29.327637, y: 40.345642}
@@ -519,7 +519,7 @@ TextureImporter:
         - {x: 32.672363, y: -14.654358}
         - {x: 32.672363, y: 25.345642}
         - {x: 29.672363, y: 40.345642}
-    - name: LSD_SpriteSheet_16
+    - name: LSD_SpriteSheet_19
       rect:
         serializedVersion: 2
         x: 4702
@@ -527,7 +527,7 @@ TextureImporter:
         width: 95
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -32.716797, y: 40.345642}
@@ -538,7 +538,7 @@ TextureImporter:
         - {x: 33.283203, y: -14.654358}
         - {x: 33.283203, y: 32.345642}
         - {x: 32.283203, y: 40.345642}
-    - name: LSD_SpriteSheet_17
+    - name: LSD_SpriteSheet_20
       rect:
         serializedVersion: 2
         x: 4815
@@ -546,7 +546,7 @@ TextureImporter:
         width: 95
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -25.917236, y: 40.345642}
@@ -558,7 +558,7 @@ TextureImporter:
         - {x: 33.082764, y: -11.654358}
         - {x: 33.082764, y: 12.345642}
         - {x: 29.082764, y: 40.345642}
-    - name: LSD_SpriteSheet_18
+    - name: LSD_SpriteSheet_21
       rect:
         serializedVersion: 2
         x: 4927
@@ -566,7 +566,7 @@ TextureImporter:
         width: 97
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -21.306396, y: 40.345642}
@@ -578,7 +578,7 @@ TextureImporter:
         - {x: 33.693604, y: -19.654358}
         - {x: 33.693604, y: 17.345642}
         - {x: 26.693604, y: 40.345642}
-    - name: LSD_SpriteSheet_19
+    - name: LSD_SpriteSheet_22
       rect:
         serializedVersion: 2
         x: 5040
@@ -586,7 +586,7 @@ TextureImporter:
         width: 96
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -29.006836, y: 40.345642}
@@ -597,7 +597,7 @@ TextureImporter:
         - {x: 19.993164, y: -38.654358}
         - {x: 34.993164, y: -16.654358}
         - {x: 34.993164, y: 40.345642}
-    - name: LSD_SpriteSheet_20
+    - name: LSD_SpriteSheet_23
       rect:
         serializedVersion: 2
         x: 5147
@@ -605,7 +605,7 @@ TextureImporter:
         width: 96
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -32.83838, y: 40.345642}
@@ -616,7 +616,7 @@ TextureImporter:
         - {x: 34.16162, y: 23.345642}
         - {x: 33.16162, y: 27.345642}
         - {x: 24.161621, y: 40.345642}
-    - name: LSD_SpriteSheet_21
+    - name: LSD_SpriteSheet_24
       rect:
         serializedVersion: 2
         x: 5260
@@ -624,7 +624,7 @@ TextureImporter:
         width: 96
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -27.039062, y: 40.345642}
@@ -636,7 +636,7 @@ TextureImporter:
         - {x: 33.960938, y: -16.654358}
         - {x: 33.960938, y: 28.345642}
         - {x: 31.960938, y: 40.345642}
-    - name: LSD_SpriteSheet_22
+    - name: LSD_SpriteSheet_25
       rect:
         serializedVersion: 2
         x: 5375
@@ -644,7 +644,7 @@ TextureImporter:
         width: 97
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -33.36255, y: -20.654358}
@@ -655,7 +655,7 @@ TextureImporter:
         - {x: 31.637451, y: 40.345642}
         - {x: -27.362549, y: 40.345642}
         - {x: -33.36255, y: 21.345642}
-    - name: LSD_SpriteSheet_23
+    - name: LSD_SpriteSheet_26
       rect:
         serializedVersion: 2
         x: 5483
@@ -663,7 +663,7 @@ TextureImporter:
         width: 95
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 24.494385, y: 40.345642}
@@ -676,29 +676,18 @@ TextureImporter:
         - {x: 34.494385, y: -23.654358}
         - {x: 34.494385, y: 28.345642}
         - {x: 25.494385, y: 39.345642}
-    - name: LSD_SpriteSheet_24
+    - name: LSD_SpriteSheet_14
       rect:
         serializedVersion: 2
         x: 4142
         y: 1173
-        width: 57
+        width: 73
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_25
-      rect:
-        serializedVersion: 2
-        x: 4202
-        y: 1202
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: LSD_SpriteSheet_26
+    - name: LSD_SpriteSheet_12
       rect:
         serializedVersion: 2
         x: 3967
@@ -706,10 +695,10 @@ TextureImporter:
         width: 30
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_27
+    - name: LSD_SpriteSheet_13
       rect:
         serializedVersion: 2
         x: 4058
@@ -717,10 +706,10 @@ TextureImporter:
         width: 31
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_28
+    - name: LSD_SpriteSheet_27
       rect:
         serializedVersion: 2
         x: 137
@@ -728,10 +717,10 @@ TextureImporter:
         width: 34
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_29
+    - name: LSD_SpriteSheet_28
       rect:
         serializedVersion: 2
         x: 349
@@ -739,7 +728,7 @@ TextureImporter:
         width: 54
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -16.716751, y: 19.808044}
@@ -750,7 +739,7 @@ TextureImporter:
         - {x: 19.283249, y: -15.191956}
         - {x: 19.283249, y: 9.808044}
         - {x: 11.283249, y: 19.808044}
-    - name: LSD_SpriteSheet_30
+    - name: LSD_SpriteSheet_29
       rect:
         serializedVersion: 2
         x: 549
@@ -758,7 +747,7 @@ TextureImporter:
         width: 94
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -18.018616, y: 32.776367}
@@ -769,7 +758,7 @@ TextureImporter:
         - {x: 33.981384, y: -23.223633}
         - {x: 33.981384, y: 16.776367}
         - {x: 27.981384, y: 32.776367}
-    - name: LSD_SpriteSheet_31
+    - name: LSD_SpriteSheet_30
       rect:
         serializedVersion: 2
         x: 753
@@ -777,7 +766,7 @@ TextureImporter:
         width: 128
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 17.933472, y: -22.378357}
@@ -796,7 +785,7 @@ TextureImporter:
         - {x: 14.933472, y: -40.378357}
         - {x: 15.933472, y: -33.378357}
         - {x: 15.933472, y: -30.378357}
-    - name: LSD_SpriteSheet_32
+    - name: LSD_SpriteSheet_31
       rect:
         serializedVersion: 2
         x: 952
@@ -804,7 +793,7 @@ TextureImporter:
         width: 173
         height: 165
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -59.556885, y: 9.097839}
@@ -821,7 +810,7 @@ TextureImporter:
         - {x: 48.443115, y: 57.09784}
         - {x: -33.556885, y: 57.09784}
         - {x: -59.556885, y: 32.09784}
-    - name: LSD_SpriteSheet_33
+    - name: LSD_SpriteSheet_32
       rect:
         serializedVersion: 2
         x: 1161
@@ -829,7 +818,7 @@ TextureImporter:
         width: 197
         height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 41.337708, y: 19.09784}
@@ -852,7 +841,7 @@ TextureImporter:
         - {x: 68.33771, y: 0.097839355}
         - {x: 68.33771, y: 7.0978394}
         - {x: 49.337708, y: 21.09784}
-    - name: LSD_SpriteSheet_34
+    - name: LSD_SpriteSheet_33
       rect:
         serializedVersion: 2
         x: 1392
@@ -860,7 +849,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -69.12097, y: 65.09784}
@@ -869,7 +858,7 @@ TextureImporter:
         - {x: 19.879028, y: -64.90216}
         - {x: 69.87903, y: -5.9021606}
         - {x: 69.87903, y: 65.09784}
-    - name: LSD_SpriteSheet_35
+    - name: LSD_SpriteSheet_34
       rect:
         serializedVersion: 2
         x: 1626
@@ -877,7 +866,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 19.98584, y: -12.902161}
@@ -898,7 +887,7 @@ TextureImporter:
         - {x: 13.98584, y: -64.90216}
         - {x: 18.98584, y: -20.90216}
         - {x: 15.98584, y: -1.9021606}
-    - name: LSD_SpriteSheet_36
+    - name: LSD_SpriteSheet_35
       rect:
         serializedVersion: 2
         x: 1860
@@ -906,7 +895,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -65.90735, y: 65.09784}
@@ -917,7 +906,7 @@ TextureImporter:
         - {x: 70.09265, y: -21.90216}
         - {x: 70.09265, y: 49.09784}
         - {x: 57.09265, y: 65.09784}
-    - name: LSD_SpriteSheet_37
+    - name: LSD_SpriteSheet_36
       rect:
         serializedVersion: 2
         x: 2094
@@ -925,7 +914,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -65.80054, y: 65.09784}
@@ -935,7 +924,7 @@ TextureImporter:
         - {x: 35.199463, y: -64.90216}
         - {x: 70.19946, y: -24.90216}
         - {x: 70.19946, y: 65.09784}
-    - name: LSD_SpriteSheet_38
+    - name: LSD_SpriteSheet_37
       rect:
         serializedVersion: 2
         x: 2329
@@ -943,7 +932,7 @@ TextureImporter:
         width: 198
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -56.005127, y: 65.09784}
@@ -953,7 +942,7 @@ TextureImporter:
         - {x: 23.994873, y: -64.90216}
         - {x: 68.99487, y: -16.90216}
         - {x: 68.99487, y: 65.09784}
-    - name: LSD_SpriteSheet_39
+    - name: LSD_SpriteSheet_38
       rect:
         serializedVersion: 2
         x: 2562
@@ -961,7 +950,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -52.586914, y: 65.09784}
@@ -971,7 +960,7 @@ TextureImporter:
         - {x: 14.413086, y: -64.90216}
         - {x: 70.413086, y: -36.90216}
         - {x: 70.413086, y: 65.09784}
-    - name: LSD_SpriteSheet_40
+    - name: LSD_SpriteSheet_39
       rect:
         serializedVersion: 2
         x: 2796
@@ -979,7 +968,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -27.97998, y: -64.90216}
@@ -988,7 +977,7 @@ TextureImporter:
         - {x: 69.02002, y: 65.09784}
         - {x: -68.97998, y: 65.09784}
         - {x: -68.97998, y: -25.90216}
-    - name: LSD_SpriteSheet_41
+    - name: LSD_SpriteSheet_40
       rect:
         serializedVersion: 2
         x: 3030
@@ -996,7 +985,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 34.12671, y: -23.90216}
@@ -1019,7 +1008,7 @@ TextureImporter:
         - {x: 21.126709, y: -23.90216}
         - {x: 16.126709, y: -0.90216064}
         - {x: 20.126709, y: -12.902161}
-    - name: LSD_SpriteSheet_42
+    - name: LSD_SpriteSheet_41
       rect:
         serializedVersion: 2
         x: 3264
@@ -1027,7 +1016,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 69.23364, y: 65.09784}
@@ -1038,7 +1027,7 @@ TextureImporter:
         - {x: 19.233643, y: -20.90216}
         - {x: 52.233643, y: -18.90216}
         - {x: 69.23364, y: -3.9021606}
-    - name: LSD_SpriteSheet_43
+    - name: LSD_SpriteSheet_42
       rect:
         serializedVersion: 2
         x: 4418
@@ -1046,10 +1035,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_44
+    - name: LSD_SpriteSheet_43
       rect:
         serializedVersion: 2
         x: 4443
@@ -1057,10 +1046,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_45
+    - name: LSD_SpriteSheet_44
       rect:
         serializedVersion: 2
         x: 4467
@@ -1068,10 +1057,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_46
+    - name: LSD_SpriteSheet_45
       rect:
         serializedVersion: 2
         x: 4491
@@ -1079,10 +1068,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_47
+    - name: LSD_SpriteSheet_46
       rect:
         serializedVersion: 2
         x: 4515
@@ -1090,10 +1079,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_48
+    - name: LSD_SpriteSheet_47
       rect:
         serializedVersion: 2
         x: 4539
@@ -1101,10 +1090,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_49
+    - name: LSD_SpriteSheet_48
       rect:
         serializedVersion: 2
         x: 4563
@@ -1112,10 +1101,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_50
+    - name: LSD_SpriteSheet_49
       rect:
         serializedVersion: 2
         x: 4587
@@ -1123,10 +1112,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_51
+    - name: LSD_SpriteSheet_50
       rect:
         serializedVersion: 2
         x: 4611
@@ -1134,10 +1123,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_52
+    - name: LSD_SpriteSheet_51
       rect:
         serializedVersion: 2
         x: 4635
@@ -1145,10 +1134,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_53
+    - name: LSD_SpriteSheet_52
       rect:
         serializedVersion: 2
         x: 4659
@@ -1156,10 +1145,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_54
+    - name: LSD_SpriteSheet_53
       rect:
         serializedVersion: 2
         x: 4683
@@ -1167,10 +1156,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_55
+    - name: LSD_SpriteSheet_54
       rect:
         serializedVersion: 2
         x: 4707
@@ -1178,10 +1167,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_56
+    - name: LSD_SpriteSheet_55
       rect:
         serializedVersion: 2
         x: 4730
@@ -1189,10 +1178,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_57
+    - name: LSD_SpriteSheet_56
       rect:
         serializedVersion: 2
         x: 4755
@@ -1200,10 +1189,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_58
+    - name: LSD_SpriteSheet_57
       rect:
         serializedVersion: 2
         x: 4778
@@ -1211,10 +1200,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_59
+    - name: LSD_SpriteSheet_58
       rect:
         serializedVersion: 2
         x: 4803
@@ -1222,10 +1211,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_60
+    - name: LSD_SpriteSheet_59
       rect:
         serializedVersion: 2
         x: 4826
@@ -1233,10 +1222,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_61
+    - name: LSD_SpriteSheet_60
       rect:
         serializedVersion: 2
         x: 4851
@@ -1244,10 +1233,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_62
+    - name: LSD_SpriteSheet_61
       rect:
         serializedVersion: 2
         x: 4874
@@ -1255,10 +1244,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_63
+    - name: LSD_SpriteSheet_62
       rect:
         serializedVersion: 2
         x: 4899
@@ -1266,10 +1255,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_64
+    - name: LSD_SpriteSheet_63
       rect:
         serializedVersion: 2
         x: 4924
@@ -1277,10 +1266,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_65
+    - name: LSD_SpriteSheet_64
       rect:
         serializedVersion: 2
         x: 4947
@@ -1288,10 +1277,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_66
+    - name: LSD_SpriteSheet_65
       rect:
         serializedVersion: 2
         x: 4971
@@ -1299,10 +1288,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_67
+    - name: LSD_SpriteSheet_66
       rect:
         serializedVersion: 2
         x: 4995
@@ -1310,10 +1299,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_68
+    - name: LSD_SpriteSheet_67
       rect:
         serializedVersion: 2
         x: 5019
@@ -1321,10 +1310,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_69
+    - name: LSD_SpriteSheet_68
       rect:
         serializedVersion: 2
         x: 5043
@@ -1332,10 +1321,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_70
+    - name: LSD_SpriteSheet_69
       rect:
         serializedVersion: 2
         x: 5067
@@ -1343,10 +1332,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_71
+    - name: LSD_SpriteSheet_70
       rect:
         serializedVersion: 2
         x: 5091
@@ -1354,10 +1343,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_72
+    - name: LSD_SpriteSheet_71
       rect:
         serializedVersion: 2
         x: 5115
@@ -1365,10 +1354,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_73
+    - name: LSD_SpriteSheet_72
       rect:
         serializedVersion: 2
         x: 5138
@@ -1376,10 +1365,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_74
+    - name: LSD_SpriteSheet_73
       rect:
         serializedVersion: 2
         x: 5163
@@ -1387,10 +1376,10 @@ TextureImporter:
         width: 20
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_75
+    - name: LSD_SpriteSheet_74
       rect:
         serializedVersion: 2
         x: 5186
@@ -1398,10 +1387,10 @@ TextureImporter:
         width: 21
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: LSD_SpriteSheet_76
+    - name: LSD_SpriteSheet_75
       rect:
         serializedVersion: 2
         x: 54
@@ -1409,7 +1398,7 @@ TextureImporter:
         width: 199
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 62.178497, y: 65.1716}
@@ -1421,7 +1410,7 @@ TextureImporter:
         - {x: 35.178497, y: -23.8284}
         - {x: 69.1785, y: -1.8283997}
         - {x: 69.1785, y: 53.1716}
-    - name: LSD_SpriteSheet_77
+    - name: LSD_SpriteSheet_76
       rect:
         serializedVersion: 2
         x: 277
@@ -1429,7 +1418,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -68.788086, y: 65.1716}
@@ -1440,7 +1429,7 @@ TextureImporter:
         - {x: 22.211914, y: -40.8284}
         - {x: 70.211914, y: -11.8284}
         - {x: 70.211914, y: 65.1716}
-    - name: LSD_SpriteSheet_78
+    - name: LSD_SpriteSheet_77
       rect:
         serializedVersion: 2
         x: 500
@@ -1448,7 +1437,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -55.75467, y: 65.1716}
@@ -1459,7 +1448,7 @@ TextureImporter:
         - {x: 69.24533, y: -9.8284}
         - {x: 69.24533, y: 52.1716}
         - {x: 64.24533, y: 65.1716}
-    - name: LSD_SpriteSheet_79
+    - name: LSD_SpriteSheet_78
       rect:
         serializedVersion: 2
         x: 723
@@ -1467,7 +1456,7 @@ TextureImporter:
         width: 200
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 68.27878, y: 65.86008}
@@ -1482,7 +1471,7 @@ TextureImporter:
         - {x: 15.278778, y: -55.139923}
         - {x: 70.27878, y: -21.139923}
         - {x: 70.27878, y: 60.860077}
-    - name: LSD_SpriteSheet_80
+    - name: LSD_SpriteSheet_79
       rect:
         serializedVersion: 2
         x: 946
@@ -1490,7 +1479,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -57.187805, y: 65.048584}
@@ -1500,7 +1489,7 @@ TextureImporter:
         - {x: 41.812195, y: -63.951416}
         - {x: 69.812195, y: -26.951416}
         - {x: 69.812195, y: 65.048584}
-    - name: LSD_SpriteSheet_81
+    - name: LSD_SpriteSheet_80
       rect:
         serializedVersion: 2
         x: 1169
@@ -1508,7 +1497,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -63.654358, y: 64.73706}
@@ -1525,7 +1514,7 @@ TextureImporter:
         - {x: 70.34564, y: -5.2629395}
         - {x: 70.34564, y: 57.73706}
         - {x: 64.34564, y: 64.73706}
-    - name: LSD_SpriteSheet_82
+    - name: LSD_SpriteSheet_81
       rect:
         serializedVersion: 2
         x: 1392
@@ -1533,7 +1522,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 39.87903, y: -13.262939}
@@ -1555,7 +1544,7 @@ TextureImporter:
         - {x: 10.879028, y: -59.26294}
         - {x: 13.879028, y: -39.26294}
         - {x: 16.879028, y: -15.262939}
-    - name: LSD_SpriteSheet_83
+    - name: LSD_SpriteSheet_82
       rect:
         serializedVersion: 2
         x: 1616
@@ -1563,7 +1552,7 @@ TextureImporter:
         width: 198
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 43.100952, y: 22.73706}
@@ -1580,7 +1569,7 @@ TextureImporter:
         - {x: 15.100952, y: -64.26294}
         - {x: 69.10095, y: -2.2629395}
         - {x: 69.10095, y: 11.737061}
-    - name: LSD_SpriteSheet_84
+    - name: LSD_SpriteSheet_83
       rect:
         serializedVersion: 2
         x: 1838
@@ -1588,7 +1577,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -69.05408, y: 64.73706}
@@ -1597,7 +1586,7 @@ TextureImporter:
         - {x: 36.945923, y: -64.26294}
         - {x: 69.94592, y: -27.26294}
         - {x: 69.94592, y: 64.73706}
-    - name: LSD_SpriteSheet_85
+    - name: LSD_SpriteSheet_84
       rect:
         serializedVersion: 2
         x: 2061
@@ -1605,7 +1594,7 @@ TextureImporter:
         width: 201
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 52.97937, y: 18.73706}
@@ -1619,7 +1608,7 @@ TextureImporter:
         - {x: 32.97937, y: -64.26294}
         - {x: 70.97937, y: -5.2629395}
         - {x: 70.97937, y: 7.7370605}
-    - name: LSD_SpriteSheet_86
+    - name: LSD_SpriteSheet_85
       rect:
         serializedVersion: 2
         x: 2284
@@ -1627,7 +1616,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 64.012695, y: 65.048584}
@@ -1640,7 +1629,7 @@ TextureImporter:
         - {x: 14.012695, y: -63.951416}
         - {x: 70.012695, y: -5.951416}
         - {x: 70.012695, y: 55.048584}
-    - name: LSD_SpriteSheet_87
+    - name: LSD_SpriteSheet_86
       rect:
         serializedVersion: 2
         x: 2507
@@ -1648,7 +1637,7 @@ TextureImporter:
         width: 200
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -66.95386, y: 65.86008}
@@ -1658,7 +1647,7 @@ TextureImporter:
         - {x: 25.046143, y: -64.13992}
         - {x: 69.04614, y: -13.139923}
         - {x: 69.04614, y: 65.86008}
-    - name: LSD_SpriteSheet_88
+    - name: LSD_SpriteSheet_87
       rect:
         serializedVersion: 2
         x: 2729
@@ -1666,7 +1655,7 @@ TextureImporter:
         width: 201
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -69.10889, y: 65.1716}
@@ -1678,7 +1667,7 @@ TextureImporter:
         - {x: 36.891113, y: -64.8284}
         - {x: 70.89111, y: -31.8284}
         - {x: 70.89111, y: 65.1716}
-    - name: LSD_SpriteSheet_89
+    - name: LSD_SpriteSheet_88
       rect:
         serializedVersion: 2
         x: 2953
@@ -1686,7 +1675,7 @@ TextureImporter:
         width: 200
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 69.11304, y: 37.483124}
@@ -1698,7 +1687,7 @@ TextureImporter:
         - {x: 69.11304, y: -20.516876}
         - {x: 69.11304, y: 9.483124}
         - {x: 52.113037, y: 22.483124}
-    - name: LSD_SpriteSheet_90
+    - name: LSD_SpriteSheet_89
       rect:
         serializedVersion: 2
         x: 3176
@@ -1706,7 +1695,7 @@ TextureImporter:
         width: 200
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -68.853516, y: 65.98312}
@@ -1716,7 +1705,7 @@ TextureImporter:
         - {x: 22.146484, y: -65.01688}
         - {x: 70.146484, y: -9.016876}
         - {x: 70.146484, y: 65.98312}
-    - name: LSD_SpriteSheet_91
+    - name: LSD_SpriteSheet_90
       rect:
         serializedVersion: 2
         x: 54
@@ -1724,7 +1713,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 33.178497, y: -18.629578}
@@ -1743,7 +1732,7 @@ TextureImporter:
         - {x: 19.178497, y: -20.629578}
         - {x: 18.178497, y: -9.629578}
         - {x: 25.178497, y: -15.629578}
-    - name: LSD_SpriteSheet_92
+    - name: LSD_SpriteSheet_91
       rect:
         serializedVersion: 2
         x: 275
@@ -1751,7 +1740,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 25.834946, y: -20.629578}
@@ -1769,7 +1758,7 @@ TextureImporter:
         - {x: 16.834946, y: -38.629578}
         - {x: 17.834946, y: -21.629578}
         - {x: 17.834946, y: -9.629578}
-    - name: LSD_SpriteSheet_93
+    - name: LSD_SpriteSheet_92
       rect:
         serializedVersion: 2
         x: 496
@@ -1777,7 +1766,7 @@ TextureImporter:
         width: 200
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 58.991394, y: 65.55893}
@@ -1788,7 +1777,7 @@ TextureImporter:
         - {x: 13.991394, y: -60.44107}
         - {x: 69.991394, y: -7.4410706}
         - {x: 69.991394, y: 54.55893}
-    - name: LSD_SpriteSheet_94
+    - name: LSD_SpriteSheet_93
       rect:
         serializedVersion: 2
         x: 717
@@ -1796,7 +1785,7 @@ TextureImporter:
         width: 200
         height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 14.147827, y: -0.94107056}
@@ -1818,7 +1807,7 @@ TextureImporter:
         - {x: 16.147827, y: -56.94107}
         - {x: 20.147827, y: -11.941071}
         - {x: 15.147827, y: -3.9410706}
-    - name: LSD_SpriteSheet_95
+    - name: LSD_SpriteSheet_94
       rect:
         serializedVersion: 2
         x: 938
@@ -1826,7 +1815,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -68.69574, y: 65.247406}
@@ -1836,7 +1825,7 @@ TextureImporter:
         - {x: 18.30426, y: -58.752594}
         - {x: 70.30426, y: -10.752594}
         - {x: 70.30426, y: 65.247406}
-    - name: LSD_SpriteSheet_96
+    - name: LSD_SpriteSheet_95
       rect:
         serializedVersion: 2
         x: 1173
@@ -1844,7 +1833,7 @@ TextureImporter:
         width: 200
         height: 193
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -68.90045, y: 67.87042}
@@ -1854,7 +1843,7 @@ TextureImporter:
         - {x: 70.09955, y: -12.129578}
         - {x: 70.09955, y: 57.870422}
         - {x: 63.09955, y: 67.87042}
-    - name: LSD_SpriteSheet_97
+    - name: LSD_SpriteSheet_96
       rect:
         serializedVersion: 2
         x: 1415
@@ -1862,7 +1851,7 @@ TextureImporter:
         width: 201
         height: 193
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -69.285706, y: 67.87042}
@@ -1871,7 +1860,7 @@ TextureImporter:
         - {x: 40.714294, y: -66.12958}
         - {x: 69.714294, y: -24.129578}
         - {x: 69.714294, y: 67.87042}
-    - name: LSD_SpriteSheet_98
+    - name: LSD_SpriteSheet_97
       rect:
         serializedVersion: 2
         x: 1664
@@ -1879,7 +1868,7 @@ TextureImporter:
         width: 206
         height: 194
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -68.85144, y: 68.37042}
@@ -1896,7 +1885,7 @@ TextureImporter:
         - {x: 39.14856, y: 22.370422}
         - {x: 39.14856, y: 26.370422}
         - {x: 38.14856, y: 28.370422}
-    - name: LSD_SpriteSheet_99
+    - name: LSD_SpriteSheet_98
       rect:
         serializedVersion: 2
         x: 1912
@@ -1904,7 +1893,7 @@ TextureImporter:
         width: 212
         height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 35.894165, y: 70.92798}
@@ -1922,7 +1911,7 @@ TextureImporter:
         - {x: 73.894165, y: -4.0720215}
         - {x: 73.894165, y: 55.92798}
         - {x: 57.894165, y: 70.92798}
-    - name: LSD_SpriteSheet_100
+    - name: LSD_SpriteSheet_99
       rect:
         serializedVersion: 2
         x: 2156
@@ -1930,7 +1919,7 @@ TextureImporter:
         width: 213
         height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -57.614136, y: 70.92798}
@@ -1940,7 +1929,7 @@ TextureImporter:
         - {x: 32.385864, y: -70.07202}
         - {x: 74.385864, y: -33.07202}
         - {x: 74.385864, y: 70.92798}
-    - name: LSD_SpriteSheet_101
+    - name: LSD_SpriteSheet_100
       rect:
         serializedVersion: 2
         x: 2417
@@ -1948,7 +1937,7 @@ TextureImporter:
         width: 222
         height: 224
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -57.41797, y: 78.985535}
@@ -1959,7 +1948,7 @@ TextureImporter:
         - {x: 76.58203, y: -32.014465}
         - {x: 76.58203, y: 59.985535}
         - {x: 70.58203, y: 78.985535}
-    - name: LSD_SpriteSheet_102
+    - name: LSD_SpriteSheet_101
       rect:
         serializedVersion: 2
         x: 2679
@@ -1967,7 +1956,7 @@ TextureImporter:
         width: 211
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -40.533447, y: 76.42798}
@@ -1977,7 +1966,7 @@ TextureImporter:
         - {x: 37.466553, y: -75.57202}
         - {x: 73.46655, y: -42.57202}
         - {x: 73.46655, y: 76.42798}
-    - name: LSD_SpriteSheet_103
+    - name: LSD_SpriteSheet_102
       rect:
         serializedVersion: 2
         x: 2942
@@ -1985,7 +1974,7 @@ TextureImporter:
         width: 211
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -29.46045, y: 76.42798}
@@ -1997,7 +1986,7 @@ TextureImporter:
         - {x: 73.53955, y: -24.572021}
         - {x: 73.53955, y: 57.42798}
         - {x: 37.53955, y: 76.42798}
-    - name: LSD_SpriteSheet_104
+    - name: LSD_SpriteSheet_103
       rect:
         serializedVersion: 2
         x: 3243
@@ -2005,7 +1994,7 @@ TextureImporter:
         width: 206
         height: 214
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 30.27539, y: 75.37042}
@@ -2024,7 +2013,7 @@ TextureImporter:
         - {x: 39.27539, y: 19.370422}
         - {x: 37.27539, y: 21.370422}
         - {x: 34.27539, y: 21.370422}
-    - name: LSD_SpriteSheet_105
+    - name: LSD_SpriteSheet_104
       rect:
         serializedVersion: 2
         x: 3537
@@ -2032,7 +2021,7 @@ TextureImporter:
         width: 202
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -66.80835, y: 67.87042}
@@ -2043,7 +2032,7 @@ TextureImporter:
         - {x: 70.19165, y: -29.129578}
         - {x: 70.19165, y: 58.870422}
         - {x: 59.19165, y: 67.87042}
-    - name: LSD_SpriteSheet_106
+    - name: LSD_SpriteSheet_105
       rect:
         serializedVersion: 2
         x: 3816
@@ -2051,7 +2040,7 @@ TextureImporter:
         width: 198
         height: 191
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 63.780518, y: 67.37042}
@@ -2069,7 +2058,7 @@ TextureImporter:
         - {x: 16.780518, y: -60.629578}
         - {x: 68.78052, y: -9.629578}
         - {x: 68.78052, y: 61.370422}
-    - name: LSD_SpriteSheet_107
+    - name: LSD_SpriteSheet_106
       rect:
         serializedVersion: 2
         x: 4071
@@ -2077,7 +2066,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -68.6543, y: 66.37042}
@@ -2092,7 +2081,7 @@ TextureImporter:
         - {x: 70.3457, y: -11.629578}
         - {x: 70.3457, y: 60.370422}
         - {x: 68.3457, y: 66.37042}
-    - name: LSD_SpriteSheet_108
+    - name: LSD_SpriteSheet_107
       rect:
         serializedVersion: 2
         x: 4292
@@ -2100,7 +2089,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -66.99805, y: 66.37042}
@@ -2111,7 +2100,7 @@ TextureImporter:
         - {x: 69.00195, y: -15.629578}
         - {x: 69.00195, y: 50.370422}
         - {x: 61.001953, y: 66.37042}
-    - name: LSD_SpriteSheet_109
+    - name: LSD_SpriteSheet_108
       rect:
         serializedVersion: 2
         x: 54
@@ -2119,7 +2108,7 @@ TextureImporter:
         width: 199
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -57.821503, y: 65.110954}
@@ -2130,7 +2119,7 @@ TextureImporter:
         - {x: 69.1785, y: -1.8890457}
         - {x: 69.1785, y: 55.110954}
         - {x: 52.178497, y: 65.110954}
-    - name: LSD_SpriteSheet_110
+    - name: LSD_SpriteSheet_109
       rect:
         serializedVersion: 2
         x: 291
@@ -2138,7 +2127,7 @@ TextureImporter:
         width: 247
         height: 244
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -77.149216, y: 84.972084}
@@ -2150,7 +2139,7 @@ TextureImporter:
         - {x: 59.850784, y: -69.027916}
         - {x: 85.850784, y: -41.027916}
         - {x: 85.850784, y: 84.972084}
-    - name: LSD_SpriteSheet_111
+    - name: LSD_SpriteSheet_110
       rect:
         serializedVersion: 2
         x: 574
@@ -2158,7 +2147,7 @@ TextureImporter:
         width: 248
         height: 245
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -81.306335, y: 85.472084}
@@ -2170,7 +2159,7 @@ TextureImporter:
         - {x: 85.693665, y: -46.527916}
         - {x: 85.693665, y: 49.472084}
         - {x: 72.693665, y: 85.472084}
-    - name: LSD_SpriteSheet_112
+    - name: LSD_SpriteSheet_111
       rect:
         serializedVersion: 2
         x: 861
@@ -2178,7 +2167,7 @@ TextureImporter:
         width: 249
         height: 245
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 45.290466, y: 85.472084}
@@ -2199,7 +2188,7 @@ TextureImporter:
         - {x: 35.290466, y: -38.527916}
         - {x: 35.290466, y: -37.527916}
         - {x: 32.290466, y: -34.527916}
-    - name: LSD_SpriteSheet_113
+    - name: LSD_SpriteSheet_112
       rect:
         serializedVersion: 2
         x: 1145
@@ -2207,7 +2196,7 @@ TextureImporter:
         width: 250
         height: 245
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -37.17816, y: 85.472084}
@@ -2219,7 +2208,7 @@ TextureImporter:
         - {x: 86.82184, y: -55.527916}
         - {x: 86.82184, y: 40.472084}
         - {x: 47.82184, y: 85.472084}
-    - name: LSD_SpriteSheet_114
+    - name: LSD_SpriteSheet_113
       rect:
         serializedVersion: 2
         x: 1430
@@ -2227,7 +2216,7 @@ TextureImporter:
         width: 249
         height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -58.458313, y: 85.972084}
@@ -2240,7 +2229,7 @@ TextureImporter:
         - {x: 86.54169, y: -58.027916}
         - {x: 86.54169, y: 78.972084}
         - {x: 57.541687, y: 85.972084}
-    - name: LSD_SpriteSheet_115
+    - name: LSD_SpriteSheet_114
       rect:
         serializedVersion: 2
         x: 1725
@@ -2248,7 +2237,7 @@ TextureImporter:
         width: 227
         height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 50.146484, y: 80.103035}
@@ -2262,7 +2251,7 @@ TextureImporter:
         - {x: 74.146484, y: -61.896965}
         - {x: 79.146484, y: -46.896965}
         - {x: 79.146484, y: 46.103035}
-    - name: LSD_SpriteSheet_116
+    - name: LSD_SpriteSheet_115
       rect:
         serializedVersion: 2
         x: 2008
@@ -2270,7 +2259,7 @@ TextureImporter:
         width: 204
         height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 27.989258, y: 72.43039}
@@ -2282,7 +2271,7 @@ TextureImporter:
         - {x: 70.98926, y: -52.56961}
         - {x: 70.98926, y: 48.43039}
         - {x: 52.989258, y: 63.43039}
-    - name: LSD_SpriteSheet_117
+    - name: LSD_SpriteSheet_116
       rect:
         serializedVersion: 2
         x: 2271
@@ -2290,7 +2279,7 @@ TextureImporter:
         width: 201
         height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -68.93762, y: 63.3153}
@@ -2300,7 +2289,7 @@ TextureImporter:
         - {x: 70.06238, y: -22.6847}
         - {x: 70.06238, y: 57.3153}
         - {x: 69.06238, y: 63.3153}
-    - name: LSD_SpriteSheet_118
+    - name: LSD_SpriteSheet_117
       rect:
         serializedVersion: 2
         x: 2526
@@ -2308,7 +2297,7 @@ TextureImporter:
         width: 207
         height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -60.37256, y: 56.388695}
@@ -2319,7 +2308,7 @@ TextureImporter:
         - {x: 71.62744, y: -30.611305}
         - {x: 71.62744, y: 46.388695}
         - {x: 53.62744, y: 56.388695}
-    - name: LSD_SpriteSheet_119
+    - name: LSD_SpriteSheet_118
       rect:
         serializedVersion: 2
         x: 2788
@@ -2327,7 +2316,7 @@ TextureImporter:
         width: 218
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -67.987915, y: 53.773605}
@@ -2338,7 +2327,7 @@ TextureImporter:
         - {x: 76.012085, y: -40.226395}
         - {x: 76.012085, y: 40.773605}
         - {x: 60.012085, y: 53.773605}
-    - name: LSD_SpriteSheet_120
+    - name: LSD_SpriteSheet_119
       rect:
         serializedVersion: 2
         x: 3072
@@ -2346,7 +2335,7 @@ TextureImporter:
         width: 216
         height: 176
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -69.45654, y: 62.380768}
@@ -2356,7 +2345,7 @@ TextureImporter:
         - {x: 25.543457, y: -60.619232}
         - {x: 74.54346, y: -34.619232}
         - {x: 74.54346, y: 62.380768}
-    - name: LSD_SpriteSheet_121
+    - name: LSD_SpriteSheet_120
       rect:
         serializedVersion: 2
         x: 3341
@@ -2364,7 +2353,7 @@ TextureImporter:
         width: 217
         height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -59.752686, y: 71.6685}
@@ -2376,7 +2365,7 @@ TextureImporter:
         - {x: 75.247314, y: -8.331497}
         - {x: 75.247314, y: 56.668503}
         - {x: 67.247314, y: 71.6685}
-    - name: LSD_SpriteSheet_122
+    - name: LSD_SpriteSheet_121
       rect:
         serializedVersion: 2
         x: 3604
@@ -2384,7 +2373,7 @@ TextureImporter:
         width: 214
         height: 217
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -73.67944, y: -37.896965}
@@ -2395,7 +2384,7 @@ TextureImporter:
         - {x: 74.32056, y: 76.103035}
         - {x: -62.679443, y: 76.103035}
         - {x: -73.67944, y: 70.103035}
-    - name: LSD_SpriteSheet_123
+    - name: LSD_SpriteSheet_122
       rect:
         serializedVersion: 2
         x: 3861
@@ -2403,7 +2392,7 @@ TextureImporter:
         width: 246
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -44.73755, y: 86.472084}
@@ -2417,7 +2406,7 @@ TextureImporter:
         - {x: 85.26245, y: -52.527916}
         - {x: 85.26245, y: 65.472084}
         - {x: 56.26245, y: 86.472084}
-    - name: LSD_SpriteSheet_124
+    - name: LSD_SpriteSheet_123
       rect:
         serializedVersion: 2
         x: 4135
@@ -2425,7 +2414,7 @@ TextureImporter:
         width: 248
         height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -50.091064, y: 86.972084}
@@ -2438,7 +2427,7 @@ TextureImporter:
         - {x: 86.908936, y: -30.027916}
         - {x: 86.908936, y: 43.972084}
         - {x: 47.908936, y: 86.972084}
-    - name: LSD_SpriteSheet_125
+    - name: LSD_SpriteSheet_124
       rect:
         serializedVersion: 2
         x: 4424
@@ -2446,7 +2435,7 @@ TextureImporter:
         width: 248
         height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 34.882812, y: 86.472084}
@@ -2458,7 +2447,7 @@ TextureImporter:
         - {x: 86.88281, y: -46.527916}
         - {x: 86.88281, y: 44.472084}
         - {x: 75.88281, y: 66.472084}
-    - name: LSD_SpriteSheet_126
+    - name: LSD_SpriteSheet_125
       rect:
         serializedVersion: 2
         x: 4709
@@ -2466,7 +2455,7 @@ TextureImporter:
         width: 246
         height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -49.89746, y: 85.660576}
@@ -2477,7 +2466,7 @@ TextureImporter:
         - {x: 85.10254, y: -53.339424}
         - {x: 85.10254, y: 59.660576}
         - {x: 38.10254, y: 85.660576}
-    - name: LSD_SpriteSheet_127
+    - name: LSD_SpriteSheet_126
       rect:
         serializedVersion: 2
         x: 4991
@@ -2485,7 +2474,7 @@ TextureImporter:
         width: 200
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 51.25708, y: 20.17643}
@@ -2517,7 +2506,7 @@ TextureImporter:
         - {x: 20.25708, y: -9.82357}
         - {x: 69.25708, y: 0.17642975}
         - {x: 69.25708, y: 8.17643}
-    - name: LSD_SpriteSheet_128
+    - name: LSD_SpriteSheet_127
       rect:
         serializedVersion: 2
         x: 5223
@@ -2525,7 +2514,7 @@ TextureImporter:
         width: 200
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 18.486816, y: -9.815643}
@@ -2551,7 +2540,7 @@ TextureImporter:
         - {x: 26.486816, y: -40.815643}
         - {x: 25.486816, y: -20.815643}
         - {x: 20.486816, y: -11.815643}
-    - name: LSD_SpriteSheet_129
+    - name: LSD_SpriteSheet_128
       rect:
         serializedVersion: 2
         x: 5454
@@ -2559,7 +2548,7 @@ TextureImporter:
         width: 200
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 52.02832, y: 20.67643}
@@ -2572,7 +2561,7 @@ TextureImporter:
         - {x: 30.02832, y: -64.32357}
         - {x: 69.02832, y: -2.3235703}
         - {x: 69.02832, y: 6.6764297}
-    - name: LSD_SpriteSheet_130
+    - name: LSD_SpriteSheet_129
       rect:
         serializedVersion: 2
         x: 5687
@@ -2580,7 +2569,7 @@ TextureImporter:
         width: 199
         height: 188
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -65.55347, y: 65.110954}
