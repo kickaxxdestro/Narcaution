@@ -24,7 +24,7 @@ public class DebugScript : MonoBehaviour {
 
     public void AddMoney(int amount)
     {
-        PlayerPrefs.SetInt("ppPlayerMoney", PlayerPrefs.GetInt("ppPlayerMoney", 0) + 50);
+        PlayerPrefs.SetInt("ppPlayerMoney", PlayerPrefs.GetInt("ppPlayerMoney", 0) + 1000);
         PlayerPrefs.Save();
     }
 

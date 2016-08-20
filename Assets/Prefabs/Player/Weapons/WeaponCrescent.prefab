@@ -57,6 +57,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 490296}
   m_RootOrder: 1
@@ -69,6 +70,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 490296}
   m_RootOrder: 0
@@ -81,6 +83,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 449708}
   - {fileID: 443184}
@@ -100,21 +103,21 @@ MonoBehaviour:
   name: Purifier
   ID: 2
   icon: {fileID: 21300000, guid: e2c9078d292d76f41a4fc7c8463886ca, type: 3}
-  projectileSpeed: 7
-  LevelXCost: 96000000320000007d000000fa00000090010000
-  LevelXNumberOfProjectiles: 0100000001000000030000000500000005000000
+  projectileSpeed: 5
+  LevelXCost: 3200000014000000320000006400000096000000
+  LevelXNumberOfProjectiles: 0100000001000000020000000200000003000000
   LevelXBulletDamage:
-  - 2
+  - 3
   - 4
-  - 5
   - 6
   - 8
+  - 10
   LevelXFiringSpeed:
-  - 0.36
-  - 0.33
-  - 0.33
-  - 0.3
-  - 0.3
+  - 1.5
+  - 0.9
+  - 0.8
+  - 0.7
+  - 1
   projectileMovement: 0
   firingPattern: 1
   weaponDescription: Fired projectiles gradually increase in size, allowing the user

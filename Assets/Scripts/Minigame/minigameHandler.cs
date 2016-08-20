@@ -244,21 +244,21 @@ public class minigameHandler : MonoBehaviour {
 		switch (ChestGrade) 
 		{
 		case LootGrade.L_NORMAL:
-			ribbonsFound = Random.Range(1 * PlayerPrefs.GetInt("ppSelectedLevel", 0), 2 * PlayerPrefs.GetInt("ppSelectedLevel", 0));
+			ribbonsFound = Random.Range(2 * PlayerPrefs.GetInt("ppSelectedLevel", 0), 4 * PlayerPrefs.GetInt("ppSelectedLevel", 0));
 			break;
 
 		case LootGrade.L_RARE:
-			ribbonsFound = Random.Range (2 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 3 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
+			ribbonsFound = Random.Range (5 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 7 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
 			GeneratePowerUp (1);
 			break;
 
 		case LootGrade.L_EPIC:
-			ribbonsFound = Random.Range (3 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 4 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
+			ribbonsFound = Random.Range (8 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 11 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
 			GeneratePowerUp (2);
 			break;
 
 		case LootGrade.L_LEGENDARY:
-			ribbonsFound = Random.Range (4 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 5 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
+			ribbonsFound = Random.Range (11 * PlayerPrefs.GetInt ("ppSelectedLevel", 0), 15 * PlayerPrefs.GetInt ("ppSelectedLevel", 0));
 			GeneratePowerUp (3);
 			break;
 		}
