@@ -143,4 +143,16 @@ public class LevelGeneratorScript : MonoBehaviour {
     {
         GameObject.Find("progressBar").GetComponent<ProgressBar>().doProgression = true;
     }
+
+	public void CheckTutorial()
+	{
+		if(levelID == 1 && !PlayerPrefs.HasKey("Tutorial1Done"))
+		{
+			GameObject.Find ("TutorialScreen").GetComponent<TutorialHandler>().startTutorial();
+		}
+		else if(levelID == 2 && !PlayerPrefs.HasKey("Tutorial2Done"))
+		{
+			GameObject.Find ("TutorialScreen").GetComponent<TutorialHandler>().startTutorial();
+		}
+	}
 }
