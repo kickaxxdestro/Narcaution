@@ -57,6 +57,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 474850}
   m_RootOrder: 1
@@ -69,6 +70,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 474850}
   m_RootOrder: 0
@@ -81,6 +83,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 464238}
   - {fileID: 458846}
@@ -116,20 +119,20 @@ MonoBehaviour:
   ID: 5
   icon: {fileID: 21300000, guid: a8601363ac8fb9c4c8477b55a3e9f662, type: 3}
   projectileSpeed: 5
-  LevelXCost: 96000000320000007d000000fa00000090010000
+  LevelXCost: c8000000320000007d000000be0000002c010000
   LevelXNumberOfProjectiles: 0100000001000000020000000200000002000000
   LevelXBulletDamage:
   - 2
+  - 2.5
   - 3
   - 3.5
-  - 3.5
-  - 4
+  - 5
   LevelXFiringSpeed:
-  - 0.3
-  - 0.25
   - 0.2
-  - 0.15
+  - 0.17
+  - 0.14
   - 0.1
+  - 0.05
   projectileMovement: 2
   firingPattern: 0
   weaponDescription: Vindicator projectiles slice through the air while weaving left

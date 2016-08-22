@@ -32,39 +32,27 @@ public class WeaponCrescent : Weapon
                     break;
                 case 2:
                     temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 0f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.6f;
+                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.45f;
                     break;
                 case 3:
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 0f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.6f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -30f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 30f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
+                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 25f);
+                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.45f;
+                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -25f);
+                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.45f;
                     break;
                 case 4:
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 0f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.6f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -25f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
                     temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 25f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.15f, 0.15f, 1f), -45f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.1f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.15f, 0.15f, 1f), 45f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.1f;
+                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.45f;
+                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -25f);
+                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.45f;
                     break;
                 case 5:
                     temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 0f);
                     temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.6f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -25f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 25f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -45f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
-                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 45f);
-                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
+                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -30f);
+                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.45f;
+                    temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 30f);
+                    temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.45f;
                     break;
                 default:
                     print("default case");
@@ -73,3 +61,13 @@ public class WeaponCrescent : Weapon
         }
     }
 }
+                    //temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 0f);
+                    //temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.6f;
+                    //temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -25f);
+                    //temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
+                    //temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 25f);
+                    //temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
+                    //temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), -45f);
+                    //temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;
+                    //temp = base.GenerateBullet(new Vector3(transform.parent.position.x, transform.parent.position.y + 0.7f), new Vector3(0.2f, 0.2f, 1f), 45f);
+                    //temp.GetComponent<ScaleOverTime>().scalingSpeed = 0.3f;

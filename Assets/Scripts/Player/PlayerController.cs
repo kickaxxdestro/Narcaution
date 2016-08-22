@@ -601,60 +601,60 @@ public class PlayerController : MonoBehaviour
         GetComponent<CircleCollider2D>().enabled = false;
         transform.position = Vector3.Lerp(transform.position, new Vector3(0, SystemVariables.current.CameraBoundsY), Time.deltaTime * 1.0f);
 
-        //DrugBusters Achievements
-        if (enemiesKilled >= 100)
-        {
-            //googleplay achievement unlock
-            //DrugBusters
-            Social.ReportProgress("CgkI__bt5ooSEAIQBA", 100.0f, (bool success) =>
-            {
-                if (success)
-                {
-                    if (PlayerPrefs.GetInt("ppDrugBuster") == 0)
-                    {
-                        PlayerPrefs.SetInt("ppDrugBuster", 1);
-                    }
-                }
+        ////DrugBusters Achievements
+        //if (enemiesKilled >= 100)
+        //{
+        //    //googleplay achievement unlock
+        //    //DrugBusters
+        //    Social.ReportProgress("CgkI__bt5ooSEAIQBA", 100.0f, (bool success) =>
+        //    {
+        //        if (success)
+        //        {
+        //            if (PlayerPrefs.GetInt("ppDrugBuster") == 0)
+        //            {
+        //                PlayerPrefs.SetInt("ppDrugBuster", 1);
+        //            }
+        //        }
 
-            });
+        //    });
 
-            if (PlayerPrefs.GetInt("ppDrugBuster") == 1)
-            {
-                // increment achievement
-                //PlayGamesPlatform.Instance.IncrementAchievement(
-                //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                //    {
-                //    });
-                PlayerPrefs.SetInt("ppDrugBuster", 2);
-            }
-        }
-        if (enemiesKilled >= 500)
-        {
-            //googleplay achievement unlock
-            //Ramage
-            Social.ReportProgress("CgkI__bt5ooSEAIQDA", 100.0f, (bool success) =>
-            {
-                if (success)
-                {
-                    if (PlayerPrefs.GetInt("ppRampage") == 0)
-                    {
-                        PlayerPrefs.SetInt("ppRampage", 1);
-                    }
-                }
+        //    if (PlayerPrefs.GetInt("ppDrugBuster") == 1)
+        //    {
+        //        // increment achievement
+        //        //PlayGamesPlatform.Instance.IncrementAchievement(
+        //        //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+        //        //    {
+        //        //    });
+        //        PlayerPrefs.SetInt("ppDrugBuster", 2);
+        //    }
+        //}
+        //if (enemiesKilled >= 500)
+        //{
+        //    //googleplay achievement unlock
+        //    //Ramage
+        //    Social.ReportProgress("CgkI__bt5ooSEAIQDA", 100.0f, (bool success) =>
+        //    {
+        //        if (success)
+        //        {
+        //            if (PlayerPrefs.GetInt("ppRampage") == 0)
+        //            {
+        //                PlayerPrefs.SetInt("ppRampage", 1);
+        //            }
+        //        }
 
-            });
+        //    });
 
-            if (PlayerPrefs.GetInt("ppRampage") == 1)
-            {
-                // increment achievement
-            //    PlayGamesPlatform.Instance.IncrementAchievement(
-            //        "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-            //        {
-            //        });
-                PlayerPrefs.SetInt("ppRampage", 2);
-            }
+        //    if (PlayerPrefs.GetInt("ppRampage") == 1)
+        //    {
+        //        // increment achievement
+        //    //    PlayGamesPlatform.Instance.IncrementAchievement(
+        //    //        "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+        //    //        {
+        //    //        });
+        //        PlayerPrefs.SetInt("ppRampage", 2);
+        //    }
 
-        }
+        //}
 
         PlayerPrefs.SetInt("ppEnemiesKilled", enemiesKilled);
         PlayerPrefs.Save();
@@ -877,206 +877,204 @@ public class PlayerController : MonoBehaviour
             GetComponent<SpriteRenderer>().color = Color.grey;
 
             Invoke("FlyAway", 0.0f);
-            if (emotionPoint == (shieldCount * 3) + 1)
-            {
-                //googleplay achievement unlock
-                //Drugfree achievment
-                Social.ReportProgress("CgkI__bt5ooSEAIQCg", 100.0f, (bool success) =>
-                {
-                    if (success)
-                    {
-                        if (PlayerPrefs.GetInt("ppDrugFree") == 0)
-                        {
-                            PlayerPrefs.SetInt("ppDrugFree", 1);
-                        }
-                    }
+            //if (emotionPoint == (shieldCount * 3) + 1)
+            //{
+            //    //googleplay achievement unlock
+            //    //Drugfree achievment
+            //    //Social.ReportProgress("CgkI__bt5ooSEAIQCg", 100.0f, (bool success) =>
+            //    //{
+            //    //    if (success)
+            //    //    {
+            //    //        if (PlayerPrefs.GetInt("ppDrugFree") == 0)
+            //    //        {
+            //    //            PlayerPrefs.SetInt("ppDrugFree", 1);
+            //    //        }
+            //    //    }
 
-                });
+            //    //});
 
-                if (PlayerPrefs.GetInt("ppDrugFree") == 1)
-                {
-                    // increment achievement
-                    //PlayGamesPlatform.Instance.IncrementAchievement(
-                    //   "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                    //    {
-                    //    });
-                    PlayerPrefs.SetInt("ppDrugFree", 2);
-                }
-            }
-            else if (emotionPoint == 1 && PlayerPrefs.GetInt("ppSelectedLevel") == 21)
-            {
-                //googleplay achievement unlock
-                //This time its personal achievment
-                Social.ReportProgress("CgkI__bt5ooSEAIQEw", 100.0f, (bool success) =>
-                {
-                    if (success)
-                    {
-                        if (PlayerPrefs.GetInt("ppItsPersonal") == 0)
-                        {
-                            PlayerPrefs.SetInt("ppItsPersonal", 1);
-                        }
-                    }
+            //    //if (PlayerPrefs.GetInt("ppDrugFree") == 1)
+            //    //{
+            //    //    // increment achievement
+            //    //    //PlayGamesPlatform.Instance.IncrementAchievement(
+            //    //    //   "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+            //    //    //    {
+            //    //    //    });
+            //    //    PlayerPrefs.SetInt("ppDrugFree", 2);
+            //    //}
+            //}
+            //else if (emotionPoint == 1 && PlayerPrefs.GetInt("ppSelectedLevel") == 21)
+            //{
+            //    //googleplay achievement unlock
+            //    //This time its personal achievment
+            //    Social.ReportProgress("CgkI__bt5ooSEAIQEw", 100.0f, (bool success) =>
+            //    {
+            //        if (success)
+            //        {
+            //            if (PlayerPrefs.GetInt("ppItsPersonal") == 0)
+            //            {
+            //                PlayerPrefs.SetInt("ppItsPersonal", 1);
+            //            }
+            //        }
 
-                });
+            //    });
 
-                if (PlayerPrefs.GetInt("ppItsPersonal") == 1)
-                {
-                    // increment achievement
-                    //PlayGamesPlatform.Instance.IncrementAchievement(
-                    //   "CgkI__bt5ooSEAIQEw", 5, (bool success) =>
-                    //    {
-                    //    });
-                    PlayerPrefs.SetInt("ppItsPersonal", 2);
-                }
-            }
+            //    if (PlayerPrefs.GetInt("ppItsPersonal") == 1)
+            //    {
+            //        // increment achievement
+            //        //PlayGamesPlatform.Instance.IncrementAchievement(
+            //        //   "CgkI__bt5ooSEAIQEw", 5, (bool success) =>
+            //        //    {
+            //        //    });
+            //        PlayerPrefs.SetInt("ppItsPersonal", 2);
+            //    }
+            //}
 
-            if (GetComponent<ScoringSystemStar>().enemiesKilled <= 0)
-            {
-                //googleplay achievement unlock
-                //No Blood Shall Spill 
-                Social.ReportProgress("CgkI__bt5ooSEAIQFA", 100.0f, (bool success) =>
-                {
-                    if (success)
-                    {
-                        if (PlayerPrefs.GetInt("ppNoBloodShallSpill") == 0)
-                        {
-                            PlayerPrefs.SetInt("ppNoBloodShallSpill", 1);
-                        }
-                    }
+            //if (GetComponent<ScoringSystemStar>().enemiesKilled <= 0)
+            //{
+            //    //googleplay achievement unlock
+            //    //No Blood Shall Spill 
+            //    Social.ReportProgress("CgkI__bt5ooSEAIQFA", 100.0f, (bool success) =>
+            //    {
+            //        if (success)
+            //        {
+            //            if (PlayerPrefs.GetInt("ppNoBloodShallSpill") == 0)
+            //            {
+            //                PlayerPrefs.SetInt("ppNoBloodShallSpill", 1);
+            //            }
+            //        }
 
-                });
+            //    });
 
-                if (PlayerPrefs.GetInt("ppNoBloodShallSpill") == 1)
-                {
-                    // increment achievement
-                    //PlayGamesPlatform.Instance.IncrementAchievement(
-                    //    "CgkI__bt5ooSEAIQFA", 5, (bool success) =>
-                    //    {
-                    //    });
-                    PlayerPrefs.SetInt("ppNoBloodShallSpill", 2);
-                }
+            //    if (PlayerPrefs.GetInt("ppNoBloodShallSpill") == 1)
+            //    {
+            //        // increment achievement
+            //        //PlayGamesPlatform.Instance.IncrementAchievement(
+            //        //    "CgkI__bt5ooSEAIQFA", 5, (bool success) =>
+            //        //    {
+            //        //    });
+            //        PlayerPrefs.SetInt("ppNoBloodShallSpill", 2);
+            //    }
 
-            }
+            //}
 
-            if (GetComponent<ScoringSystemStar>().enemiesKilled == 1
-               && (PlayerPrefs.GetInt("ppSelectedLevel", -1) == 13
-                || PlayerPrefs.GetInt("ppSelectedLevel", -1) == 14
-                || PlayerPrefs.GetInt("ppSelectedLevel", -1) == 15))
-            {
-                //googleplay achievement unlock
-                //Prejudiced
-                Social.ReportProgress("CgkI__bt5ooSEAIQFQ", 100.0f, (bool success) =>
-                {
-                    if (success)
-                    {
-                        if (PlayerPrefs.GetInt("ppPrejudiced") == 0)
-                        {
-                            PlayerPrefs.SetInt("ppPrejudiced", 1);
-                        }
-                    }
+            //if (GetComponent<ScoringSystemStar>().enemiesKilled == 1
+            //   && (PlayerPrefs.GetInt("ppSelectedLevel", -1) == 13
+            //    || PlayerPrefs.GetInt("ppSelectedLevel", -1) == 14
+            //    || PlayerPrefs.GetInt("ppSelectedLevel", -1) == 15))
+            //{
+            //    //googleplay achievement unlock
+            //    //Prejudiced
+            //    Social.ReportProgress("CgkI__bt5ooSEAIQFQ", 100.0f, (bool success) =>
+            //    {
+            //        if (success)
+            //        {
+            //            if (PlayerPrefs.GetInt("ppPrejudiced") == 0)
+            //            {
+            //                PlayerPrefs.SetInt("ppPrejudiced", 1);
+            //            }
+            //        }
 
-                });
+            //    });
 
-                if (PlayerPrefs.GetInt("ppPrejudiced") == 1)
-                {
-                    // increment achievement
-                    //PlayGamesPlatform.Instance.IncrementAchievement(
-                    //    "CgkI__bt5ooSEAIQFQ", 5, (bool success) =>
-                    //    {
-                    //    });
-                    PlayerPrefs.SetInt("ppPrejudiced", 2);
-                }
+            //    if (PlayerPrefs.GetInt("ppPrejudiced") == 1)
+            //    {
+            //        // increment achievement
+            //        //PlayGamesPlatform.Instance.IncrementAchievement(
+            //        //    "CgkI__bt5ooSEAIQFQ", 5, (bool success) =>
+            //        //    {
+            //        //    });
+            //        PlayerPrefs.SetInt("ppPrejudiced", 2);
+            //    }
 
-            }
+            //}
 
-            if ((PlayerPrefs.GetString("ppLevel9HighestGrade") == "S"
-                && PlayerPrefs.GetString("ppLevel10HighestGrade") == "S"
-                && PlayerPrefs.GetString("ppLevel11HighestGrade") == "S"))
-            {
-                //googleplay achievement unlock
-                //Shoot.Save.Score
-                Social.ReportProgress("CgkI__bt5ooSEAIQFw", 100.0f, (bool success) =>
-                {
-                    if (success)
-                    {
-                        if (PlayerPrefs.GetInt("ppShootSaveScore") == 0)
-                        {
-                            PlayerPrefs.SetInt("ppShootSaveScore", 1);
-                        }
-                    }
+            //if ((PlayerPrefs.GetString("ppLevel9HighestGrade") == "S"
+            //    && PlayerPrefs.GetString("ppLevel10HighestGrade") == "S"
+            //    && PlayerPrefs.GetString("ppLevel11HighestGrade") == "S"))
+            //{
+            //    //googleplay achievement unlock
+            //    //Shoot.Save.Score
+            //    Social.ReportProgress("CgkI__bt5ooSEAIQFw", 100.0f, (bool success) =>
+            //    {
+            //        if (success)
+            //        {
+            //            if (PlayerPrefs.GetInt("ppShootSaveScore") == 0)
+            //            {
+            //                PlayerPrefs.SetInt("ppShootSaveScore", 1);
+            //            }
+            //        }
 
-                });
+            //    });
 
-                if (PlayerPrefs.GetInt("ppShootSaveScore") == 1)
-                {
-                    // increment achievement
-                    //PlayGamesPlatform.Instance.IncrementAchievement(
-                    //    "CgkI__bt5ooSEAIQFw", 5, (bool success) =>
-                    //    {
-                    //    });
-                    PlayerPrefs.SetInt("ppShootSaveScore", 2);
-                }
-
-            }
-
+            //    if (PlayerPrefs.GetInt("ppShootSaveScore") == 1)
+            //    {
+            //        // increment achievement
+            //        //PlayGamesPlatform.Instance.IncrementAchievement(
+            //        //    "CgkI__bt5ooSEAIQFw", 5, (bool success) =>
+            //        //    {
+            //        //    });
+            //        PlayerPrefs.SetInt("ppShootSaveScore", 2);
+            //    }
+            //}
         }
     }
 
     void UpdateAchievements()
     {
-        if (enemiesKilled >= 1)
-        {
-            //Google play achievement
-            //First NO
-            Social.ReportProgress("CgkI__bt5ooSEAIQAg", 100.0f, (bool success) =>
-            {
-                if (success)
-                {
-                    if (PlayerPrefs.GetInt("ppFirstNo") == 0)
-                    {
-                        PlayerPrefs.SetInt("ppFirstNo", 1);
-                    }
-                }
+        //if (enemiesKilled >= 1)
+        //{
+        //    //Google play achievement
+        //    //First NO
+        //    Social.ReportProgress("CgkI__bt5ooSEAIQAg", 100.0f, (bool success) =>
+        //    {
+        //        if (success)
+        //        {
+        //            if (PlayerPrefs.GetInt("ppFirstNo") == 0)
+        //            {
+        //                PlayerPrefs.SetInt("ppFirstNo", 1);
+        //            }
+        //        }
 
-            });
+        //    });
 
-            if (PlayerPrefs.GetInt("ppFirstNo") == 1)
-            {
-                // increment achievement
-                //PlayGamesPlatform.Instance.IncrementAchievement(
-                //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                //    {
-                //    });
-                PlayerPrefs.SetInt("ppFirstNo", 2);
-            }
+        //    if (PlayerPrefs.GetInt("ppFirstNo") == 1)
+        //    {
+        //        // increment achievement
+        //        //PlayGamesPlatform.Instance.IncrementAchievement(
+        //        //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+        //        //    {
+        //        //    });
+        //        PlayerPrefs.SetInt("ppFirstNo", 2);
+        //    }
 
-        }
-        if (playerDied >= 10)
-        {
-            //Google play achievement
-            //Overdose
-            Social.ReportProgress("CgkI__bt5ooSEAIQEQ", 100.0f, (bool success) =>
-            {
-                if (success)
-                {
-                    if (PlayerPrefs.GetInt("ppOverdose") == 0)
-                    {
-                        PlayerPrefs.SetInt("ppOverdose", 1);
-                    }
-                }
+        //}
+        //if (playerDied >= 10)
+        //{
+        //    //Google play achievement
+        //    //Overdose
+        //    Social.ReportProgress("CgkI__bt5ooSEAIQEQ", 100.0f, (bool success) =>
+        //    {
+        //        if (success)
+        //        {
+        //            if (PlayerPrefs.GetInt("ppOverdose") == 0)
+        //            {
+        //                PlayerPrefs.SetInt("ppOverdose", 1);
+        //            }
+        //        }
 
-            });
+        //    });
 
-            if (PlayerPrefs.GetInt("ppOverdose") == 1)
-            {
-                // increment achievement
-                //PlayGamesPlatform.Instance.IncrementAchievement(
-                //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
-                //    {
-                //    });
-                PlayerPrefs.SetInt("ppOverdose", 2);
-            }
-        }
+        //    if (PlayerPrefs.GetInt("ppOverdose") == 1)
+        //    {
+        //        // increment achievement
+        //        //PlayGamesPlatform.Instance.IncrementAchievement(
+        //        //    "CgkI__bt5ooSEAIQEA", 5, (bool success) =>
+        //        //    {
+        //        //    });
+        //        PlayerPrefs.SetInt("ppOverdose", 2);
+        //    }
+        //}
         //if (topComboCount >= 100)
         //{
         //    //googleplay achievement unlock
