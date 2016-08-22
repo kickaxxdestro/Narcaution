@@ -73,7 +73,8 @@ public class DialogueSystemScript : MonoBehaviour {
 			if(firstStop == false){
 				firstStop = true;
 				level.GetComponent<LevelGeneratorScript>().spawnWave = true;
-                level.GetComponent<LevelGeneratorScript>().StartProgressBar();
+				level.GetComponent<LevelGeneratorScript>().StartProgressBar();
+				level.GetComponent<LevelGeneratorScript>().CheckTutorial();
 			}
 			else if(firstStop == true && level.GetComponent<LevelGeneratorScript>().endDial == false)
 			{

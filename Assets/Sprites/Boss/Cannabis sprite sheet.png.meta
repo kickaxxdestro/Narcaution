@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bdf29c7ca287e3b479183a996460fe13
-timeCreated: 1447048304
+timeCreated: 1471833108
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -46,7 +46,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -66,11 +66,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -86,8 +87,32 @@ TextureImporter:
         width: 164
         height: 209
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -77.5}
+        - {x: 13, y: -71.5}
+        - {x: -5, y: -86.5}
+        - {x: -5, y: -104.5}
+        - {x: 46, y: -104.5}
+        - {x: 63, y: -100.5}
+        - {x: 82, y: -34.5}
+        - {x: 82, y: 52.5}
+        - {x: 77, y: 64.5}
+        - {x: 6, y: 104.5}
+        - {x: -11, y: 104.5}
+        - {x: -27, y: 89.5}
+        - {x: -29, y: 80.5}
+        - {x: -38, y: 88.5}
+        - {x: -47, y: 89.5}
+        - {x: -82, y: 92.5}
+        - {x: -82, y: -88.5}
+        - {x: -74, y: -93.5}
+        - {x: -41, y: -104.5}
+        - {x: -5, y: -104.5}
+        - {x: -5, y: -96.5}
+        - {x: -6, y: -87.5}
+        - {x: -9, y: -83.5}
     - name: Cannabis sprite sheet_1
       rect:
         serializedVersion: 2
@@ -96,8 +121,31 @@ TextureImporter:
         width: 164
         height: 211
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -88.5}
+        - {x: -4, y: -97.5}
+        - {x: 1, y: -105.5}
+        - {x: 68, y: -105.5}
+        - {x: 82, y: -85.5}
+        - {x: 82, y: 66.5}
+        - {x: 10, y: 105.5}
+        - {x: -13, y: 105.5}
+        - {x: -27, y: 90.5}
+        - {x: -29, y: 81.5}
+        - {x: -38, y: 89.5}
+        - {x: -47, y: 90.5}
+        - {x: -49, y: 81.5}
+        - {x: -72, y: 67.5}
+        - {x: -82, y: 39.5}
+        - {x: -82, y: -75.5}
+        - {x: -53, y: -92.5}
+        - {x: -29, y: -105.5}
+        - {x: -10, y: -105.5}
+        - {x: -5, y: -98.5}
+        - {x: -5, y: -87.5}
+        - {x: -12, y: -82.5}
     - name: Cannabis sprite sheet_2
       rect:
         serializedVersion: 2
@@ -106,8 +154,35 @@ TextureImporter:
         width: 167
         height: 214
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: -107}
+        - {x: 19.5, y: -107}
+        - {x: 20.5, y: -102}
+        - {x: 55.5, y: -75}
+        - {x: 54.5, y: -68}
+        - {x: 68.5, y: -69}
+        - {x: 83.5, y: -51}
+        - {x: 83.5, y: 72}
+        - {x: 48.5, y: 107}
+        - {x: -62.5, y: 107}
+        - {x: -83.5, y: 80}
+        - {x: -83.5, y: -19}
+        - {x: -66.5, y: -17}
+        - {x: -58.5, y: -22}
+        - {x: -52.5, y: -19}
+        - {x: -78.5, y: -24}
+        - {x: -83.5, y: -31}
+        - {x: -83.5, y: -47}
+        - {x: -76.5, y: -56}
+        - {x: -66.5, y: -51}
+        - {x: -64.5, y: -89}
+        - {x: -27.5, y: -107}
+        - {x: -4.5, y: -107}
+        - {x: -3.5, y: -100}
+        - {x: -2.5, y: -89}
+        - {x: -2.5, y: -99}
     - name: Cannabis sprite sheet_3
       rect:
         serializedVersion: 2
@@ -116,88 +191,246 @@ TextureImporter:
         width: 173
         height: 218
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -101}
+        - {x: 5.5, y: -109}
+        - {x: 86.5, y: -109}
+        - {x: 86.5, y: 65}
+        - {x: 83.5, y: 72}
+        - {x: 11.5, y: 109}
+        - {x: -6.5, y: 109}
+        - {x: -22.5, y: 94}
+        - {x: -24.5, y: 85}
+        - {x: -41.5, y: 109}
+        - {x: -60.5, y: 109}
+        - {x: -86.5, y: 70}
+        - {x: -86.5, y: 10}
+        - {x: -62.5, y: -14}
+        - {x: -57.5, y: -14}
+        - {x: -61.5, y: -14}
+        - {x: -66.5, y: -12}
+        - {x: -74.5, y: -11}
+        - {x: -85.5, y: -16}
+        - {x: -86.5, y: -18}
+        - {x: -86.5, y: -64}
+        - {x: -24.5, y: -109}
+        - {x: 0.5, y: -109}
+        - {x: -0.5, y: -91}
+        - {x: -6.5, y: -86}
+        - {x: 0.5, y: -92}
     - name: Cannabis sprite sheet_4
       rect:
         serializedVersion: 2
-        x: 3
-        y: 771
-        width: 250
-        height: 250
+        x: 4
+        y: 772
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 3}
+        - {x: -38, y: -7}
+        - {x: -38, y: -67}
+        - {x: -36, y: -73}
+        - {x: 38, y: -73}
+        - {x: 38, y: 3}
     - name: Cannabis sprite sheet_5
       rect:
         serializedVersion: 2
-        x: 259
-        y: 771
-        width: 250
-        height: 250
+        x: 260
+        y: 772
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -84}
+        - {x: -49, y: -85}
+        - {x: 27, y: -85}
+        - {x: 51, y: -72}
+        - {x: 51, y: -9}
+        - {x: 42, y: 16}
+        - {x: -46, y: 16}
+        - {x: -50, y: 1}
     - name: Cannabis sprite sheet_6
       rect:
         serializedVersion: 2
-        x: 515
-        y: 771
-        width: 250
-        height: 250
+        x: 516
+        y: 773
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -40}
+        - {x: -63, y: -41}
+        - {x: -55, y: -43}
+        - {x: -60, y: -68}
+        - {x: -46, y: -94}
+        - {x: 62, y: -94}
+        - {x: 66, y: -92}
+        - {x: 66, y: 22}
+        - {x: 58, y: 32}
+        - {x: -45, y: 32}
+        - {x: -64, y: -5}
+      - - {x: -124, y: 124}
+        - {x: -124, y: 121}
+        - {x: 124, y: 121}
+        - {x: 124, y: 124}
     - name: Cannabis sprite sheet_7
       rect:
         serializedVersion: 2
-        x: 771
-        y: 771
-        width: 250
-        height: 250
+        x: 772
+        y: 772
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -97}
+        - {x: 7, y: -101}
+        - {x: 0, y: -106}
+        - {x: 1, y: -116}
+        - {x: 6, y: -124}
+        - {x: 35, y: -124}
+        - {x: 49, y: -115}
+        - {x: 75, y: -83}
+        - {x: 90, y: -37}
+        - {x: 90, y: 49}
+        - {x: 26, y: 88}
+        - {x: -46, y: 88}
+        - {x: -80, y: 73}
+        - {x: -80, y: -101}
+        - {x: -24, y: -124}
+        - {x: -5, y: -124}
+        - {x: 0, y: -117}
+        - {x: 0, y: -106}
+        - {x: -7, y: -101}
     - name: Cannabis sprite sheet_8
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 771
-        width: 250
-        height: 250
+        x: 1028
+        y: 772
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -97}
+        - {x: 7, y: -101}
+        - {x: 0, y: -106}
+        - {x: 1, y: -116}
+        - {x: 6, y: -124}
+        - {x: 30, y: -124}
+        - {x: 81, y: -84}
+        - {x: 90, y: -44}
+        - {x: 90, y: 57}
+        - {x: 39, y: 88}
+        - {x: -51, y: 88}
+        - {x: -55, y: 87}
+        - {x: -80, y: 50}
+        - {x: -80, y: -74}
+        - {x: -76, y: -85}
+        - {x: -57, y: -112}
+        - {x: -25, y: -124}
+        - {x: -2, y: -124}
+        - {x: 0, y: -117}
+        - {x: 0, y: -106}
+        - {x: -7, y: -101}
     - name: Cannabis sprite sheet_9
       rect:
         serializedVersion: 2
-        x: 1283
-        y: 771
-        width: 250
-        height: 250
+        x: 1284
+        y: 772
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -97}
+        - {x: 7, y: -101}
+        - {x: 0, y: -106}
+        - {x: 1, y: -116}
+        - {x: 6, y: -124}
+        - {x: 33, y: -124}
+        - {x: 90, y: -95}
+        - {x: 90, y: 81}
+        - {x: 80, y: 88}
+        - {x: -40, y: 88}
+        - {x: -80, y: 53}
+        - {x: -80, y: -92}
+        - {x: -65, y: -122}
+        - {x: -53, y: -124}
+        - {x: -2, y: -124}
+        - {x: 0, y: -117}
+        - {x: 0, y: -106}
+        - {x: -7, y: -101}
     - name: Cannabis sprite sheet_10
       rect:
         serializedVersion: 2
-        x: 1539
-        y: 771
-        width: 250
-        height: 250
+        x: 1540
+        y: 772
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -97}
+        - {x: 7, y: -101}
+        - {x: 0, y: -106}
+        - {x: 1, y: -116}
+        - {x: 6, y: -124}
+        - {x: 30, y: -124}
+        - {x: 81, y: -84}
+        - {x: 90, y: -44}
+        - {x: 90, y: 57}
+        - {x: 39, y: 88}
+        - {x: -23, y: 88}
+        - {x: -80, y: 59}
+        - {x: -80, y: -74}
+        - {x: -68, y: -124}
+        - {x: -2, y: -124}
+        - {x: 0, y: -117}
+        - {x: 0, y: -106}
+        - {x: -7, y: -101}
     - name: Cannabis sprite sheet_11
       rect:
         serializedVersion: 2
-        x: 1795
-        y: 771
-        width: 250
-        height: 250
+        x: 1796
+        y: 772
+        width: 248
+        height: 248
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -97}
+        - {x: 7, y: -101}
+        - {x: 0, y: -106}
+        - {x: 1, y: -116}
+        - {x: 6, y: -124}
+        - {x: 30, y: -124}
+        - {x: 81, y: -84}
+        - {x: 90, y: -44}
+        - {x: 90, y: 57}
+        - {x: 62, y: 88}
+        - {x: -40, y: 88}
+        - {x: -80, y: 44}
+        - {x: -80, y: -105}
+        - {x: -69, y: -124}
+        - {x: -2, y: -124}
+        - {x: 0, y: -117}
+        - {x: 0, y: -106}
+        - {x: -7, y: -101}
     - name: Cannabis sprite sheet_12
       rect:
         serializedVersion: 2
@@ -206,8 +439,37 @@ TextureImporter:
         width: 164
         height: 207
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -76.5}
+        - {x: 13, y: -70.5}
+        - {x: -5, y: -85.5}
+        - {x: -4, y: -95.5}
+        - {x: 1, y: -103.5}
+        - {x: 50, y: -103.5}
+        - {x: 82, y: -53.5}
+        - {x: 82, y: 59.5}
+        - {x: 77, y: 63.5}
+        - {x: 6, y: 103.5}
+        - {x: -11, y: 103.5}
+        - {x: -27, y: 88.5}
+        - {x: -29, y: 79.5}
+        - {x: -38, y: 87.5}
+        - {x: -47, y: 88.5}
+        - {x: -49, y: 79.5}
+        - {x: -72, y: 65.5}
+        - {x: -82, y: 37.5}
+        - {x: -82, y: 14.5}
+        - {x: -76, y: 8.5}
+        - {x: -69, y: 4.5}
+        - {x: -70, y: -13.5}
+        - {x: -81, y: -93.5}
+        - {x: -45, y: -103.5}
+        - {x: -5, y: -103.5}
+        - {x: -5, y: -95.5}
+        - {x: -6, y: -86.5}
+        - {x: -9, y: -82.5}
     - name: Cannabis sprite sheet_13
       rect:
         serializedVersion: 2
@@ -216,8 +478,30 @@ TextureImporter:
         width: 164
         height: 205
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -75.5}
+        - {x: 13, y: -69.5}
+        - {x: -5, y: -84.5}
+        - {x: -4, y: -94.5}
+        - {x: 1, y: -102.5}
+        - {x: 62, y: -102.5}
+        - {x: 82, y: -73.5}
+        - {x: 82, y: 59.5}
+        - {x: 21, y: 102.5}
+        - {x: -42, y: 102.5}
+        - {x: -82, y: 80.5}
+        - {x: -82, y: -3.5}
+        - {x: -68, y: -21.5}
+        - {x: -60, y: -24.5}
+        - {x: -66, y: -68.5}
+        - {x: -61, y: -87.5}
+        - {x: -29, y: -102.5}
+        - {x: -10, y: -102.5}
+        - {x: -5, y: -94.5}
+        - {x: -6, y: -85.5}
+        - {x: -9, y: -81.5}
     - name: Cannabis sprite sheet_14
       rect:
         serializedVersion: 2
@@ -226,8 +510,28 @@ TextureImporter:
         width: 164
         height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -84.5}
+        - {x: -4, y: -93.5}
+        - {x: 1, y: -101.5}
+        - {x: 44, y: -101.5}
+        - {x: 82, y: -45.5}
+        - {x: 82, y: 60.5}
+        - {x: 79, y: 63.5}
+        - {x: 7, y: 101.5}
+        - {x: -11, y: 101.5}
+        - {x: -27, y: 86.5}
+        - {x: -37, y: 88.5}
+        - {x: -72, y: 81.5}
+        - {x: -82, y: 65.5}
+        - {x: -82, y: -48.5}
+        - {x: -62, y: -101.5}
+        - {x: -8, y: -101.5}
+        - {x: -5, y: -94.5}
+        - {x: -5, y: -83.5}
+        - {x: -12, y: -78.5}
     - name: Cannabis sprite sheet_15
       rect:
         serializedVersion: 2
@@ -236,8 +540,32 @@ TextureImporter:
         width: 164
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -73.5}
+        - {x: 13, y: -67.5}
+        - {x: -5, y: -82.5}
+        - {x: -4, y: -100.5}
+        - {x: 45, y: -100.5}
+        - {x: 82, y: -93.5}
+        - {x: 82, y: 77.5}
+        - {x: 19, y: 100.5}
+        - {x: -13, y: 100.5}
+        - {x: -27, y: 85.5}
+        - {x: -29, y: 76.5}
+        - {x: -38, y: 84.5}
+        - {x: -47, y: 85.5}
+        - {x: -49, y: 76.5}
+        - {x: -72, y: 62.5}
+        - {x: -82, y: 34.5}
+        - {x: -82, y: -2.5}
+        - {x: -63, y: -87.5}
+        - {x: -30, y: -100.5}
+        - {x: -6, y: -100.5}
+        - {x: -5, y: -92.5}
+        - {x: -6, y: -83.5}
+        - {x: -9, y: -79.5}
     - name: Cannabis sprite sheet_16
       rect:
         serializedVersion: 2
@@ -246,8 +574,32 @@ TextureImporter:
         width: 164
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -73.5}
+        - {x: 13, y: -67.5}
+        - {x: -5, y: -82.5}
+        - {x: -4, y: -92.5}
+        - {x: 1, y: -100.5}
+        - {x: 66, y: -100.5}
+        - {x: 82, y: -76.5}
+        - {x: 82, y: 61.5}
+        - {x: 11, y: 100.5}
+        - {x: -13, y: 100.5}
+        - {x: -27, y: 85.5}
+        - {x: -29, y: 76.5}
+        - {x: -38, y: 84.5}
+        - {x: -47, y: 85.5}
+        - {x: -49, y: 76.5}
+        - {x: -72, y: 62.5}
+        - {x: -82, y: 49.5}
+        - {x: -82, y: -81.5}
+        - {x: -49, y: -100.5}
+        - {x: -10, y: -100.5}
+        - {x: -5, y: -92.5}
+        - {x: -6, y: -83.5}
+        - {x: -9, y: -79.5}
     - name: Cannabis sprite sheet_17
       rect:
         serializedVersion: 2
@@ -256,8 +608,36 @@ TextureImporter:
         width: 164
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -73.5}
+        - {x: 13, y: -67.5}
+        - {x: -5, y: -82.5}
+        - {x: -4, y: -92.5}
+        - {x: 1, y: -100.5}
+        - {x: 26, y: -100.5}
+        - {x: 41, y: -87.5}
+        - {x: 53, y: -77.5}
+        - {x: 82, y: -25.5}
+        - {x: 82, y: 60.5}
+        - {x: 11, y: 100.5}
+        - {x: -13, y: 100.5}
+        - {x: -27, y: 85.5}
+        - {x: -29, y: 76.5}
+        - {x: -38, y: 84.5}
+        - {x: -47, y: 85.5}
+        - {x: -49, y: 76.5}
+        - {x: -72, y: 62.5}
+        - {x: -82, y: 34.5}
+        - {x: -82, y: -11.5}
+        - {x: -78, y: -33.5}
+        - {x: -59, y: -99.5}
+        - {x: -45, y: -100.5}
+        - {x: -10, y: -100.5}
+        - {x: -5, y: -92.5}
+        - {x: -6, y: -83.5}
+        - {x: -9, y: -79.5}
     - name: Cannabis sprite sheet_18
       rect:
         serializedVersion: 2
@@ -266,8 +646,39 @@ TextureImporter:
         width: 164
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -73.5}
+        - {x: 13, y: -67.5}
+        - {x: -5, y: -82.5}
+        - {x: -4, y: -92.5}
+        - {x: 1, y: -100.5}
+        - {x: 29, y: -100.5}
+        - {x: 43, y: -90.5}
+        - {x: 52, y: -77.5}
+        - {x: 82, y: -54.5}
+        - {x: 82, y: 73.5}
+        - {x: 8, y: 100.5}
+        - {x: -9, y: 100.5}
+        - {x: -27, y: 85.5}
+        - {x: -29, y: 76.5}
+        - {x: -38, y: 84.5}
+        - {x: -47, y: 85.5}
+        - {x: -49, y: 76.5}
+        - {x: -72, y: 62.5}
+        - {x: -82, y: 34.5}
+        - {x: -82, y: 11.5}
+        - {x: -76, y: 5.5}
+        - {x: -69, y: 1.5}
+        - {x: -70, y: -16.5}
+        - {x: -70, y: -80.5}
+        - {x: -53, y: -92.5}
+        - {x: -30, y: -100.5}
+        - {x: -7, y: -100.5}
+        - {x: -5, y: -92.5}
+        - {x: -6, y: -83.5}
+        - {x: -9, y: -79.5}
     - name: Cannabis sprite sheet_19
       rect:
         serializedVersion: 2
@@ -276,8 +687,39 @@ TextureImporter:
         width: 164
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -73.5}
+        - {x: 13, y: -67.5}
+        - {x: -5, y: -82.5}
+        - {x: -4, y: -92.5}
+        - {x: 1, y: -100.5}
+        - {x: 29, y: -100.5}
+        - {x: 43, y: -90.5}
+        - {x: 52, y: -77.5}
+        - {x: 82, y: -54.5}
+        - {x: 82, y: 73.5}
+        - {x: 8, y: 100.5}
+        - {x: -9, y: 100.5}
+        - {x: -27, y: 85.5}
+        - {x: -29, y: 76.5}
+        - {x: -38, y: 84.5}
+        - {x: -47, y: 85.5}
+        - {x: -49, y: 76.5}
+        - {x: -72, y: 62.5}
+        - {x: -82, y: 34.5}
+        - {x: -82, y: 11.5}
+        - {x: -76, y: 5.5}
+        - {x: -69, y: 1.5}
+        - {x: -70, y: -16.5}
+        - {x: -70, y: -80.5}
+        - {x: -53, y: -92.5}
+        - {x: -30, y: -100.5}
+        - {x: -7, y: -100.5}
+        - {x: -5, y: -92.5}
+        - {x: -6, y: -83.5}
+        - {x: -9, y: -79.5}
     - name: Cannabis sprite sheet_20
       rect:
         serializedVersion: 2
@@ -286,8 +728,33 @@ TextureImporter:
         width: 164
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -73.5}
+        - {x: 13, y: -67.5}
+        - {x: -5, y: -82.5}
+        - {x: -4, y: -92.5}
+        - {x: 1, y: -100.5}
+        - {x: 46, y: -100.5}
+        - {x: 82, y: -32.5}
+        - {x: 82, y: 68.5}
+        - {x: 21, y: 100.5}
+        - {x: -27, y: 100.5}
+        - {x: -55, y: 93.5}
+        - {x: -80, y: 65.5}
+        - {x: -82, y: 51.5}
+        - {x: -82, y: -3.5}
+        - {x: -68, y: -23.5}
+        - {x: -60, y: -25.5}
+        - {x: -63, y: -35.5}
+        - {x: -60, y: -42.5}
+        - {x: -81, y: -69.5}
+        - {x: -45, y: -100.5}
+        - {x: -10, y: -100.5}
+        - {x: -5, y: -92.5}
+        - {x: -6, y: -83.5}
+        - {x: -9, y: -79.5}
     - name: Cannabis sprite sheet_21
       rect:
         serializedVersion: 2
@@ -296,8 +763,34 @@ TextureImporter:
         width: 164
         height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -73.5}
+        - {x: 13, y: -67.5}
+        - {x: -5, y: -82.5}
+        - {x: -4, y: -92.5}
+        - {x: 1, y: -100.5}
+        - {x: 26, y: -100.5}
+        - {x: 41, y: -87.5}
+        - {x: 53, y: -77.5}
+        - {x: 52, y: -67.5}
+        - {x: 43, y: -60.5}
+        - {x: 17, y: -44.5}
+        - {x: 41, y: -55.5}
+        - {x: 56, y: -49.5}
+        - {x: 82, y: -19.5}
+        - {x: 82, y: 73.5}
+        - {x: 50, y: 100.5}
+        - {x: -65, y: 100.5}
+        - {x: -82, y: 61.5}
+        - {x: -82, y: -45.5}
+        - {x: -55, y: -95.5}
+        - {x: -35, y: -100.5}
+        - {x: -7, y: -100.5}
+        - {x: -5, y: -92.5}
+        - {x: -6, y: -83.5}
+        - {x: -9, y: -79.5}
     - name: Cannabis sprite sheet_22
       rect:
         serializedVersion: 2
@@ -306,8 +799,31 @@ TextureImporter:
         width: 164
         height: 195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -70.5}
+        - {x: 13, y: -64.5}
+        - {x: -5, y: -79.5}
+        - {x: -4, y: -89.5}
+        - {x: 1, y: -97.5}
+        - {x: 38, y: -97.5}
+        - {x: 66, y: -61.5}
+        - {x: 82, y: -24.5}
+        - {x: 82, y: 50.5}
+        - {x: 79, y: 59.5}
+        - {x: 7, y: 97.5}
+        - {x: -11, y: 97.5}
+        - {x: -27, y: 82.5}
+        - {x: -29, y: 73.5}
+        - {x: -38, y: 81.5}
+        - {x: -47, y: 82.5}
+        - {x: -82, y: 82.5}
+        - {x: -82, y: -97.5}
+        - {x: -10, y: -97.5}
+        - {x: -5, y: -89.5}
+        - {x: -6, y: -80.5}
+        - {x: -9, y: -76.5}
     - name: Cannabis sprite sheet_23
       rect:
         serializedVersion: 2
@@ -316,8 +832,40 @@ TextureImporter:
         width: 152
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -93.5}
+        - {x: 29, y: -93.5}
+        - {x: 43, y: -84.5}
+        - {x: 62, y: -60.5}
+        - {x: 76, y: -5.5}
+        - {x: 76, y: 26.5}
+        - {x: 49, y: 55.5}
+        - {x: 42, y: 56.5}
+        - {x: 41, y: 53.5}
+        - {x: 35, y: 62.5}
+        - {x: 26, y: 73.5}
+        - {x: 15, y: 74.5}
+        - {x: 13, y: 72.5}
+        - {x: 13, y: 69.5}
+        - {x: 9, y: 80.5}
+        - {x: 4, y: 93.5}
+        - {x: -10, y: 93.5}
+        - {x: -64, y: 63.5}
+        - {x: -76, y: 34.5}
+        - {x: -76, y: -19.5}
+        - {x: -51, y: -27.5}
+        - {x: -43, y: -28.5}
+        - {x: -42, y: -25.5}
+        - {x: -46, y: -35.5}
+        - {x: -69, y: -61.5}
+        - {x: -55, y: -87.5}
+        - {x: -31, y: -93.5}
+        - {x: -8, y: -93.5}
+        - {x: -5, y: -86.5}
+        - {x: -5, y: -75.5}
+        - {x: -4, y: -85.5}
     - name: Cannabis sprite sheet_24
       rect:
         serializedVersion: 2
@@ -326,8 +874,35 @@ TextureImporter:
         width: 127
         height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -62}
+        - {x: -8.5, y: -64}
+        - {x: -2.5, y: -64}
+        - {x: 3.5, y: -60}
+        - {x: -4.5, y: -67}
+        - {x: -3.5, y: -77}
+        - {x: 1.5, y: -85}
+        - {x: 25.5, y: -85}
+        - {x: 56.5, y: -63}
+        - {x: 63.5, y: -34}
+        - {x: 63.5, y: 33}
+        - {x: 47.5, y: 47}
+        - {x: 42.5, y: 49}
+        - {x: 36.5, y: 47}
+        - {x: 36.5, y: 61}
+        - {x: 11.5, y: 85}
+        - {x: -14.5, y: 85}
+        - {x: -63.5, y: 55}
+        - {x: -63.5, y: -70}
+        - {x: -33.5, y: -83}
+        - {x: -31.5, y: -83}
+        - {x: -28.5, y: -85}
+        - {x: -9.5, y: -85}
+        - {x: -7.5, y: -82}
+        - {x: -5.5, y: -77}
+        - {x: -4.5, y: -67}
     - name: Cannabis sprite sheet_25
       rect:
         serializedVersion: 2
@@ -336,8 +911,18 @@ TextureImporter:
         width: 120
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 84}
+        - {x: -9, y: 84}
+        - {x: -60, y: 40}
+        - {x: -60, y: -49}
+        - {x: -41, y: -84}
+        - {x: 46, y: -84}
+        - {x: 60, y: -68}
+        - {x: 60, y: 46}
+        - {x: 56, y: 70}
     - name: Cannabis sprite sheet_26
       rect:
         serializedVersion: 2
@@ -346,8 +931,19 @@ TextureImporter:
         width: 108
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 84}
+        - {x: -12, y: 84}
+        - {x: -25, y: 76}
+        - {x: -54, y: 46}
+        - {x: -54, y: -79}
+        - {x: -53, y: -84}
+        - {x: 43, y: -84}
+        - {x: 54, y: -39}
+        - {x: 54, y: 25}
+        - {x: 47, y: 48}
     - name: Cannabis sprite sheet_27
       rect:
         serializedVersion: 2
@@ -356,8 +952,29 @@ TextureImporter:
         width: 108
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -66}
+        - {x: 11, y: -57}
+        - {x: 10, y: -46}
+        - {x: 14, y: -50}
+        - {x: 10, y: -75}
+        - {x: 10, y: -81}
+        - {x: 13, y: -84}
+        - {x: 37, y: -84}
+        - {x: 54, y: -28}
+        - {x: 54, y: 25}
+        - {x: 13, y: 84}
+        - {x: -2, y: 84}
+        - {x: -52, y: 41}
+        - {x: -54, y: 36}
+        - {x: -54, y: -45}
+        - {x: -33, y: -84}
+        - {x: -13, y: -84}
+        - {x: -10, y: -81}
+        - {x: -10, y: -75}
+        - {x: -14, y: -71}
     - name: Cannabis sprite sheet_28
       rect:
         serializedVersion: 2
@@ -366,8 +983,16 @@ TextureImporter:
         width: 86
         height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 44}
+        - {x: -43, y: -14}
+        - {x: -35, y: -44}
+        - {x: 37, y: -44}
+        - {x: 43, y: -28}
+        - {x: 43, y: 44}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
