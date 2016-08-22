@@ -104,19 +104,19 @@ MonoBehaviour:
   ID: 1
   icon: {fileID: 21300000, guid: fd43223622a672b4f886e2772de711e3, type: 3}
   projectileSpeed: 7
-  LevelXCost: 01000000320000007d000000fa00000090010000
-  LevelXNumberOfProjectiles: 0100000002000000030000000500000005000000
+  LevelXCost: 000000000a0000001e0000004b0000007d000000
+  LevelXNumberOfProjectiles: 0100000002000000030000000400000005000000
   LevelXBulletDamage:
   - 1
   - 2
-  - 2
   - 3
   - 4
+  - 5
   LevelXFiringSpeed:
+  - 0.3
+  - 0.275
   - 0.25
-  - 0.25
-  - 0.22
-  - 0.22
+  - 0.225
   - 0.2
   projectileMovement: 0
   firingPattern: 0

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SentryBulletBehaviour : MonoBehaviour {
 
-    float bulletDamage = 0.5f;
+    float bulletDamage = 2.5f;
     GameObject bulletParticlePooler;
 
 	// Use this for initialization

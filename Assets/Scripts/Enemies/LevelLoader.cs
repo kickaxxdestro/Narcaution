@@ -675,35 +675,35 @@ public class LevelLoader : MonoBehaviour {
             (int)ScoringSystemStar.CombineRank((ScoringSystemStar.SCORING_TYPES)PlayerPrefs.GetInt("ppTopRankLevel" + loadedLevel, (int)ScoringSystemStar.SCORING_TYPES.END_FALSE_LIFE_FALSE_SCORE_FALSE), tempRank
             ));
 
-        //google leaderboard world 1
-        worldOneHighScore = PlayerPrefs.GetInt("ppLevel1HighScore") + PlayerPrefs.GetInt("ppLevel2HighScore") + PlayerPrefs.GetInt("ppLevel3HighScore") + PlayerPrefs.GetInt("ppLevel4HighScore");
-        Social.ReportScore(worldOneHighScore, "CgkI__bt5ooSEAIQDg", (bool success) =>
-        {
-        });
+        ////google leaderboard world 1
+        //worldOneHighScore = PlayerPrefs.GetInt("ppLevel1HighScore") + PlayerPrefs.GetInt("ppLevel2HighScore") + PlayerPrefs.GetInt("ppLevel3HighScore") + PlayerPrefs.GetInt("ppLevel4HighScore");
+        //Social.ReportScore(worldOneHighScore, "CgkI__bt5ooSEAIQDg", (bool success) =>
+        //{
+        //});
 
-        //google leaderboard world 2
-        worldTwoHighScore = PlayerPrefs.GetInt("ppLevel5HighScore") + PlayerPrefs.GetInt("ppLevel6HighScore") + PlayerPrefs.GetInt("ppLevel7HighScore") + PlayerPrefs.GetInt("ppLevel8HighScore");
-        Social.ReportScore(worldTwoHighScore, "CgkI__bt5ooSEAIQDw", (bool success) =>
-        {
-        });
+        ////google leaderboard world 2
+        //worldTwoHighScore = PlayerPrefs.GetInt("ppLevel5HighScore") + PlayerPrefs.GetInt("ppLevel6HighScore") + PlayerPrefs.GetInt("ppLevel7HighScore") + PlayerPrefs.GetInt("ppLevel8HighScore");
+        //Social.ReportScore(worldTwoHighScore, "CgkI__bt5ooSEAIQDw", (bool success) =>
+        //{
+        //});
 
-        //google leaderboard world 3
-        worldThreeHighScore = PlayerPrefs.GetInt("ppLevel9HighScore") + PlayerPrefs.GetInt("ppLevel10HighScore") + PlayerPrefs.GetInt("ppLevel11HighScore") + PlayerPrefs.GetInt("ppLevel12HighScore");
-        Social.ReportScore(worldThreeHighScore, "CgkI__bt5ooSEAIQGA", (bool success) =>
-        {
-        });
+        ////google leaderboard world 3
+        //worldThreeHighScore = PlayerPrefs.GetInt("ppLevel9HighScore") + PlayerPrefs.GetInt("ppLevel10HighScore") + PlayerPrefs.GetInt("ppLevel11HighScore") + PlayerPrefs.GetInt("ppLevel12HighScore");
+        //Social.ReportScore(worldThreeHighScore, "CgkI__bt5ooSEAIQGA", (bool success) =>
+        //{
+        //});
 
-        //google leaderboard world 4
-        worldFourHighScore = PlayerPrefs.GetInt("ppLevel13HighScore") + PlayerPrefs.GetInt("ppLevel14HighScore") + PlayerPrefs.GetInt("ppLevel15HighScore") + PlayerPrefs.GetInt("ppLevel16HighScore");
-        Social.ReportScore(worldFourHighScore, "CgkI__bt5ooSEAIQGQ", (bool success) =>
-        {
-        });
+        ////google leaderboard world 4
+        //worldFourHighScore = PlayerPrefs.GetInt("ppLevel13HighScore") + PlayerPrefs.GetInt("ppLevel14HighScore") + PlayerPrefs.GetInt("ppLevel15HighScore") + PlayerPrefs.GetInt("ppLevel16HighScore");
+        //Social.ReportScore(worldFourHighScore, "CgkI__bt5ooSEAIQGQ", (bool success) =>
+        //{
+        //});
 
-        //google leaderboard world 5
-        worldFiveHighScore = PlayerPrefs.GetInt("ppLevel17HighScore") + PlayerPrefs.GetInt("ppLevel18HighScore") + PlayerPrefs.GetInt("ppLevel19HighScore") + PlayerPrefs.GetInt("ppLevel20HighScore") + PlayerPrefs.GetInt("ppLevel21HighScore") + PlayerPrefs.GetInt("ppLevel22HighScore");
-        Social.ReportScore(worldFiveHighScore, "CgkI__bt5ooSEAIQGg", (bool success) =>
-        {
-        });
+        ////google leaderboard world 5
+        //worldFiveHighScore = PlayerPrefs.GetInt("ppLevel17HighScore") + PlayerPrefs.GetInt("ppLevel18HighScore") + PlayerPrefs.GetInt("ppLevel19HighScore") + PlayerPrefs.GetInt("ppLevel20HighScore") + PlayerPrefs.GetInt("ppLevel21HighScore") + PlayerPrefs.GetInt("ppLevel22HighScore");
+        //Social.ReportScore(worldFiveHighScore, "CgkI__bt5ooSEAIQGg", (bool success) =>
+        //{
+        //});
     }
 
     public void GoToNextLevel()

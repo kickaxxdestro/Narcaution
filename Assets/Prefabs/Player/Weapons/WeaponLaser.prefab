@@ -57,6 +57,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 498692}
   m_RootOrder: 1
@@ -69,6 +70,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 498692}
   m_RootOrder: 0
@@ -81,6 +83,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 437308}
   - {fileID: 403532}
@@ -116,20 +119,20 @@ MonoBehaviour:
   ID: 3
   icon: {fileID: 21300000, guid: f493401d3e1abb542833d5b6b216046c, type: 3}
   projectileSpeed: 25
-  LevelXCost: 96000000320000007d000000fa00000090010000
+  LevelXCost: 640000001e0000005500000082000000c8000000
   LevelXNumberOfProjectiles: 0100000001000000010000000100000001000000
   LevelXBulletDamage:
-  - 0.5
-  - 1
   - 2
-  - 3
-  - 4
+  - 2.75
+  - 3.5
+  - 4.25
+  - 5
   LevelXFiringSpeed:
-  - 2.2
+  - 4
+  - 3.5
+  - 3
+  - 2.5
   - 2
-  - 2
-  - 1.8
-  - 1.8
   projectileMovement: 1
   firingPattern: 2
   weaponDescription: Shoots out a powerful beam, eviscerating enemies in a single
