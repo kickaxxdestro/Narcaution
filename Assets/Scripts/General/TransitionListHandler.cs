@@ -206,7 +206,7 @@ public class TransitionListHandler : MonoBehaviour
             else if (PlayerPrefs.GetInt("ppCutsceneNext", 0) == 1)
                 GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("galleryNew");
             else if(PlayerPrefs.GetInt("ppCutsceneNext", 0) == 3)
-                GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("tutorialScene");
+                GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("levelSelect");
             else if (PlayerPrefs.GetInt("ppCutsceneNext", 0) == 4)
                 GameObject.Find("SceneHandler").GetComponent<SceneHandler>().LoadScene("gameEnd");
         }
