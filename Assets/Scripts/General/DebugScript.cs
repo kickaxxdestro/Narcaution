@@ -10,6 +10,7 @@ public class DebugScript : MonoBehaviour {
     {
         PlayerPrefs.DeleteAll();
         PlayerPrefs.SetInt("ppSkin1Unlocked", 1);
+        PlayerPrefs.SetInt("ppCurrentWeapon", 1);
     }
 
     public void SetToOffenseGamemode()
