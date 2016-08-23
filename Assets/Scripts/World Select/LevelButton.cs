@@ -71,6 +71,7 @@ public class LevelButton : MonoBehaviour {
 
                     GameObject.Find("ConfirmPanel").GetComponent<SliderItem>().DoLerpToCenter_FromRight();
 					GameObject.Find("ConfirmPanel").GetComponent<enterLevel>().SetLevel(level.GetComponent<LevelGeneratorScript>());
+					GameObject.Find ("ConfirmPanel").GetComponentInChildren<PowerUpSelector> ().CheckDisableBombAndMissile ();
 					GameObject.Find("LevelRank").GetComponent<MedalInfoDisplayHandler> ().SetTargetScore (level.GetComponent<LevelGeneratorScript> ());
                     GameObject.Find("ColourMaskHandler").GetComponent<ColourMaskController>().ActivateColourMask(ColourMaskController.COLOURMODE.COLOURMODE_TO_ALPHA_GREY, 1f);
 					if(transform.parent.GetComponent<WorldButton>())

@@ -69,6 +69,24 @@ public class PowerUpSelector : MonoBehaviour {
 		equipAudioSource = GetComponent<AudioSource>();
 	}
 
+	public void CheckDisableBombAndMissile ()
+	{
+		if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1) 
+		{
+			bombIcon.GetComponent<Image> ().color = Color.gray;
+			bombIcon.GetComponentInParent<Button> ().interactable = false;
+			missleIcon.GetComponent<Image> ().color = Color.gray;
+			missleIcon.GetComponentInParent<Button> ().interactable = false;
+		}
+		else
+		{
+			bombIcon.GetComponent<Image> ().color = Color.white;
+			bombIcon.GetComponentInParent<Button> ().interactable = true;
+			missleIcon.GetComponent<Image> ().color = Color.white;
+			missleIcon.GetComponentInParent<Button> ().interactable = true;
+		}
+	}
+
 	public void ToggleSentryUse()
 	{
 		if (PlayerPrefs.GetInt("ppNumSentry", 0) <= 0)

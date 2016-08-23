@@ -687,7 +687,8 @@ public class PlayerController : MonoBehaviour
         if (Time.timeScale == 0)
             return;
 
-        rotateShield.Rotate(0, 0, 60 * Time.deltaTime);
+		if(rotateShield)
+        	rotateShield.Rotate(0, 0, 60 * Time.deltaTime);
 
         if(homingAttackTimer > 0f)
             homingAttackTimer -= Time.deltaTime;
@@ -745,6 +746,10 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.Save();
             pauseBtn.GetComponent<Button>().interactable = false;
             Time.timeScale = 0;
+
+			//Achievement
+			AchievementManager.instance ().IncreaseAchievementProgress ("Savior's fall");
+			AchievementManager.instance ().IncreaseAchievementProgress ("Stubborn Hero");
         }
 
         //if player been hit then will go into the invulnerable mode.

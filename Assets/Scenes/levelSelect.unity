@@ -21540,7 +21540,7 @@ Transform:
   m_GameObject: {fileID: 1722926014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.006, y: 0.041, z: 0}
-  m_LocalScale: {x: 0.017157078, y: 0.01715708, z: 0.017157096}
+  m_LocalScale: {x: 0.017157078, y: 0.01715708, z: 0.01715708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1529184647}
@@ -21600,7 +21600,7 @@ MonoBehaviour:
   elasticity: 2.9
   zoomScale: 0.1
   maxZoomValue: 0.1
-  minZoomValue: 0.02
+  minZoomValue: 0.01715708
 --- !u!61 &1722926018
 BoxCollider2D:
   m_ObjectHideFlags: 0
