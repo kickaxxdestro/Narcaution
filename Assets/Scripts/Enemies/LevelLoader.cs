@@ -675,6 +675,49 @@ public class LevelLoader : MonoBehaviour {
             (int)ScoringSystemStar.CombineRank((ScoringSystemStar.SCORING_TYPES)PlayerPrefs.GetInt("ppTopRankLevel" + loadedLevel, (int)ScoringSystemStar.SCORING_TYPES.END_FALSE_LIFE_FALSE_SCORE_FALSE), tempRank
             ));
 
+		//Achivements
+		if(finalScore == 0)
+			AchievementManager.instance ().IncreaseAchievementProgress ("Pacifist");
+
+		if (loadedLevel == 4)
+			AchievementManager.instance ().IncreaseAchievementProgress ("That's cold");
+		else if (loadedLevel == 8)
+			AchievementManager.instance ().IncreaseAchievementProgress ("Blaze It");
+		else if (loadedLevel == 12)
+			AchievementManager.instance ().IncreaseAchievementProgress ("Fresh Air");
+		else if (loadedLevel == 16)
+			AchievementManager.instance ().IncreaseAchievementProgress ("High No More");
+		else if (loadedLevel == 20)
+			AchievementManager.instance ().IncreaseAchievementProgress ("Acid Trip");
+		else if (loadedLevel == 21)
+			AchievementManager.instance ().IncreaseAchievementProgress ("It's Over");
+		
+		int totalMedal = 0;
+		for(int i = 1; i < 22; ++i)
+		{
+			tempRank = (ScoringSystemStar.SCORING_TYPES)PlayerPrefs.GetInt("ppTopRankLevel" + i.ToString(), (int)ScoringSystemStar.SCORING_TYPES.END_FALSE_LIFE_FALSE_SCORE_FALSE);
+
+			switch (tempRank) 
+			{
+			case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_FALSE:
+				totalMedal+=1;
+				break;
+			case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_FALSE_SCORE_TRUE:
+				totalMedal+=2;
+				break;
+			case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_FALSE:
+				totalMedal+=2;
+				break;
+			case ScoringSystemStar.SCORING_TYPES.END_TRUE_LIFE_TRUE_SCORE_TRUE:
+				totalMedal+=3;
+				break;
+			}
+		}
+
+		AchievementManager.instance ().SetAchievementProgress ("Medal Lover", totalMedal);
+		AchievementManager.instance ().SetAchievementProgress ("Medal Collector", totalMedal);
+		AchievementManager.instance ().SetAchievementProgress ("Medal Maniac", totalMedal);
+
         ////google leaderboard world 1
         //worldOneHighScore = PlayerPrefs.GetInt("ppLevel1HighScore") + PlayerPrefs.GetInt("ppLevel2HighScore") + PlayerPrefs.GetInt("ppLevel3HighScore") + PlayerPrefs.GetInt("ppLevel4HighScore");
         //Social.ReportScore(worldOneHighScore, "CgkI__bt5ooSEAIQDg", (bool success) =>

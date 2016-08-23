@@ -30,7 +30,16 @@ public class bulletMove : MonoBehaviour {
                 GameObject go = bulletParticlePooler.GetComponent<ObjectPooler>().GetPooledObject();
                 go.transform.position = transform.position;
                 go.SetActive(true);
-                other.GetComponent<EnemyGeneralBehaviour>().hpCount -= reflectDamage; 
+                other.GetComponent<EnemyGeneralBehaviour>().hpCount -= reflectDamage;
+
+				//Achievement
+				if(other.GetComponent<EnemyGeneralBehaviour>().hpCount <= 0)
+				{
+					AchievementManager.instance ().IncreaseAchievementProgress ("Have It Back");
+					AchievementManager.instance ().IncreaseAchievementProgress ("Taste of your own medicine");
+					AchievementManager.instance ().IncreaseAchievementProgress ("Deflector");
+				}
+
                 GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().comboCount += 1;
                 Destroy(this.gameObject);
             }

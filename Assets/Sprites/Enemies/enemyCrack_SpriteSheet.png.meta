@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 32b773f89955bc344a20722b0f8e724c
-timeCreated: 1471313466
+timeCreated: 1471846837
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -63,7 +63,7 @@ TextureImporter:
         width: 67
         height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -15.5, y: 42.5}
@@ -82,7 +82,7 @@ TextureImporter:
         width: 72
         height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -1, y: -23.5}
@@ -123,7 +123,7 @@ TextureImporter:
         width: 79
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 15.5, y: -42}
@@ -160,7 +160,7 @@ TextureImporter:
         width: 85
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 13.5, y: 40}
@@ -192,17 +192,6 @@ TextureImporter:
         - {x: 4.5, y: -27}
         - {x: 2.5, y: -25}
         - {x: 1.5, y: -25}
-    - name: enemyCrack_SpriteSheet_4
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 24
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     outline: []
   spritePackingTag: 
   userData: 
