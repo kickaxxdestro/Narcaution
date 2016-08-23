@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueSystem: {fileID: 188838, guid: 02e2716c59913dd448c6213bb9fa10ea, type: 2}
-  levelID: 2
+  levelID: 18
   description: More minions show up to block your way. The only way to pass is to
     fight your way through.
   patternLists:
