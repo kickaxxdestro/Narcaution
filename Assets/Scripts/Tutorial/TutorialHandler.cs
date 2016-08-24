@@ -120,11 +120,6 @@ public class TutorialHandler : MonoBehaviour {
 			Time.timeScale = 1;
 
 			gameObject.SetActive (false);
-
-			if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 0) 
-				PlayerPrefs.SetInt ("Tutorial1Done", 1);
-			else if (PlayerPrefs.GetInt ("ppPlayerGamemode", 0) == 1) 
-				PlayerPrefs.SetInt ("Tutorial2Done", 1);
 		}
 	}
 
