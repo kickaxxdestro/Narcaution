@@ -105,7 +105,7 @@ public class patternList : MonoBehaviour {
 
 		/*for (int i = 0; i < temp.Count; i++) {
 			if (intervalCount > 0)
-				intervalCount -= Time.deltaTime;
+				intervxalCount -= Time.deltaTime;
 			else {
 				//GameObject newSpawner = Instantiate (spawnerPrefab) as GameObject;	//instantiate spawner
 				GameObject newSpawner = spawnerPooler.GetComponent<ObjectPooler>().GetPooledObject();	//pool spawner

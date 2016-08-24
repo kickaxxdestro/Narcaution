@@ -84,7 +84,7 @@ public class ECSBossBehaviour : MonoBehaviour {
 			attacked = false;
 			retracted = false;
 
-			cloneWaitTime = 10.0f;
+			cloneWaitTime = 1.0f;
 			minionWave = 0;
 			currCloneCount = 0;
 			shuffleCycleCount = 3;
