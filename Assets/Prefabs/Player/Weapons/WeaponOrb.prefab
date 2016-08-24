@@ -123,16 +123,16 @@ MonoBehaviour:
   LevelXNumberOfProjectiles: 0100000001000000020000000200000002000000
   LevelXBulletDamage:
   - 1
+  - 1.25
   - 1.5
+  - 1.75
   - 2
-  - 2.5
-  - 3
   LevelXFiringSpeed:
+  - 0.2
+  - 0.175
   - 0.15
   - 0.125
   - 0.1
-  - 0.075
-  - 0.05
   projectileMovement: 2
   firingPattern: 0
   weaponDescription: Vindicator projectiles slice through the air while weaving left

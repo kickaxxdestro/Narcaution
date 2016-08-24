@@ -17,15 +17,17 @@ public class IceBossBehaviour : MonoBehaviour {
     //Ice boulder attack
     public GameObject iceBoulderPrefab;
     GameObject iceBoulder;
+    Vector3 iceBoulderTargetPos;
     bool boulderSpawned = false;
     patternList icePatternList;
-
+    float iceShootDelay = 1.0f;
     float stateChangeDelay = 0f;
 	
 	[System.NonSerialized]
 	public int iceChunkCount = 0;
     bool attacked = false;
-	
+   
+
 	enum AIState
 	{
 		state_Spawn_Self,
@@ -42,7 +44,7 @@ public class IceBossBehaviour : MonoBehaviour {
 	{
 		GameObject.Find("introChecker").GetComponent<EnemyChecker>().iceAppeared += 1;
         icePatternList = GetComponent<patternList>();
-		GetComponent<bossHealthbar> ().setBossHp ();
+		GetComponent<bossHealthbar>().setBossHp();
 	}
 	
 	//init upon enabled, called faster than Start func
@@ -154,6 +156,7 @@ public class IceBossBehaviour : MonoBehaviour {
                 {
                     Invoke("CreateIceChunk", 0.0f);
                     iceChunkTimer = 1.0f;
+                    
                     if (iceChunkCount >= 3)
                     {
                         StartCoroutine(ChangeAIStateDelay(AIState.state_Shoot_Ice, 2.0f));
@@ -176,6 +179,15 @@ public class IceBossBehaviour : MonoBehaviour {
                     {
                         float gap = i * 2.25f;
                         iceChunkArr[i].transform.position = Vector3.Lerp(iceChunkArr[i].transform.position, new Vector3(-2.25f + gap, iceChunkArr[i].transform.position.y, 0), Time.deltaTime * 4.0f);
+                        //if (iceShootDelay > 0f)
+                        //{
+                        //    iceShootDelay -= Time.deltaTime;
+                        //}
+                        //if (iceShootDelay <= 0f)
+                        //{
+                        //    iceChunkArr[i].transform.position = Vector3.Lerp(iceChunkArr[i].transform.position, new Vector3(GameObject.Find("player").transform.position.x, iceChunkArr[i].transform.position.y, 0), Time.deltaTime * 4.0f);
+                        //    iceShootDelay = 1.0f;
+                        //}
                     }
                 }
                 else
@@ -201,10 +213,12 @@ public class IceBossBehaviour : MonoBehaviour {
                 if(!boulderSpawned)
                 {
                     CreateIceBoulder();
+                    iceBoulderTargetPos = new Vector3(GameObject.Find("player").transform.position.x, 0f);
                     return;
                 }
 
                 Vector3 targetPos = new Vector3(origPos.x, origPos.y - 1f);
+                //Vector3 targetPos = new Vector3(, origPos.y - 1f);
                 transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime);
                 //float newScale = iceBoulder.transform.localScale.x + (1f * Time.deltaTime);
 
@@ -234,7 +248,7 @@ public class IceBossBehaviour : MonoBehaviour {
                 }
 
                 iceBoulder.GetComponent<Rotate2DObject>().enabled = false;
-                iceBoulder.transform.position += new Vector3(0, -10f) * Time.deltaTime;
+                iceBoulder.transform.position += new Vector3(iceBoulderTargetPos.x, -10f) * Time.deltaTime;
 
                 if (iceBoulder.transform.position.y < -SystemVariables.current.CameraBoundsY - (iceBoulder.transform.localScale.y * 0.5f))
                 {
