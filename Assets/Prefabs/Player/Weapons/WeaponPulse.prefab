@@ -135,19 +135,19 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 8ccab17fa5153f14a9aa17888714d337, type: 3}
   projectileSpeed: 20
   LevelXCost: c8000000320000007d000000be0000002c010000
-  LevelXNumberOfProjectiles: 050000000600000007000000080000000a000000
+  LevelXNumberOfProjectiles: 0400000005000000060000000700000008000000
   LevelXBulletDamage:
-  - 2
-  - 3
-  - 4
-  - 5
   - 6
+  - 7
+  - 8
+  - 9
+  - 10
   LevelXFiringSpeed:
-  - 1.5
-  - 1.5
-  - 1.5
-  - 1.5
-  - 1.5
+  - 1.2
+  - 1.2
+  - 1.2
+  - 1.2
+  - 1.2
   projectileMovement: 0
   firingPattern: 3
   weaponDescription: Fires several bullets in quick succession, each dealing heavy

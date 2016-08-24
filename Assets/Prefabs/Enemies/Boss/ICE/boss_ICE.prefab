@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  hp: 430
+  hp: 360
   points: 5000
   hpCount: 0
   hitMat: {fileID: 2100000, guid: f2221858cbb0e0d41aab8a334be65fae, type: 3}
