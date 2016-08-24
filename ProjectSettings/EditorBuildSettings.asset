@@ -19,7 +19,7 @@ EditorBuildSettings:
     path: Assets/Scenes/worldSelect.unity
   - enabled: 0
     path: Assets/Scenes/worldTwo.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/tutorialScene.unity
   - enabled: 0
     path: Assets/Scenes/worldThree.unity

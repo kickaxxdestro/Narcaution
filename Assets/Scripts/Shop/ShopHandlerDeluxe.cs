@@ -457,27 +457,20 @@ public class ShopHandlerDeluxe : MonoBehaviour
                 PlayerPrefs.Save();
                 changeButtonsForWeapon(PlayerPrefs.GetInt("pp" + weapon.name + "Level", 0), isEquipped);
                 Display();
+
+				//Achievement
+				if(PlayerPrefs.GetInt ("pp" + weapon.name + "Level", 0) == 1)
+				{
+					AchievementManager.instance ().IncreaseAchievementProgress ("That's New");
+					AchievementManager.instance ().IncreaseAchievementProgress ("Weapon Hoarder");
+				}
+				else if(PlayerPrefs.GetInt ("pp" + weapon.name + "Level", 0) == 5)
+				{
+					AchievementManager.instance ().IncreaseAchievementProgress ("Over Powered");
+					AchievementManager.instance ().IncreaseAchievementProgress ("Nerf Pls");
+				}
             }
         }
-
-		//Achievement
-		int totalWeaponPurchased = 0;
-		int totalWeaponFullyUpgraded = 0;
-		foreach(GameObject w in weaponList)
-		{
-			currentWeaponLevel = PlayerPrefs.GetInt ("pp" + w.GetComponent<Weapon>().name + "Level", 0);
-			if(currentWeaponLevel > 1)
-			{
-				totalWeaponPurchased++;
-				if (currentWeaponLevel == 5)
-					totalWeaponFullyUpgraded++;
-			}
-		}
-		AchievementManager.instance ().SetAchievementProgress ("That's New", totalWeaponPurchased);
-		AchievementManager.instance ().SetAchievementProgress ("Weapon Hoarder", totalWeaponPurchased);
-		AchievementManager.instance ().SetAchievementProgress ("Over Powered", totalWeaponFullyUpgraded);
-		AchievementManager.instance ().SetAchievementProgress ("Nerf Pls", totalWeaponFullyUpgraded);
-
     }
 
     void HandleSkinPurchase(GameObject skin)
