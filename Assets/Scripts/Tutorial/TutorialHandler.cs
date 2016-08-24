@@ -73,7 +73,7 @@ public class TutorialHandler : MonoBehaviour {
 		if (index <= 0)
 			back.interactable = false;
 		else if (index >= TutorialSlides.Count - 1)
-			next.GetComponentInChildren<Text>().text = "Start";
+			next.GetComponentInChildren<Text>().text = "Continue";
 
 		bool textChanged = false;
 

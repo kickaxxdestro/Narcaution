@@ -122,16 +122,16 @@ MonoBehaviour:
   LevelXCost: c8000000320000007d000000be0000002c010000
   LevelXNumberOfProjectiles: 0100000001000000020000000200000002000000
   LevelXBulletDamage:
+  - 1
+  - 1.5
   - 2
   - 2.5
   - 3
-  - 3.5
-  - 5
   LevelXFiringSpeed:
-  - 0.2
-  - 0.17
-  - 0.14
+  - 0.15
+  - 0.125
   - 0.1
+  - 0.075
   - 0.05
   projectileMovement: 2
   firingPattern: 0

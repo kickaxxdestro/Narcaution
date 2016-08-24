@@ -91,7 +91,7 @@ public class AchievementManager : MonoBehaviour {
 		allAchievements.Add(new AchievementInfo("Medal Collector", AchievementInfo.Category.C_General, "Obtain 42 medals in total", 0, 42, false));
 		allAchievements.Add(new AchievementInfo("Medal Maniac", AchievementInfo.Category.C_General, "Obtain all medals in total", 0, 63, false));
 		allAchievements.Add(new AchievementInfo("That's New", AchievementInfo.Category.C_General, "Buy a new weapon", 0, 1, false));
-		allAchievements.Add(new AchievementInfo("Weapon Hoarder", AchievementInfo.Category.C_General, "Buy all Weapon", 0, 5, false));
+		allAchievements.Add(new AchievementInfo("Weapon Hoarder", AchievementInfo.Category.C_General, "Buy all Weapon", 0, 4, false));
 		allAchievements.Add(new AchievementInfo("Over Powered", AchievementInfo.Category.C_General, "Fully upgrade one weapon", 0, 1, false));
 		allAchievements.Add(new AchievementInfo("Nerf Pls", AchievementInfo.Category.C_General, "Fully upgrade all weapon", 0, 5, false));
 		allAchievements.Add(new AchievementInfo("Need a new look", AchievementInfo.Category.C_General, "Buy a new skin", 0, 1, false));
