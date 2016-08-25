@@ -108,16 +108,16 @@ MonoBehaviour:
   LevelXNumberOfProjectiles: 0100000002000000030000000400000005000000
   LevelXBulletDamage:
   - 1
+  - 1.25
+  - 1.5
+  - 1.75
   - 2
-  - 3
-  - 4
-  - 5
   LevelXFiringSpeed:
+  - 0.4
+  - 0.375
+  - 0.35
+  - 0.325
   - 0.3
-  - 0.275
-  - 0.25
-  - 0.225
-  - 0.2
   projectileMovement: 0
   firingPattern: 0
   weaponDescription: The standard issue to any drug fighter's arsenal

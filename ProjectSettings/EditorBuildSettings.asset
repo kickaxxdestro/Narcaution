@@ -51,3 +51,5 @@ EditorBuildSettings:
     path: Assets/Scenes/testShop.unity
   - enabled: 1
     path: Assets/Scenes/AchievementScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/EmptySceneForLoading.unity

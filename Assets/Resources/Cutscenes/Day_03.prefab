@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - 224: {fileID: 22444134}
   m_Layer: 5
-  m_Name: Day_03.prefab
+  m_Name: Day_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

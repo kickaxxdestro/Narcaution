@@ -25,6 +25,20 @@ public class MedalInfoDisplayHandler : MonoBehaviour {
 		targetScore = level.scoreBonusAmt;
 	}
 
+	public void SetTargetScore(int level)
+	{
+		LevelGeneratorScript tempLGS;
+		string LevelName = "Levels/level";
+
+		if (level == 21)
+			LevelName += "5-5";
+		else
+			LevelName += ((((level - 1) / 4) + 1) + "-" + (level - (((level - 1) / 4) * 4))).ToString();
+		tempLGS = Resources.Load<LevelGeneratorScript> (LevelName);
+
+		targetScore = tempLGS.scoreBonusAmt;
+	}
+
 	public void EnableDisplayInfo(int T)
 	{
 		if(!InfoPanel.activeInHierarchy)

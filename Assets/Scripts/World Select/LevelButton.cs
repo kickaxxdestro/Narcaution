@@ -4,7 +4,7 @@ using System.Collections;
 
 public class LevelButton : MonoBehaviour {
 
-    public GameObject level;
+    public int level;
     public bool doTouchCheck = false;
     public bool disabled = false;
     public bool offense = false;
@@ -21,7 +21,7 @@ public class LevelButton : MonoBehaviour {
 
 		GetComponent<Collider2D>().enabled = false;
 
-		if (level.GetComponent<LevelGeneratorScript> ().levelID == 21) 
+		if (level == 21) 
 		{
 			if (CheckUnlocked (PlayerPrefs.GetInt ("ppCurrentLevel", 1))) 
 			{
@@ -56,7 +56,7 @@ public class LevelButton : MonoBehaviour {
                 if (touchcheck.CheckTouchOnCollider())
                 {
                     print("Touched");
-                    PlayerPrefs.SetInt("ppSelectedLevel", level.GetComponent<LevelGeneratorScript>().levelID);
+                    PlayerPrefs.SetInt("ppSelectedLevel", level);
                     if(offense == true)
                     {
                         PlayerPrefs.SetInt("ppPlayerGamemode", 0);
@@ -70,9 +70,9 @@ public class LevelButton : MonoBehaviour {
                     PlayerPrefs.Save();
 
                     GameObject.Find("ConfirmPanel").GetComponent<SliderItem>().DoLerpToCenter_FromRight();
-					GameObject.Find("ConfirmPanel").GetComponent<enterLevel>().SetLevel(level.GetComponent<LevelGeneratorScript>());
+					GameObject.Find("ConfirmPanel").GetComponent<enterLevel>().SetLevel(level);
 					GameObject.Find ("ConfirmPanel").GetComponentInChildren<PowerUpSelector> ().CheckDisableBombAndMissile ();
-					GameObject.Find("LevelRank").GetComponent<MedalInfoDisplayHandler> ().SetTargetScore (level.GetComponent<LevelGeneratorScript> ());
+					GameObject.Find("LevelRank").GetComponent<MedalInfoDisplayHandler> ().SetTargetScore (level);
                     GameObject.Find("ColourMaskHandler").GetComponent<ColourMaskController>().ActivateColourMask(ColourMaskController.COLOURMODE.COLOURMODE_TO_ALPHA_GREY, 1f);
 					if(transform.parent.GetComponent<WorldButton>())
 						transform.parent.GetComponent<WorldButton>().DisableChildButtons();
@@ -118,6 +118,6 @@ public class LevelButton : MonoBehaviour {
     //Check if this level is unlocked based on the player's current level
     public bool CheckUnlocked(int currentLevel)
     {
-        return (level.GetComponent<LevelGeneratorScript>().levelID <= currentLevel);
+        return (level <= currentLevel);
     }
 }

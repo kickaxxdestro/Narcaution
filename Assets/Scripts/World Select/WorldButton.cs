@@ -34,7 +34,7 @@ public class WorldButton : MonoBehaviour {
 			{
 				levelItem.GetComponent<LevelButton> ().Disable ();
 			} 
-			else if (levelItem.GetComponent<LevelButton> ().level.GetComponent<LevelGeneratorScript>().levelID > highestNum)
+			else if (levelItem.GetComponent<LevelButton> ().level > highestNum)
 			{
 				ButtonToZoomInto = levelItem;
 			}

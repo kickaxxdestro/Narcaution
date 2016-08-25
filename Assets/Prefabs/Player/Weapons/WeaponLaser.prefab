@@ -122,17 +122,17 @@ MonoBehaviour:
   LevelXCost: 640000001e0000005500000082000000c8000000
   LevelXNumberOfProjectiles: 0100000001000000010000000100000001000000
   LevelXBulletDamage:
-  - 2
-  - 2.75
-  - 3.5
-  - 4.25
-  - 5
-  LevelXFiringSpeed:
-  - 4
-  - 3.5
+  - 0.75
+  - 1.5
+  - 2.25
   - 3
-  - 2.5
+  - 4.5
+  LevelXFiringSpeed:
+  - 1.5
+  - 1.75
   - 2
+  - 2.25
+  - 2.5
   projectileMovement: 1
   firingPattern: 2
   weaponDescription: Shoots out a powerful beam, eviscerating enemies in a single
