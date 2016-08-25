@@ -14,11 +14,14 @@ public class SecretBossBehaviour : MonoBehaviour {
 		state_lsdAttack,
 		state_defaultAttack,
 		//level 5-4
-		state_homingShot
+		state_homingShot,
+		state_W8
 	}
 	
 	state bossState;
-	
+	state lastState;
+
+
 	public int cycle, cycleCount, hpThreshhold = 100, rand;
 	bool attacked, moveBack, random, cycleIncrement;
 	float speed;
@@ -69,7 +72,7 @@ public class SecretBossBehaviour : MonoBehaviour {
 		
 		getLevel = GameObject.Find("LevelLoader").GetComponent<LevelLoader> ();
 		
-		bossState = state.state_idle;
+		bossState = state.state_W8;
 		
 		foreach (Transform child in transform) {
 			switch (child.name) {
@@ -102,7 +105,21 @@ public class SecretBossBehaviour : MonoBehaviour {
 	void OnEnable () {
 		
 	}
-	
+
+	void SetInvul(bool invul)
+	{
+		if (invul)
+		{
+			GetComponent<Collider2D>().enabled = false;
+			GetComponent<SpriteRenderer>().color = Color.yellow;
+		}
+		else if (!invul)
+		{
+			GetComponent<Collider2D>().enabled = true;
+			GetComponent<SpriteRenderer>().color = Color.white;
+		}
+	}
+
 	//couroutine change AI state with a delay time
 	IEnumerator ChangeAIStateDelay(state newState, float time)
 	{
@@ -130,13 +147,21 @@ public class SecretBossBehaviour : MonoBehaviour {
 	
 	void aiState () {
 		switch (bossState) {
+		case state.state_W8:
+			cycleCount = 0;
+			attacked = false;
+			cycleIncrement = false;
+			chargeCount = 0;
+
+			StartCoroutine(ChangeAIStateDelay(state.state_defaultAttack, 1.0f));
+			break;
 		case state.state_idle :
 			cycleCount = cycle;
 			attacked = false;
 			cycleIncrement = false;
 			chargeCount = 0;
 			
-			StartCoroutine(ChangeAIStateDelay(state.state_spawnminion, 1.0f));
+			StartCoroutine(ChangeAIStateDelay(state.state_random, 1.0f));
 			break;
 			
 		case state.state_spawnminion :
@@ -170,22 +195,55 @@ public class SecretBossBehaviour : MonoBehaviour {
 				
 				else if(!random && cycleCount > 0) {
 					cycleCount -= 1;
-					rand = Random.Range(1,4);
-					//rand = 4;
-					
-					switch (rand) {
-					case 1 :
-						StartCoroutine(ChangeAIStateDelay(state.state_iceAttack, 1.0f));
-						break;
-					case 2 :
-						StartCoroutine(ChangeAIStateDelay(state.state_cannabisAttack, 1.0f));
-						break;
-					case 3 :
-						StartCoroutine(ChangeAIStateDelay(state.state_ecsAttack, 1.0f));
-						break;
-					case 4 :
-						StartCoroutine(ChangeAIStateDelay(state.state_lsdAttack, 1.0f));
-						break;
+
+					bool done = false;
+
+					while(!done)
+					{
+						rand = Random.Range(1,5);
+
+						switch (rand) {
+						case 1:
+							if (lastState == state.state_iceAttack)
+								continue;
+							else 
+							{
+								StartCoroutine (ChangeAIStateDelay (state.state_iceAttack, 1.0f));
+								lastState = state.state_iceAttack;
+								done = true;
+							}
+							break;
+						case 2 :
+							if (lastState == state.state_cannabisAttack)
+								continue;
+							else 
+							{
+								StartCoroutine(ChangeAIStateDelay(state.state_cannabisAttack, 1.0f));
+								lastState = state.state_cannabisAttack;
+								done = true;
+							}
+							break;
+						case 3 :
+							if (lastState == state.state_ecsAttack)
+								continue;
+							else 
+							{
+								StartCoroutine(ChangeAIStateDelay(state.state_ecsAttack, 1.0f));
+								lastState = state.state_ecsAttack;
+								done = true;
+							}
+							break;
+						case 4 :
+							if (lastState == state.state_lsdAttack)
+								continue;
+							else 
+							{
+								StartCoroutine(ChangeAIStateDelay(state.state_lsdAttack, 1.0f));
+								lastState = state.state_lsdAttack;
+								done = true;
+							}
+							break;
+						}
 					}
 					
 					random = true;
@@ -213,7 +271,7 @@ public class SecretBossBehaviour : MonoBehaviour {
 			break;
 			
 		case state.state_cannabisAttack :
-			if(chargeCount < 3) {
+			if(chargeCount < 2) {
 				if(trackTimer > 0) {
 					trackTimer -= Time.deltaTime;
 					secretbossController.SetBool("preparingCharge", true);
@@ -290,11 +348,13 @@ public class SecretBossBehaviour : MonoBehaviour {
 			if(!attacked) {
 				lsdTurretParent.SetActive(true);
 				attacked = true;
+				SetInvul (true);
 			}
 			
 			if(!lsdTurretParent.activeInHierarchy) {
 				random = false;
 				StartCoroutine(ChangeAIStateDelay(state.state_random, 0.0f));
+				SetInvul (false);
 			}
 			break;
 			

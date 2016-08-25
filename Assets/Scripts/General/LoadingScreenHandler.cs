@@ -137,6 +137,11 @@ public class LoadingScreenHandler : MonoBehaviour {
 		} 
 		else 
 		{
+			if (SceneManager.GetActiveScene ().name == "gameScene")
+				Input.multiTouchEnabled = false;
+			else
+				Input.multiTouchEnabled = true;
+			
 			DoTransitionOut();
 			soundPlayed = false;
 		}

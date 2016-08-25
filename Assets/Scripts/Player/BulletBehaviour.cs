@@ -145,7 +145,7 @@ public class BulletBehaviour : MonoBehaviour {
 				}
 			}
 			gameObject.SetActive (false);
-			GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ().comboCount += 1;
+			//GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ().comboCount += 1;
 			//Debug.Log ("Bullet/Homing Hit!");
 
 		} 
@@ -153,8 +153,8 @@ public class BulletBehaviour : MonoBehaviour {
 		{
 			GameObject go = Instantiate (Explosion, transform.position, Quaternion.identity) as GameObject;
 			gameObject.SetActive (false);
-			GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ().comboCount += 1;
-            print("hit2");
+			//GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ().comboCount += 1;
+            //print("hit2");
 		}
 		else if (other.CompareTag("TutorialEnemy") == true)
         {
@@ -162,7 +162,7 @@ public class BulletBehaviour : MonoBehaviour {
 			go.transform.position = transform.position;
 			go.SetActive(true);
 			gameObject.SetActive(false);
-			GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().comboCount += 1;
+			//GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().comboCount += 1;
 	    }
     }
 
@@ -174,7 +174,7 @@ public class BulletBehaviour : MonoBehaviour {
 			go.transform.position = other.transform.position;
 			go.SetActive (true);
 			other.GetComponent<EnemyGeneralBehaviour> ().hpCount -= bulletDamage;
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().comboCount += 1;
+            //GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().comboCount += 1;
 
 		}
 	}
