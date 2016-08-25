@@ -110,14 +110,14 @@ MonoBehaviour:
   - 5
   - 7
   - 8
+  - 10
   - 12
-  - 14
   LevelXFiringSpeed:
-  - 1.5
-  - 1.375
   - 1.25
   - 1.125
   - 1
+  - 0.875
+  - 0.75
   projectileMovement: 0
   firingPattern: 1
   weaponDescription: Fired projectiles gradually increase in size, allowing the user
