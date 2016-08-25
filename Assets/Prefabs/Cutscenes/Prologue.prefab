@@ -1714,49 +1714,49 @@ MonoBehaviour:
     transitionDone: 0
   - targetObject: {fileID: 136534}
     transitionType: 0
-    transitionTime: 0.3
+    transitionTime: 0.1
     transformAmount: {x: 0, y: 0, z: 0}
     fadeAmount: 1
     doWithPrevious: 0
     transitionDone: 0
   - targetObject: {fileID: 114046}
     transitionType: 0
-    transitionTime: 0.3
+    transitionTime: 0.1
     transformAmount: {x: 0, y: 0, z: 0}
     fadeAmount: 1
     doWithPrevious: 0
     transitionDone: 0
   - targetObject: {fileID: 165080}
     transitionType: 0
-    transitionTime: 0.3
+    transitionTime: 0.1
     transformAmount: {x: 0, y: 0, z: 0}
     fadeAmount: 1
     doWithPrevious: 0
     transitionDone: 0
   - targetObject: {fileID: 189214}
     transitionType: 0
-    transitionTime: 0.3
+    transitionTime: 0.1
     transformAmount: {x: 0, y: 0, z: 0}
     fadeAmount: 1
     doWithPrevious: 0
     transitionDone: 0
   - targetObject: {fileID: 124324}
     transitionType: 0
-    transitionTime: 0.3
+    transitionTime: 0.1
     transformAmount: {x: 0, y: 0, z: 0}
     fadeAmount: 1
     doWithPrevious: 0
     transitionDone: 0
   - targetObject: {fileID: 143978}
     transitionType: 0
-    transitionTime: 0.3
+    transitionTime: 0.1
     transformAmount: {x: 0, y: 0, z: 0}
     fadeAmount: 1
     doWithPrevious: 0
     transitionDone: 0
   - targetObject: {fileID: 179510}
     transitionType: 0
-    transitionTime: 0.3
+    transitionTime: 0.1
     transformAmount: {x: 0, y: 0, z: 0}
     fadeAmount: 1
     doWithPrevious: 0
