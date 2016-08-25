@@ -718,13 +718,26 @@ MonoBehaviour:
   - moveSpawner: 0
     repeatInfinite: 0
     pattern: 1
-    bulletInterval: 0.1
+    bulletInterval: 0.5
     patternInterval: 0
     spawnerMoveInterval: 0
     delay: 1.5
     repeatInterval: 0
-    column: 12
-    columnBullets: 10
+    column: 15
+    columnBullets: 15
+    coneAngle: 0
+    attackSet: 1
+    repeat: 0
+  - moveSpawner: 0
+    repeatInfinite: 0
+    pattern: 4
+    bulletInterval: 0.5
+    patternInterval: 0
+    spawnerMoveInterval: 0
+    delay: 1.75
+    repeatInterval: 0
+    column: 0
+    columnBullets: 15
     coneAngle: 0
     attackSet: 1
     repeat: 0

@@ -78,7 +78,7 @@ public class LSDBehaviour : MonoBehaviour
                 break;
 
             case state.state_move:
-                if (moveCycle < 4)
+                if (moveCycle < 3)
                 {
                     transform.position += new Vector3(speed, 0, 0) * dir * Time.deltaTime;
                     //changes the direction when it reaches the boundaries
@@ -165,7 +165,6 @@ public class LSDBehaviour : MonoBehaviour
                 {
                     lsdController.SetBool("aoeAttack", true);
                     lsdAttackControl.attack(1);
-
                     attacked = true;
                 }
 
