@@ -149,10 +149,12 @@ public class LevelGeneratorScript : MonoBehaviour {
 		if(levelID == 1 && !PlayerPrefs.HasKey("Tutorial1Done"))
 		{
 			GameObject.Find ("TutorialScreen").GetComponent<TutorialHandler>().startTutorial();
+			PlayerPrefs.SetInt ("Tutorial1Done", 1);
 		}
 		else if(levelID == 2 && !PlayerPrefs.HasKey("Tutorial2Done"))
 		{
 			GameObject.Find ("TutorialScreen").GetComponent<TutorialHandler>().startTutorial();
+			PlayerPrefs.SetInt ("Tutorial2Done", 1);
 		}
 	}
 }

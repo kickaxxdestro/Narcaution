@@ -457,6 +457,18 @@ public class ShopHandlerDeluxe : MonoBehaviour
                 PlayerPrefs.Save();
                 changeButtonsForWeapon(PlayerPrefs.GetInt("pp" + weapon.name + "Level", 0), isEquipped);
                 Display();
+
+				//Achievement
+				if(PlayerPrefs.GetInt ("pp" + weapon.name + "Level", 0) == 1)
+				{
+					AchievementManager.instance ().IncreaseAchievementProgress ("That's New");
+					AchievementManager.instance ().IncreaseAchievementProgress ("Weapon Hoarder");
+				}
+				else if(PlayerPrefs.GetInt ("pp" + weapon.name + "Level", 0) == 5)
+				{
+					AchievementManager.instance ().IncreaseAchievementProgress ("Over Powered");
+					AchievementManager.instance ().IncreaseAchievementProgress ("Nerf Pls");
+				}
             }
         }
     }
@@ -469,7 +481,16 @@ public class ShopHandlerDeluxe : MonoBehaviour
             PlayerPrefs.Save();
             changeButtonsForSkins(PlayerPrefs.GetInt("ppSkin" + skin.GetComponent<GeneralItem>().itemID + "Unlocked"), false);
             Display();
-        }
+		}
+		//Achievement
+		int totalSkinPurchased = 0;
+		foreach (GameObject s in skinList) 
+		{
+			if (PlayerPrefs.GetInt ("ppSkin" + s.GetComponent<GeneralItem> ().itemID + "Unlocked") == 1 && s.GetComponent<GeneralItem> ().itemID != 1)
+				totalSkinPurchased++;
+		}
+		AchievementManager.instance ().SetAchievementProgress ("Need a new look", totalSkinPurchased);
+		AchievementManager.instance ().SetAchievementProgress ("Fashionista", totalSkinPurchased);
     }
 
     //Anything to do with equiping items

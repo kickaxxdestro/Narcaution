@@ -81,13 +81,34 @@ public class AchievementManager : MonoBehaviour {
 	void GenerateAllAchievements()
 	{
 		allAchievements = new List<AchievementInfo> ();
-		allAchievements.Add(new AchievementInfo("Comming Soon!", AchievementInfo.Category.C_General, "", 0, 1, false));
-		allAchievements.Add(new AchievementInfo("Comming Soon!!", AchievementInfo.Category.C_Special, "", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("That's cold", AchievementInfo.Category.C_General, "Clear W-1 stages", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Blaze It", AchievementInfo.Category.C_General, "Clear W-2 stages", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Fresh Air", AchievementInfo.Category.C_General, "Clear W-3 stages", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("High No More", AchievementInfo.Category.C_General, "Clear W-4 stages", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Acid Trip", AchievementInfo.Category.C_General, "Clear W-5 stages", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("It's Over", AchievementInfo.Category.C_General, "Clear Final stage", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Medal Lover", AchievementInfo.Category.C_General, "Obtain 21 medals in total", 0, 21, false));
+		allAchievements.Add(new AchievementInfo("Medal Collector", AchievementInfo.Category.C_General, "Obtain 42 medals in total", 0, 42, false));
+		allAchievements.Add(new AchievementInfo("Medal Maniac", AchievementInfo.Category.C_General, "Obtain all medals in total", 0, 63, false));
+		allAchievements.Add(new AchievementInfo("That's New", AchievementInfo.Category.C_General, "Buy a new weapon", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Weapon Hoarder", AchievementInfo.Category.C_General, "Buy all Weapon", 0, 4, false));
+		allAchievements.Add(new AchievementInfo("Over Powered", AchievementInfo.Category.C_General, "Fully upgrade one weapon", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Nerf Pls", AchievementInfo.Category.C_General, "Fully upgrade all weapon", 0, 5, false));
+		allAchievements.Add(new AchievementInfo("Need a new look", AchievementInfo.Category.C_General, "Buy a new skin", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Fashionista", AchievementInfo.Category.C_General, "Get all the Skins", 0, 3, false));
+
 		allAchievements.Add(new AchievementInfo("Drug Stoper", AchievementInfo.Category.C_Battle, "Defeat 50 enemies in total", 0, 50, false));
 		allAchievements.Add(new AchievementInfo("Drug Hunter", AchievementInfo.Category.C_Battle, "Defeat 250 enemies in total", 0, 250, false));
 		allAchievements.Add(new AchievementInfo("Drug Buster", AchievementInfo.Category.C_Battle, "Defeat 500 enemies in total", 0, 500, false));
 		allAchievements.Add(new AchievementInfo("Drug Destroyer", AchievementInfo.Category.C_Battle, "Defeat 1000 enemies in total", 0, 1000, false));
-		allAchievements.Add(new AchievementInfo("More Comming Soon!", AchievementInfo.Category.C_Battle, "", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Have It Back", AchievementInfo.Category.C_Battle, "Defeat 20 enemies by deflecting", 0, 20, false));
+		allAchievements.Add(new AchievementInfo("Taste of your own medicine", AchievementInfo.Category.C_Battle, "Defeat 50 enemies by deflecting", 0, 50, false));
+		allAchievements.Add(new AchievementInfo("Deflector", AchievementInfo.Category.C_Battle, "Defeat 100 enemies by deflecting", 0, 100, false));
+		allAchievements.Add(new AchievementInfo("Savior's fall", AchievementInfo.Category.C_Battle, "Die once", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Stubborn Hero", AchievementInfo.Category.C_Battle, "Die 15 times", 0, 15, false));
+
+		allAchievements.Add(new AchievementInfo("Pacifist", AchievementInfo.Category.C_Special, "Clear stage without defeating any enemies", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Sharer", AchievementInfo.Category.C_Special, "Share game on facebook", 0, 1, false));
 	}
 
 	void SaveAchievementToJSON()

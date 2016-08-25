@@ -140,6 +140,8 @@ public class FacebookManager : MonoBehaviour {
         else if(!string.IsNullOrEmpty(result.RawResult))
         {
             Debug.Log("Success on share!");
+			//Achievement
+			AchievementManager.instance ().IncreaseAchievementProgress("Sharer");
         }
     }
 

@@ -19,7 +19,7 @@ EditorBuildSettings:
     path: Assets/Scenes/worldSelect.unity
   - enabled: 0
     path: Assets/Scenes/worldTwo.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/tutorialScene.unity
   - enabled: 0
     path: Assets/Scenes/worldThree.unity
@@ -51,3 +51,5 @@ EditorBuildSettings:
     path: Assets/Scenes/testShop.unity
   - enabled: 1
     path: Assets/Scenes/AchievementScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/EmptySceneForLoading.unity

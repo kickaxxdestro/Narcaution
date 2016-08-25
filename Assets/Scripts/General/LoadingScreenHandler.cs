@@ -118,13 +118,27 @@ public class LoadingScreenHandler : MonoBehaviour {
     void LoadNextScene()
     {
 		Resources.UnloadUnusedAssets ();
-		SceneManager.LoadScene(sceneToLoad);
-        updateBGM = 1;
+		if (SceneManager.GetActiveScene ().name != "EmptySceneForLoading") 
+		{
+			SceneManager.LoadScene("EmptySceneForLoading");
+		}
+		else
+		{
+			SceneManager.LoadScene(sceneToLoad);
+			updateBGM = 1;
+		}
     }
 
     void OnLevelWasLoaded(int level)
     {
-        DoTransitionOut();
-        soundPlayed = false;
+		if (SceneManager.GetActiveScene ().name == "EmptySceneForLoading") 
+		{
+			LoadNextScene ();
+		} 
+		else 
+		{
+			DoTransitionOut();
+			soundPlayed = false;
+		}
     }
 }
