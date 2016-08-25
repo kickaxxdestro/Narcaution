@@ -11730,8 +11730,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1519065939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 630148060}
@@ -11778,13 +11778,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectDisplayList:
-  - {fileID: 21300000, guid: cfea65fefef15f94fb9dc70d458eeda7, type: 3}
-  - {fileID: 21300000, guid: 93a78f436aff0394e85f9bf053a72c1c, type: 3}
-  - {fileID: 21300000, guid: 660b9a70cd6d5c94382b0250d7b8fe24, type: 3}
-  - {fileID: 21300000, guid: 69bcd2cf0dac39243b92948e71c60cea, type: 3}
-  - {fileID: 21300000, guid: c0719734d3c5e8e4ebac1eb08cc5a6ea, type: 3}
-  - {fileID: 21300000, guid: 862876d63996fc74494f7eaef73fc40e, type: 3}
-  - {fileID: 21300000, guid: 0e1b633b3c3a3c1449cbe0725a5f218f, type: 3}
+  - {fileID: 21300000, guid: 691fa170d66acdf458b4d534560e258d, type: 3}
+  - {fileID: 21300000, guid: 558eeaf3e1df51848932700c063dd6f7, type: 3}
+  - {fileID: 21300000, guid: 2356ad2610bc93348abddcf30033989f, type: 3}
+  - {fileID: 21300000, guid: 9216546c0b9c4cf4196e3efba64a4593, type: 3}
+  - {fileID: 21300000, guid: f1382683aea42d445b6a4c1877c95c4c, type: 3}
+  - {fileID: 21300000, guid: c6f8258c021c9e74b92873fdcdb07fbc, type: 3}
+  - {fileID: 21300000, guid: 697e5503f0941f7418cee5bd5626cacd, type: 3}
   tapUI: {fileID: 212899265}
 --- !u!114 &1519065943
 MonoBehaviour:
