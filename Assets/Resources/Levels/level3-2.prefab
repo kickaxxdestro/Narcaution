@@ -1,27 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &133608
+--- !u!1 &192328
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 439682}
-  - 114: {fileID: 11474934}
+  - 4: {fileID: 419494}
+  - 114: {fileID: 11452718}
   m_Layer: 0
-  m_Name: level2-2 Defense
+  m_Name: level3-2
   m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &439682
+--- !u!4 &419494
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 133608}
+  m_GameObject: {fileID: 192328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -29,48 +29,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11474934
+--- !u!114 &11452718
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 133608}
+  m_GameObject: {fileID: 192328}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c76b974466ce34f4fb75765a496c0784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueSystem: {fileID: 188838, guid: 9e5af632b4615a54f86eece6d0072826, type: 2}
-  levelID: 6
-  description: You delve deaper into the jugle to seek out more enemies.
+  dialogueSystem: {fileID: 188838, guid: 9026144baebde4942bd8090d8dd49a20, type: 2}
+  levelID: 10
+  description: More minions show up to block your way. The only way to pass is to
+    fight your way through.
   patternLists:
-  - enemyPattern: {fileID: 175470, guid: a89077883ef7d054d98ce81cf33e8c72, type: 2}
-    waitTime: 0
-  - enemyPattern: {fileID: 175112, guid: 525a5e523565898449d505588dfec840, type: 2}
-    waitTime: 5
+  - enemyPattern: {fileID: 106498, guid: 3d9534d9d646de241bb23a81a5115517, type: 2}
+    waitTime: 2
+  - enemyPattern: {fileID: 100266, guid: 78a087d5291f11e468c5e47f434c09d0, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 157360, guid: 5474b65cae8457447abce3455073c45a, type: 2}
+    waitTime: 6
   - enemyPattern: {fileID: 148536, guid: eba2d62876913f546ac38947593d8a1c, type: 2}
-    waitTime: 7
+    waitTime: 5
+  - enemyPattern: {fileID: 175470, guid: a89077883ef7d054d98ce81cf33e8c72, type: 2}
+    waitTime: 5
   - enemyPattern: {fileID: 160446, guid: 49c24554a6abfab4d82333d6c17ce777, type: 2}
     waitTime: 5
-  - enemyPattern: {fileID: 122052, guid: 00f88ccfb77cbfd4b9cf82ddec84da64, type: 2}
+  - enemyPattern: {fileID: 175112, guid: 525a5e523565898449d505588dfec840, type: 2}
     waitTime: 5
-  - enemyPattern: {fileID: 195094, guid: 821ce56f7691c4a4bae3752c5d64e115, type: 2}
-    waitTime: 0
   - enemyPattern: {fileID: 157360, guid: 5474b65cae8457447abce3455073c45a, type: 2}
-    waitTime: 10
-  - enemyPattern: {fileID: 115190, guid: 09af5eeceb11ba9478eb2c6d8804e396, type: 2}
+    waitTime: 8
+  - enemyPattern: {fileID: 184694, guid: 14742887a1001e549a43dcb4f1ff3aff, type: 2}
     waitTime: 5
-  - enemyPattern: {fileID: 121052, guid: d14549b73b78fc74cbbc019658a0fd5b, type: 2}
+  - enemyPattern: {fileID: 101624, guid: f7565ed8f9932524c87850c4fd23ffac, type: 2}
     waitTime: 0
-  - enemyPattern: {fileID: 122052, guid: 00f88ccfb77cbfd4b9cf82ddec84da64, type: 2}
-    waitTime: 5
-  - enemyPattern: {fileID: 195094, guid: 821ce56f7691c4a4bae3752c5d64e115, type: 2}
-    waitTime: 0
-  patternAmount: 11
+  - enemyPattern: {fileID: 106498, guid: 3d9534d9d646de241bb23a81a5115517, type: 2}
+    waitTime: 3
+  - enemyPattern: {fileID: 100266, guid: 78a087d5291f11e468c5e47f434c09d0, type: 2}
+    waitTime: 1
+  patternAmount: 12
   totalEnemies: 0
   spawnWave: 0
   endDial: 0
-  scoreBonusAmt: 750
+  scoreBonusAmt: 1400
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -80,5 +83,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 133608}
+  m_RootGameObject: {fileID: 192328}
   m_IsPrefabParent: 1

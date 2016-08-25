@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 441624}
   - 114: {fileID: 11467680}
   m_Layer: 0
-  m_Name: level4-2 Defense
+  m_Name: level4-2
   m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
