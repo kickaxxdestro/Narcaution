@@ -34,7 +34,9 @@ public class patternList : MonoBehaviour {
 		//if(this.name == "LSDMinionL" || this.name == "LSDMinionR" || this.name == "LSDMinionM")
 		if(this.tag == "Minion")
 			speed = 4.0f;
-
+		if (this.GetComponent<iceChunkv2> () != null)
+			speed = 10.0f;
+		
 		defaultSpeed = speed;
 	}
 	
