@@ -91,31 +91,32 @@ public class EnemyGeneralBehaviour : MonoBehaviour {
 			GetComponent<SpriteRenderer>().material = selfMat;
 		}
 
-		if(hpCount <= 0)
-		{
+		if (hpCount <= 0) {
 //			targetedBullet.GetComponent<BulletBehaviour>().homingTarget = null;
 //			targetedBullet = null;
 			//damage = originalDamage;
 			//hp = originalHP;
 			//GetComponent<SpriteRenderer>().color = Color.white;
 			//GetComponent<EnemyMovementBehaviour>().moveCounter = 0;
-			if(targetedBullet != null){
-				targetedBullet.GetComponent<BulletBehaviour>().homingTarget = null;
+			if (targetedBullet != null) {
+				targetedBullet.GetComponent<BulletBehaviour> ().homingTarget = null;
 				targetedBullet = null;
 			}
 
-			if(type != enemyType.noCountEnemy) {
+			if (type != enemyType.noCountEnemy) {
                 
-				if(GameObject.FindGameObjectWithTag("Player")!= null)
-				{
-					GameObject.FindGameObjectWithTag("Player").GetComponent<ScoringSystemStar>().currentScore += points;
-					GameObject.FindGameObjectWithTag("Player").GetComponent<ScoringSystemStar>().enemiesKilled += 1;
+				if (GameObject.FindGameObjectWithTag ("Player") != null) {
+					if (type == enemyType.typeIce || type == enemyType.typeCannabis || type == enemyType.typeInhalant || type == enemyType.typeEcstasy || type == enemyType.typeLSD || type == enemyType.typeNPS)
+						GameObject.FindGameObjectWithTag ("Player").GetComponent<ScoringSystemStar> ().currentScore = points + (int)hp;
+					else
+						GameObject.FindGameObjectWithTag ("Player").GetComponent<ScoringSystemStar> ().currentScore += points;
+
+					GameObject.FindGameObjectWithTag ("Player").GetComponent<ScoringSystemStar> ().enemiesKilled += 1;
 				}
-				if(GameObject.FindObjectOfType<LevelGeneratorScript>().totalEnemies > 0)
-				{
-					GameObject.FindObjectOfType<LevelGeneratorScript>().totalEnemies -= 1;
+				if (GameObject.FindObjectOfType<LevelGeneratorScript> ().totalEnemies > 0) {
+					GameObject.FindObjectOfType<LevelGeneratorScript> ().totalEnemies -= 1;
 				}
-				playerObj.GetComponent<PlayerController>().enemiesKilled += 1;
+				playerObj.GetComponent<PlayerController> ().enemiesKilled += 1;
 
 				spawned = true;
 
@@ -128,16 +129,22 @@ public class EnemyGeneralBehaviour : MonoBehaviour {
 			//playerObj.GetComponent<PlayerController>().enemiesKilled += 1;
 			
 			//enemy destroy particle
-			GameObject go = enemyDestroyParticlerPooler.GetComponent<ObjectPooler>().GetPooledObject();
+			GameObject go = enemyDestroyParticlerPooler.GetComponent<ObjectPooler> ().GetPooledObject ();
 			go.transform.position = transform.position;
-			go.SetActive(true);
+			go.SetActive (true);
 			
 			//enemy damaged sound
-			GameObject go2 = damagedSoundPooler.GetComponent<ObjectPooler>().GetPooledObject();
-			go2.SetActive(true);
+			GameObject go2 = damagedSoundPooler.GetComponent<ObjectPooler> ().GetPooledObject ();
+			go2.SetActive (true);
 			
-			gameObject.SetActive(false);
-            //Destroy(gameObject);
+			gameObject.SetActive (false);
+			//Destroy(gameObject);
+		} 
+		else 
+		{
+			if (GameObject.FindGameObjectWithTag ("Player") != null)
+				if(type == enemyType.typeIce || type == enemyType.typeCannabis || type == enemyType.typeInhalant || type == enemyType.typeEcstasy || type == enemyType.typeLSD || type == enemyType.typeNPS )
+					GameObject.FindGameObjectWithTag("Player").GetComponent<ScoringSystemStar>().currentScore = (int)hp - (int)hpCount;
 		}
 	}
 }
