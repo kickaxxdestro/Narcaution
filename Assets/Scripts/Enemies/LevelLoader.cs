@@ -163,6 +163,7 @@ public class LevelLoader : MonoBehaviour {
 			lastSpawned = Instantiate(level5_1) as GameObject;
 			break;			
 		case 18:
+            PlayerPrefs.SetInt("ppPlayerGamemode", 1);
 			lastSpawned = Instantiate(level5_2) as GameObject;
 			break;			
 		case 19:

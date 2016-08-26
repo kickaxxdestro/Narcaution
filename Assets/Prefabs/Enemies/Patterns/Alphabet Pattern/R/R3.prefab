@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 477494}
   - 114: {fileID: 11476784}
-  - 114: {fileID: 11409626}
   m_Layer: 0
   m_Name: R3
   m_TagString: Untagged
@@ -26,27 +25,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11409626
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 126676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyObject: {fileID: 197218, guid: 612d70f74eb7dc74a9fe5f7147cd2931, type: 2}
-  type: 0
-  amountToSpawn: 1
-  timeInterval: 0
-  enemyList: []
-  amountSpawned: 0
-  startOffset: {x: .5, y: .5, z: 0}
 --- !u!114 &11476784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -59,12 +41,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObject: {fileID: 119812, guid: 8292e2c4de289b44595bdc2dc5e261be, type: 2}
-  type: 0
-  amountToSpawn: 1
-  timeInterval: .5
+  type: 1
+  amountToSpawn: 2
+  timeInterval: 0
   enemyList: []
   amountSpawned: 0
-  startOffset: {x: .5, y: .5, z: 0}
+  startOffset: {x: -0.5, y: -0.5, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

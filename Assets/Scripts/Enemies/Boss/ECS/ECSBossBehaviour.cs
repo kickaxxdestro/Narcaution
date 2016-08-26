@@ -227,7 +227,6 @@ public class ECSBossBehaviour : MonoBehaviour {
 					StartCoroutine(ChangeAIStateDelay(state.state_waitClone, 0.0f));
 				}
 			}
-			
 			break;
 			
 		case state.state_waitClone :

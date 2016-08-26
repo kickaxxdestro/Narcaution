@@ -8,7 +8,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 405464}
-  - 114: {fileID: 11490784}
   - 114: {fileID: 11406426}
   - 114: {fileID: 11414118}
   m_Layer: 0
@@ -27,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -66,24 +66,6 @@ MonoBehaviour:
   enemyList: []
   amountSpawned: 0
   startOffset: {x: 0, y: 0, z: 0}
---- !u!114 &11490784
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 160914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5694668a70590084880dc5a0ec7be4ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyObject: {fileID: 139490, guid: e5bfef929f8ebca4385259603b5835bb, type: 2}
-  type: 0
-  amountToSpawn: 1
-  timeInterval: .5
-  enemyList: []
-  amountSpawned: 0
-  startOffset: {x: .5, y: .5, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
