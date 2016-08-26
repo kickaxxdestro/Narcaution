@@ -90,33 +90,11 @@ MonoBehaviour:
     waitTime: 4
   - enemyPattern: {fileID: 150812, guid: ebe084ddea3540648aabdb72c06f0be8, type: 2}
     waitTime: 1
-  - enemyPattern: {fileID: 182104, guid: e6409824b7ee8904385c9a985a822c5c, type: 2}
-    waitTime: 4
-  - enemyPattern: {fileID: 194640, guid: c472654d39261e14db72897a43130d4c, type: 2}
-    waitTime: 1
-  - enemyPattern: {fileID: 154850, guid: 59a22167dc0743843ad6510024e9856a, type: 2}
-    waitTime: 1
-  - enemyPattern: {fileID: 118978, guid: 277591ede94e7db448fa7bf7d4027098, type: 2}
-    waitTime: 4
-  - enemyPattern: {fileID: 195342, guid: e48555caedef64741aa3044fbd0b3c53, type: 2}
-    waitTime: 1
-  - enemyPattern: {fileID: 126676, guid: 74243c025fcc03d4db5ac249e91069c7, type: 2}
-    waitTime: 1
-  - enemyPattern: {fileID: 154348, guid: 334f35b785e59cd458d518ace77fc0f8, type: 2}
-    waitTime: 4
-  - enemyPattern: {fileID: 168748, guid: afdedddbd606e9247a83fab03cea4dd6, type: 2}
-    waitTime: 1
-  - enemyPattern: {fileID: 118978, guid: 277591ede94e7db448fa7bf7d4027098, type: 2}
-    waitTime: 4
-  - enemyPattern: {fileID: 195342, guid: e48555caedef64741aa3044fbd0b3c53, type: 2}
-    waitTime: 1
-  - enemyPattern: {fileID: 126676, guid: 74243c025fcc03d4db5ac249e91069c7, type: 2}
-    waitTime: 1
-  patternAmount: 34
+  patternAmount: 23
   totalEnemies: 0
   spawnWave: 0
   endDial: 0
-  scoreBonusAmt: 1700
+  scoreBonusAmt: 3000
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
