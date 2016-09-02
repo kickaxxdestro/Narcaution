@@ -50,7 +50,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -60,7 +60,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -69,7 +69,7 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: 1
@@ -80,11 +80,12 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -102,6 +103,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 3.5}
+        - {x: -15.5, y: 3.5}
+        - {x: -18.5, y: 1.5}
+        - {x: -18.5, y: -10.5}
+        - {x: -16.5, y: -17.5}
+        - {x: -8.5, y: -24.5}
+        - {x: 7.5, y: -24.5}
+        - {x: 13.5, y: -18.5}
+        - {x: 13.5, y: -16.5}
+        - {x: 10.5, y: -14.5}
     - name: Frostbite_1
       rect:
         serializedVersion: 2
@@ -112,6 +124,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.099998, y: 9.5}
+        - {x: -21.099998, y: 9.5}
+        - {x: -21.099998, y: 6.5}
+        - {x: -20.099998, y: 3.5}
+        - {x: -17.099998, y: -17.5}
+        - {x: -12.099998, y: -24.5}
+        - {x: 7.9000015, y: -24.5}
+        - {x: 15.900002, y: -22.5}
+        - {x: 15.900002, y: -9.5}
+        - {x: 14.900002, y: -7.5}
+        - {x: -2.0999985, y: -5.5}
+        - {x: -10.099998, y: 5.5}
     - name: Frostbite_2
       rect:
         serializedVersion: 2
@@ -122,6 +147,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.199997, y: -20.5}
+        - {x: -13.199997, y: -24.5}
+        - {x: 15.800003, y: -24.5}
+        - {x: 15.800003, y: -11.5}
+        - {x: 0.80000305, y: 5.5}
+        - {x: -12.199997, y: 9.5}
+        - {x: -21.199997, y: 9.5}
+        - {x: -21.199997, y: 5.5}
     - name: Frostbite_3
       rect:
         serializedVersion: 2
@@ -132,6 +166,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.299988, y: 9.5}
+        - {x: -21.299988, y: -9.5}
+        - {x: -16.299988, y: -24.5}
+        - {x: 12.700012, y: -24.5}
+        - {x: 14.700012, y: -23.5}
+        - {x: 14.700012, y: -8.5}
+        - {x: 12.700012, y: -4.5}
+        - {x: -9.299988, y: 9.5}
     - name: Frostbite_4
       rect:
         serializedVersion: 2
@@ -142,6 +185,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.899994, y: 11.5}
+        - {x: -20.899994, y: -20.5}
+        - {x: -8.899994, y: -24.5}
+        - {x: 16.100006, y: -24.5}
+        - {x: 16.100006, y: -8.5}
+        - {x: -11.899994, y: 11.5}
     - name: Frostbite_5
       rect:
         serializedVersion: 2
@@ -152,6 +202,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 11.5}
+        - {x: -22.5, y: 11.5}
+        - {x: -22.5, y: -20.5}
+        - {x: -9.5, y: -24.5}
+        - {x: 14.5, y: -24.5}
+        - {x: 14.5, y: -9.5}
+        - {x: 10.5, y: 1.5}
     - name: Frostbite_6
       rect:
         serializedVersion: 2
@@ -162,6 +220,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.099976, y: 11.5}
+        - {x: -22.099976, y: 10.5}
+        - {x: -22.099976, y: -8.5}
+        - {x: -13.099976, y: -24.5}
+        - {x: 11.900024, y: -24.5}
+        - {x: 15.900024, y: -20.5}
+        - {x: 15.900024, y: -7.5}
+        - {x: -8.099976, y: 11.5}
     - name: Frostbite_7
       rect:
         serializedVersion: 2
@@ -172,6 +239,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.200012, y: 11.5}
+        - {x: -21.200012, y: 11.5}
+        - {x: -21.200012, y: -11.5}
+        - {x: -15.200012, y: -24.5}
+        - {x: 8.799988, y: -24.5}
+        - {x: 15.799988, y: -19.5}
+        - {x: 15.799988, y: 1.5}
+        - {x: 12.799988, y: 1.5}
     - name: Frostbite_8
       rect:
         serializedVersion: 2
@@ -182,6 +258,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.299988, y: 11.5}
+        - {x: -22.299988, y: -4.5}
+        - {x: -18.299988, y: -18.5}
+        - {x: -13.299988, y: -24.5}
+        - {x: 8.700012, y: -24.5}
+        - {x: 15.700012, y: -22.5}
+        - {x: 15.700012, y: 4.5}
+        - {x: -11.299988, y: 11.5}
     - name: Frostbite_9
       rect:
         serializedVersion: 2
@@ -192,6 +277,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.899963, y: 11.5}
+        - {x: -20.899963, y: -20.5}
+        - {x: -9.899963, y: -24.5}
+        - {x: 14.100037, y: -24.5}
+        - {x: 16.100037, y: -20.5}
+        - {x: 16.100037, y: 4.5}
+        - {x: -8.899963, y: 11.5}
     - name: Frostbite_10
       rect:
         serializedVersion: 2
@@ -202,6 +295,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 11.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -21.5, y: -20.5}
+        - {x: -9.5, y: -24.5}
+        - {x: 13.5, y: -24.5}
+        - {x: 14.5, y: -22.5}
+        - {x: 14.5, y: 11.5}
     - name: Frostbite_11
       rect:
         serializedVersion: 2
@@ -212,6 +313,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.099976, y: 11.5}
+        - {x: -22.099976, y: -6.5}
+        - {x: -13.099976, y: -24.5}
+        - {x: 10.900024, y: -24.5}
+        - {x: 22.900024, y: -8.5}
+        - {x: 22.900024, y: 7.5}
+        - {x: 21.900024, y: 11.5}
     - name: Frostbite_12
       rect:
         serializedVersion: 2
@@ -222,6 +331,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.199951, y: 11.5}
+        - {x: -21.199951, y: 10.5}
+        - {x: -21.199951, y: -1.5}
+        - {x: -15.199951, y: -20.5}
+        - {x: -13.199951, y: -24.5}
+        - {x: 11.800049, y: -24.5}
+        - {x: 20.800049, y: -21.5}
+        - {x: 22.800049, y: -15.5}
+        - {x: 22.800049, y: 7.5}
+        - {x: 20.800049, y: 11.5}
     - name: Frostbite_13
       rect:
         serializedVersion: 2
@@ -232,6 +352,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.300049, y: 11.5}
+        - {x: -22.300049, y: -20.5}
+        - {x: -10.300049, y: -24.5}
+        - {x: 14.699951, y: -24.5}
+        - {x: 21.699951, y: -11.5}
+        - {x: 21.699951, y: 5.5}
+        - {x: 18.699951, y: 11.5}
     - name: Frostbite_14
       rect:
         serializedVersion: 2
@@ -242,6 +370,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.9000244, y: 21.5}
+        - {x: -20.900024, y: 12.5}
+        - {x: -20.900024, y: 0.5}
+        - {x: -16.900024, y: -17.5}
+        - {x: -11.900024, y: -24.5}
+        - {x: 10.099976, y: -24.5}
+        - {x: 19.099976, y: -21.5}
+        - {x: 23.099976, y: -2.5}
+        - {x: 23.099976, y: 15.5}
+        - {x: 11.099976, y: 21.5}
     - name: Frostbite_15
       rect:
         serializedVersion: 2
@@ -252,6 +391,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 21.5}
+        - {x: -1.5, y: 21.5}
+        - {x: -2.5, y: 12.5}
+        - {x: -6.5, y: 16.5}
+        - {x: -9.5, y: 15.5}
+        - {x: -17.5, y: 12.5}
+        - {x: -22.5, y: 11.5}
+        - {x: -22.5, y: -6.5}
+        - {x: -21.5, y: -20.5}
+        - {x: -9.5, y: -24.5}
+        - {x: 14.5, y: -24.5}
+        - {x: 21.5, y: -12.5}
+        - {x: 21.5, y: 14.5}
+        - {x: 20.5, y: 16.5}
     - name: Frostbite_16
       rect:
         serializedVersion: 2
@@ -262,6 +416,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.900024, y: 21.5}
+        - {x: -7.0999756, y: 21.5}
+        - {x: -22.099976, y: 16.5}
+        - {x: -22.099976, y: 1.5}
+        - {x: -19.099976, y: -18.5}
+        - {x: -13.099976, y: -24.5}
+        - {x: 8.900024, y: -24.5}
+        - {x: 18.900024, y: -21.5}
+        - {x: 21.900024, y: -3.5}
+        - {x: 22.900024, y: -0.5}
+        - {x: 22.900024, y: 15.5}
     - name: Frostbite_17
       rect:
         serializedVersion: 2
@@ -272,6 +438,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.199951, y: 28.5}
+        - {x: -21.199951, y: 18.5}
+        - {x: -21.199951, y: -5.5}
+        - {x: -18.199951, y: -22.5}
+        - {x: -11.199951, y: -24.5}
+        - {x: 13.800049, y: -24.5}
+        - {x: 22.800049, y: -9.5}
+        - {x: 22.800049, y: 14.5}
+        - {x: 6.800049, y: 28.5}
     - name: Frostbite_18
       rect:
         serializedVersion: 2
@@ -282,6 +458,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.7000732, y: 28.5}
+        - {x: -12.299927, y: 28.5}
+        - {x: -22.299927, y: 21.5}
+        - {x: -22.299927, y: -10.5}
+        - {x: -19.299927, y: -18.5}
+        - {x: -9.299927, y: -24.5}
+        - {x: 9.700073, y: -24.5}
+        - {x: 21.700073, y: -7.5}
+        - {x: 21.700073, y: 15.5}
     - name: Frostbite_19
       rect:
         serializedVersion: 2
@@ -292,6 +478,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.9000244, y: 28.5}
+        - {x: -7.9000244, y: 25.5}
+        - {x: -19.900024, y: 13.5}
+        - {x: -20.900024, y: 9.5}
+        - {x: -20.900024, y: 2.5}
+        - {x: -15.900024, y: -17.5}
+        - {x: -11.900024, y: -24.5}
+        - {x: 21.099976, y: -24.5}
+        - {x: 23.099976, y: -8.5}
+        - {x: 23.099976, y: 16.5}
+        - {x: 1.0999756, y: 28.5}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

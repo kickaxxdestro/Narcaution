@@ -145,7 +145,7 @@ MonoBehaviour:
   moveAndShoot: 0
   loopAmt: 0
   movePoints:
-  - translateValue: {x: -2.5, y: -1, z: 0}
+  - translateValue: {x: -3, y: -1, z: 0}
     translateSpeed: 3
     waitTime: 0.5
     isLerp: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
     delay: 0
     repeatInterval: 0
     column: 1
-    columnBullets: 2
+    columnBullets: 1
     coneAngle: 0
     attackSet: 1
     repeat: 0

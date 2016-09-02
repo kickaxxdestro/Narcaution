@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 6
-  hp: 15
+  hp: 10
   points: 100
   hpCount: 0
   hitMat: {fileID: 2100000, guid: 1e81193351ca5474999f7870723298d3, type: 3}

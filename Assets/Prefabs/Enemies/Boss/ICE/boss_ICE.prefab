@@ -127,7 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   hp: 360
-  points: 5000
+  points: 4640
   hpCount: 0
   hitMat: {fileID: 2100000, guid: f2221858cbb0e0d41aab8a334be65fae, type: 3}
   targetedBullet: {fileID: 0}

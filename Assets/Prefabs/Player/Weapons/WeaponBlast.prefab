@@ -109,15 +109,15 @@ MonoBehaviour:
   LevelXBulletDamage:
   - 1
   - 1.25
-  - 1.5
   - 1.75
   - 2
+  - 2.3
   LevelXFiringSpeed:
-  - 0.4
-  - 0.375
   - 0.35
   - 0.325
   - 0.3
+  - 0.275
+  - 0.25
   projectileMovement: 0
   firingPattern: 0
   weaponDescription: The standard issue to any drug fighter's arsenal

@@ -61,6 +61,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 436156}
   - {fileID: 442088}
@@ -73,8 +74,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 163370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.629999995, y: -.300000012, z: 0}
+  m_LocalPosition: {x: -0.63, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 435658}
   m_RootOrder: 0
@@ -85,26 +87,29 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .629999995, y: -.300000012, z: 0}
+  m_LocalPosition: {x: 0.63, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 435658}
   m_RootOrder: 1
 --- !u!50 &5042280
 Rigidbody2D:
+  serializedVersion: 2
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168682}
+  m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_FixedAngle: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &6109974
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -112,12 +117,13 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168682}
   m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: -.00476861, y: -.229902744}
+  m_Offset: {x: -0.00476861, y: -0.22990274}
   serializedVersion: 2
-  m_Size: {x: 1.22948694, y: 1.38019276}
+  m_Size: {x: 1.229487, y: 1.3801928}
 --- !u!95 &9531478
 Animator:
   serializedVersion: 3
@@ -147,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 4
-  hp: 9
+  hp: 25
   points: 100
   hpCount: 0
   hitMat: {fileID: 2100000, guid: 1e81193351ca5474999f7870723298d3, type: 3}
@@ -171,7 +177,7 @@ MonoBehaviour:
     patternInterval: 0
     spawnerMoveInterval: 0
     delay: 1
-    repeatInterval: .5
+    repeatInterval: 0.5
     column: 3
     columnBullets: 1
     coneAngle: 90
@@ -199,13 +205,13 @@ MonoBehaviour:
   movePoints:
   - translateValue: {x: 0, y: -5, z: 0}
     translateSpeed: 3
-    waitTime: .100000001
+    waitTime: 0.1
     isLerp: 0
     isShooting: 0
     shootAtPlayer: 0
   - translateValue: {x: 0, y: -10, z: 0}
     translateSpeed: 3
-    waitTime: .100000001
+    waitTime: 0.1
     isLerp: 0
     isShooting: 1
     shootAtPlayer: 0
@@ -233,14 +239,18 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2bdf0b54aebca814aae1da2d9479d2d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

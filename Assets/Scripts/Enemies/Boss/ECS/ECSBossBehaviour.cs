@@ -302,7 +302,7 @@ public class ECSBossBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print (ecsState);
+		//print (ecsState);
 	
 		for (int i=0; i<cloneList.Count; i++) {
 			if(cloneList[i] == null)

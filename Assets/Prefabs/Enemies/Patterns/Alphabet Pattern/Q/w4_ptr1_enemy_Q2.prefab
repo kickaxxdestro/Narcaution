@@ -132,7 +132,7 @@ MonoBehaviour:
     spawnerMoveInterval: 0
     delay: 0
     repeatInterval: 0
-    column: 4
+    column: 3
     columnBullets: 2
     coneAngle: 100
     attackSet: 1
@@ -157,13 +157,13 @@ MonoBehaviour:
   moveAndShoot: 0
   loopAmt: 0
   movePoints:
-  - translateValue: {x: -3, y: -2, z: 0}
+  - translateValue: {x: -2, y: -4, z: 0}
     translateSpeed: 3
     waitTime: 0.5
     isLerp: 0
     isShooting: 1
     shootAtPlayer: 0
-  - translateValue: {x: 3, y: -11, z: 0}
+  - translateValue: {x: 2, y: -11, z: 0}
     translateSpeed: 3
     waitTime: 0.1
     isLerp: 0
