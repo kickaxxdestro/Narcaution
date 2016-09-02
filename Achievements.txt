@@ -1,0 +1,35 @@
+General: 
+Hero - Clear all the stages
+Ninja -  Get all the no damage medals
+Point Gatherer -  Get all the points medals
+True-Hero - Get all the medals from all the levels.
+
+New Weapon - Buy a new weapon
+Weapon Hoarder - Buy all the weapons
+Weapon Expert - Use all the weapons once
+Weapons Master - Get all the weapons Maxed out
+
+Need a new look - Buy a new skin
+Fashionista - Get all the skins
+Fashion Model - Use all the skins once
+Stating my style - Clear a stage with the same skin 15 times
+
+Absent-minded - Replay a new cutscene
+Memory Checker - Replay all the cutscenes
+
+Battle:
+Boss Perfectionist - Kill boss 1 - 6 without taking damage.
+Drug Buster - Kill specific amount of enemies (50, 250, 500, 1000)
+
+Savior's fall - Die once
+Stubborn Hero -  Die 15 times
+
+Here have it back - Kill all the enemies in the defense stage once.
+
+Special:
+Pacifist - Do not fire a shot at all in a single stage
+Irony - Die as a player in defense stage
+Sharer - Share game on facebook
+Mute - Play a stage with both BGM and SFX at 0
+
+
