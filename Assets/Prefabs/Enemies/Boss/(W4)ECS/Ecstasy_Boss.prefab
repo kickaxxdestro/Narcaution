@@ -905,7 +905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 11
   hp: 1500
-  points: 5000
+  points: 3500
   hpCount: 0
   hitMat: {fileID: 2100000, guid: f2221858cbb0e0d41aab8a334be65fae, type: 3}
   targetedBullet: {fileID: 0}
@@ -1055,20 +1055,33 @@ MonoBehaviour:
   - moveSpawner: 0
     repeatInfinite: 0
     pattern: 0
-    bulletInterval: 0.7
+    bulletInterval: 1.4
     patternInterval: 0
     spawnerMoveInterval: 0
     delay: 0
     repeatInterval: 0
     column: 8
-    columnBullets: 5
+    columnBullets: 3
+    coneAngle: 90
+    attackSet: 0
+    repeat: 0
+  - moveSpawner: 0
+    repeatInfinite: 0
+    pattern: 0
+    bulletInterval: 1.4
+    patternInterval: 0.7
+    spawnerMoveInterval: 0
+    delay: 0
+    repeatInterval: 0
+    column: 7
+    columnBullets: 2
     coneAngle: 90
     attackSet: 0
     repeat: 0
   activeSpawners: []
   SpawnersDone: 0
   repeatInfinite: 0
-  spawnerPrefab: {fileID: 194236, guid: c129ae073da0b5542a0b5e356933e835, type: 2}
+  spawnerPrefab: {fileID: 103904, guid: 9e526eb914c95d248ad29525dde798f5, type: 2}
 --- !u!114 &11494620
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -67,13 +67,13 @@ MonoBehaviour:
   - enemyPattern: {fileID: 150446, guid: a26bc1bf0106c5c439cd7bc4ea569572, type: 2}
     waitTime: 4
   - enemyPattern: {fileID: 154348, guid: 334f35b785e59cd458d518ace77fc0f8, type: 2}
-    waitTime: 4
+    waitTime: 8
   - enemyPattern: {fileID: 168748, guid: afdedddbd606e9247a83fab03cea4dd6, type: 2}
-    waitTime: 0
+    waitTime: 4
   - enemyPattern: {fileID: 161560, guid: dcc0e46cb5ea97140a71b440272f4dd7, type: 2}
     waitTime: 4
   - enemyPattern: {fileID: 177400, guid: 02437d07eede69145a8f0b60e0427437, type: 2}
-    waitTime: 0
+    waitTime: 2
   - enemyPattern: {fileID: 127658, guid: c4d127c66861f24469d88e98376e2789, type: 2}
     waitTime: 0
   - enemyPattern: {fileID: 144108, guid: 47e5609bc5aab374ead6f17a81e5b6a4, type: 2}
@@ -91,7 +91,7 @@ MonoBehaviour:
   - enemyPattern: {fileID: 150446, guid: a26bc1bf0106c5c439cd7bc4ea569572, type: 2}
     waitTime: 4
   - enemyPattern: {fileID: 154348, guid: 334f35b785e59cd458d518ace77fc0f8, type: 2}
-    waitTime: 0
+    waitTime: 8
   - enemyPattern: {fileID: 168748, guid: afdedddbd606e9247a83fab03cea4dd6, type: 2}
     waitTime: 0
   - enemyPattern: {fileID: 181900, guid: bafdf8b7861cc28418f207670dc4a8ef, type: 2}
@@ -100,7 +100,7 @@ MonoBehaviour:
   totalEnemies: 0
   spawnWave: 0
   endDial: 0
-  scoreBonusAmt: 2000
+  scoreBonusAmt: 4000
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

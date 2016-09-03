@@ -499,7 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 10
   hp: 1337
-  points: 5000
+  points: 3663
   hpCount: 0
   hitMat: {fileID: 2100000, guid: f2221858cbb0e0d41aab8a334be65fae, type: 3}
   targetedBullet: {fileID: 0}
@@ -718,13 +718,26 @@ MonoBehaviour:
   - moveSpawner: 0
     repeatInfinite: 0
     pattern: 1
-    bulletInterval: 0.1
+    bulletInterval: 0.5
     patternInterval: 0
     spawnerMoveInterval: 0
     delay: 1.5
     repeatInterval: 0
-    column: 12
-    columnBullets: 10
+    column: 15
+    columnBullets: 15
+    coneAngle: 0
+    attackSet: 1
+    repeat: 0
+  - moveSpawner: 0
+    repeatInfinite: 0
+    pattern: 4
+    bulletInterval: 0.5
+    patternInterval: 0
+    spawnerMoveInterval: 0
+    delay: 1.75
+    repeatInterval: 0
+    column: 0
+    columnBullets: 15
     coneAngle: 0
     attackSet: 1
     repeat: 0

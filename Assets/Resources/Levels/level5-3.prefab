@@ -118,7 +118,7 @@ MonoBehaviour:
   totalEnemies: 0
   spawnWave: 0
   endDial: 0
-  scoreBonusAmt: 2000
+  scoreBonusAmt: 6000
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

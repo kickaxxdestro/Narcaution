@@ -1,0 +1,3 @@
+Box outline appears when boss spawns.
+Fix character being too weak agaisnt background
+Fix enemy warning to be less pixalated

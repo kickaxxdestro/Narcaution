@@ -666,7 +666,23 @@ public class PlayerController : MonoBehaviour
         //barrier.ToggleBarrier();
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if ((other.tag == "Enemy" || other.tag == "Ice_Chunk" || other.tag == "Enemy_Bullet" || other.tag == "LeafPad" || other.tag == "Minion") 
+			&& invuln == false)
+		{
+			DoDamaged();
+			if (other.tag == "Ice_Chunk")
+			{
+				isFrozen = true;
+				freezeBreakCount = 20;
+				frostbite.gameObject.GetComponent<SpriteRenderer>().sprite = frostbiteSprites[freezeBreakCount - 1];
+				frostbite.gameObject.SetActive(true);
+			}
+		}
+	}
+
+    void OnTriggerStay2D(Collider2D other)
     {
         if ((other.tag == "Enemy" || other.tag == "Ice_Chunk" || other.tag == "Enemy_Bullet" || other.tag == "LeafPad" || other.tag == "Minion") 
             && invuln == false)
@@ -684,6 +700,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+		GetComponent<Rigidbody2D>().WakeUp();
+
         if (Time.timeScale == 0)
             return;
 
