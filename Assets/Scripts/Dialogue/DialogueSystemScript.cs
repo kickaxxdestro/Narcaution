@@ -40,15 +40,20 @@ public class DialogueSystemScript : MonoBehaviour {
 	{
 		if(active == true)
 		{
+            myplayer.GetComponent<PlayerController>().sentry.GetComponent<SentryAttackBehaviour>().fireBullets = false;
 			dialogueActive = true;
 			myplayer.GetComponent<PlayerController>().canShoot = false;
 			transform.parent.gameObject.SetActive(true);
 			pauseBtn.GetComponent<Button>().interactable = true;
 			Time.timeScale = 1.0f;
-			StartCoroutine(TypeMessage());
+			StartCoroutine(TypeMessage());  
 		}
 		else if (active == false)
-		{
+        {
+            if (firstStop == false)
+            {
+                myplayer.GetComponent<PlayerController>().sentry.GetComponent<SentryAttackBehaviour>().fireBullets = true;
+            }
 			dialogueActive = false;
 			myplayer.GetComponent<PlayerController>().canShoot = true;
 			Time.timeScale = 1.0f;
@@ -76,7 +81,7 @@ public class DialogueSystemScript : MonoBehaviour {
 				firstStop = true;
 				level.GetComponent<LevelGeneratorScript>().spawnWave = true;
 				level.GetComponent<LevelGeneratorScript>().StartProgressBar();
-				level.GetComponent<LevelGeneratorScript>().CheckTutorial();
+				level.GetComponent<LevelGeneratorScript>().CheckTutorial(); 
 			}
 			else if(firstStop == true && level.GetComponent<LevelGeneratorScript>().endDial == false)
 			{

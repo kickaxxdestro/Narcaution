@@ -141,7 +141,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 sentryOffset;
     public GameObject sentryOffense;
     public GameObject sentryDefense;
-    GameObject sentry;
+    public GameObject sentry;
 
     bool usingMissle = false;
     bool usingBomb = false;

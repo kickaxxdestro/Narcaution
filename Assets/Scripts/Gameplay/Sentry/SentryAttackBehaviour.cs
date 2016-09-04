@@ -8,7 +8,7 @@ public class SentryAttackBehaviour : MonoBehaviour {
     [Tooltip("Sentry firing speed")]
     public float shootSpeed;
     public float bulletSpeed = 10f;
-    bool fireBullets;
+    public bool fireBullets;
 
     float shootTimer;
 
