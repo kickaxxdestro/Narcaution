@@ -34,6 +34,8 @@ public class DialogueSystemScript : MonoBehaviour {
 
 	GameObject myplayer;
 
+    SentryAttackBehaviour sentryAttackBehaviour;
+
 	public void ActivateDialogue(bool active)
 	{
 		if(active == true)

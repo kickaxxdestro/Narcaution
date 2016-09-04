@@ -404,7 +404,7 @@ MonoBehaviour:
   finalText: {fileID: 1247445103}
   sidmLogo: {fileID: 0}
   NYPLogo: {fileID: 0}
-  scrollingSpeed: 10
+  scrollingSpeed: 5
   nextButton: {fileID: 1837286219}
   nextButtonText: {fileID: 1354799128}
 --- !u!1 &748237119

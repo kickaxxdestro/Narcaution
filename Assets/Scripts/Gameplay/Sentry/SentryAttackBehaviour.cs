@@ -8,6 +8,7 @@ public class SentryAttackBehaviour : MonoBehaviour {
     [Tooltip("Sentry firing speed")]
     public float shootSpeed;
     public float bulletSpeed = 10f;
+    bool fireBullets;
 
     float shootTimer;
 
@@ -29,7 +30,7 @@ public class SentryAttackBehaviour : MonoBehaviour {
             return;
 
         shootTimer -= Time.deltaTime;
-	    if(shootTimer <= 0f)
+        if (shootTimer <= 0f && fireBullets == true)
         {
             shootTimer = shootSpeed;
             ShootBullet();

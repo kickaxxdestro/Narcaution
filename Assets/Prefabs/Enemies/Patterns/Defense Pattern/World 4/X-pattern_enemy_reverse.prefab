@@ -147,7 +147,7 @@ MonoBehaviour:
     repeatInterval: 0
     column: 2
     columnBullets: 1
-    coneAngle: 90
+    coneAngle: 45
     attackSet: 2
     repeat: 0
   - moveSpawner: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
     repeatInterval: 0
     column: 2
     columnBullets: 1
-    coneAngle: 90
+    coneAngle: 45
     attackSet: 3
     repeat: 0
   - moveSpawner: 0
