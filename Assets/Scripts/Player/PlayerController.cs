@@ -141,7 +141,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 sentryOffset;
     public GameObject sentryOffense;
     public GameObject sentryDefense;
-    GameObject sentry;
+    public GameObject sentry;
 
     bool usingMissle = false;
     bool usingBomb = false;
@@ -158,6 +158,46 @@ public class PlayerController : MonoBehaviour
             gamemode = true;
         else
             gamemode = false;
+
+        //Check for sentry
+        if (PlayerPrefs.GetInt("ppSentryEquipped", 0) == 1)
+        {
+            PlayerPrefs.SetInt("ppNumSentry", PlayerPrefs.GetInt("ppNumSentry", 0) - 1);
+            if (PlayerPrefs.GetInt("ppNumSentry", 0) <= 0)
+                PlayerPrefs.SetInt("ppSentryEquipped", 0);
+            if (gamemode)
+            {
+                //Offense
+                sentry = Instantiate(sentryOffense) as GameObject;
+            }
+            else
+            {
+                //Defense
+                sentry = Instantiate(sentryDefense) as GameObject;
+            }
+            sentry.transform.SetParent(this.transform, false);
+            sentry.transform.localPosition = sentryOffset;
+        }
+
+        if (PlayerPrefs.GetInt("ppBombEquipped", 0) == 1)
+        {
+            PlayerPrefs.SetInt("ppNumBombs", PlayerPrefs.GetInt("ppNumBombs", 0) - 1);
+            if (PlayerPrefs.GetInt("ppNumBombs", 0) <= 0)
+                PlayerPrefs.SetInt("ppBombEquipped", 0);
+
+            usingBomb = true;
+        }
+
+        if (PlayerPrefs.GetInt("ppMissleEquipped", 0) == 1)
+        {
+            PlayerPrefs.SetInt("ppNumMissles", PlayerPrefs.GetInt("ppNumMissles", 0) - 1);
+            if (PlayerPrefs.GetInt("ppNumMissles", 0) <= 0)
+                PlayerPrefs.SetInt("ppMissleEquipped", 0);
+
+            usingMissle = true;
+        }
+
+        PlayerPrefs.Save();
     }
 
     void Start()
@@ -235,45 +275,7 @@ public class PlayerController : MonoBehaviour
         canShoot = false;
         freezeBreakCount = 20;
 
-        //Check for sentry
-        if(PlayerPrefs.GetInt("ppSentryEquipped", 0) == 1)
-        {
-            PlayerPrefs.SetInt("ppNumSentry", PlayerPrefs.GetInt("ppNumSentry", 0) - 1);
-            if (PlayerPrefs.GetInt("ppNumSentry", 0) <= 0)
-                PlayerPrefs.SetInt("ppSentryEquipped", 0);
-            if (gamemode)
-            {
-                //Offense
-                sentry =  Instantiate(sentryOffense) as GameObject;
-            }
-            else
-            {
-                //Defense
-                sentry = Instantiate(sentryDefense) as GameObject;
-            }
-            sentry.transform.SetParent(this.transform, false);
-            sentry.transform.localPosition = sentryOffset;
-        }
-
-        if (PlayerPrefs.GetInt("ppBombEquipped", 0) == 1)
-        {
-            PlayerPrefs.SetInt("ppNumBombs", PlayerPrefs.GetInt("ppNumBombs", 0) - 1);
-            if (PlayerPrefs.GetInt("ppNumBombs", 0) <= 0)
-                PlayerPrefs.SetInt("ppBombEquipped", 0);
-
-            usingBomb = true;
-        }
-
-        if (PlayerPrefs.GetInt("ppMissleEquipped", 0) == 1)
-        {
-            PlayerPrefs.SetInt("ppNumMissles", PlayerPrefs.GetInt("ppNumMissles", 0) - 1);
-            if (PlayerPrefs.GetInt("ppNumMissles", 0) <= 0)
-                PlayerPrefs.SetInt("ppMissleEquipped", 0);
-
-            usingMissle = true;
-        }
-
-        PlayerPrefs.Save();
+       
     }
 
     void FireBombBullet()

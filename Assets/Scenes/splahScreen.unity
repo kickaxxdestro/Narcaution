@@ -990,6 +990,10 @@ Prefab:
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11460414, guid: 4aeaaa7c91e33aa439f6b11c96a59a7a, type: 2}
+      propertyPath: CreditsBGM
+      value: 
+      objectReference: {fileID: 8300000, guid: d4d8a6a810316f34a8e3c5d49b120330, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4aeaaa7c91e33aa439f6b11c96a59a7a, type: 2}
   m_IsPrefabParent: 0

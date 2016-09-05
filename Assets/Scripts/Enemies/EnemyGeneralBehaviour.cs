@@ -73,7 +73,7 @@ public class EnemyGeneralBehaviour : MonoBehaviour {
 			//attract homing bullet
 			GameObject homing = playerObj.transform.FindChild ("homingPooler").gameObject;
 			foreach (GameObject homingBullet in homing.GetComponent<ObjectPooler>().pooledObjects) {
-				if (targetedBullet == null && homingBullet.GetComponent<BulletBehaviour> ().homingTarget == null) {
+				if (homingBullet.GetComponent<BulletBehaviour> ().homingTarget == null) {
 					homingBullet.GetComponent<BulletBehaviour> ().homingTarget = gameObject;
 					targetedBullet = homingBullet;
 					break;

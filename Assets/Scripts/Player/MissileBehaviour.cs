@@ -106,7 +106,7 @@ public class MissileBehaviour : MonoBehaviour {
 			}
 
 			gameObject.SetActive(false);
-			GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().comboCount += 1;
+			//GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().comboCount += 1;
 			hasForce = false;
 			force = Vector2.zero;
 			myRigidbody.velocity = Vector2.up* 20f;

@@ -34,6 +34,8 @@ public class DialogueSystemScript : MonoBehaviour {
 
 	GameObject myplayer;
 
+    SentryAttackBehaviour sentryAttackBehaviour;
+
 	public void ActivateDialogue(bool active)
 	{
 		if(active == true)
@@ -43,15 +45,26 @@ public class DialogueSystemScript : MonoBehaviour {
 			transform.parent.gameObject.SetActive(true);
 			pauseBtn.GetComponent<Button>().interactable = true;
 			Time.timeScale = 1.0f;
-			StartCoroutine(TypeMessage());
+            if (PlayerPrefs.GetInt("ppSentryEquipped", 0) == 1)
+            {
+                myplayer.GetComponent<PlayerController>().sentry.GetComponent<SentryAttackBehaviour>().fireBullets = false;
+            }
+			StartCoroutine(TypeMessage());  
 		}
 		else if (active == false)
-		{
+        { 
 			dialogueActive = false;
 			myplayer.GetComponent<PlayerController>().canShoot = true;
 			Time.timeScale = 1.0f;
 			pauseBtn.GetComponent<Button>().interactable = true;
 			messageCounter += 1;
+            if (PlayerPrefs.GetInt("ppSentryEquipped", 0) == 1)
+            {
+                if (firstStop == false)
+                {
+                    myplayer.GetComponent<PlayerController>().sentry.GetComponent<SentryAttackBehaviour>().fireBullets = true;
+                }
+            }
 			transform.parent.gameObject.SetActive(false);
 		}
 	}
@@ -74,7 +87,7 @@ public class DialogueSystemScript : MonoBehaviour {
 				firstStop = true;
 				level.GetComponent<LevelGeneratorScript>().spawnWave = true;
 				level.GetComponent<LevelGeneratorScript>().StartProgressBar();
-				level.GetComponent<LevelGeneratorScript>().CheckTutorial();
+				level.GetComponent<LevelGeneratorScript>().CheckTutorial(); 
 			}
 			else if(firstStop == true && level.GetComponent<LevelGeneratorScript>().endDial == false)
 			{

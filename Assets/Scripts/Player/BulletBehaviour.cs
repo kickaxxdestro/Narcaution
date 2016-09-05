@@ -72,8 +72,9 @@ public class BulletBehaviour : MonoBehaviour {
                     if (homingTarget == null || !homingTarget.activeInHierarchy)
                     {
                         GetComponent<Rigidbody2D>().velocity = transform.up * bulletSpeed;
+
                     }
-                    else
+                    else 
                     {
                         Vector3 vectorToTarget = homingTarget.transform.position - transform.position;
                         float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - 90f;

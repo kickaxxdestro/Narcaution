@@ -8,8 +8,8 @@ public class AudioManager : MonoBehaviour {
 
     public AudioClip MainMenuBGM;
     public AudioClip GalleryBGM;
-    public AudioClip TutorialBGM;
     public AudioClip CutsceneBGM;
+    public AudioClip CreditsBGM;
     public AudioClip LevelSelectBGM;
     public AudioClip ShopBGM;
     public AudioClip StartEndBGM;
@@ -93,10 +93,6 @@ public class AudioManager : MonoBehaviour {
                     audioSource.clip = LSDBossBGM;
                 else if (levelNum == 21)
                     audioSource.clip = NPSBossBGM;
-
-                break;
-            case "tutorialScene":
-                audioSource.clip = TutorialBGM;
                 break;
             case "cutsceneScreen":
                 audioSource.clip = CutsceneBGM;
@@ -111,8 +107,7 @@ public class AudioManager : MonoBehaviour {
                 audioSource.clip = MinigameBGM;
                 break;
             case "gameEnd":
-            case "gamemodeSelect":
-                audioSource.clip = StartEndBGM;
+                audioSource.clip = CreditsBGM;
                 break;
             case "shopScreen":
                 audioSource.clip = ShopBGM;

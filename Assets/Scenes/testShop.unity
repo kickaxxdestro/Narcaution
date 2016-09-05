@@ -7706,7 +7706,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 937452395}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.76656103
+  m_Size: 0.7676983
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8253,7 +8253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Drug-busting companion that provides extra firepower \n"
+  m_Text: Drug-busting companion that provides good cover depending on the situation.
 --- !u!222 &1113005945
 CanvasRenderer:
   m_ObjectHideFlags: 0

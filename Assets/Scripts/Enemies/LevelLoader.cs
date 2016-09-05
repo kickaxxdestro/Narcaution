@@ -68,8 +68,6 @@ public class LevelLoader : MonoBehaviour {
 	public Sprite gradeF;
 	public Sprite dash;
 
-    public Text levelDisplay;
-	
 	GameObject[] enemyObjects;
 
 	float timer;
@@ -92,14 +90,6 @@ public class LevelLoader : MonoBehaviour {
 		menuScore = levelEndMenu.transform.FindChild("totalScore").FindChild("Text").GetComponent<Text>();
 		//grade = levelEndMenu.transform.FindChild("GradeBg").FindChild("grade");
         loadedLevel = PlayerPrefs.GetInt("ppSelectedLevel", 1);
-
-        if(levelDisplay)
-        {
-            if (loadedLevel == 21)
-                levelDisplay.text = "5-5";
-            else
-                levelDisplay.text = (((loadedLevel - 1) / 4) + 1) + "-" + (loadedLevel - (((loadedLevel - 1) / 4) * 4)).ToString();
-        }
 
         switch (loadedLevel)
 		{
