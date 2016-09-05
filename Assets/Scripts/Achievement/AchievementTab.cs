@@ -19,8 +19,9 @@ public class AchievementTab : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		state = State.start;
-		this.GetComponentInChildren<CanvasGroup> ().alpha = 0;
+		state = State.hold;
+		//this.GetComponentInChildren<CanvasGroup> ().alpha = 0;
+		gameObject.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
 	}
 	
 	// Update is called once per frame

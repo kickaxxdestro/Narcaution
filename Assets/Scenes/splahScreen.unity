@@ -877,15 +877,7 @@ Prefab:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22452688, guid: e02c91f91b066904ba6236b0f842127a, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22452688, guid: e02c91f91b066904ba6236b0f842127a, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22331346, guid: e02c91f91b066904ba6236b0f842127a, type: 2}
-      propertyPath: m_RenderMode
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -47,6 +47,7 @@ public class ShopHandlerDeluxe : MonoBehaviour
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+		audioSource.volume = PlayerPrefs.GetFloat("ppSFXVolume", 1.0f);
     }
 
     void Start()
