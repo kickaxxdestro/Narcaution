@@ -4858,6 +4858,7 @@ GameObject:
   - 222: {fileID: 726554007}
   - 114: {fileID: 726554006}
   - 114: {fileID: 726554005}
+  - 114: {fileID: 726554008}
   m_Layer: 5
   m_Name: Button_Tab_Weapons
   m_TagString: Untagged
@@ -4969,6 +4970,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 726554003}
+--- !u!114 &726554008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 726554003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 631119c0ae95475408dca60a046322da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &747838775
 GameObject:
   m_ObjectHideFlags: 0
@@ -7694,7 +7706,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 937452395}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7693405
+  m_Size: 0.76656103
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9922,6 +9934,7 @@ GameObject:
   - 222: {fileID: 1306621416}
   - 114: {fileID: 1306621415}
   - 114: {fileID: 1306621414}
+  - 114: {fileID: 1306621417}
   m_Layer: 5
   m_Name: Button_Tab_PowerUps
   m_TagString: Untagged
@@ -10033,6 +10046,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1306621412}
+--- !u!114 &1306621417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1306621412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 631119c0ae95475408dca60a046322da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1311669014
 GameObject:
   m_ObjectHideFlags: 0
@@ -10658,7 +10682,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12080,6 +12104,7 @@ GameObject:
   - 222: {fileID: 1584853659}
   - 114: {fileID: 1584853658}
   - 114: {fileID: 1584853657}
+  - 114: {fileID: 1584853660}
   m_Layer: 5
   m_Name: Button_Tab_Skins
   m_TagString: Untagged
@@ -12191,6 +12216,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1584853655}
+--- !u!114 &1584853660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1584853655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 631119c0ae95475408dca60a046322da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1603634191
 GameObject:
   m_ObjectHideFlags: 0

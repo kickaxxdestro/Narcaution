@@ -24,15 +24,10 @@ public class PowerUpSelector : MonoBehaviour {
 
 	void Awake()
 	{
-
-		if (PlayerPrefs.GetInt("ppNumBoost", 0) <= 0)
-			PlayerPrefs.SetInt("ppBoostEquipped", 0);
-		if (PlayerPrefs.GetInt("ppNumSentry", 0) <= 0)
-			PlayerPrefs.SetInt("ppSentryEquipped", 0);
-		if (PlayerPrefs.GetInt("ppNumBombs", 0) <= 0)
-			PlayerPrefs.SetInt("ppBombEquipped", 0);
-		if (PlayerPrefs.GetInt("ppNumMissles", 0) <= 0)
-			PlayerPrefs.SetInt("ppMissleEquipped", 0);
+		PlayerPrefs.SetInt("ppBoostEquipped", 0);
+		PlayerPrefs.SetInt("ppSentryEquipped", 0);
+		PlayerPrefs.SetInt("ppBombEquipped", 0);
+		PlayerPrefs.SetInt("ppMissleEquipped", 0);
 
 		PlayerPrefs.Save();
 

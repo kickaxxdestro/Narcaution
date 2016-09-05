@@ -664,6 +664,28 @@ public class LevelLoader : MonoBehaviour {
         if (PlayerPrefs.GetInt("ppSelectedLevel", 0) < 22)
             PlayerPrefs.SetInt("ppSelectedLevel", PlayerPrefs.GetInt("ppSelectedLevel", 0) + 1);
 
+		switch (PlayerPrefs.GetInt("ppSelectedLevel", 1))
+		{
+		case 2:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 6:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 10:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 14:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 18:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		default:
+			PlayerPrefs.SetInt ("ppPlayerGamemode", 0);
+			break;
+		}
+
         print("Loaded level: " + loadedLevel);
         print("CurrentLevel: " + PlayerPrefs.GetInt("ppCurrentLevel", 1));
 
