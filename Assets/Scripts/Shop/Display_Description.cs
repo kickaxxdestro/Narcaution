@@ -10,6 +10,7 @@ public class Display_Description : MonoBehaviour
     bool disappear = false;
     public bool Add_ExtraDesciption;
     public GameObject Extra_Description;
+    bool reset = false;
 
     public void ModifyDescription()
     {
@@ -23,6 +24,7 @@ public class Display_Description : MonoBehaviour
                 for (int i = 0; i < transform.parent.childCount; i++)  //Close any other tabs that are displaying it's description
                 {
                     transform.parent.GetChild(i).gameObject.GetComponent<Display_Description>().disappear = true;
+                    transform.parent.GetChild(i).gameObject.GetComponent<Display_Description>().reset = true;
                 }
                 if (GetComponent<LayoutElement>().preferredHeight < 300) //Expand the current tab clicked
                 {
@@ -62,6 +64,13 @@ public class Display_Description : MonoBehaviour
             {
                 GetComponent<LayoutElement>().preferredHeight -= 300f * Time.deltaTime;
                 Extra_Description.transform.position = new Vector3(Extra_Description.transform.position.x, Extra_Description.transform.position.y + 100f * Time.deltaTime, Extra_Description.transform.position.z);
+
+                if (reset == true)
+                {
+                    GetComponent<LayoutElement>().preferredHeight = 200f;
+                    reset = false;
+                }
+
                 if (GetComponent<LayoutElement>().preferredHeight <= 200f)
                 {
                     GetComponent<LayoutElement>().preferredHeight = 200f;
@@ -71,6 +80,8 @@ public class Display_Description : MonoBehaviour
                     lastUsed = "";
                 }
             }
+
+
         }
     }
 }
