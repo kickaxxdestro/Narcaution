@@ -144,6 +144,7 @@ public class LoadingScreenHandler : MonoBehaviour {
 			
 			DoTransitionOut();
 			soundPlayed = false;
+			Resources.UnloadUnusedAssets ();
 		}
     }
 }

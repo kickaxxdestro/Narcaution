@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fcbfc37758028284ba2e5a21e0ff6eea
-timeCreated: 1453173458
+timeCreated: 1476876348
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -70,7 +70,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -80,7 +80,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -90,9 +90,9 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 8192
+  maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
+    filterMode: 1
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -100,13 +100,14 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings:
@@ -114,638 +115,1637 @@ TextureImporter:
     maxTextureSize: 8192
     textureFormat: -1
     compressionQuality: 50
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: Ecstasy_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 3176
-        width: 267
-        height: 883
+        x: 26
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 5.5}
+        - {x: 60, y: 178.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 186.5}
+        - {x: -59, y: 178.5}
+        - {x: -60, y: 123.5}
+        - {x: -60, y: -80.5}
+        - {x: -52, y: -150.5}
+        - {x: -36, y: -188.5}
+        - {x: -23, y: -198.5}
+        - {x: 26, y: -198.5}
+        - {x: 47, y: -168.5}
+        - {x: 60, y: -66.5}
+        - {x: 60, y: -27.5}
     - name: Ecstasy_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 349
-        y: 3179
-        width: 263
-        height: 880
+        x: 156
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 175.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 178.5}
+        - {x: -59.5, y: 169.5}
+        - {x: -60.5, y: 134.5}
+        - {x: -60.5, y: 63.5}
+        - {x: -53.5, y: -20.5}
+        - {x: -60.5, y: -40.5}
+        - {x: -60.5, y: -43.5}
+        - {x: -54.5, y: -168.5}
+        - {x: -27.5, y: -198.5}
+        - {x: 24.5, y: -198.5}
+        - {x: 51.5, y: -171.5}
+        - {x: 57.5, y: -55.5}
+        - {x: 45.5, y: 106.5}
     - name: Ecstasy_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 3179
-        width: 263
-        height: 880
+        x: 287
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 108.5}
+        - {x: 54, y: 147.5}
+        - {x: 60, y: 185.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: -80.5}
+        - {x: -49, y: -159.5}
+        - {x: -31, y: -190.5}
+        - {x: -25, y: -198.5}
+        - {x: 25, y: -198.5}
+        - {x: 30, y: -197.5}
+        - {x: 42, y: -172.5}
+        - {x: 60, y: -72.5}
+        - {x: 60, y: -20.5}
     - name: Ecstasy_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 928
-        y: 3179
-        width: 264
-        height: 880
+        x: 417
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 57.5}
+        - {x: 60.5, y: 186.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 63.5}
+        - {x: -53.5, y: -20.5}
+        - {x: -60.5, y: -36.5}
+        - {x: -60.5, y: -64.5}
+        - {x: -50.5, y: -167.5}
+        - {x: -26.5, y: -197.5}
+        - {x: -19.5, y: -198.5}
+        - {x: 17.5, y: -198.5}
+        - {x: 25.5, y: -196.5}
+        - {x: 45.5, y: -167.5}
+        - {x: 59.5, y: -36.5}
     - name: Ecstasy_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1220
-        y: 3179
-        width: 263
-        height: 880
+        x: 548
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 104.5}
+        - {x: 60, y: 169.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 174.5}
+        - {x: -53, y: 139.5}
+        - {x: -59, y: -39.5}
+        - {x: -50, y: -164.5}
+        - {x: -26, y: -198.5}
+        - {x: 26, y: -198.5}
+        - {x: 30, y: -197.5}
+        - {x: 43, y: -173.5}
+        - {x: 47, y: -71.5}
+        - {x: 58, y: -53.5}
     - name: Ecstasy_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1508
-        y: 3179
-        width: 266
-        height: 880
+        x: 678
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 106.5}
+        - {x: 60.5, y: 189.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 146.5}
+        - {x: -55.5, y: 87.5}
+        - {x: -49.5, y: 47.5}
+        - {x: -58.5, y: -41.5}
+        - {x: -59.5, y: -57.5}
+        - {x: -49.5, y: -161.5}
+        - {x: -26.5, y: -198.5}
+        - {x: 26.5, y: -198.5}
+        - {x: 42.5, y: -169.5}
+        - {x: 43.5, y: -102.5}
+        - {x: 60.5, y: -36.5}
     - name: Ecstasy_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 3176
-        width: 263
-        height: 883
+        x: 809
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -18.5}
+        - {x: 54, y: 9.5}
+        - {x: 60, y: 154.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 86.5}
+        - {x: -52, y: 9.5}
+        - {x: -60, y: -22.5}
+        - {x: -60, y: -89.5}
+        - {x: -54, y: -165.5}
+        - {x: -29, y: -198.5}
+        - {x: 25, y: -198.5}
+        - {x: 35, y: -186.5}
+        - {x: 43, y: -168.5}
+        - {x: 60, y: -106.5}
     - name: Ecstasy_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 2090
-        y: 3176
-        width: 264
-        height: 883
+        x: 939
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: -12.5}
+        - {x: 45.5, y: 106.5}
+        - {x: 60.5, y: 189.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 155.5}
+        - {x: -55.5, y: 87.5}
+        - {x: -49.5, y: 46.5}
+        - {x: -60.5, y: -57.5}
+        - {x: -53.5, y: -166.5}
+        - {x: -27.5, y: -198.5}
+        - {x: 21.5, y: -198.5}
+        - {x: 41.5, y: -179.5}
+        - {x: 48.5, y: -77.5}
+        - {x: 60.5, y: -44.5}
     - name: Ecstasy_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 2379
-        y: 3179
-        width: 263
-        height: 880
+        x: 1070
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -36.5}
+        - {x: 46, y: 46.5}
+        - {x: 60, y: 181.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 176.5}
+        - {x: -49, y: 129.5}
+        - {x: -60, y: 90.5}
+        - {x: -60, y: 85.5}
+        - {x: -54, y: 9.5}
+        - {x: -60, y: -68.5}
+        - {x: -48, y: -167.5}
+        - {x: -39, y: -197.5}
+        - {x: -36, y: -198.5}
+        - {x: 23, y: -198.5}
+        - {x: 34, y: -185.5}
+        - {x: 43, y: -168.5}
+        - {x: 60, y: -38.5}
     - name: Ecstasy_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 2670
-        y: 3179
-        width: 263
-        height: 880
+        x: 1200
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 188.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 149.5}
+        - {x: -53.5, y: 73.5}
+        - {x: -52.5, y: 60.5}
+        - {x: -47.5, y: -22.5}
+        - {x: -60.5, y: -40.5}
+        - {x: -60.5, y: -44.5}
+        - {x: -48.5, y: -165.5}
+        - {x: -34.5, y: -198.5}
+        - {x: 33.5, y: -198.5}
+        - {x: 42.5, y: -169.5}
+        - {x: 60.5, y: -36.5}
+        - {x: 45.5, y: 106.5}
     - name: Ecstasy_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 2958
-        y: 3179
-        width: 264
-        height: 880
+        x: 1331
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 47.5}
+        - {x: 60, y: 185.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 176.5}
+        - {x: -49, y: 129.5}
+        - {x: -60, y: 90.5}
+        - {x: -60, y: 86.5}
+        - {x: -52, y: 9.5}
+        - {x: -60, y: -29.5}
+        - {x: -60, y: -57.5}
+        - {x: -47, y: -165.5}
+        - {x: -36, y: -194.5}
+        - {x: -29, y: -198.5}
+        - {x: 27, y: -198.5}
+        - {x: 53, y: -169.5}
+        - {x: 60, y: -76.5}
+        - {x: 60, y: -27.5}
     - name: Ecstasy_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 3249
-        y: 3179
-        width: 264
-        height: 880
+        x: 1461
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 48.5}
+        - {x: 60.5, y: 185.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 143.5}
+        - {x: -54.5, y: 72.5}
+        - {x: -60.5, y: -12.5}
+        - {x: -60.5, y: -63.5}
+        - {x: -51.5, y: -166.5}
+        - {x: -27.5, y: -196.5}
+        - {x: -20.5, y: -198.5}
+        - {x: 24.5, y: -198.5}
+        - {x: 47.5, y: -170.5}
+        - {x: 58.5, y: -59.5}
+        - {x: 52.5, y: -7.5}
     - name: Ecstasy_spritesheet_12
       rect:
         serializedVersion: 2
-        x: 3538
-        y: 3179
-        width: 266
-        height: 880
+        x: 1592
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 147.5}
+        - {x: 60, y: 187.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 176.5}
+        - {x: -49, y: 129.5}
+        - {x: -60, y: 90.5}
+        - {x: -60, y: 85.5}
+        - {x: -54, y: 9.5}
+        - {x: -60, y: -68.5}
+        - {x: -47, y: -160.5}
+        - {x: -32, y: -191.5}
+        - {x: -26, y: -198.5}
+        - {x: 36, y: -198.5}
+        - {x: 60, y: -76.5}
+        - {x: 60, y: 0.5}
+        - {x: 45, y: 85.5}
     - name: Ecstasy_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 3829
-        y: 3176
-        width: 263
-        height: 883
+        x: 1722
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 179.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 132.5}
+        - {x: -57.5, y: 91.5}
+        - {x: -46.5, y: -18.5}
+        - {x: -60.5, y: -35.5}
+        - {x: -60.5, y: -104.5}
+        - {x: -57.5, y: -146.5}
+        - {x: -40.5, y: -191.5}
+        - {x: -29.5, y: -198.5}
+        - {x: 21.5, y: -198.5}
+        - {x: 28.5, y: -197.5}
+        - {x: 43.5, y: -169.5}
+        - {x: 59.5, y: -55.5}
+        - {x: 47.5, y: 79.5}
     - name: Ecstasy_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 4120
-        y: 3176
-        width: 264
-        height: 883
+        x: 1853
+        y: 1430
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 10.5}
+        - {x: 60, y: 182.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 176.5}
+        - {x: -52, y: 139.5}
+        - {x: -57, y: 9.5}
+        - {x: -60, y: -46.5}
+        - {x: -60, y: -76.5}
+        - {x: -48, y: -161.5}
+        - {x: -26, y: -197.5}
+        - {x: -22, y: -198.5}
+        - {x: 24, y: -198.5}
+        - {x: 50, y: -170.5}
+        - {x: 60, y: -59.5}
+        - {x: 60, y: -51.5}
     - name: Ecstasy_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 4409
-        y: 3179
-        width: 263
-        height: 880
+        x: 1983
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 71.5}
+        - {x: 60.5, y: 184.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 140.5}
+        - {x: -57.5, y: 72.5}
+        - {x: -60.5, y: -16.5}
+        - {x: -60.5, y: -50.5}
+        - {x: -48.5, y: -167.5}
+        - {x: -37.5, y: -198.5}
+        - {x: 38.5, y: -198.5}
+        - {x: 41.5, y: -169.5}
+        - {x: 58.5, y: -69.5}
+        - {x: 56.5, y: -5.5}
     - name: Ecstasy_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 4700
-        y: 3179
-        width: 263
-        height: 880
+        x: 2113
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 11.5}
+        - {x: 53.5, y: 147.5}
+        - {x: 60.5, y: 188.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 186.5}
+        - {x: -55.5, y: 166.5}
+        - {x: -60.5, y: -39.5}
+        - {x: -51.5, y: -160.5}
+        - {x: -27.5, y: -198.5}
+        - {x: 21.5, y: -198.5}
+        - {x: 49.5, y: -175.5}
+        - {x: 55.5, y: -93.5}
+        - {x: 60.5, y: -21.5}
     - name: Ecstasy_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 4988
-        y: 3179
-        width: 263
-        height: 880
+        x: 2244
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 28.5}
+        - {x: 55.5, y: 70.5}
+        - {x: 60.5, y: 144.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 131.5}
+        - {x: -48.5, y: 11.5}
+        - {x: -60.5, y: -57.5}
+        - {x: -48.5, y: -167.5}
+        - {x: -35.5, y: -188.5}
+        - {x: -27.5, y: -198.5}
+        - {x: 38.5, y: -198.5}
+        - {x: 60.5, y: -68.5}
+        - {x: 60.5, y: -26.5}
+        - {x: 47.5, y: -3.5}
     - name: Ecstasy_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 5279
-        y: 3179
-        width: 264
-        height: 880
+        x: 2374
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 47.5}
+        - {x: 54.5, y: 147.5}
+        - {x: 60.5, y: 187.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 185.5}
+        - {x: -56.5, y: 165.5}
+        - {x: -50.5, y: -20.5}
+        - {x: -57.5, y: -39.5}
+        - {x: -51.5, y: -162.5}
+        - {x: -25.5, y: -198.5}
+        - {x: 28.5, y: -198.5}
+        - {x: 51.5, y: -169.5}
+        - {x: 60.5, y: -68.5}
+        - {x: 60.5, y: -44.5}
     - name: Ecstasy_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 5568
-        y: 3179
-        width: 266
-        height: 880
+        x: 2505
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 71.5}
+        - {x: 60.5, y: 166.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 178.5}
+        - {x: -58.5, y: 166.5}
+        - {x: -51.5, y: 12.5}
+        - {x: -60.5, y: -28.5}
+        - {x: -60.5, y: -69.5}
+        - {x: -51.5, y: -163.5}
+        - {x: -42.5, y: -195.5}
+        - {x: -29.5, y: -198.5}
+        - {x: 37.5, y: -198.5}
+        - {x: 60.5, y: -69.5}
+        - {x: 60.5, y: 0.5}
     - name: Ecstasy_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 5859
-        y: 3176
-        width: 263
-        height: 883
+        x: 2635
+        y: 1430
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 135.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 152.5}
+        - {x: -51.5, y: 62.5}
+        - {x: -48.5, y: 52.5}
+        - {x: -60.5, y: -57.5}
+        - {x: -60.5, y: -59.5}
+        - {x: -53.5, y: -162.5}
+        - {x: -25.5, y: -198.5}
+        - {x: 23.5, y: -198.5}
+        - {x: 41.5, y: -188.5}
+        - {x: 60.5, y: -67.5}
+        - {x: 57.5, y: -7.5}
     - name: Ecstasy_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 160
-        y: 2441
+        x: 73
+        y: 1100
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Ecstasy_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1085
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22}
+        - {x: -22, y: 14}
+        - {x: -22, y: -13}
+        - {x: -13, y: -22}
+        - {x: 20, y: -22}
+        - {x: 22, y: -15}
+        - {x: 22, y: 17}
+        - {x: 16, y: 22}
+    - name: Ecstasy_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1071
         width: 62
         height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ecstasy_spritesheet_22
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 2410
-        width: 99
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Ecstasy_spritesheet_23
-      rect:
-        serializedVersion: 2
-        x: 702
-        y: 2379
-        width: 139
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 31}
+        - {x: -31, y: 19}
+        - {x: -31, y: -22}
+        - {x: -22, y: -31}
+        - {x: 19, y: -31}
+        - {x: 31, y: -27}
+        - {x: 31, y: 26}
+        - {x: 20, y: 31}
     - name: Ecstasy_spritesheet_24
       rect:
         serializedVersion: 2
-        x: 968
-        y: 2342
-        width: 183
-        height: 186
+        x: 436
+        y: 1054
+        width: 82
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 41}
+        - {x: -41, y: 34}
+        - {x: -41, y: -18}
+        - {x: -38, y: -30}
+        - {x: -32, y: -41}
+        - {x: 29, y: -41}
+        - {x: 41, y: -37}
+        - {x: 41, y: 41}
     - name: Ecstasy_spritesheet_25
       rect:
         serializedVersion: 2
-        x: 1238
-        y: 2292
-        width: 223
-        height: 248
+        x: 558
+        y: 1030
+        width: 99
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 56.5}
+        - {x: -49.5, y: 45.5}
+        - {x: -49.5, y: -15.5}
+        - {x: -42.5, y: -44.5}
+        - {x: -25.5, y: -56.5}
+        - {x: 20.5, y: -56.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 49.5, y: 39.5}
+        - {x: 33.5, y: 56.5}
     - name: Ecstasy_spritesheet_26
       rect:
         serializedVersion: 2
-        x: 1523
-        y: 2234
-        width: 236
-        height: 313
+        x: 685
+        y: 1006
+        width: 106
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 70.5}
+        - {x: -53, y: 55.5}
+        - {x: -53, y: -64.5}
+        - {x: -30, y: -70.5}
+        - {x: 53, y: -70.5}
+        - {x: 53, y: 70.5}
     - name: Ecstasy_spritesheet_27
       rect:
         serializedVersion: 2
-        x: 1818
-        y: 2184
-        width: 241
-        height: 378
+        x: 819
+        y: 984
+        width: 107
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 84}
+        - {x: -53.5, y: -43}
+        - {x: -46.5, y: -84}
+        - {x: 41.5, y: -84}
+        - {x: 53.5, y: -25}
+        - {x: 53.5, y: 76}
+        - {x: 28.5, y: 84}
     - name: Ecstasy_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 2090
-        y: 2165
-        width: 239
-        height: 434
+        x: 941
+        y: 975
+        width: 107
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 97}
+        - {x: -53.5, y: 93}
+        - {x: -53.5, y: -55}
+        - {x: -51.5, y: -60}
+        - {x: -26.5, y: -97}
+        - {x: 33.5, y: -97}
+        - {x: 37.5, y: -96}
+        - {x: 53.5, y: -23}
+        - {x: 53.5, y: 88}
+        - {x: 42.5, y: 97}
     - name: Ecstasy_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 2379
-        y: 2165
-        width: 260
-        height: 884
+        x: 1069
+        y: 975
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -24.5}
+        - {x: 45, y: 79.5}
+        - {x: 60, y: 184.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 182.5}
+        - {x: -58, y: 169.5}
+        - {x: -55, y: 72.5}
+        - {x: -46, y: 11.5}
+        - {x: -60, y: -37.5}
+        - {x: -60, y: -56.5}
+        - {x: -52, y: -162.5}
+        - {x: -28, y: -198.5}
+        - {x: 24, y: -198.5}
+        - {x: 29, y: -197.5}
+        - {x: 44, y: -169.5}
+        - {x: 47, y: -76.5}
+        - {x: 60, y: -41.5}
+      - - {x: -57, y: -60.5}
+        - {x: -57, y: -57.5}
+        - {x: -60, y: -56.5}
+        - {x: -60, y: -61.5}
     - name: Ecstasy_spritesheet_30
       rect:
         serializedVersion: 2
-        x: 2670
-        y: 2165
-        width: 263
-        height: 884
+        x: 1200
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 72.5}
+        - {x: 60.5, y: 183.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 139.5}
+        - {x: -53.5, y: 60.5}
+        - {x: -57.5, y: -42.5}
+        - {x: -56.5, y: -62.5}
+        - {x: -51.5, y: -165.5}
+        - {x: -31.5, y: -198.5}
+        - {x: 24.5, y: -198.5}
+        - {x: 39.5, y: -193.5}
+        - {x: 41.5, y: -169.5}
+        - {x: 57.5, y: -55.5}
+        - {x: 54.5, y: -11.5}
+      - - {x: -57.5, y: -60.5}
+        - {x: -57.5, y: -57.5}
+        - {x: -60.5, y: -56.5}
+        - {x: -60.5, y: -61.5}
     - name: Ecstasy_spritesheet_31
       rect:
         serializedVersion: 2
-        x: 2958
-        y: 2165
-        width: 267
-        height: 884
+        x: 1330
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 186.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 151.5}
+        - {x: -53.5, y: 102.5}
+        - {x: -54.5, y: 50.5}
+        - {x: -60.5, y: -27.5}
+        - {x: -60.5, y: -51.5}
+        - {x: -52.5, y: -164.5}
+        - {x: -25.5, y: -198.5}
+        - {x: 28.5, y: -198.5}
+        - {x: 44.5, y: -167.5}
+        - {x: 58.5, y: -37.5}
+        - {x: 45.5, y: 67.5}
+      - - {x: -57.5, y: -60.5}
+        - {x: -57.5, y: -57.5}
+        - {x: -60.5, y: -56.5}
+        - {x: -60.5, y: -61.5}
     - name: Ecstasy_spritesheet_32
       rect:
         serializedVersion: 2
-        x: 3246
-        y: 2165
-        width: 267
-        height: 884
+        x: 1461
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 146.5}
+        - {x: 60.5, y: 187.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 150.5}
+        - {x: -57.5, y: 91.5}
+        - {x: -51.5, y: 35.5}
+        - {x: -59.5, y: -63.5}
+        - {x: -46.5, y: -164.5}
+        - {x: -36.5, y: -195.5}
+        - {x: -26.5, y: -198.5}
+        - {x: 24.5, y: -198.5}
+        - {x: 45.5, y: -170.5}
+        - {x: 57.5, y: -55.5}
+        - {x: 52.5, y: -7.5}
+      - - {x: -60.5, y: -61.5}
+        - {x: -57.5, y: -60.5}
+        - {x: -57.5, y: -57.5}
+        - {x: -59.5, y: -55.5}
+        - {x: -60.5, y: -55.5}
     - name: Ecstasy_spritesheet_33
       rect:
         serializedVersion: 2
-        x: 3538
-        y: 2165
-        width: 266
-        height: 884
+        x: 1591
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 184.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 188.5}
+        - {x: -51.5, y: 168.5}
+        - {x: -54.5, y: 89.5}
+        - {x: -60.5, y: -29.5}
+        - {x: -60.5, y: -46.5}
+        - {x: -52.5, y: -147.5}
+        - {x: -35.5, y: -193.5}
+        - {x: -22.5, y: -198.5}
+        - {x: 24.5, y: -198.5}
+        - {x: 46.5, y: -167.5}
+        - {x: 59.5, y: -37.5}
+        - {x: 42.5, y: 30.5}
+      - - {x: -60.5, y: -55.5}
+        - {x: -60.5, y: -61.5}
+        - {x: -58.5, y: -61.5}
+        - {x: -56.5, y: -59.5}
+        - {x: -56.5, y: -57.5}
+        - {x: -58.5, y: -55.5}
     - name: Ecstasy_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 3826
-        y: 2165
-        width: 269
-        height: 884
+        x: 1722
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 22.5}
+        - {x: 55.5, y: 146.5}
+        - {x: 60.5, y: 187.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 175.5}
+        - {x: -54.5, y: 137.5}
+        - {x: -57.5, y: 46.5}
+        - {x: -58.5, y: -63.5}
+        - {x: -46.5, y: -164.5}
+        - {x: -36.5, y: -195.5}
+        - {x: -24.5, y: -198.5}
+        - {x: 26.5, y: -198.5}
+        - {x: 39.5, y: -187.5}
+        - {x: 57.5, y: -55.5}
+        - {x: 52.5, y: -7.5}
+      - - {x: -60.5, y: -61.5}
+        - {x: -57.5, y: -60.5}
+        - {x: -57.5, y: -57.5}
+        - {x: -59.5, y: -55.5}
+        - {x: -60.5, y: -55.5}
     - name: Ecstasy_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 4117
-        y: 2165
-        width: 267
-        height: 884
+        x: 1852
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 148.5}
+        - {x: 60.5, y: 188.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 178.5}
+        - {x: -46.5, y: 138.5}
+        - {x: -56.5, y: 66.5}
+        - {x: -60.5, y: -35.5}
+        - {x: -60.5, y: -64.5}
+        - {x: -45.5, y: -169.5}
+        - {x: -26.5, y: -197.5}
+        - {x: -21.5, y: -198.5}
+        - {x: 29.5, y: -198.5}
+        - {x: 47.5, y: -167.5}
+        - {x: 59.5, y: -37.5}
+        - {x: 43.5, y: 31.5}
+      - - {x: -57.5, y: -60.5}
+        - {x: -57.5, y: -57.5}
+        - {x: -60.5, y: -56.5}
+        - {x: -60.5, y: -61.5}
     - name: Ecstasy_spritesheet_36
       rect:
         serializedVersion: 2
-        x: 4409
-        y: 2165
-        width: 266
-        height: 884
+        x: 1983
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: 146.5}
+        - {x: 60.5, y: 188.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 181.5}
+        - {x: -50.5, y: 126.5}
+        - {x: -56.5, y: 66.5}
+        - {x: -49.5, y: 11.5}
+        - {x: -60.5, y: -55.5}
+        - {x: -60.5, y: -73.5}
+        - {x: -46.5, y: -164.5}
+        - {x: -38.5, y: -198.5}
+        - {x: 35.5, y: -198.5}
+        - {x: 42.5, y: -169.5}
+        - {x: 57.5, y: -55.5}
+        - {x: 54.5, y: -11.5}
+      - - {x: -57.5, y: -60.5}
+        - {x: -57.5, y: -57.5}
+        - {x: -60.5, y: -56.5}
+        - {x: -60.5, y: -61.5}
     - name: Ecstasy_spritesheet_37
       rect:
         serializedVersion: 2
-        x: 4697
-        y: 2165
-        width: 266
-        height: 884
+        x: 2113
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 67.5}
+        - {x: 60.5, y: 181.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 187.5}
+        - {x: -53.5, y: 167.5}
+        - {x: -58.5, y: 90.5}
+        - {x: -59.5, y: -58.5}
+        - {x: -51.5, y: -147.5}
+        - {x: -35.5, y: -193.5}
+        - {x: -26.5, y: -198.5}
+        - {x: 20.5, y: -198.5}
+        - {x: 27.5, y: -197.5}
+        - {x: 45.5, y: -167.5}
+        - {x: 60.5, y: -64.5}
+        - {x: 60.5, y: -38.5}
     - name: Ecstasy_spritesheet_38
       rect:
         serializedVersion: 2
-        x: 4988
-        y: 2165
-        width: 267
-        height: 884
+        x: 2244
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 142.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 152.5}
+        - {x: -56.5, y: 91.5}
+        - {x: -46.5, y: 11.5}
+        - {x: -60.5, y: -46.5}
+        - {x: -60.5, y: -74.5}
+        - {x: -45.5, y: -174.5}
+        - {x: -35.5, y: -198.5}
+        - {x: 38.5, y: -198.5}
+        - {x: 48.5, y: -77.5}
+        - {x: 57.5, y: -55.5}
+        - {x: 52.5, y: -7.5}
     - name: Ecstasy_spritesheet_39
       rect:
         serializedVersion: 2
-        x: 5279
-        y: 2165
-        width: 264
-        height: 884
+        x: 2374
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 110.5}
+        - {x: -59.5, y: 89.5}
+        - {x: -60.5, y: 11.5}
+        - {x: -60.5, y: -60.5}
+        - {x: -52.5, y: -87.5}
+        - {x: -46.5, y: -161.5}
+        - {x: -42.5, y: -167.5}
+        - {x: -30.5, y: -191.5}
+        - {x: -24.5, y: -198.5}
+        - {x: 20.5, y: -198.5}
+        - {x: 30.5, y: -196.5}
+        - {x: 43.5, y: -167.5}
+        - {x: 58.5, y: -53.5}
+        - {x: 60.5, y: 89.5}
     - name: Ecstasy_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 5568
-        y: 2165
-        width: 266
-        height: 884
+        x: 2505
+        y: 975
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 107.5}
+        - {x: 60.5, y: 173.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 180.5}
+        - {x: -52.5, y: 153.5}
+        - {x: -57.5, y: -16.5}
+        - {x: -60.5, y: -24.5}
+        - {x: -60.5, y: -109.5}
+        - {x: -41.5, y: -193.5}
+        - {x: -31.5, y: -198.5}
+        - {x: 21.5, y: -198.5}
+        - {x: 30.5, y: -196.5}
+        - {x: 42.5, y: -169.5}
+        - {x: 60.5, y: -58.5}
+        - {x: 60.5, y: -6.5}
     - name: Ecstasy_spritesheet_41
       rect:
         serializedVersion: 2
-        x: 57
-        y: 1176
-        width: 267
-        height: 881
+        x: 26
+        y: 529
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: -9.5}
+        - {x: 46, y: 82.5}
+        - {x: 60, y: 187.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 182.5}
+        - {x: -53, y: 156.5}
+        - {x: -60, y: -58.5}
+        - {x: -47, y: -163.5}
+        - {x: -26, y: -198.5}
+        - {x: 26, y: -198.5}
+        - {x: 34, y: -197.5}
+        - {x: 43, y: -168.5}
+        - {x: 45, y: -74.5}
+        - {x: 59, y: -53.5}
     - name: Ecstasy_spritesheet_42
       rect:
         serializedVersion: 2
-        x: 349
-        y: 1176
-        width: 266
-        height: 881
+        x: 156
+        y: 529
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.5, y: 142.5}
+        - {x: 60.5, y: 189.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 137.5}
+        - {x: -52.5, y: 60.5}
+        - {x: -60.5, y: -43.5}
+        - {x: -60.5, y: -77.5}
+        - {x: -57.5, y: -145.5}
+        - {x: -33.5, y: -198.5}
+        - {x: 24.5, y: -198.5}
+        - {x: 44.5, y: -169.5}
+        - {x: 43.5, y: -76.5}
+        - {x: 59.5, y: -55.5}
     - name: Ecstasy_spritesheet_43
       rect:
         serializedVersion: 2
-        x: 637
-        y: 1176
-        width: 266
-        height: 881
+        x: 287
+        y: 529
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 9.5}
+        - {x: 47, y: 83.5}
+        - {x: 60, y: 187.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 182.5}
+        - {x: -53, y: 156.5}
+        - {x: -55, y: 61.5}
+        - {x: -44, y: 42.5}
+        - {x: -59, y: -58.5}
+        - {x: -54, y: -154.5}
+        - {x: -33, y: -198.5}
+        - {x: 26, y: -198.5}
+        - {x: 33, y: -196.5}
+        - {x: 44, y: -173.5}
+        - {x: 60, y: -38.5}
+        - {x: 60, y: -37.5}
     - name: Ecstasy_spritesheet_44
       rect:
         serializedVersion: 2
-        x: 928
-        y: 1173
-        width: 267
-        height: 884
+        x: 417
+        y: 528
+        width: 121
+        height: 398
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -161}
+        - {x: 56.5, y: -55}
+        - {x: 60.5, y: 37}
+        - {x: 60.5, y: 199}
+        - {x: -60.5, y: 199}
+        - {x: -60.5, y: -135}
+        - {x: -41.5, y: -199}
+        - {x: -6.5, y: -199}
+        - {x: -3.5, y: -193}
+        - {x: -3.5, y: -191}
+        - {x: -3.5, y: -199}
+        - {x: 17.5, y: -199}
+        - {x: 26.5, y: -193}
+        - {x: 33.5, y: -185}
+        - {x: 41.5, y: -166}
     - name: Ecstasy_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 1220
-        y: 1176
-        width: 263
-        height: 881
+        x: 548
+        y: 529
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 104.5}
+        - {x: 60, y: 189.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 183.5}
+        - {x: -50, y: 156.5}
+        - {x: -55, y: 61.5}
+        - {x: -60, y: -2.5}
+        - {x: -60, y: -84.5}
+        - {x: -41, y: -191.5}
+        - {x: -33, y: -198.5}
+        - {x: 29, y: -198.5}
+        - {x: 49, y: -194.5}
+        - {x: 52, y: -76.5}
+        - {x: 59, y: -53.5}
+        - {x: 53, y: -9.5}
     - name: Ecstasy_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 1508
-        y: 1173
-        width: 266
-        height: 884
+        x: 678
+        y: 528
+        width: 121
+        height: 398
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 176}
+        - {x: 60.5, y: 199}
+        - {x: -60.5, y: 199}
+        - {x: -60.5, y: 143}
+        - {x: -53.5, y: 88}
+        - {x: -52.5, y: 61}
+        - {x: -60.5, y: -36}
+        - {x: -60.5, y: -46}
+        - {x: -42.5, y: -188}
+        - {x: -26.5, y: -199}
+        - {x: 27.5, y: -199}
+        - {x: 42.5, y: -179}
+        - {x: 57.5, y: -37}
+        - {x: 47.5, y: 107}
     - name: Ecstasy_spritesheet_47
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 1173
-        width: 263
-        height: 884
+        x: 809
+        y: 528
+        width: 120
+        height: 398
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 11}
+        - {x: 53, y: 148}
+        - {x: 60, y: 189}
+        - {x: 60, y: 199}
+        - {x: -60, y: 199}
+        - {x: -60, y: 184}
+        - {x: -50, y: 157}
+        - {x: -55, y: 62}
+        - {x: -60, y: -48}
+        - {x: -60, y: -63}
+        - {x: -52, y: -149}
+        - {x: -43, y: -199}
+        - {x: 37, y: -199}
+        - {x: 43, y: -165}
+        - {x: 60, y: -81}
+        - {x: 60, y: -34}
     - name: Ecstasy_spritesheet_48
       rect:
         serializedVersion: 2
-        x: 2087
-        y: 1176
-        width: 267
-        height: 881
+        x: 939
+        y: 529
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 175.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 191.5}
+        - {x: -55.5, y: 173.5}
+        - {x: -55.5, y: 87.5}
+        - {x: -60.5, y: -11.5}
+        - {x: -60.5, y: -58.5}
+        - {x: -50.5, y: -159.5}
+        - {x: -35.5, y: -198.5}
+        - {x: 36.5, y: -198.5}
+        - {x: 60.5, y: -93.5}
+        - {x: 60.5, y: 32.5}
+        - {x: 47.5, y: 106.5}
     - name: Ecstasy_spritesheet_49
       rect:
         serializedVersion: 2
-        x: 2379
-        y: 1176
-        width: 266
-        height: 881
+        x: 1070
+        y: 529
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 188.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 183.5}
+        - {x: -50, y: 156.5}
+        - {x: -55, y: 61.5}
+        - {x: -60, y: -48.5}
+        - {x: -60, y: -64.5}
+        - {x: -53, y: -158.5}
+        - {x: -36, y: -198.5}
+        - {x: 27, y: -198.5}
+        - {x: 45, y: -185.5}
+        - {x: 59, y: -53.5}
+        - {x: 53, y: -9.5}
+        - {x: 53, y: 147.5}
     - name: Ecstasy_spritesheet_50
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 1173
-        width: 266
-        height: 884
+        x: 1200
+        y: 528
+        width: 121
+        height: 398
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 199}
+        - {x: -60.5, y: 188}
+        - {x: -55.5, y: 178}
+        - {x: -50.5, y: 167}
+        - {x: -53.5, y: 88}
+        - {x: -52.5, y: 61}
+        - {x: -60.5, y: 16}
+        - {x: -60.5, y: -102}
+        - {x: -44.5, y: -197}
+        - {x: -40.5, y: -199}
+        - {x: 27.5, y: -199}
+        - {x: 45.5, y: -187}
+        - {x: 60.5, y: -51}
+        - {x: 60.5, y: 199}
     - name: Ecstasy_spritesheet_51
       rect:
         serializedVersion: 2
-        x: 2958
-        y: 1176
-        width: 267
-        height: 881
+        x: 1331
+        y: 529
+        width: 120
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 166.5}
+        - {x: 60, y: 198.5}
+        - {x: -60, y: 198.5}
+        - {x: -60, y: 133.5}
+        - {x: -58, y: 108.5}
+        - {x: -58, y: -40.5}
+        - {x: -56, y: -57.5}
+        - {x: -60, y: -75.5}
+        - {x: -60, y: -104.5}
+        - {x: -40, y: -198.5}
+        - {x: 28, y: -198.5}
+        - {x: 44, y: -168.5}
+        - {x: 59, y: -53.5}
+        - {x: 48, y: 103.5}
     - name: Ecstasy_spritesheet_52
       rect:
         serializedVersion: 2
-        x: 3249
-        y: 1176
-        width: 264
-        height: 881
+        x: 1461
+        y: 529
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 187.5}
+        - {x: -55.5, y: 177.5}
+        - {x: -50.5, y: 166.5}
+        - {x: -53.5, y: 87.5}
+        - {x: -60.5, y: 59.5}
+        - {x: -60.5, y: -167.5}
+        - {x: -29.5, y: -198.5}
+        - {x: 21.5, y: -198.5}
+        - {x: 26.5, y: -197.5}
+        - {x: 31.5, y: -189.5}
+        - {x: 41.5, y: -169.5}
+        - {x: 60.5, y: -55.5}
     - name: Ecstasy_spritesheet_53
       rect:
         serializedVersion: 2
-        x: 60
-        y: 163
-        width: 264
-        height: 883
+        x: 26
+        y: 74
+        width: 120
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -24}
+        - {x: 51, y: 66}
+        - {x: 60, y: 170}
+        - {x: 60, y: 198}
+        - {x: -60, y: 198}
+        - {x: -60, y: 168}
+        - {x: -56, y: 139}
+        - {x: -58, y: 89}
+        - {x: -48, y: 41}
+        - {x: -60, y: -41}
+        - {x: -60, y: -43}
+        - {x: -58, y: -152}
+        - {x: -31, y: -198}
+        - {x: 27, y: -198}
+        - {x: 39, y: -194}
+        - {x: 43, y: -169}
+        - {x: 46, y: -72}
+        - {x: 60, y: -58}
     - name: Ecstasy_spritesheet_54
       rect:
         serializedVersion: 2
-        x: 349
-        y: 163
-        width: 263
-        height: 883
+        x: 156
+        y: 73
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 107.5}
+        - {x: 52.5, y: 145.5}
+        - {x: 60.5, y: 189.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 145.5}
+        - {x: -56.5, y: 90.5}
+        - {x: -57.5, y: -20.5}
+        - {x: -60.5, y: -55.5}
+        - {x: -60.5, y: -104.5}
+        - {x: -40.5, y: -193.5}
+        - {x: -27.5, y: -198.5}
+        - {x: 30.5, y: -198.5}
+        - {x: 40.5, y: -189.5}
+        - {x: 56.5, y: -55.5}
+        - {x: 51.5, y: -7.5}
     - name: Ecstasy_spritesheet_55
       rect:
         serializedVersion: 2
-        x: 640
-        y: 153
-        width: 263
-        height: 893
+        x: 287
+        y: 69
+        width: 120
+        height: 401
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 84.5}
+        - {x: 60, y: 173.5}
+        - {x: 60, y: 200.5}
+        - {x: -60, y: 200.5}
+        - {x: -60, y: 170.5}
+        - {x: -56, y: 141.5}
+        - {x: -60, y: 94.5}
+        - {x: -60, y: 88.5}
+        - {x: -53, y: 11.5}
+        - {x: -60, y: -25.5}
+        - {x: -60, y: -149.5}
+        - {x: -35, y: -200.5}
+        - {x: 28, y: -200.5}
+        - {x: 42, y: -195.5}
+        - {x: 50, y: -70.5}
+        - {x: 60, y: -56.5}
+        - {x: 60, y: -15.5}
     - name: Ecstasy_spritesheet_56
       rect:
         serializedVersion: 2
-        x: 928
-        y: 163
-        width: 264
-        height: 883
+        x: 417
+        y: 73
+        width: 121
+        height: 397
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 170.5}
+        - {x: 60.5, y: 198.5}
+        - {x: -60.5, y: 198.5}
+        - {x: -60.5, y: 144.5}
+        - {x: -47.5, y: -22.5}
+        - {x: -60.5, y: -36.5}
+        - {x: -60.5, y: -81.5}
+        - {x: -54.5, y: -148.5}
+        - {x: -37.5, y: -192.5}
+        - {x: -25.5, y: -198.5}
+        - {x: 27.5, y: -198.5}
+        - {x: 47.5, y: -170.5}
+        - {x: 56.5, y: -55.5}
+        - {x: 46.5, y: 62.5}
     - name: Ecstasy_spritesheet_57
       rect:
         serializedVersion: 2
-        x: 1220
-        y: 163
-        width: 263
-        height: 883
+        x: 548
+        y: 74
+        width: 120
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -35}
+        - {x: 49, y: 105}
+        - {x: 60, y: 186}
+        - {x: 60, y: 198}
+        - {x: -60, y: 198}
+        - {x: -60, y: 168}
+        - {x: -56, y: 139}
+        - {x: -58, y: 89}
+        - {x: -48, y: 41}
+        - {x: -60, y: -41}
+        - {x: -60, y: -42}
+        - {x: -50, y: -165}
+        - {x: -28, y: -198}
+        - {x: 25, y: -198}
+        - {x: 34, y: -186}
+        - {x: 43, y: -169}
+        - {x: 60, y: -64}
     - name: Ecstasy_spritesheet_58
       rect:
         serializedVersion: 2
-        x: 1508
-        y: 163
-        width: 263
-        height: 883
+        x: 678
+        y: 74
+        width: 121
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 72}
+        - {x: 60.5, y: 185}
+        - {x: 60.5, y: 198}
+        - {x: -60.5, y: 198}
+        - {x: -60.5, y: 123}
+        - {x: -47.5, y: -23}
+        - {x: -58.5, y: -42}
+        - {x: -59.5, y: -64}
+        - {x: -50.5, y: -163}
+        - {x: -29.5, y: -198}
+        - {x: 27.5, y: -198}
+        - {x: 50.5, y: -174}
+        - {x: 53.5, y: -65}
+        - {x: 59.5, y: -37}
     - name: Ecstasy_spritesheet_59
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 163
-        width: 263
-        height: 883
+        x: 809
+        y: 74
+        width: 120
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -58}
+        - {x: 60, y: -17}
+        - {x: 51, y: 105}
+        - {x: 60, y: 186}
+        - {x: 60, y: 198}
+        - {x: -60, y: 198}
+        - {x: -60, y: 135}
+        - {x: -57, y: 89}
+        - {x: -60, y: 22}
+        - {x: -60, y: -67}
+        - {x: -48, y: -168}
+        - {x: -28, y: -198}
+        - {x: 26, y: -198}
+        - {x: 38, y: -188}
+        - {x: 45, y: -156}
+        - {x: 46, y: -72}
     - name: Ecstasy_spritesheet_60
       rect:
         serializedVersion: 2
-        x: 2090
-        y: 163
-        width: 264
-        height: 883
+        x: 939
+        y: 74
+        width: 121
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: 100}
+        - {x: 60.5, y: 198}
+        - {x: -60.5, y: 198}
+        - {x: -60.5, y: 159}
+        - {x: -55.5, y: 91}
+        - {x: -54.5, y: -22}
+        - {x: -60.5, y: -52}
+        - {x: -60.5, y: -97}
+        - {x: -56.5, y: -148}
+        - {x: -34.5, y: -198}
+        - {x: 27.5, y: -198}
+        - {x: 50.5, y: -174}
+        - {x: 58.5, y: -56}
+        - {x: 55.5, y: -9}
     - name: Ecstasy_spritesheet_61
       rect:
         serializedVersion: 2
-        x: 2379
-        y: 163
-        width: 263
-        height: 883
+        x: 1070
+        y: 74
+        width: 120
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: -56}
+        - {x: 48, y: 85}
+        - {x: 53, y: 137}
+        - {x: 60, y: 187}
+        - {x: 60, y: 198}
+        - {x: -60, y: 198}
+        - {x: -60, y: 143}
+        - {x: -53, y: 61}
+        - {x: -59, y: -41}
+        - {x: -49, y: -168}
+        - {x: -28, y: -198}
+        - {x: 27, y: -198}
+        - {x: 45, y: -169}
+        - {x: 45, y: -69}
+        - {x: 60, y: -67}
     - name: Ecstasy_spritesheet_62
       rect:
         serializedVersion: 2
-        x: 2670
-        y: 163
-        width: 263
-        height: 883
+        x: 1200
+        y: 74
+        width: 121
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.5, y: -28}
+        - {x: 45.5, y: 47}
+        - {x: 60.5, y: 186}
+        - {x: 60.5, y: 198}
+        - {x: -60.5, y: 198}
+        - {x: -60.5, y: 110}
+        - {x: -50.5, y: -22}
+        - {x: -60.5, y: -37}
+        - {x: -60.5, y: -73}
+        - {x: -51.5, y: -164}
+        - {x: -28.5, y: -198}
+        - {x: 25.5, y: -198}
+        - {x: 49.5, y: -175}
+        - {x: 48.5, y: -79}
+        - {x: 60.5, y: -42}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

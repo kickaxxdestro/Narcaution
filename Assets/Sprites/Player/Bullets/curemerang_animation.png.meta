@@ -34,7 +34,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 512
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -68,16 +68,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 100, y: 66}
-        - {x: 49, y: 90}
-        - {x: -53, y: 90}
-        - {x: -100, y: 44}
-        - {x: -100, y: -52}
-        - {x: -81, y: -75}
-        - {x: -75, y: -75}
-        - {x: -73, y: -73}
-        - {x: -53, y: -75}
-        - {x: 100, y: -75}
+      - - {x: -71, y: 67}
+        - {x: -73, y: 56}
+        - {x: -73, y: -56}
+        - {x: 73, y: -56}
+        - {x: 73, y: 67}
     - name: curemerang_animation_1
       rect:
         serializedVersion: 2
@@ -89,18 +84,18 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -51, y: 100}
-        - {x: -74, y: 92}
-        - {x: -74, y: 75}
-        - {x: -73, y: 74}
-        - {x: -45, y: 76}
-        - {x: -74, y: -26}
-        - {x: -74, y: -95}
-        - {x: -57, y: -100}
-        - {x: 56, y: -100}
-        - {x: 92, y: -52}
-        - {x: 92, y: 58}
-        - {x: 52, y: 100}
+      - - {x: -49, y: 73}
+        - {x: -55, y: 71}
+        - {x: -55, y: -73}
+        - {x: 38, y: -73}
+        - {x: 69, y: -39}
+        - {x: 69, y: 42}
+        - {x: 48, y: 73}
+      - - {x: -73, y: -23}
+        - {x: -70, y: -22}
+        - {x: -70, y: 7}
+        - {x: -72, y: 9}
+        - {x: -73, y: 9}
     - name: curemerang_animation_2
       rect:
         serializedVersion: 2
@@ -112,14 +107,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -8, y: 100}
-        - {x: -100, y: 7}
-        - {x: -100, y: -63}
-        - {x: -64, y: -100}
-        - {x: 64, y: -100}
-        - {x: 100, y: -60}
-        - {x: 100, y: 62}
-        - {x: 51, y: 100}
+      - - {x: -11, y: 73}
+        - {x: -73, y: 8}
+        - {x: -73, y: -71}
+        - {x: -63, y: -73}
+        - {x: 69, y: -73}
+        - {x: 73, y: -49}
+        - {x: 73, y: 43}
+        - {x: 40, y: 73}
     - name: curemerang_animation_3
       rect:
         serializedVersion: 2
@@ -131,17 +126,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 75, y: 74}
-        - {x: 75, y: 73}
-        - {x: 60, y: 74}
-        - {x: -84, y: 74}
-        - {x: -100, y: 52}
-        - {x: -100, y: -85}
-        - {x: -58, y: -94}
-        - {x: 76, y: -94}
-        - {x: 100, y: -64}
-        - {x: 100, y: 59}
-        - {x: 96, y: 74}
+      - - {x: -62, y: 55}
+        - {x: -71, y: 51}
+        - {x: -73, y: 35}
+        - {x: -73, y: -26}
+        - {x: -61, y: -59}
+        - {x: -26, y: -69}
+        - {x: 44, y: -69}
+        - {x: 73, y: -41}
+        - {x: 73, y: 55}
     - name: curemerang_animation_4
       rect:
         serializedVersion: 2
@@ -153,21 +146,16 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -51, y: 100}
-        - {x: -91, y: 72}
-        - {x: -95, y: 52}
-        - {x: -95, y: -54}
-        - {x: -48, y: -100}
-        - {x: 97, y: -100}
-        - {x: 100, y: -99}
-        - {x: 100, y: 91}
-        - {x: 95, y: 100}
-      - - {x: -100, y: 35}
-        - {x: -100, y: -24}
-        - {x: -98, y: -27}
-        - {x: -95, y: -26}
-        - {x: -95, y: 29}
-        - {x: -98, y: 35}
+      - - {x: 66, y: -15}
+        - {x: 7, y: 73}
+        - {x: -37, y: 73}
+        - {x: -73, y: 43}
+        - {x: -73, y: -43}
+        - {x: -49, y: -73}
+        - {x: 49, y: -73}
+        - {x: 73, y: -61}
+        - {x: 73, y: -9}
+        - {x: 72, y: -10}
     - name: curemerang_animation_5
       rect:
         serializedVersion: 2
@@ -179,18 +167,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -38, y: 100}
-        - {x: -100, y: 76}
-        - {x: -100, y: -95}
-        - {x: -71, y: -100}
-        - {x: 69, y: -100}
-        - {x: 69, y: 88}
-        - {x: 53, y: 100}
-      - - {x: 97, y: -18}
-        - {x: 99, y: -20}
-        - {x: 100, y: -20}
-        - {x: 100, y: 12}
-        - {x: 97, y: 11}
+      - - {x: -73, y: 73}
+        - {x: -73, y: -73}
+        - {x: 53, y: -73}
+        - {x: 53, y: 73}
     - name: curemerang_animation_6
       rect:
         serializedVersion: 2
@@ -202,15 +182,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52, y: 100}
-        - {x: -100, y: 45}
-        - {x: -100, y: -51}
-        - {x: -95, y: -71}
-        - {x: -49, y: -100}
-        - {x: 0, y: -100}
-        - {x: 100, y: -4}
-        - {x: 100, y: 70}
-        - {x: 53, y: 100}
+      - - {x: -52, y: 73}
+        - {x: -73, y: 33}
+        - {x: -73, y: -47}
+        - {x: -49, y: -70}
+        - {x: -40, y: -73}
+        - {x: 45, y: -73}
+        - {x: 73, y: -21}
+        - {x: 73, y: 58}
+        - {x: 39, y: 73}
     outline: []
   spritePackingTag: 
   userData: 
