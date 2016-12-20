@@ -78,10 +78,25 @@ public class AchievementManager : MonoBehaviour {
 		}
 	}
 
+	float timmer = 0;
+	void Update()
+	{
+		if (DisplayAchievementUnlockPanel.GetComponent<VerticalLayoutGroup> ().padding.top < 0) 
+		{
+			timmer += Time.unscaledDeltaTime * 200;
+			if (timmer >= 1) 
+			{
+				timmer = 0;
+				DisplayAchievementUnlockPanel.GetComponent<VerticalLayoutGroup> ().padding.top += 5;
+				LayoutRebuilder.MarkLayoutForRebuild(DisplayAchievementUnlockPanel.GetComponent<RectTransform>());
+			}
+		}
+	}
+
 	void GenerateAllAchievements()
 	{
 		allAchievements = new List<AchievementInfo> ();
-		allAchievements.Add(new AchievementInfo("That's cold", AchievementInfo.Category.C_General, "Clear W-1 stages", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("That's Cold", AchievementInfo.Category.C_General, "Clear W-1 stages", 0, 1, false));
 		allAchievements.Add(new AchievementInfo("Blaze It", AchievementInfo.Category.C_General, "Clear W-2 stages", 0, 1, false));
 		allAchievements.Add(new AchievementInfo("Fresh Air", AchievementInfo.Category.C_General, "Clear W-3 stages", 0, 1, false));
 		allAchievements.Add(new AchievementInfo("High No More", AchievementInfo.Category.C_General, "Clear W-4 stages", 0, 1, false));
@@ -104,10 +119,11 @@ public class AchievementManager : MonoBehaviour {
 		allAchievements.Add(new AchievementInfo("Have It Back", AchievementInfo.Category.C_Battle, "Defeat 20 enemies by deflecting", 0, 20, false));
 		allAchievements.Add(new AchievementInfo("Taste of your own medicine", AchievementInfo.Category.C_Battle, "Defeat 50 enemies by deflecting", 0, 50, false));
 		allAchievements.Add(new AchievementInfo("Deflector", AchievementInfo.Category.C_Battle, "Defeat 100 enemies by deflecting", 0, 100, false));
-		allAchievements.Add(new AchievementInfo("Savior's fall", AchievementInfo.Category.C_Battle, "Die once", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Savior's Fall", AchievementInfo.Category.C_Battle, "Die once", 0, 1, false));
 		allAchievements.Add(new AchievementInfo("Stubborn Hero", AchievementInfo.Category.C_Battle, "Die 15 times", 0, 15, false));
 
 		allAchievements.Add(new AchievementInfo("Pacifist", AchievementInfo.Category.C_Special, "Clear stage without defeating any enemies", 0, 1, false));
+		allAchievements.Add(new AchievementInfo("Know your enemy", AchievementInfo.Category.C_Special, "View infomation of 10 different drugs in the library", 0, 10, false));
 		allAchievements.Add(new AchievementInfo("Sharer", AchievementInfo.Category.C_Special, "Share game on facebook", 0, 1, false));
 	}
 
@@ -156,7 +172,9 @@ public class AchievementManager : MonoBehaviour {
 						GameObject go = Instantiate (achievementTab).gameObject;
 						go.transform.SetParent (DisplayAchievementUnlockPanel.transform);
 						go.transform.localScale = Vector3.one;
-						go.GetComponentInChildren<AchievementTab> ().SetInfo(achievement.name);
+						go.GetComponent<AchievementTab> ().SetInfo(achievement.name);
+						go.transform.SetAsFirstSibling ();
+						DisplayAchievementUnlockPanel.GetComponent<VerticalLayoutGroup> ().padding.top -= 140;
 					}
 					SaveAchievementToJSON ();
 				}
@@ -188,7 +206,9 @@ public class AchievementManager : MonoBehaviour {
 						GameObject go = Instantiate (achievementTab).gameObject;
 						go.transform.SetParent (DisplayAchievementUnlockPanel.transform);
 						go.transform.localScale = Vector3.one;
-						go.GetComponentInChildren<AchievementTab> ().SetInfo(achievement.name);
+						go.GetComponent<AchievementTab> ().SetInfo(achievement.name);
+						go.transform.SetAsFirstSibling ();
+						DisplayAchievementUnlockPanel.GetComponent<VerticalLayoutGroup> ().padding.top -= 140;
 					}
 					SaveAchievementToJSON ();
 				}

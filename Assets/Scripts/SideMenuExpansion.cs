@@ -38,9 +38,6 @@ public class SideMenuExpansion : MonoBehaviour {
 		{
 			GetComponent<Animator> ().SetBool ("Enter", false);
 		}
-
-		float a = GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0).normalizedTime;
-		 a = GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0).normalizedTime;
 	}
 
     void Update() 

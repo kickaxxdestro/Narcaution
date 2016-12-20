@@ -31,34 +31,6 @@ public class LevelLoader : MonoBehaviour {
 	//public GameObject[] ecstacyBG;
 	//public GameObject[] lsdBG;
 	
-	//world 1
-	public GameObject level1_1;
-	public GameObject level1_2;
-	public GameObject level1_3;
-	public GameObject level1_4;
-	//world 2
-	public GameObject level2_1;
-	public GameObject level2_2;
-	public GameObject level2_3;
-	public GameObject level2_4;
-	//world 3
-	public GameObject level3_1;
-	public GameObject level3_2;
-	public GameObject level3_3;
-	public GameObject level3_4;
-	//world 4
-	public GameObject level4_1;
-	public GameObject level4_2;
-	public GameObject level4_3;
-	public GameObject level4_4;
-	//world 5
-	public GameObject level5_1;
-	public GameObject level5_2;
-	public GameObject level5_3;
-	public GameObject level5_4;
-	public GameObject level5_5;
-	public GameObject level5_6;
-	
 	public Sprite gradeS;
 	public Sprite gradeA;
 	public Sprite gradeB;
@@ -91,6 +63,15 @@ public class LevelLoader : MonoBehaviour {
 		//grade = levelEndMenu.transform.FindChild("GradeBg").FindChild("grade");
         loadedLevel = PlayerPrefs.GetInt("ppSelectedLevel", 1);
 
+		string LevelName = "Levels/level";
+		if (loadedLevel == 21)
+			LevelName += "5-5";
+		else
+			LevelName += ((((loadedLevel - 1) / 4) + 1) + "-" + (loadedLevel - (((loadedLevel - 1) / 4) * 4))).ToString();
+		
+		lastSpawned = Instantiate(Resources.Load<GameObject> (LevelName));
+
+		/*
         switch (loadedLevel)
 		{
 		case 1:
@@ -98,7 +79,7 @@ public class LevelLoader : MonoBehaviour {
 			break;
 		case 2:
             PlayerPrefs.SetInt("ppPlayerGamemode", 1);
-			lastSpawned = Instantiate(level1_2) as GameObject;
+			lastSpawned = Instantiate(r) as GameObject;
 			break;
 		case 3:
             PlayerPrefs.SetInt("ppPlayerGamemode", 0);
@@ -166,7 +147,7 @@ public class LevelLoader : MonoBehaviour {
 		case 21:
 			lastSpawned = Instantiate(level5_5) as GameObject;
 			break;
-		}
+		}*/
 	}
 
 	void Update()
@@ -653,6 +634,28 @@ public class LevelLoader : MonoBehaviour {
 
         if (PlayerPrefs.GetInt("ppSelectedLevel", 0) < 22)
             PlayerPrefs.SetInt("ppSelectedLevel", PlayerPrefs.GetInt("ppSelectedLevel", 0) + 1);
+
+		switch (PlayerPrefs.GetInt("ppSelectedLevel", 1))
+		{
+		case 2:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 6:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 10:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 14:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		case 18:
+			PlayerPrefs.SetInt("ppPlayerGamemode", 1);
+			break;
+		default:
+			PlayerPrefs.SetInt ("ppPlayerGamemode", 0);
+			break;
+		}
 
         print("Loaded level: " + loadedLevel);
         print("CurrentLevel: " + PlayerPrefs.GetInt("ppCurrentLevel", 1));

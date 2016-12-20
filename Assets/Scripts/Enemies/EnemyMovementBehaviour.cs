@@ -385,7 +385,8 @@ public class EnemyMovementBehaviour : MonoBehaviour {
 						}
                         if (GetComponent<EnemyGeneralBehaviour>())
                         {
-                            GetComponent<EnemyGeneralBehaviour>().targetedBullet.GetComponent<BulletBehaviour>().homingTarget = null;
+							if(GetComponent<EnemyGeneralBehaviour>().targetedBullet != null)
+                            	GetComponent<EnemyGeneralBehaviour>().targetedBullet.GetComponent<BulletBehaviour>().homingTarget = null;
                             GetComponent<EnemyGeneralBehaviour>().targetedBullet = null;
                         }
 						gameObject.SetActive(false);

@@ -64,7 +64,7 @@ public class TouchCheck : MonoBehaviour {
 				Vector2 touchPos = new Vector2 (wp.x, wp.y);
 
 				pointerDowned = false;
-				if ((new Vector2(Input.mousePosition.x, Input.mousePosition.y) - initialPointerPos).magnitude <= 2) 
+				if ((new Vector2(Input.mousePosition.x, Input.mousePosition.y) - initialPointerPos).magnitude <= 10) 
 				{
 					return true;
 				}
@@ -101,7 +101,7 @@ public class TouchCheck : MonoBehaviour {
 					Vector2 touchPos = new Vector2 (wp.x, wp.y);
 				
 					pointerDowned = false;
-					if ((mytouch.position - initialPointerPos).magnitude <= 2) 
+					if ((mytouch.position - initialPointerPos).magnitude <= 10) 
 					{
 						return true;
 					}
