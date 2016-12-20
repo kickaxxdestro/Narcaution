@@ -13,7 +13,7 @@ SceneSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 6
+  serializedVersion: 7
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -37,12 +37,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 6
+  serializedVersion: 7
   m_GIWorkflowMode: 1
-  m_LightmapsMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -53,17 +53,22 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 3
+    serializedVersion: 4
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
     m_TextureHeight: 1024
+    m_AO: 0
     m_AOMaxDistance: 1
-    m_Padding: 2
     m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
     m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
     m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
     m_FinalGather: 0
+    m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
   m_LightingDataAsset: {fileID: 0}
@@ -3745,7 +3750,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22446872, guid: 6b5e1390bf58a124ba544c2abb65ce31, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22446872, guid: 6b5e1390bf58a124ba544c2abb65ce31, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -4413,7 +4418,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 562039261}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.25038463
+  m_Size: 0.24566038
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6215,7 +6220,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 475395154}
   m_HandleRect: {fileID: 475395153}
   m_Direction: 2
-  m_Value: 0.99374133
+  m_Value: 1
   m_Size: 0.47518247
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -7911,8 +7916,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -974.5}
-  m_SizeDelta: {x: 387, y: 2600}
+  m_AnchoredPosition: {x: -18, y: -999.5}
+  m_SizeDelta: {x: 387, y: 2650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654650958
 MonoBehaviour:
@@ -7950,15 +7955,15 @@ MonoBehaviour:
     Strong psychological dependence\r\n- Psychosis\r\n- Depression\r\n- Damage to
     the brain similar to Alzheimer's disease, stroke and epilepsy\r\n- Aggression
     and violent behaviour\r\n- Anxiety\r\n- Confusion\r\n- Insomnia\r\n- Auditory
-    hallucinations\n\r\nDescription:\nMethamphetamine in its crystallised form is
-    known as methamphetamine hydrochloride\n\nIt usually comes in the form of a colourless
-    and odourless crystal that resembles glass fragments or shiny blue-white \"rocks\"
-    of various sizes. This explains why it is more commonly known as 'Ice' in Singapore.\n\nMethamphetamine
-    also comes in tablet form. In this form, it is also known as 'Crazy Horse Pill'
-    or 'Ya ba'. Most of the 'Ya ba' tablets found in Singapore are embossed with the
-    'WY' logo and are green or orange in colour\n\nMethamphetamine is highly addictive
-    and is a strong stimulant. It has a very strong effect on the central nervous
-    system\r."
+    hallucinations\n\r\nDescription:\nIce, also known as Methamphetamine, in its crystallised
+    form is known as methamphetamine hydrochloride\n\nIt usually comes in the form
+    of a colourless and odourless crystal that resembles glass fragments or shiny
+    blue-white \"rocks\" of various sizes. This explains why it is more commonly known
+    as 'Ice' in Singapore.\n\nMethamphetamine also comes in tablet form. In this form,
+    it is also known as 'Crazy Horse Pill' or 'Ya ba'. Most of the 'Ya ba' tablets
+    found in Singapore are embossed with the 'WY' logo and are green or orange in
+    colour\n\nMethamphetamine is highly addictive and is a strong stimulant. It has
+    a very strong effect on the central nervous system\r."
 --- !u!222 &654650959
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7997,8 +8002,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -494.5}
-  m_SizeDelta: {x: 387, y: 1640}
+  m_AnchoredPosition: {x: -18, y: -587}
+  m_SizeDelta: {x: 387, y: 1825}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660314572
 MonoBehaviour:
@@ -8034,12 +8039,12 @@ MonoBehaviour:
     m_LineSpacing: 1.2
   m_Text: "Signs of usage include:\r\n- Severe intoxications\n- Severe toxic reaction
     leading to death\n- Paranoia\n- Hallucinations\n- Adverse cardiovascular problems\n-
-    Renal failure\n- Seizures\n\r\nDescription:\nNPS are substances of abuse, either
-    in a pure form or a preparation, that are not controlled by international drug
-    conventions, but which may pose a public health threat\r\n\nAn umbrella term for
-    unregulated (new) psychoactive substances or products intended to mimic the effects
-    of controlled drugs\n\nIncludes Mephedrone and BZP and TFMPP\r\nNo known medical
-    or industrial use."
+    Renal failure\n- Seizures\n\r\nDescription:\nNPS, also known as New Psychoactive
+    Substances are substances of abuse, either in a pure form or a preparation, that
+    are not controlled by international drug conventions, but which may pose a public
+    health threat\r\n\nAn umbrella term for unregulated (new) psychoactive substances
+    or products intended to mimic the effects of controlled drugs\n\nIncludes Mephedrone
+    and BZP and TFMPP\r\nNo known medical or industrial use."
 --- !u!222 &660314573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8113,7 +8118,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Bup
+  m_Text: Buprenorphine
 --- !u!222 &662211688
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8294,7 +8299,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -355}
+  m_AnchoredPosition: {x: -16, y: -359.5}
   m_SizeDelta: {x: 387, y: 1370}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675640673
@@ -8330,7 +8335,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
   m_Text: "Signs of usage include:\r\n- Seizures\r\n- Vomiting\r\n- Heavy Sweating\r\n-
-    Hyperthermia (increased body temerature)\r\n- Tachycardia (increased heart rate)\r\n-
+    Hyperthermia (increased body temperature)\r\n- Tachycardia (increased heart rate)\r\n-
     Agitation\r\n\r\nDescription:\nBZP, also known as \"party pills\", belongs to
     a group of drugs known as piperazines.\n\nIt is a stimulant of the central nervous
     system and is known to produce stimulant and hallucinatory effects similar to
@@ -8409,7 +8414,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Nime
+  m_Text: Nimetazepam
 --- !u!222 &678439767
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11089,7 +11094,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1329590412}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4605831
+  m_Size: 0.46024343
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11358,9 +11363,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "Signs of usage include:\r\n- Dizziness\n- Nausea\n- Chilis\n- Bruxium\r\n\nDescription:\nMephedrone
-    is a stimulant drug derived from cathinone and is a substitute to 'Ecstasy'.\n\nMephedrone
-    abuse is known to cause cravings and dependence\r."
+  m_Text: "Signs of usage include:\r\n- Dizziness\n- Nausea\n- Chilis\n- Bruxism\r\n\nDescription:\nMephedrone
+    is a stimulant drug derived from cathinone and is marketed as a substitute to
+    \u2018Ecstasy\u2019\n\nMephedrone abuse is known to cause cravings and dependence\r."
 --- !u!222 &1000962919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13124,7 +13129,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 924998054}
   m_Direction: 2
   m_Value: 0.9993663
-  m_Size: 0.4520833
+  m_Size: 0.45208332
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15598,7 +15603,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1914671073}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3969512
+  m_Size: 0.35671234
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -20646,7 +20651,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Improved scouts with bizzare attacks.
+  m_Text: Improved scouts with bizarre attacks.
 --- !u!222 &1699141480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25424,8 +25429,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 517587998}
   m_HandleRect: {fileID: 517587997}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.5085937
+  m_Value: 0.9999999
+  m_Size: 0.50859374
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -25540,7 +25545,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1146951443}
   m_HandleRect: {fileID: 1146951442}
   m_Direction: 2
-  m_Value: 0.9992637
+  m_Value: 0.99926364
   m_Size: 0.48947367
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -26800,7 +26805,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Mep
+  m_Text: Mephedrone
 --- !u!222 &2138087070
 CanvasRenderer:
   m_ObjectHideFlags: 0
